@@ -1,5 +1,7 @@
+---
 header:
   image: /assets/foles.jpg
+---
 
 # A statistical breakdown of the birdgang's success in the 2017-2018 season
 
