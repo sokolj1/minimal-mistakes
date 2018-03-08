@@ -17,7 +17,7 @@ So how did this team manage to win a Super Bowl against the invincible New Engla
 We'll also look at the magic carpet ride of their playoff run, and how this obstensibly ragtag team beat Tom Brady on the football world's biggest stage in Super Bowl LII. 
 The power of data visualization will shed light on the Philadelphia Eagle’s rise to power from last place in the NFC East Division in 2016 go one of the best teams in pro football one year later.
 
-
+{% for js in page.customjs %}
 <style>
 	.links line {
   	stroke: #999;
@@ -102,3 +102,4 @@ The power of data visualization will shed light on the Philadelphia Eagle’s ri
       		.text(function(d) { return d; });
 		});
 	</script>
+{% endfor %}
