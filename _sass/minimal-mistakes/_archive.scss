@@ -26,6 +26,7 @@
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
+    
   }
 }
 
@@ -35,6 +36,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-decoration:none;
 
   a {
     color: inherit;
