@@ -1,3 +1,6 @@
+header:
+  image: /assets/foles.jpg
+
 # A statistical breakdown of the birdgang's success in the 2017-2018 season
 
 As a lifelong Giants fan, it was painful to watch the Philadelphia Eagles win their first championship 
