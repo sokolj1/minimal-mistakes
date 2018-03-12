@@ -105,3 +105,9 @@ The power of data visualization will shed light on the Philadelphia Eagle’s ri
 		});
 	</script>
 {% endfor %}
+  
+  '''
+  function test() {
+  console.log("notice the blank line before this function?");
+  }
+  '''
