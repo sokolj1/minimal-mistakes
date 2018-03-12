@@ -1,7 +1,7 @@
 ---
 header:
   image: /assets/foles.jpg
-comments: true
+
 author_profile: false
 
 ---
@@ -17,6 +17,11 @@ So how did this team manage to win a Super Bowl against the invincible New Engla
 “underdogs are hungry dogs.” Our main focus is diving into the regular season statistics comparing the 2016 to 2017 season to observe which facets of the team markedly improved over the course of one offseason. 
 We'll also look at the magic carpet ride of their playoff run, and how this obstensibly ragtag team beat Tom Brady on the football world's biggest stage in Super Bowl LII. 
 The power of data visualization will shed light on the Philadelphia Eagle’s rise to power from last place in the NFC East Division in 2016 go one of the best teams in pro football one year later.
+
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 {% for js in page.customjs %}
 <style>
@@ -105,7 +110,4 @@ The power of data visualization will shed light on the Philadelphia Eagle’s ri
 	</script>
 {% endfor %}
   
-  '''python
-  import pandas as pd
-  
-  '''
+
