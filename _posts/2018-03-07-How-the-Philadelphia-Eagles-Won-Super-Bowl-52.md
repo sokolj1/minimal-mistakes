@@ -1,10 +1,9 @@
 ---
 header:
   image: /assets/foles.jpg
-values:
-      comments: true
-      author_profile: false
-      
+comments: true
+author_profile: false
+
 ---
 
 # A statistical breakdown of the birdgang's success in the 2017-2018 season
