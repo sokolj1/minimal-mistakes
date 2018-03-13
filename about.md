@@ -31,7 +31,7 @@ I want to have a _strong_ command of this rapidly developing field, so I decided
 
 Other things in life I enjoy are family, photography, and physical activity (running, biking, and lifting). 
 
-# About this site: 
+# About sokolj.com: 
 This personal website is hosted by Github Pages and created using the Jekyll template Minimal Mistakes. The author Michael Rose provides great [documentation](https://mmistakes.github.io/minimal-mistakes/) regarding setup for this template. 
 
 
