@@ -15,13 +15,16 @@ Academic interests:
 Industry interests: 
 - Sports & healthcare analytics 
 
-| Proficient Technologies | Function |
+# Skills:
+
+| Proficient Technologies | Specifics |
 |            ---          |   ---    |
 | Python    | Pandas, Numpy, Scikit-learn, Matplotlib |
 | R         | Tidyverse, dplyr, ggplot2|
 | Tableau   | Dashboard data visualizations |
 | Databases | SQL, Logstash, Kibana |
 
-Background: Although I have established a career in data science, I have a well rounded academic background. I graduated Stockton University with a BS in Biochemistry, and a computer science minor with cum laude latin honors in May 2017. 
+# Background: 
+Although I have established a career in data science, I have a well rounded academic background. I graduated Stockton University with a BS in Biochemistry, and a computer science minor with _cum laude_ honors in May 2017. Exposure to the field of computer science and programming shifted my interests from the physical sciences to mathematics and software development as an undergraduate. This culivated 
 
 
