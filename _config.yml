@@ -91,7 +91,7 @@ analytics:
 # Site Author
 author:
   name             : "John Sokol"
-  avatar           :  sokolj_avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  beach_avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist, Graduate Student at Stockton University"
   location         : "Galloway, NJ"
   email            : johnsokol11@gmail.com
