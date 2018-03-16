@@ -16,8 +16,19 @@ The perceptron. It has become a rite of passage for comprehending the underlying
 percep_data <- read.csv("percep_data.csv", sep = ",")
 
 # divides complete dataset into test and train datasets
-indexes <- sample(1:nrow(percep_data), size=0.8*nrow(percep_data))
+indexes <- sample(1:nrow(percep_data), size = 0.8 * nrow(percep_data))
 train <- percep_data[indexes,]
 test <- percep_data[-indexes,]
 
 {% endhighlight %}
+
+Our data is now ready to be classified. But as always, exploratory data analysis (EDA) is an important process that should not be overlooked. We can plot the train set with the known labels so we know what to expect of our implemented perceptron function.
+
+{% highlight r %}
+
+str(train)
+with(train, plot(X1, X2, col = Y + 3, xlab = "Feature 1", ylab = "Feature 2", main = "Train Dataset with Known Labels"))
+
+{% endhighlight %}
+
+
