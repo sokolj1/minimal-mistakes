@@ -4,6 +4,8 @@ header:
 
 author_profile: true
 
+classes: wide
+
 ---
 
 ## Understanding the linearly separable binary classifier from the ground up using R
