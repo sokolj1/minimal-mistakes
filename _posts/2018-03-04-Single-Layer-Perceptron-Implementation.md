@@ -57,19 +57,78 @@ It is time to dive into the code of the perceptron implementation. Define a glob
 
 {% highlight r %}
 
+# initialize prediction vector
 prediction <- vector("integer", nrow(train))
 
 percep_function <- function (train) {
     weightX1  <- 0
     weightX2  <- 0
     bias      <- 0
+  
+    # initialize boolean value = FALSE to enter while loop
+    all_classified <- FALSE
+    
+    # initialize number of while loop iterations to sufficiently train weights
+    epochs <- 0
 
 {% endhighlight %}
 
 The function uses a while loop to iteratively repeat the fine tuning of the weights and bias values
-until label classification reaches the desired threshold, which I set for my function to 94% accuracy. 
-This step is important to understand. Notice with the first plot "Train Dataset with Known Labels" there are outliers 
+until label classification reaches the desired accuracy threshold, which I set for my function to 94% accuracy. 
+This step is important; notice with the first plot "Train Dataset with Known Labels" there are outliers 
 on both sides of the linear separator. If the perceptron function was set to predict with 100% accuracy, 
 the function would never reach convergence, and the while loop would repeat infinitely. To circumvent this issue, the 
 function is set for 94% accuracy (an A for a majority of college level classes). 
 
+Here is the while loop description in code: 
+
+{% highlight r %}
+
+    # while prediction accuracy < 94% 
+    while (!all_classified) {
+    
+        # after appropriate amount of iterations all_classified should remain TRUE to exit while loop
+        all_classified <- TRUE
+        
+        # loop iterates over all rows in train dataset
+        for (i in 1:nrow(train)) {
+            
+            # initial prediction values take into consideration bias, multiplication 
+            # of weights and x[1], x[2] values
+            prediction[i] <- sign((bias + (weightX1 * train[i,1]) + (weightX2 * train[i,2])))
+      
+            # conditional to modify weights if there is a mislabel
+            if (train[i,3] != prediction[i]) {
+                
+                # calculcate error (correct label - predicted)
+                error <- (train[i,3] - prediction[i])
+                
+                # calculate new weights and bias
+                weightX1 <- weightX1 +  (error * train[i,1])
+                weightX2 <- weightX2 +  (error * train[i,2])
+                bias <- bias + (error)
+                
+                # looping through if statement indicates not all predictions are correct; weights 
+                # must still be updated 
+                all_classified <- FALSE
+            }
+        }
+        
+        # verify predicted label values align with true labeled values in dataset
+        z <- train$Y == prediction
+        true_count <- table(z)["TRUE"]
+        true_count_percentage <- true_count / nrow(train)
+        
+        # update while loop iterator; takes ~ 22 epochs to reach convergence for not_clean data
+        epochs <- epochs + 1
+        
+        # verifies if prediction accuracy is > 94%; if so, no longer enter while loop
+        if (true_count_percentage > 0.94) {
+            all_classified <- TRUE
+        }
+        
+        # Perceptron Classifier has NOT reached convergence (> 94% label accuracy)
+        if (epochs > 2000) {
+            all_classified <- TRUE
+        }
+    } 
