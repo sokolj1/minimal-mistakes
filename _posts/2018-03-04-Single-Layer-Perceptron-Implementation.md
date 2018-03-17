@@ -150,5 +150,6 @@ To close the function, establish a list of several key attributes for the return
 
 {% endhighlight %}
 
+<img src="../assets/2018-03-04-Single-Layer-Perceptron-Implementation/weighted_predictions.jpeg" align="center" > 
 
 
