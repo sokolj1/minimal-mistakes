@@ -33,4 +33,4 @@ with(train, plot(X1, X2, col = Y + 3, xlab = "Feature 1", ylab = "Feature 2", ma
 
 {% endhighlight %}
 
-
+<img src="../assets/2018-03-04-Single-Layer-Perceptron-Implementation/init_percep_plot.jpg" align="center" > 
