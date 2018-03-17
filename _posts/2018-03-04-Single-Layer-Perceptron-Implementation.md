@@ -80,7 +80,7 @@ on both sides of the linear separator. If the perceptron function was set to pre
 the function would never reach convergence, and the while loop would repeat infinitely. To circumvent this issue, the 
 function is set for 94% accuracy (an A for a majority of college level classes). 
 
-Here is the while loop description in code: 
+Here is the while loop description in R code: 
 
 {% highlight r %}
 
@@ -134,3 +134,21 @@ Here is the while loop description in code:
     } 
     
 {% endhighlight %}
+
+To close the function, establish a list of several key attributes for the return value. This function returns a list containing the corrected weights, bias, accuracy, and epochs. When the function is instantiated, these values may be called using the '$' R operator.
+
+{% highlight r %}
+
+    # stores weights into vector 
+    weights <- c(weightX1, weightX2)
+    
+    return(list(weights = weights, bias = bias, true_count_percentage = true_count_percentage, epochs = epochs))
+    
+    # instantiates perceptron function for plotting in following function
+    instan_percep <- percep_function(train)
+}
+
+{% endhighlight %}
+
+
+
