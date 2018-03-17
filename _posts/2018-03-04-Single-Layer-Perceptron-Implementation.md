@@ -37,7 +37,7 @@ with(train, plot(X1, X2, col = Y + 3, xlab = "Feature 1", ylab = "Feature 2", ma
 
 It looks like with the exception of a few outliers, the data is linearly separably. Great! We can now proceed to learn the intracacies of this neural network classifier. 
 
-# The Neural Network "Black Box" Explained
+## The Neural Network "Black Box" Explained
 
 This single neural network node accepts two input values, which in this case, is X1 and X2 of the train data. These two features are multiplied by corresponding "weights" that play a key role in classification. The products are subsequently added together, as shown below: 
 
@@ -51,7 +51,7 @@ What happens next? The sum is put through an _activation_ function, which is arb
 
 If you noticed during the EDA process, the known binary labels (Y) are -1 and 1, so the step function is convenient for predicting the labels of our data. If you take a hard look at the perceptron node model, the weights play a significant role regarding determining label accuracy. Certainly it is unlikely that the weights are initialized to the ideal weight values that yield correct classification. For this function, the weights are initialized to 0, and the function "learns" from the data to gradually correct the weight values until linear separability is obtained. 
 
-# Perceptron Implementation 
+## Perceptron Implementation 
 
 It is time to dive into the code of the perceptron implementation. Define a global vector to store the prediction labels. Inside the perceptron function, initialize the two weight values to 0. The bias is also initialized to 0. The bias accounts for the distance of the separator line from the origin. 
 
