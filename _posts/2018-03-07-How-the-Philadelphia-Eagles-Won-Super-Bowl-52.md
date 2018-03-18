@@ -2,7 +2,9 @@
 header:
   image: /assets/foles.jpg
 
-author_profile: false
+author_profile: true
+
+classes: wide
 
 ---
 
