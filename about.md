@@ -15,17 +15,30 @@ Academic interests:
 Industry interests: 
 - Sports & healthcare analytics 
 
-## Skills:
+## Technical Skills:
 
-| Proficient Technologies | Specifics |
+| Software & Programming Languages | Specifics |
 |            ---          |   ---    |
 | Python    | Pandas, Numpy, Scikit-learn, Matplotlib |
 | R         | Tidyverse, dplyr, ggplot2|
 | Tableau   | Dashboard data visualizations |
 | Databases | SQL, Logstash, Kibana |
 
+| Statistical Methods         |
+|            ---              | 
+| Regression models           |
+| Hypothesis Testing          |
+| Principle Component Analysis|
+
+| Select Coursework                     |
+|            ---              | 
+| Data Analysis and Operations Research       |
+|  Data Visualization       |
+| Machine Learning         |
+
+
 ## Background: 
-Although I have established a career in data science, I have well rounded academic credentials. I graduated Stockton University with a Bachelor of Science in Biochemistry, and a computer science minor with _cum laude_ honors in May 2017. Exposure to the field of computer science and programming as an undergraduate shifted my interests from the physical sciences to mathematics and software development. One thing led to another, and I eventually fell in love with data science. 
+Although I have established a career in data science, I have well rounded academic credentials. I graduated Stockton University with a Bachelor of Science in Biochemistry, and a computer science minor with _cum laude_ honors in May 2017. Exposure to the field of computer science and Java programming as an undergraduate shifted my interests from the physical sciences to mathematics and software development. One thing led to another, and I eventually fell in love with data science. 
 
 I want to have a _strong_ command of this rapidly developing field, so I decided my alma mater was the perfect place to pursue graduate study in Data Science & Strategic Analytics. I am on track to graduate with a Master of Science degree in August 2018. 
 
