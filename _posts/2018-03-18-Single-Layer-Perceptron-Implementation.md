@@ -29,6 +29,7 @@ Our data is now ready to be classified. But as always, exploratory data analysis
 {% highlight r %}
 
 str(train)
+summary(train)
 with(train, plot(X1, X2, col = Y + 3, xlab = "Feature 1", ylab = "Feature 2", main = "Train Dataset with Known Labels"))
 
 {% endhighlight %}
