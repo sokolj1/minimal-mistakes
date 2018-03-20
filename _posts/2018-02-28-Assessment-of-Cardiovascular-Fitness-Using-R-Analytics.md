@@ -1,4 +1,4 @@
-## Data Exploration final project for Fall 2017
+## Data Exploration Final Project for Fall 2017
 
 For 9 weeks during the Fall 2017 semester, I meticulously tracked my sleep and exercise habits using an Apple Watch Series 2.
 Although I had a small sample size, the data holistically suggests I gained cardiovascular fitness over the course of the 9 week 
