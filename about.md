@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
->*I Love Data. I'm a Data Science graduate student for the Data Science and Strategic Analytics program at [Stockton University](https://stockton.edu).*
+>*I Love Data. I'm a Data Science graduate student for the [Data Science and Strategic Analytics program](https://stockton.edu/graduate/data-science_strategic-analytics.html) at [Stockton University](https://stockton.edu).*
 
 Academic interests: 
 - Data Visualization
