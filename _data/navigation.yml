@@ -4,7 +4,7 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: /about
-  - title: "D3.js"
+  - title: "R"
     url: /How-the-Philadelphia-Eagles-Won-Super-Bowl-52/
   - title: "Neural Networks"
     url: /Predicting-Heart-Disease-with-Neural-Networks/
