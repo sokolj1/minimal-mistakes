@@ -1,3 +1,13 @@
+---
+header:
+  image: /assets/2018-03-16-K-Means-Clustering/pokemon_background.jpg
+
+author_profile: true
+
+classes: wide
+
+---
+
 ## Step by step how to build the renowned unsupervised machine learning algorithm from scratch
 
 K-means Clustering is a type of unsupervised (no labeled data necessary) machine learning algorithm that determines optimal grouping, or clustering, amongst a dataset.  For instance, lets say your working with the [Pokemon dataset](https://www.kaggle.com/abcsds/pokemon/data) by Alberto Barradas derived from the original Pokemon games (Gold, Silver, Ruby, Sapphire, etc):
