@@ -251,7 +251,7 @@ ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, color = factor(impleme
 
 <img src="../assets/2018-03-16-K-Means-Clustering/implemented_kmeans.jpeg" align="center" > 
 
-This plot is exactly the same as the plot with the built in K-means Clustering function. 
+This plot is exactly the same as the plot with the built in K-means Clustering function, with the exception of the cluster identifiers. The groupings are the same, but the numbering is different.
 
 If you want to take a look at the source code, please see this [github repository](https://github.com/sokolj1/K_Means_Clustering) titled K_Means_Clustering. Thank you for reading!
 
