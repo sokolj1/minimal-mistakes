@@ -59,6 +59,8 @@ To represent the teams of individual players in the data visualizations, I used 
 
 devtools::install_github("beanumber/teamcolors")
 library(teamcolors)
+library(dplyr)
+nfl_colors <- teamcolors %>% filter(league == "nfl")
 
 {% endhighlight %}
 
