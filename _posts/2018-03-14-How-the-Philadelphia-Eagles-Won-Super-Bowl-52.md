@@ -16,7 +16,7 @@ since 1960, and their first Super Bowl victory in the history of the franchise. 
 Although the Eagles are not my favorite NFL team in the world (ranked 31/32 of my favorite teams right in front of Dallas), from an objective standpoint, the Philadelphia Eagles performed at an outstanding level this past season. They ended the season with a 13-3 win/loss record. The birdgang also cliched the NFC East division title by week 14, but this seemed like a pyrric victory with the loss of QB Carson Wentz to a torn ACL and LCL. With backup quarterback Nick Foles now at the helm, even the media inside the city of Philadelphia wrote this team off as possibly losing the divisional round game. As for the fans of the other 31 NFL teams, they doubted the Eagle's ability to sustain their level of success.
 
 So how did this team manage to win a Super Bowl against the invincible New England Patriots featuring an offensive shootout that totaled over 1000 passing yards? In the words of Jason Kelce, 
-“underdogs are hungry dogs.” Our main focus is diving into the regular season statistics comparing the 2016 to 2017 season to observe which facets of the team markedly improved over the course of one offseason. We'll also look at the magic carpet ride of their playoff run, and how this obstensibly ragtag team beat Tom Brady on the football world's biggest stage in Super Bowl LII. The power of data visualization will shed light on the Philadelphia Eagle’s rise to power from last place in the NFC East Division in 2016 go one of the best teams in pro football one year later.
+“underdogs are hungry dogs.” Our main focus is diving into the regular season statistics of key players, comparing the 2016 to 2017 season to observe which facets of the team markedly improved over the course of one year. We'll also look at the magic carpet ride of their playoff run, and how this obstensibly ragtag team beat Tom Brady on the football world's biggest stage in Super Bowl LII. The power of data visualization will shed light on the Philadelphia Eagle’s rise to power from last place in the NFC East Division in 2016 go one of the best teams in pro football one year later.
 
 ## Data Source
 
@@ -63,4 +63,18 @@ library(dplyr)
 nfl_colors <- teamcolors %>% filter(league == "nfl")
 
 {% endhighlight %}
+
+## NFL WAR (Wins Above Replacement) 
+
+Wins above replacement is a non-standardized sabermetric statistic commonly used in baseball to summarize a player's total contribution to their team. A player's WAR value answers the question "If this player got injured and their team had to replace them with a freely available player from their bench, how much value would the team be losing?" This value is expressed in a wins format. So a player with a WAR value of 6+ approximately contributes an additional 6 wins compared to a backup or third string (exception to this rule: Nick Foles). 
+
+Although this statistic has been optimized for baseball, Yurko et al. developed a methology to implement [WAR for offensive players in the NFL](https://arxiv.org/abs/1802.00998). 
+
+
+
+
+
+
+
+
 
