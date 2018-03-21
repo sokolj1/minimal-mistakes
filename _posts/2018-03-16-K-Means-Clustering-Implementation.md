@@ -243,6 +243,12 @@ The first line of code inside the function randomly determines the initial start
     return(list(twss = totalss, cluster_id = cluster_id))
 }
 
+{% endhighlight %}
+
+The km_function() returns a list of two values: twss and the cluster_id for each datapoint. The function is instantiated, called and cluster_id is subsetted with R's dollar sign syntax for cluster plotting. 
+
+{% highlight r %}
+
 implemented_kmeans <- km_function(pokemon_speed_defense, 4)
 ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, color = factor(implemented_kmeans$cluster_id))) 
 + geom_point() + labs(color = "Cluster") + ggtitle("Pokemon Species, Speed vs. Defense")
@@ -250,6 +256,8 @@ ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, color = factor(impleme
 {% endhighlight %}
 
 <img src="../assets/2018-03-16-K-Means-Clustering/implemented_kmeans.jpeg" align="center" > 
+
+
 
 This plot is exactly the same as the plot with the built in K-means Clustering function, with the exception of the cluster identifiers. The groupings are the same, but the numbering is different.
 
