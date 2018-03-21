@@ -18,13 +18,13 @@ Although the Eagles are not my favorite NFL team in the world (ranked 31/32 of m
 So how did this team manage to win a Super Bowl against the invincible New England Patriots featuring an offensive shootout that totaled over 1000 passing yards? In the words of Jason Kelce, 
 “underdogs are hungry dogs.” Our main focus is diving into the regular season statistics comparing the 2016 to 2017 season to observe which facets of the team markedly improved over the course of one offseason. We'll also look at the magic carpet ride of their playoff run, and how this obstensibly ragtag team beat Tom Brady on the football world's biggest stage in Super Bowl LII. The power of data visualization will shed light on the Philadelphia Eagle’s rise to power from last place in the NFC East Division in 2016 go one of the best teams in pro football one year later.
 
-## Data Sources
+## Data Source
+
+### nflscrapR
 
 NFL data for statistical analysis is notoriously difficult to obtain, unlike other sports such as Baseball and Basketball where statistics for on-field/on-court improvement have been established. Initially I considered using [SportRadar](https://www.sportradar.com/choose_region/), but their lack of open source options turned me away from their proprietary software. But after an additional week of research, I found [nflscrapR](https://github.com/maksimhorowitz/nflscrapR) by [Ronald Yurko](https://twitter.com/Stat_Ron), Samuel Ventura, and Maksim Horowitz. This R package scraps data from the official NFL API; the deliverables are clean datasets, boxscores, and more advanced statistics for _every_ NFL play in _every_ season since 2009. 
 
 >"This package allows NFL data enthusiasts to examine each facet of the game at a more insightful level. The creation of this package puts granular data into the hands of the any R user with an interest in performing analysis and digging up insights about the game of American Football" - Maksim Horowitz
-
-### nflscrapR
 
 Although this list is not inclusive of every function this package provides, there are several important functions used frequently for this analysis: 
 - season_games(): provides end of game results with an associated game ID and home/away team abbreviations. 
@@ -33,10 +33,30 @@ Although this list is not inclusive of every function this package provides, the
 - game_play_by_play(): parses play by play data, then uses data manipulation commands to extract detailed information about each play in a game(players involved in action, play type, penalty information, air yards gained, yards gained after the catch, etc).
 - season_rosters(): returns a dataframe of all rostered players and their non-performance statistics for a specified team. 
 
+{% highlight r %}
+
+# Must install the devtools package
+install.packages('devtools')
+library(devtools)
+
+devtools::install_github(repo = "maksimhorowitz/nflscrapR")
+library(nflscrapR)
+
+{% endhighlight %}
+
+
 ## Framework for Data Visualizations
 
 Once the pertinent data is tabulated via nflscrapR, data manipulation and visualization can begin with [Shiny](http://shiny.rstudio.com), an open source R package that builds interactive web applications similar to D3.js. It also has the capability to build dashboards similar to Tableau. So think of Shiny as a cross between D3.js and Tableau. 
 
+### teamcolors R Package
 
+To represent the teams of individual players in the data visualizations, I used [Ben Baumer's](https://github.com/beanumber?page=1&tab=repositories) R package [teamcolors](https://github.com/beanumber/teamcolors).
 
+{% highlight r %}
+
+devtools::install_github("beanumber/teamcolors")
+library(teamcolors)
+
+{% endhighlight %}
 
