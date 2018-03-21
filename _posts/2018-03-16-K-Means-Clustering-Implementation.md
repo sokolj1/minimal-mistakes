@@ -91,6 +91,7 @@ The steps of the K-means Clustering algorithm is the following:
 5. For every cluster, calculate the mean of the points in that cluster; assign this as the new coordinates of the centroid
 6. Repeat until dataset cluster assignments do not change (error = 0)
 
+## Source Code
 
 Lets define a function that calculates euclidean distance, which is the distance formula from high school algebra:
 
@@ -243,7 +244,6 @@ The first line of code inside the function randomly determines the initial start
 }
 
 implemented_kmeans <- km_function(pokemon_speed_defense, 4)
-
 ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, color = factor(implemented_kmeans$cluster_id))) 
 + geom_point() + labs(color = "Cluster") + ggtitle("Pokemon Species, Speed vs. Defense")
 
