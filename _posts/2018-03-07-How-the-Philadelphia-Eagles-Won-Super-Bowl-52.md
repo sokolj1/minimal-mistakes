@@ -47,6 +47,8 @@ library(nflscrapR)
 
 ## Framework for Data Visualizations
 
+### Shiny
+
 Once the pertinent data is tabulated via nflscrapR, data manipulation and visualization can begin with [Shiny](http://shiny.rstudio.com), an open source R package that builds interactive web applications similar to D3.js. It also has the capability to build dashboards similar to Tableau. So think of Shiny as a cross between D3.js and Tableau. 
 
 ### teamcolors R Package
