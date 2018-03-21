@@ -22,9 +22,16 @@ So how did this team manage to win a Super Bowl against the invincible New Engla
 
 NFL data for statistical analysis is notoriously difficult to obtain, unlike other sports such as Baseball and Basketball where statistics for on-field/on-court improvement have been established. Initially I considered using [SportRadar](https://www.sportradar.com/choose_region/), but their lack of open source options turned me away from their proprietary software. But after an additional week of research, I found [nflscrapR](https://github.com/maksimhorowitz/nflscrapR) by [Ronald Yurko](https://twitter.com/Stat_Ron), Samuel Ventura, and Maksim Horowitz. This R package scraps data from the official NFL API; the deliverables are clean datasets, boxscores, and more advanced statistics for _every_ NFL play in _every_ season since 2009. 
 
+>"This package allows NFL data enthusiasts to examine each facet of the game at a more insightful level. The creation of this package puts granular data into the hands of the any R user with an interest in performing analysis and digging up insights about the game of American Football" - Maksim Horowitz
+
 ### nflscrapR
 
-
+Although this list is not inclusive of every function this package provides, there are several important functions used frequently for this analysis: 
+- season_games(): provides end of game results with an associated game ID and home/away team abbreviations. 
+- player_game(): parses player level game summary statistics. 
+- season_player_game(): binds the results of player game() for all games in a season.
+- game_play_by_play(): parses play by play data, then uses data manipulation commands to extract detailed information about each play in a game(players involved in action, play type, penalty information, air yards gained, yards gained after the catch, etc).
+- season_rosters(): returns a dataframe of all rostered players and their non-performance statistics for a specified team. 
 
 ## Framework for Data Visualizations
 
