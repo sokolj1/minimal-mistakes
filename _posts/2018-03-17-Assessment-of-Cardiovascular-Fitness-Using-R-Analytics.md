@@ -1,3 +1,10 @@
+---
+published: false
+header:
+  image: /assets/assessment_fitness.jpg
+author_profile: true
+classes: wide
+---
 ## Data Exploration Final Project for Fall 2017
 
 For 9 weeks during the Fall 2017 semester, I meticulously tracked my sleep and exercise habits using an Apple Watch Series 2.
@@ -6,4 +13,4 @@ test period.
 
 Here is the link to the [PDF](https://sokolj.com/assets/Sokol_DE__Project_Final.1.7.2018.pdf) as well as the [.rmd](https://sokolj.com/assets/Sokol_DE_Project_Final.1.8.2018.Rmd) file for this project. 
 
-Enjoy and feel free to comment below! 
+Enjoy and feel free to comment below!
