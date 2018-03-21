@@ -53,4 +53,37 @@ So it looks like the pokemon in cluster #1 are the pokemon that have optimized s
 
 ## K-means Clustering Algorithm Steps 
 
+The steps of the K-means Clustering algorithm is the following: 
+1. Randomly assign each point to one of the k clusters 
+2. Calculate the centers (or centroids) of each of the clusters
+3. Each point in the dataset is assigned to the cluster of the nearest centroid based on euclidean distance
+4. Recalculate coordinates of centroid again with new dataset cluster assignments 
+5. Repeat until dataset cluster assignments do not change (error = 0)
+
+To begin, the K-means Clustering function should have two parameters: dataset and desired number of clusters. The user determines the number of clusters to be assigned. Because of the random initial clustering assignments, some clustering outcomes may be better than others. But how can you tell which assignments are better than others?
+
+You must be thinking "there must be a quantitative way to measure the efficacy of K-means Clustering?" The answer is yes. The optimal clustering assignment will have the lowest total within sum of squares (twss) value. This is defined as the sum of the distance of every point to their assigned cluster center (centroid). So thinking about this visually, a dataset with a _low_ twss value will have their datapoints clumped together in obvious clusters, whereas not so obvious clusters will have a _high_ twss value. 
+
+Lets first define a function that calculates euclidean distance, which is basically the distance formula from high school algebra:
+
+{% highlight r %}
+
+euclid_dist <- function(x, y) {
+  
+    # initialize distance to 0    
+    distance = 0  
+    
+    # loops by number of columns in x (should be 2)
+    for (i in (1:length(x))) {  
+    
+        # subtract each value from their respective columns; square the difference, then add this value to distance
+        distance = distance + (x[[i]] - y[[i]])^2                                                    
+    }
+    
+    # square root of the distance
+    distance = sqrt(distance)  
+    return (distance)
+}
+
+{% endhighlight %}
 
