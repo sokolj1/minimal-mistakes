@@ -10,7 +10,7 @@ classes: wide
 
 ## Step by step how to build the renowned unsupervised machine learning algorithm from scratch
 
-K-means Clustering is a type of unsupervised (no labeled data necessary) machine learning algorithm that determines optimal grouping, or clustering, amongst a dataset.  For instance, let's say you're working with the [Pokemon dataset](https://www.kaggle.com/abcsds/pokemon/data) by Alberto Barradas derived from the original Pokemon games (Gold, Silver, Ruby, Sapphire, etc):
+K-means Clustering is a type of unsupervised (no labeled data necessary) machine learning algorithm that determines optimal grouping, or clustering, amongst a dataset. This method is a great way to find patterns in your data. For instance, let's say you're working with the [Pokemon dataset](https://www.kaggle.com/abcsds/pokemon/data) by Alberto Barradas derived from the original Pokemon games (Gold, Silver, Ruby, Sapphire, etc):
 
 {% highlight r %}
 
@@ -21,7 +21,7 @@ head(pokemon)
 
 <img src="../assets/2018-03-16-K-Means-Clustering/k_means_1.png" align="center" > 
 
-This dataset contains 12 features consisting of the number, name, first and second type, and basic statistics: Total Points, HP, Attack, Defense, Special Attack, Special Defense, Speed, Generation and Legendary status for exactly 800 pokemon (observations) describing the data. It turns out that these pokemon statistics serve as a great introduction to unsupervised learning. 
+This dataset contains 12 features consisting of the number, name, first and second type, and basic statistics: Total Points, HP, Attack, Defense, Special Attack, Special Defense, Speed, Generation and Legendary status for exactly 800 pokemon (observations) describing the data. It turns out these pokemon statistics serve as a great introduction to unsupervised learning. 
 
 We begin by plotting the relationship between Pokemon Speed and Defense using ggplot: 
 
@@ -35,7 +35,7 @@ xlab("Speed") + ylab("Defense")
 
 <img src="../assets/2018-03-16-K-Means-Clustering/pokemon_init_ggplot.jpeg" align="center" > 
 
-How would the K-means Clustering algorithm be applicable to this relationship of two pokemon features? If we are doing an analysis of pokemon to classify, or group, the pokemon that have optimal speed _and_ defense, K-means Clustering can be utilized to determine the grouping of these pokemon. Once the K-means Clustering algorithm is rendered to this plot, we obtain the following result: 
+How would the K-means Clustering algorithm be applicable to this relationship of two pokemon features? If we are doing an analysis of pokemon to classify, or group, the pokemon that have optimal speed _and_ defense, K-means Clustering can determine the grouping of these pokemon. Once the K-means Clustering algorithm is rendered to the plot, we obtain the following result: 
 
 {% highlight r %}
 
@@ -49,20 +49,24 @@ ggplot(pokemon_speed_defense, aes(x = Defense, y = Speed, color = factor(Cluster
 
 <img src="../assets/2018-03-16-K-Means-Clustering/pokemon_after_kmeans.jpeg" align="center" > 
 
-So it looks like the pokemon in cluster #1 are the pokemon that have optimized speed and defense! Although we have obtained our answer, I used the built in kmeans() R function to complete this task. But what happens behind the scenes? What is the algorithm working in the background to determine the cluster assignments, and how does it work? All will be explained. 
+It looks like the pokemon in cluster 2 have optimal defense and adequate speed, and the pokemon in cluster 3 have optimal speed and adequate defense. Although we have obtained our answer, I used the built in kmeans() R function to complete this task. But what happens behind the scenes with K-means clustering algorithm? How does it determine cluster assignments? All will be explained. 
 
 ## K-means Clustering Algorithm Steps 
 
 The steps of the K-means Clustering algorithm is the following: 
-1. Randomly assign each point to one of the k clusters 
-2. Calculate the centers (or centroids) of each of the clusters
-3. Each point in the dataset is assigned to the cluster of the nearest centroid based on euclidean distance
-4. Recalculate coordinates of centroid again with new dataset cluster assignments 
-5. Repeat until dataset cluster assignments do not change (error = 0)
+1. Randomly create k points for starting cluster centers (centroids)
+2. Each point in the dataset is assigned to the cluster of the nearest centroid based on closest euclidean distance
+3. While any point has changed cluster assignment
+3a. For every point in our dataset:
+3b.  For every centroid:
+3bi. Calculate the distance between the centroid and point
+3bii. Assign the point to the cluster with the lowest distance
+3ai. For every cluster, calculate the mean of the points in that cluster; assign this as the new coordinates of the centroid
+4. Repeat until dataset cluster assignments do not change (error = 0)
 
-To begin, the K-means Clustering function should have two parameters: dataset and desired number of clusters. The user determines the number of clusters to be assigned. Because of the random initial clustering assignments, some clustering outcomes may be better than others. But how can you tell which assignments are better than others?
+The K-means Clustering function should have two parameters: dataset and desired number of clusters. The user determines the number of clusters to be assigned. Because of the random initial clustering assignments, some clustering outcomes may be better than others. But how can we tell which assignments are better than others?
 
-You must be thinking "there must be a quantitative way to measure the efficacy of K-means Clustering?" The answer is yes. The optimal clustering assignment will have the lowest total within sum of squares (twss) value. This is defined as the sum of the distance of every point to their assigned cluster center (centroid). So thinking about this visually, a dataset with a _low_ twss value will have their datapoints clumped together in obvious clusters, whereas not so obvious clusters will have a _high_ twss value. 
+You must be thinking "isn't there a quantitative way to measure the efficacy of K-means Clustering?" The answer is yes. The optimal clustering assignment will have the lowest total within sum of squares (twss) value. This is defined as the sum of the distance of every point to their assigned cluster center (centroid). Thinking about this visually, a dataset with a _low_ twss value will have their datapoints clumped together in obvious clusters, whereas not so obvious clusters will have a _high_ twss value. 
 
 Lets define a function that calculates euclidean distance, which is the distance formula from high school algebra:
 
