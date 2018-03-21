@@ -62,8 +62,8 @@ figure.highlight {
 }
 .highlight {
   .c {
-    /* Comment */
-    color: $base04;
+    /* Comment: $base04 */
+    color: $base0c;
   }
   .err {
     /* Error */
@@ -78,8 +78,8 @@ figure.highlight {
     color: #222831;
   }
   .n {
-    /* Name */
-    color: $base05;
+    /* Name: $base05 */
+    color: #222831;
   }
   .o {
     /* Operator */
