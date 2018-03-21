@@ -52,6 +52,32 @@ ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, color = factor(km.out$
 
 It looks like the pokemon in cluster 2 have optimal defense and adequate speed, and the pokemon in cluster 3 have optimal speed and adequate defense. Although we have obtained our answer, I used the built in kmeans() R function to complete this task. But what happens behind the scenes with K-means clustering algorithm? How does it determine cluster assignments? All will be explained. 
 
+## Determining Optimal Number of Clusters
+
+The K-means Clustering function should have two parameters: dataset and desired number of clusters. The user determines the optimal number of clusters to be assigned using an eblow (scree) plot. Due to the random initial clustering assignments, some clustering outcomes may be better than others. But how can we tell which assignments are better than others?
+
+You must be thinking "isn't there a quantitative way to measure the efficacy of K-means Clustering?" The answer is yes. The optimal clustering assignment will have the lowest total within sum of squares (twss) value. This is defined as the sum of the distance of every point to their assigned cluster center (centroid). Thinking about this visually, a dataset with a _low_ twss value will have their datapoints clumped together in obvious clusters, whereas not so obvious clusters will have a _high_ twss value. 
+
+A K-means function with a k value of 1 would only have 1 centroid, so the twss value of this function would be extremely high considering the euclidean distance of points on the edge of the plot to the centroid would significantly increase the twss value. But if the k value is set to 2, the euclidean distance of these points to their respective centroids decreases markedly, thereby decreasing the twss value. This trend continues as k increases until inevitably twss ceases to decrease substantially. The plot of the relationship between the k value and twss is called an elbow plot. 
+
+{% highlight r %}
+
+twss <- 0
+for (i in 1:15) {
+    km.out <- kmeans(pokemon_speed_defense, centers = i, nstart = 20, iter.max = 50)
+    wss[i] <- km.out$tot.withinss
+}
+
+elbow <- data.frame(c(1:15), wss)
+ggplot(elbow, aes(x = c.1.15., y = wss)) + geom_point() + geom_line() + 
+ggtitle("Pokemon Species TWSS Elbow Plot") + xlab("K value") + ylab("TWSS")
+
+{% endhighlight %}
+
+<img src="../assets/2018-03-16-K-Means-Clustering/pokemon_elbow_plot.jpeg" align="center" > 
+
+The interpretation of the elbow plot is up to the discretion of the user. I chose a k value of 4 because that is when the twss value begins to level off, but another data scientist could have chosen a k value of 3 or even 6 depending on the research situation and the question attempted to be answered. 
+
 ## K-means Clustering Algorithm Steps 
 
 The steps of the K-means Clustering algorithm is the following: 
@@ -65,9 +91,6 @@ The steps of the K-means Clustering algorithm is the following:
 5. For every cluster, calculate the mean of the points in that cluster; assign this as the new coordinates of the centroid
 6. Repeat until dataset cluster assignments do not change (error = 0)
 
-The K-means Clustering function should have two parameters: dataset and desired number of clusters. The user determines the number of clusters to be assigned. Because of the random initial clustering assignments, some clustering outcomes may be better than others. But how can we tell which assignments are better than others?
-
-You must be thinking "isn't there a quantitative way to measure the efficacy of K-means Clustering?" The answer is yes. The optimal clustering assignment will have the lowest total within sum of squares (twss) value. This is defined as the sum of the distance of every point to their assigned cluster center (centroid). Thinking about this visually, a dataset with a _low_ twss value will have their datapoints clumped together in obvious clusters, whereas not so obvious clusters will have a _high_ twss value. 
 
 Lets define a function that calculates euclidean distance, which is the distance formula from high school algebra:
 
