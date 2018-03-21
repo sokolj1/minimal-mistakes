@@ -57,13 +57,13 @@ It looks like the pokemon in cluster 2 have optimal defense and adequate speed, 
 The steps of the K-means Clustering algorithm is the following: 
 1. Randomly create k points for starting cluster centers (centroids)
 2. Each point in the dataset is assigned to the cluster of the nearest centroid based on closest euclidean distance
-3. While any point has changed cluster assignment:
-4. For every point in our dataset:
-5. For every centroid:
-6. Calculate the distance between the centroid and point
-7. Assign the point to the cluster with the lowest distance
-8. For every cluster, calculate the mean of the points in that cluster; assign this as the new coordinates of the centroid
-9. Repeat until dataset cluster assignments do not change (error = 0)
+- While any point has changed cluster assignment:
+- For every point in our dataset:
+- For every centroid:
+3. Calculate the distance between the centroid and point
+4. Assign the point to the cluster with the lowest distance
+5. For every cluster, calculate the mean of the points in that cluster; assign this as the new coordinates of the centroid
+6. Repeat until dataset cluster assignments do not change (error = 0)
 
 The K-means Clustering function should have two parameters: dataset and desired number of clusters. The user determines the number of clusters to be assigned. Because of the random initial clustering assignments, some clustering outcomes may be better than others. But how can we tell which assignments are better than others?
 
