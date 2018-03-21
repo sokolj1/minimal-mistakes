@@ -27,7 +27,7 @@ We begin by plotting the relationship between Pokemon Speed and Defense using gg
 
 {% highlight r %}
 
-ggplot(pokemon, aes(x = Defense, y = Speed)) + geom_point() + 
+ggplot(pokemon, aes(x = Speed, y = Defense)) + geom_point() + 
 ggtitle("Pokemon Species, Speed vs. Defense") +
 xlab("Speed") + ylab("Defense")
 
@@ -35,14 +35,15 @@ xlab("Speed") + ylab("Defense")
 
 <img src="../assets/2018-03-16-K-Means-Clustering/pokemon_init_ggplot.jpeg" align="center" > 
 
-How would the K-means Clustering algorithm be applicable to this relationship of two pokemon features? If we are doing an analysis of pokemon to classify, or group, the pokemon that have optimal speed _and_ defense, K-means Clustering can determine the grouping of these pokemon. Once the K-means Clustering algorithm is rendered to the plot, we obtain the following result: 
+How would the K-means Clustering algorithm be applicable to this relationship of two pokemon features? If we are doing an analysis of pokemon to classify, or group, the pokemon that have optimal speed _and_ defense, K-means Clustering can determine the grouping of these pokemon. We will choose an arbitrary k value of 4. Once the K-means Clustering algorithm is rendered to the plot, we obtain the following result: 
 
 {% highlight r %}
 
+k <- 4
 pokemon_speed_defense <- pokemon[,c(11,8)]
 km.out <- kmeans(pokemon_speed_defense, centers = k, nstart = 20, iter.max = 50)
 
-ggplot(pokemon_speed_defense, aes(x = Defense, y = Speed, color = factor(Clusters))) 
+ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, color = factor(km.out$cluster))) 
 + geom_point() + labs(color = "Cluster") + ggtitle("Pokemon Species, Speed vs. Defense")
 
 {% endhighlight %}
