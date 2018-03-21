@@ -20,9 +20,15 @@ So how did this team manage to win a Super Bowl against the invincible New Engla
 
 ## Data Sources
 
-NFL data for statistical analysis is notoriously difficult to obtain, unlike other sports such as Baseball and Basketball where statistics for on-field/on-court improvement have been established. Initially I considered using [SportRadar](https://www.sportradar.com/choose_region/) but their lack of open source options turned me away from their proprietary software. But after an additional week of research, I found [nflscrapR](https://github.com/maksimhorowitz/nflscrapR) by [Ronald Yurko](https://twitter.com/Stat_Ron), Samuel Ventura, and Maksim Horowitz. This R package scraps data from the official NFL API; the deliverables are clean datasets, boxscores, and more advanced statistics for _every_ NFL play in every season since 2009. 
+NFL data for statistical analysis is notoriously difficult to obtain, unlike other sports such as Baseball and Basketball where statistics for on-field/on-court improvement have been established. Initially I considered using [SportRadar](https://www.sportradar.com/choose_region/), but their lack of open source options turned me away from their proprietary software. But after an additional week of research, I found [nflscrapR](https://github.com/maksimhorowitz/nflscrapR) by [Ronald Yurko](https://twitter.com/Stat_Ron), Samuel Ventura, and Maksim Horowitz. This R package scraps data from the official NFL API; the deliverables are clean datasets, boxscores, and more advanced statistics for _every_ NFL play in every season since 2009. 
 
 ### nflscrapR
+
+
+
+## Framework for Data Visualizations
+
+Once the pertinent data is tabulated via nflscrapR, data manipulation and visualization can begin with [Shiny](http://shiny.rstudio.com), an open source R package that builds interactive web applications similar to D3.js. It also has the capability to build dashboards similar to Tableau. So think of Shiny as a cross between D3.js and Tableau. 
 
 
 
