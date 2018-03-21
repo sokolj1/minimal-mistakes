@@ -1,7 +1,7 @@
 ---
 published: true
 header:
-  image: /assets/assessment_fitness_02.jpg
+  image: /assets/assessment_fitness_02.png
 author_profile: true
 classes: wide
 ---
