@@ -166,10 +166,7 @@ The first line of code inside the function randomly determines the initial start
         
         # for loop iterates through cluster assignments 
         for (i in 1:k) {
-            
-            #  determines points data frame size based on number of cluster selections 
-            cluster_length <- length(which(cluster_id == 1))
-            
+                
             # resets points data frame with 0's after every iteration
             clu_assign = as.data.frame(matrix(0, ncol = ncol(km_data), nrow = nrow(km_data))) 
             
