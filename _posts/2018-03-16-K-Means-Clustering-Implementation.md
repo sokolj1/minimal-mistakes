@@ -1,11 +1,9 @@
 ---
 header:
   image: /assets/2018-03-16-K-Means-Clustering/pokemon_background.jpg
-
 author_profile: true
-
 classes: wide
-
+published: true
 ---
 
 ## How to build the renowned unsupervised machine learning algorithm from scratch
