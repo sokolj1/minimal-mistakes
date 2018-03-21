@@ -23,12 +23,12 @@ head(pokemon)
 
 This dataset contains 12 features consisting of the number, name, first and second type, and basic statistics: Total Points, HP, Attack, Defense, Special Attack, Special Defense, Speed, Generation and Legendary status for exactly 800 pokemon (observations) describing the data. It turns out that these pokemon statistics serve as a great introduction to unsupervised learning. 
 
-We will start by plotting the relationship between Pokemon Speed and Defense using ggplot: 
+We start by plotting the relationship between Pokemon Speed and Defense using ggplot: 
 
 {% highlight r %}
 
-P <- ggplot(pokemon, aes(x = Defense, y = Speed)) + geom_point()
-P + ggtitle("Pokemon Species, Speed vs. Defense") +
+ggplot(pokemon, aes(x = Defense, y = Speed)) + geom_point() + 
+ggtitle("Pokemon Species, Speed vs. Defense") +
 xlab("Speed") + ylab("Defense")
 
 {% endhighlight %}
@@ -40,16 +40,16 @@ How would the K-means Clustering algorithm be applicable to this relationship of
 {% highlight r %}
 
 pokemon_speed_defense <- pokemon[,c(11,8)]
-
 km.out <- kmeans(pokemon_speed_defense, centers = k, nstart = 20, iter.max = 50)
 
-ggplot(pokemon_speed_defense, aes(x = Defense, y = Speed, color = factor(Clusters))) + geom_point() + labs(color = "Cluster") + ggtitle("Pokemon Species, Speed vs. Defense")
+ggplot(pokemon_speed_defense, aes(x = Defense, y = Speed, color = factor(Clusters))) 
++ geom_point() + labs(color = "Cluster") + ggtitle("Pokemon Species, Speed vs. Defense")
 
 {% endhighlight %}
 
 <img src="../assets/2018-03-16-K-Means-Clustering/pokemon_after_kmeans.jpeg" align="center" > 
 
-So it looks like the pokemon in cluster #1 are the pokemon that have optimized speed and defense! Although we obtained our answer, I used the built in kmeans() R function to complete this task. But what happens behind the scenes? What is the algorithm working in the background to determine the cluster assignments, and how does it work? All will be explained! 
+So it looks like the pokemon in cluster #1 are the pokemon that have optimized speed and defense! Although we have obtained our answer, I used the built in kmeans() R function to complete this task. But what happens behind the scenes? What is the algorithm working in the background to determine the cluster assignments, and how does it work? All will be explained. 
 
 ## K-means Clustering Algorithm Steps 
 
