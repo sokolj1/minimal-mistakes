@@ -9,6 +9,7 @@ published: true
 
 Academic interests: 
 - Data Visualization
+- Software Development
 - Statistics
 - Machine Learning
 
