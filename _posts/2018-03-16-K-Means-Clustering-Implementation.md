@@ -250,8 +250,9 @@ The km_function() returns a list of two values: twss and the cluster_id for each
 {% highlight r %}
 
 implemented_kmeans <- km_function(pokemon_speed_defense, 4)
-ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, color = factor(implemented_kmeans$cluster_id))) 
-+ geom_point() + labs(color = "Cluster") + ggtitle("Pokemon Species, Speed vs. Defense")
+ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, 
+color = factor(implemented_kmeans$cluster_id))) + geom_point() 
++ labs(color = "Cluster") + ggtitle("Pokemon Species, Speed vs. Defense")
 
 {% endhighlight %}
 
