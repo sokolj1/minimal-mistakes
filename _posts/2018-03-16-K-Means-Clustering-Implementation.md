@@ -64,7 +64,7 @@ To begin, the K-means Clustering function should have two parameters: dataset an
 
 You must be thinking "there must be a quantitative way to measure the efficacy of K-means Clustering?" The answer is yes. The optimal clustering assignment will have the lowest total within sum of squares (twss) value. This is defined as the sum of the distance of every point to their assigned cluster center (centroid). So thinking about this visually, a dataset with a _low_ twss value will have their datapoints clumped together in obvious clusters, whereas not so obvious clusters will have a _high_ twss value. 
 
-Lets first define a function that calculates euclidean distance, which is basically the distance formula from high school algebra:
+Lets define a function that calculates euclidean distance, which is the distance formula from high school algebra:
 
 {% highlight r %}
 
@@ -86,4 +86,34 @@ euclid_dist <- function(x, y) {
 }
 
 {% endhighlight %}
+
+Now that we have our euclidean distance function defined, we can dive into the actual K-means Clustering function that does the heavylifting. 
+
+{% highlight r %}
+
+# function that calculates k nearest clusters of a dataset
+# km_data = input dataset defined as km_data[1] = x, km_data[2] = y, k = number of clusters
+km_function <- function(km_data, k) {
+  
+    # initializing random cluster datapoints based on points from dataset
+    # concatentate the x and y coordinates into data frame 
+    cluster_loc <- km_data[sample.int(nrow(km_data),k),]
+    
+    # initialize data frame to store old cluster coordinates
+    cluster_loc_old <- as.data.frame(matrix(0, ncol = 2, nrow = k))
+    
+    # empty data frames to store datapoint cluster ID (0, 1, 2, ...) and datapoint of particular cluster assignment
+    cluster_id <- vector("numeric", nrow(km_data))
+    clu_assign = as.data.frame(matrix(0, ncol = 2, nrow = nrow(km_data)))
+    wss <- vector("numeric")
+    
+    # error: the distance between previous cluster and new calculated cluster locations 
+    # algorithm reaches convergence when clusters no longer change (error = 0)
+    error <- sum(euclid_dist(cluster_loc, cluster_loc_old))
+
+{% endhighlight %}
+
+The first line of code inside the function randomly determines the initial starting point for the k clusters. The sample.int() function takes k random data values and assigns them as the initial clusters in cluster_loc. 
+
+
 
