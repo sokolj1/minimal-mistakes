@@ -8,5 +8,5 @@ main:
     url: /How-the-Philadelphia-Eagles-Won-Super-Bowl-52/
   - title: "Neural Networks"
     url: /Predicting-Heart-Disease-with-Neural-Networks/
-  - title: "Tableau"
-    url: /Introduction-to-Tableau-Dashboards/
+  - title: "K-Means"
+    url: /K-Means-Clustering-Implementation/
