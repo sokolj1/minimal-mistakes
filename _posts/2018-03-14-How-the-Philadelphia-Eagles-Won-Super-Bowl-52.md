@@ -71,8 +71,26 @@ Wins above replacement is a non-standardized sabermetric statistic commonly used
 Although this statistic has been optimized for baseball, Yurko et al. developed a methology to implement [WAR for offensive players in the NFL](https://arxiv.org/abs/1802.00998). 
 
 
+## Carson Wentz QBR
 
+{% highlight r %}
+ggplot(wentz_2016, aes(x = dates2, y = qbr_stats, color = factor(szn))) 
++ geom_line(color = "#a5acaf") + ylim(0,100) + scale_x_date(date_breaks = "1 month") 
++ ggtitle("Carson Wentz, QBR 2016") + xlab("Time Progression") + ylab("QBR (0 - 100)") 
++ theme(legend.position="none")
 
+ggplot(wentz_2017, aes(x = dates2, y = qbr_stats, color = factor(szn))) 
++ geom_line(color = "#004953") + ylim(0,100) + scale_x_date(date_breaks = "1 month")
++ ggtitle("Carson Wentz, QBR 2017") + xlab("Time Progression") + ylab("QBR (0 - 100)") 
++ theme(legend.position="none")
+
+{% endhighlight %}
+
+<figure class="half">
+    <img src="/assets/images/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2016.jpeg"></a>
+    <img src="/assets/images/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2017.jpeg"></a>
+    <figcaption>Carson Wentz QBR Comparsion: 2016 to 2017</figcaption>
+</figure>
 
 
 
