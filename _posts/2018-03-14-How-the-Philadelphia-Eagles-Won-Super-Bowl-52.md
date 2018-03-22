@@ -87,8 +87,8 @@ ggplot(wentz_2017, aes(x = dates2, y = qbr_stats, color = factor(szn)))
 {% endhighlight %}
 
 <figure class="half">
-    <img src="/assets/images/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2016.jpeg"></a>
-    <img src="/assets/images/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2017.jpeg"></a>
+    <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2016.jpeg"></a>
+    <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2017.jpeg"></a>
     <figcaption>Carson Wentz QBR Comparsion: 2016 to 2017</figcaption>
 </figure>
 
