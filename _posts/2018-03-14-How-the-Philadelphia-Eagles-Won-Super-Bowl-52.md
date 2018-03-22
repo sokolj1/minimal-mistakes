@@ -89,7 +89,7 @@ ggplot(wentz_2017, aes(x = dates2, y = qbr_stats, color = factor(szn)))
 <figure class="half">
     <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2016_02.jpeg" >
     <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2017.jpeg" >
-    <figcaption> Carson Wentz QBR Comparsion: 2016 to 2017 </figcaption>
+    <figcaption> Source: [ESPN](http://www.espn.com/nfl/player/gamelog/_/id/2573079/carson-wentz) </figcaption>
 </figure>
 
 
