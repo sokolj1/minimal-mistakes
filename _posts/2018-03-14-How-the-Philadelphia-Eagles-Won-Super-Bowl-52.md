@@ -94,10 +94,10 @@ ggplot(wentz_2017, aes(x = dates2, y = qbr_stats, color = factor(szn)))
 
 {% endhighlight %}
 
-| Season  | Average QBR |
-|  ---    |   ---       |
-| 2016    | 49.4        |
-| 2017    | 74.4        |
+| Season  | Average QBR | Percent Change |
+|  ---    |   ---       |      ---       |
+| 2016    | 49.4        |                |
+| 2017    | 74.4        |      50.6%     |
 
 <figure class="half">
     <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2016_02.jpeg" >
