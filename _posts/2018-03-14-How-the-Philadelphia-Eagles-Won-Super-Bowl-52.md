@@ -77,7 +77,7 @@ Although this statistic has been optimized for baseball, Yurko et al. developed 
 
 ## Carson Wentz
 
-Quarterback is arguably the most important position in American football. [Some would say](https://twitter.com/undisputed/status/806275534418153473) Quarterback is the even most difficult position to play in all of sports. Despite subjective thought, I believe it can be agreed upon that more times than not, the performance of the quarterback has a significant influence on the success of the team. That being said, it is worthwhile to analyze the performance of Carson Wentz, Philadelphia's starting Quarterback until week 13 (12-10-2017) to rationalize their amazing season. 
+Quarterback is arguably the most important position in American football. [Some would say](https://twitter.com/undisputed/status/806275534418153473) Quarterback is even the most difficult position to play in all of sports. Despite subjective thought, I believe it can be agreed upon that more times than not, the performance of a quarterback has significant influence on the success of a team. That being said, it is worthwhile to analyze the performance of Carson Wentz, Philadelphia's starting Quarterback until week 13 (12-10-2017) to rationalize Philly's amazing season. 
 
 ### QBR
 
@@ -99,6 +99,11 @@ ggplot(wentz_2017, aes(x = dates2, y = qbr_stats, color = factor(szn)))
     <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2017.jpeg" >
     <figcaption> Source: <a href = "http://www.espn.com/nfl/player/gamelog/_/id/2573079/carson-wentz">ESPN</a></figcaption>
 </figure>
+
+| Season  | Average QBR |
+|  ---    |   ---       |
+| 2016    | 49.4        |
+| 2017    | 74.4        |
 
 
 
