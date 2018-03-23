@@ -94,17 +94,16 @@ ggplot(wentz_2017, aes(x = dates2, y = qbr_stats, color = factor(szn)))
 
 {% endhighlight %}
 
-<figure class="half">
-    <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2016_02.jpeg" >
-    <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2017.jpeg" >
-    <figcaption> Source: <a href = "http://www.espn.com/nfl/player/gamelog/_/id/2573079/carson-wentz">ESPN</a></figcaption>
-</figure>
-
 | Season  | Average QBR |
 |  ---    |   ---       |
 | 2016    | 49.4        |
 | 2017    | 74.4        |
 
+<figure class="half">
+    <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2016_02.jpeg" >
+    <img src="/assets/2018-03-14-How-the-Philadelphia-Eagles-Won-Super-Bowl-52/wentz_qbr_2017.jpeg" >
+    <figcaption> Source: <a href = "http://www.espn.com/nfl/player/gamelog/_/id/2573079/carson-wentz">ESPN</a></figcaption>
+</figure>
 
 
 
