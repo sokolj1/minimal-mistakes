@@ -86,7 +86,7 @@ Total Quarterback Rating (QBR) is a proprietary statistic created by ESPN in 201
 ({% highlight r %}
 ggplot(wentz_2016, aes(x = dates2, y = qbr_stats, color = factor(szn))) 
 + geom_line(color = "#004953") + ylim(0,100) + scale_x_date(date_breaks = "1 month") 
-+ ggtitle("Carson Wentz, QBR 2016") + + xlab("") + ylab("") + theme(legend.position="none")
++ ggtitle("Carson Wentz, QBR 2016") + xlab("") + ylab("") + theme(legend.position="none")
 
 ggplot(wentz_2017, aes(x = dates2, y = qbr_stats, color = factor(szn))) 
 + geom_line(color = "#004953") + ylim(0,100) + scale_x_date(date_breaks = "1 month") 
