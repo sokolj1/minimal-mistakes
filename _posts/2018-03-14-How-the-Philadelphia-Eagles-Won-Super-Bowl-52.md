@@ -64,6 +64,10 @@ nfl_colors <- teamcolors %>% filter(league == "nfl")
 
 {% endhighlight %}
 
+### Tufte and Kosslyn Principles 
+
+
+
 ## NFL WAR (Wins Above Replacement) 
 
 Wins above replacement is a non-standardized sabermetric statistic commonly used in baseball to summarize a player's total contribution to their team. A player's WAR value answers the question "If this player got injured and their team had to replace them with a freely available player from their bench, how much value would the team be losing?" This value is expressed in a wins format. So a player with a WAR value of 6+ approximately contributes an additional 6 wins compared to a backup or third string (exception to this rule: Nick Foles). 
@@ -71,18 +75,22 @@ Wins above replacement is a non-standardized sabermetric statistic commonly used
 Although this statistic has been optimized for baseball, Yurko et al. developed a methology to implement [WAR for offensive players in the NFL](https://arxiv.org/abs/1802.00998). 
 
 
-## Carson Wentz QBR
+## Carson Wentz
+
+Arguably the most important position in American football is Quarterback; some would say Quarterback is the most difficult position to play in all of sports. 
+
+### QBR
+
+Total Quarterback Rating (QBR) is a proprietary statistic created by ESPN in 2011 to measure performance of quarterbacks in American football. 
 
 {% highlight r %}
 ggplot(wentz_2016, aes(x = dates2, y = qbr_stats, color = factor(szn))) 
-+ geom_line(color = "#a5acaf") + ylim(0,100) + scale_x_date(date_breaks = "1 month") 
-+ ggtitle("Carson Wentz, QBR 2016") + xlab("Time Progression") + ylab("QBR (0 - 100)") 
-+ theme(legend.position="none")
++ geom_line(color = "#004953") + ylim(0,100) + scale_x_date(date_breaks = "1 month") 
++ ggtitle("Carson Wentz, QBR 2016") + + xlab("") + ylab("") + theme(legend.position="none")
 
 ggplot(wentz_2017, aes(x = dates2, y = qbr_stats, color = factor(szn))) 
-+ geom_line(color = "#004953") + ylim(0,100) + scale_x_date(date_breaks = "1 month")
-+ ggtitle("Carson Wentz, QBR 2017") + xlab("Time Progression") + ylab("QBR (0 - 100)") 
-+ theme(legend.position="none")
++ geom_line(color = "#004953") + ylim(0,100) + scale_x_date(date_breaks = "1 month") 
++ ggtitle("Carson Wentz, QBR 2017") + xlab("") + ylab("") + theme(legend.position="none")
 
 {% endhighlight %}
 
