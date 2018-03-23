@@ -77,13 +77,13 @@ Although this statistic has been optimized for baseball, Yurko et al. developed 
 
 ## Carson Wentz
 
-Arguably the most important position in American football is Quarterback; some would say Quarterback is the most difficult position to play in all of sports. 
+Quarterback is arguably the most important position in American football. [Some would say](https://twitter.com/undisputed/status/806275534418153473) Quarterback is the even most difficult position to play in all of sports. Despite subjective thought, I believe it can be agreed upon that more times than not, the performance of the quarterback has a significant influence on the success of the team. That being said, it is worthwhile to analyze the performance of Carson Wentz, Philadelphia's starting Quarterback until week 13 (12-10-2017) to rationalize their amazing season. 
 
 ### QBR
 
 Total Quarterback Rating (QBR) is a proprietary statistic created by ESPN in 2011 to measure performance of quarterbacks in American football. 
 
-{% highlight r %}
+({% highlight r %}
 ggplot(wentz_2016, aes(x = dates2, y = qbr_stats, color = factor(szn))) 
 + geom_line(color = "#004953") + ylim(0,100) + scale_x_date(date_breaks = "1 month") 
 + ggtitle("Carson Wentz, QBR 2016") + + xlab("") + ylab("") + theme(legend.position="none")
