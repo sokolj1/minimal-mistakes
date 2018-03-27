@@ -1,6 +1,6 @@
 ---
 header:
-  image: /assets/perceptron_neuron.png
+  image: /assets/perceptron_neuron.jpg
 
 author_profile: true
 
