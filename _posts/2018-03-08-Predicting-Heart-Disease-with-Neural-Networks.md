@@ -19,14 +19,14 @@ Here are a few statistics that emphasize how problematic heart disease has becom
 - Coronary heart disease (CHD) is the most common type of heart disease, killing over 370,000 people annually.
 - Every year about 735,000 Americans have a heart attack. Of these, 525,000 are a first heart attack and 210,000 happen in people who have already had a heart attack.
 
-The term 'heart disease' refers to several aliments/conditions of the heart; the most common condition is coronary heart (artery) disease, which is a precursor to a heart attack. Other notable conditions that are defined as heart disease include ischemic and hemorrhagic stroke, heart failure, arrhythmia, and heart valve complications such as stenois and prolapse. The prevalence of heart disease  In order to provide adequate healthcare to treat heart disease across the United States, data visualization techniques such as choropleth mapping can be implemented to show comparative heart disease trends categorized by state and gender. 
-
-The CDC's Division of Population Health provides yearly statistics of over 124 chronic health disease indicators that are reported on a city and state level. Using Python's leading data manipulation library, Pandas, and Plotly's choropleth map API, this dataset will be filtered and manipulated to display data for only mortality from diseases of the heart for the year 2014 and by gender. This CSV file, last updated on December 5th, 2017, will be used for this study [[2](https://chronicdata.cdc.gov/api/views/g4ie-h725/rows.csv?accessType=DOWNLOAD&api_foundry=true)].
-
-
-<!-- <iframe src = "https://public.tableau.com/shared/PRSC2K6K8?:showVizHome=no&:embed=true" width="95%" height="600"></iframe> -->
+To illustrate the prevalence of heart disease, choropleth mapping is used to show comparative heart disease trends categorized by state, heart disease stratification, and gender using [Tableau Public](https://public.tableau.com/en-us/s/). Unlike its counterpart, Tableau Desktop, Tableau Public is free. The software is amazing for leveraging powerful interacive data visualizations to embed on a webpage. The CDC's Division of Population Health provides yearly statistics of over 124 chronic health disease indicators that are reported on a city and state level, available to download [here](https://chronicdata.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators-CDI-/g4ie-h725). This dataset was filtered using Pandas in a Jupyter Notebook, saved as a CSV file, then imported into Tableau Public.
 
 <iframe src = "https://public.tableau.com/views/PrevalenceofHeartDiseaseintheUnitedStates20145_0/Dashboard1?:showVizHome=no&:embed=true" width="95%" height="600"></iframe>
+
+
+## Predictive Analytics Case Study: Heart Disease
+
+As illustrated using the choropleth map, heart disease is a major issue accross every state and gender in the United States. Treatment for heart disease cost the healthcare industry over 444 _billion_ dollars in 2010 [2](https://www.webmd.com/healthy-aging/features/heart-disease-medical-costs#1), so the assumption can be made that present day cost is substantially higher than the 2010 dollar amount. Although it is imperative the healthcare industry provides high quality treatment for patients diagnosed for health disease, this industry must ameliorate this issue by reducing the number of diagnosed patients via *preventative care*.
 
 
 
