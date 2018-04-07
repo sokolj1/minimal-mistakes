@@ -36,7 +36,24 @@ Preventative care implements healthcare prophylaxis measures to prevent people f
  
 Although healthcare professionals invoke incredible decision making abilities upon rendering a diagnosis, I believe data science can help healthcare professionals regarding patient diagnosis for heart disease. The healthcare industry collects a substantial amount of data for each individual patient with appointments, office/lab tests, and medical history. With mainstream adoption of artifical intelligence and machine learning, the same attributes that healthcare professionals use to traditionally diagnose a patient with likelihood of heart disease along with additional attributes can be leveraged to create machine learning models that help nurses, physician assistants, and medical doctors understand their patient's health and make better decisions. By implementing a heart disease prediction system by [stacking](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/) machine learning techniques, this system will "learn" or fit from labeled data, resulting in a machine learning machine that can probabilistically predict the likelihood that a patient will be diagnosed with heart disease. 
 
-# Data Source: University of California Irvine Machine Learning Repository
+## Data Source: University of California Irvine (UCI) Machine Learning Repository
+
+The data for this case study was obtained from UCI's machine learning repository. The dataset is compartmentalized into four txt files by donating city: 
+- Cleveland, Ohio, United States
+- Long Beach, California, United States
+- Budapest, Hungary 
+- Zurich/Basel, Switzerland
+
+Considering the focus on heart disease in the United States, only the Cleveland and Long Beach txt files were used for this study. After rigorous data cleaning, the Cleveland and Long Beach files were converted into csv files and imported into a Pandas Python DataFrame.
+
+
+
+then concatenated together
+
+The dataset has a total of 76 attributes, although many of these attributes do not have valid data populated in the appropriate fields, so these were dropped from the 
+
+
+
 
 
  
