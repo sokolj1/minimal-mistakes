@@ -26,7 +26,25 @@ To illustrate the prevalence of heart disease, choropleth mapping is used to sho
 
 ## Predictive Analytics Case Study: Heart Disease
 
-As illustrated using the choropleth map, heart disease is a major issue accross every state and gender in the United States. Treatment for heart disease cost the healthcare industry over 444 _billion_ dollars in 2010 [[2](https://www.webmd.com/healthy-aging/features/heart-disease-medical-costs#1)], so the assumption can be made that present day cost is substantially higher than the 2010 dollar amount. Although it is imperative the healthcare industry provides high quality treatment for patients diagnosed with health disease, this industry must ameliorate the issue by reducing the number of future diagnosed patients via *preventative care*.
+As illustrated using the choropleth map, heart disease is a major issue accross every state and gender in the United States. Treatment for heart disease cost the healthcare industry over 444 _billion_ dollars in 2010 [[2](https://www.webmd.com/healthy-aging/features/heart-disease-medical-costs#1)], so an assumption can be made that present day cost is substantially higher than the 2010 dollar amount. Although it is imperative the healthcare industry provides high quality treatment for patients diagnosed with health disease, this industry must ameliorate the issue by reducing the number of future patients diagnosed with heart disease via *preventative care*.
+
+Preventative care implements healthcare prophylaxis measures to prevent people from developing various diseases. The key advantage from a healthcare industry perspective is the lower cost to employ preventative care compared to disease treatments. This is especially applicable to heart disease. Heart disease preventative care begins with determining the likelihood of developing heart disease based upon a variety of quantitative and qualitative attributes. The different attributes are assigned weights; the greater the weight, the more impactful the attribute is on disease prediction. The healthcare professional draws from years of formal education and medical training to interpret these attributes to holistically determine the best course of action for the patient: 
+
+ - Small likelihood of developing heart disease: No prophylaxis measures necessary 
+ - Plausible likelihood of developing heart disease: Prophylaxis recommended 
+ - Very likely heart disease has developed: Run additional tests to confirm severity of heart disease
+ 
+Although healthcare professionals invoke incredible decision making abilities upon rendering a diagnosis, I believe data science can help healthcare professionals regarding patient diagnosis for heart disease. The healthcare industry collects a substantial amount of data for each individual patient with appointments, office/lab tests, and medical history. With the advent of artifical intelligence and machine learning, the same attributes that healthcare professionals use to traditionally diagnose a patient with likelihood of heart disease along with additional attributes can be leveraged to create machine learning models that help nurses, physician assistants, and medical doctors understand their patient's health and make better decisions. 
+ 
+ 
+
+
+
+
+
+
+
+
 
 
 
