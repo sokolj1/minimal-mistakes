@@ -46,13 +46,37 @@ The data for this case study was obtained from UCI's machine learning repository
 
 Considering the focus on heart disease in the United States, only the Cleveland and Long Beach txt files were used for this study. After rigorous data cleaning, the Cleveland and Long Beach files were converted into csv files and imported into a Pandas Python DataFrame.
 
+{% highlight python %}
 
+
+
+
+{% endhighlight %}
 
 then concatenated together
 
 The dataset has a total of 76 attributes, although many of these attributes do not have valid data populated in the appropriate fields, so these were dropped from the 
 
 
+
+## Exploratory Data Analysis 
+
+
+
+
+## Principle Component Analysis 
+
+
+
+
+
+
+##  Building a Neural Network with Keras
+
+
+
+
+##  
 
 
 
