@@ -1,6 +1,6 @@
 ---
 header:
-  image: /assets/internal_structures_1_0.jpg
+  image: /assets/internal_structures_2_0.png
   
 author_profile: true
 
