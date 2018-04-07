@@ -8,7 +8,7 @@ classes: wide
 
 ---
 
-## Predictive Analytics Case Study: Multi-layer neural network using Keras to help doctors understand patient cardiovascular health 
+## Predictive Analytics Case Study: Multi-layer neural network using Keras to help healthcare professionals understand patient cardiovascular health 
 
 Heart disease is described as any condition that affects the heart. Heart disease is often used interchangably with the term "cardiovascular disease." However, cardiovascular disease generally refers to conditions involving heart blockages such as atherosclerosis (narrowing or blocking of the ateries due to plaque buildup), whereas heart disease is an umbrella term that is inclusive of other heart conditions. Heart Disease can not only affect the arteries, but the heart muscle, valves, rhythm, or other important aspects of a well-functioning heart. 
 
@@ -26,7 +26,7 @@ To illustrate the prevalence of heart disease, choropleth mapping is used to sho
 
 ## Predictive Analytics Case Study: Heart Disease
 
-As illustrated using the choropleth map, heart disease is a major issue accross every state and gender in the United States. Treatment for heart disease cost the healthcare industry over 444 _billion_ dollars in 2010 [2](https://www.webmd.com/healthy-aging/features/heart-disease-medical-costs#1), so the assumption can be made that present day cost is substantially higher than the 2010 dollar amount. Although it is imperative the healthcare industry provides high quality treatment for patients diagnosed for health disease, this industry must ameliorate this issue by reducing the number of diagnosed patients via *preventative care*.
+As illustrated using the choropleth map, heart disease is a major issue accross every state and gender in the United States. Treatment for heart disease cost the healthcare industry over 444 _billion_ dollars in 2010 [[2](https://www.webmd.com/healthy-aging/features/heart-disease-medical-costs#1)], so the assumption can be made that present day cost is substantially higher than the 2010 dollar amount. Although it is imperative the healthcare industry provides high quality treatment for patients diagnosed with health disease, this industry must ameliorate the issue by reducing the number of future diagnosed patients via *preventative care*.
 
 
 
