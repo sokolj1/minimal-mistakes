@@ -34,9 +34,13 @@ Preventative care implements healthcare prophylaxis measures to prevent people f
  - Plausible likelihood of developing heart disease: Prophylaxis recommended 
  - Very likely heart disease has developed: Run additional tests to confirm severity of heart disease
  
-Although healthcare professionals invoke incredible decision making abilities upon rendering a diagnosis, I believe data science can help healthcare professionals regarding patient diagnosis for heart disease. The healthcare industry collects a substantial amount of data for each individual patient with appointments, office/lab tests, and medical history. With mainstream adoption of artifical intelligence and machine learning, the same attributes that healthcare professionals use to traditionally diagnose a patient with likelihood of heart disease along with additional attributes can be leveraged to create machine learning models that help nurses, physician assistants, and medical doctors understand their patient's health and make better decisions. 
+Although healthcare professionals invoke incredible decision making abilities upon rendering a diagnosis, I believe data science can help healthcare professionals regarding patient diagnosis for heart disease. The healthcare industry collects a substantial amount of data for each individual patient with appointments, office/lab tests, and medical history. With mainstream adoption of artifical intelligence and machine learning, the same attributes that healthcare professionals use to traditionally diagnose a patient with likelihood of heart disease along with additional attributes can be leveraged to create machine learning models that help nurses, physician assistants, and medical doctors understand their patient's health and make better decisions. By implementing a heart disease prediction system by [stacking](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/) machine learning techniques, this system will "learn" or fit from labeled data, resulting in a machine learning machine that can probabilistically predict the likelihood that a patient will be diagnosed with heart disease. 
+
+# Data Source: University of California Irvine Machine Learning Repository
+
+
  
- 
+
 
 
 
