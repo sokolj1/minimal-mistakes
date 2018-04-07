@@ -13,7 +13,7 @@ classes: wide
 Heart disease is described as any condition that affects the heart. Heart disease is often used interchangably with the term "cardiovascular disease." However, cardiovascular disease generally refers to conditions involving heart blockages such as atherosclerosis (narrowing or blocking of the ateries due to plaque buildup), whereas heart disease is an umbrella term that is inclusive of other heart conditions. Heart Disease can not only affect the arteries, but the heart muscle, valves, rhythm, or other important aspects of a well-functioning heart. 
 
 The pervasiveness of heart disease in the United States has made the ailment the leading cause of death in the United States.
-Here are a few statistics that emphasize how problematic heart disease has become in our society [1](https://www.cdc.gov/heartdisease/facts.htm)]: 
+Here are a few statistics that emphasize how problematic heart disease has become in our society [[1](https://www.cdc.gov/heartdisease/facts.htm)]: 
 - About 610,000 people die of heart disease in the United States every year–that’s 1 in every 4 deaths.
 - Heart disease is the leading cause of death for both men and women. More than half of the deaths due to heart disease in 2009 were in men.
 - Coronary heart disease (CHD) is the most common type of heart disease, killing over 370,000 people annually.
