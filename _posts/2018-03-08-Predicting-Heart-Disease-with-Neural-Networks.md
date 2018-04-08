@@ -57,14 +57,16 @@ import seaborn as sns
 cleveland = pd.read_csv('cleveland_clean_3.csv', sep = ',', header = 2)
 longbeach = pd.read_csv('long-beach-va_storage_1.csv', sep = ',', header = 2)
 
-# concatenate both datasets into one Pandas DataFrame
+# concatenate both datasets into one Pandas DataFrame; observe first 5 rows
 master_df = pd.concat([cleveland,longbeach])
-
+master_df.head()
 {% endhighlight %}
 
-The master DataFrame as a total of 69 attributes/features, and 375 observations. 
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/master_df.png" >
 
-The dataset has a total of 69 attributes, although many of these attributes do not have valid data populated in the appropriate fields, so these were dropped from the 
+
+The master DataFrame as a total of 375 observations and 63 attributes. 
+
 
 
 
