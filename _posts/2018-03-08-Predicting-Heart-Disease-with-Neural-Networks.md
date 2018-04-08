@@ -64,18 +64,18 @@ master_df.head()
 
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/master_df.png" >
 
+The master DataFrame as a total of 375 observations and 63 attributes.
 
-The master DataFrame as a total of 375 observations and 63 attributes. 
+In order to complete PCA and fit machine learning models, its important to store our target labels in a separate DataFrame. The target labels are the diagnosis of heart disease. The doctors who collected the data determined the presence of heart disease in each patient on an integer value classification scale from 0 to 4: 0 indicates no presence of heart disease, and 4 indicates significant, concerning presence. For this study, we only care about binary classification of heart disease: 0 for no presence, and 1 for presence. 
 
+The following python command converts prediction values of 2,3, and 4 to 1, so we're left with a DataFrame with only binary classification.
 
-
-
-## Exploratory Data Analysis 
-
-
-
+{% highlight python %}
+target = master_df[['DIAGNOSIS']].reset_index(drop=True).replace([2,3,4], value = [1,1,1])
+{% endhighlight %}
 
 ## Principle Component Analysis 
+
 
 
 
