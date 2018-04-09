@@ -91,11 +91,11 @@ PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, con
 We need to filter the master DataFrame to a new DataFrame that consists of just these attributes: 
 
 {% highlight python %}
-pca_attr = master_df.loc[:,['age','resting_blood_pressure','cholesterol','cigarettes_per_day','years_as_smoker',
-'resting_hr','max_hr_ach','tpeakbps', 'rldv5e']]
+pca_attr = master_df.loc[:,['age','resting_blood_pressure','cholesterol',
+'cigarettes_per_day','years_as_smoker','resting_hr','max_hr_ach','tpeakbps', 'rldv5e']]
 {% endhighlight %}
 
-And visualize the correlation between each attribute by creating a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating an unequivocal negative correlation, 0 indicate no correlation, and 1 indicating an unequivocal positive correlation. 
+And visualize the correlation between each attribute by creating a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating an unequivocal negative correlation, 0 indicating no correlation, and 1 indicating an unequivocal positive correlation. 
 
 {% highlight python %}
 
@@ -103,11 +103,22 @@ colormap = plt.cm.RdBu
 plt.figure(figsize=(14,12))
 plt.title('Heart Disease Pearson Correlation of Features', y = 1.05, size = 15)
 sns.heatmap(pca_attr.astype(float).corr(),linewidths = 0.1,vmax = 1.0, 
-            square = True, cmap = colormap, linecolor = 'white', annot = True)
+square = True, cmap = colormap, linecolor = 'white', annot = True)
+
 plt.show()
 {% endhighlight %}
 
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_dis_pearsoncor.png" >
+
+A Notable positive correlations amongst the data are cigarettes per day as years as a smoker also increases. 
+
+{% highlight python %}
+# import necessary Python libraries for PCA 
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from sklearn import preprocessing
+{% endhighlight %}
+
 
 ##  Building a Neural Network with Keras
 
