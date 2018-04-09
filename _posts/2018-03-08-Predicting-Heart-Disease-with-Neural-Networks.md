@@ -169,7 +169,7 @@ print(explained_variance) # principle component 1; principle component 2
 print(explained_variance.sum())
 {% endhighlight %}
 
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/explained_var_sum.png >
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/explained_var_sum.png" >
 
 ##  Building a Neural Network with Keras
 
