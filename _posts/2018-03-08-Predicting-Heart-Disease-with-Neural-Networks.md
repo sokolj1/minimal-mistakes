@@ -177,6 +177,8 @@ print(explained_variance.sum())
 
 ##  Building a Neural Network with Keras
 
+Neural networks, also referred to as deep learning in a broad sense, is a biologically inspired machine learning technique that enables a computer to build a complicated array of nodes that provide solutions to seemingly impossible tasks. 
+
 {% highlight python %}
 
 # import necessary keras functions for Deep Learning
