@@ -127,8 +127,8 @@ pca_2 = PCA(n_components=2)
 principalComponents = pca_2.fit_transform(pca_scaled)
 principalDf = pd.DataFrame(data = principalComponents, columns = ['principal component 1', 'principal component 2'])
 
-finalDf = principalDf.join(target)
-finalDf.head()
+pca_finalDf = principalDf.join(target)
+pca_finalDf.head()
 {% endhighlight %}
 
 Plot Principle Component 1 as the independent variable, and Principle Component 2 as the dependent variable: 
