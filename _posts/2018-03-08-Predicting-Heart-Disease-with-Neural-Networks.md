@@ -119,6 +119,53 @@ from sklearn.preprocessing import StandardScaler
 from sklearn import preprocessing
 {% endhighlight %}
 
+{% highlight python %}
+pca_numpy = pca_attr.dropna().values
+pca_scaled = StandardScaler().fit_transform(pca_numpy)
+
+pca_2 = PCA(n_components=2)
+principalComponents = pca_2.fit_transform(pca_scaled)
+principalDf = pd.DataFrame(data = principalComponents, columns = ['principal component 1', 'principal component 2'])
+
+finalDf = principalDf.join(target)
+finalDf.head()
+{% endhighlight %}
+
+Plot Principle Component 1 as the independent variable, and Principle Component 2 as the dependent variable: 
+
+{% highlight python %}
+plt.style.use('ggplot')
+
+fig = plt.figure(figsize = (8,8))
+ax = fig.add_subplot(1,1,1) 
+ax.set_xlabel('Principal Component 1', fontsize = 15)
+ax.set_ylabel('Principal Component 2', fontsize = 15)
+ax.set_title('PCA: 2 Components ', fontsize = 20)
+
+targets = [0,1]
+colors = ['#006400', '#FF3030']
+#CD853F 
+for target, color in zip(targets, colors):
+    indicesToKeep = finalDf['DIAGNOSIS'] == target
+    ax.scatter(finalDf.loc[indicesToKeep, 'principal component 1']
+            ,finalDf.loc[indicesToKeep, 'principal component 2']
+            ,c = color
+            ,s = 50)
+ax.legend(targets)
+plt.show()
+
+{% endhighlight %}
+
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/pca_result.png" >
+
+{% highlight python %}
+explained_variance = pca_2.explained_variance_ratio_
+print(explained_variance) # principle component 1; principle component 2
+{% endhighlight %}
+
+{% highlight python %}
+print(explained_variance.sum())
+{% endhighlight %}
 
 ##  Building a Neural Network with Keras
 
