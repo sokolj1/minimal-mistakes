@@ -76,11 +76,38 @@ target = master_df[['DIAGNOSIS']].reset_index(drop=True).replace([2,3,4], value 
 
 ## Principle Component Analysis 
 
+PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, continous values must be used for PCA analysis: 
 
+1. Age
+2. Resting blood pressure 
+3. Cholesterol 
+4. Cigarettes per day
+5. Years as smoker 
+6. Resting heart rate 
+7. Maximum heart rate achieved 
+8. Peak exercise blood pressure (Part 1)
+9. Height of peak exercise ST measurement
 
+We need to filter the master DataFrame to a new DataFrame that consists of just these attributes: 
 
+{% highlight python %}
+pca_attr = master_df.loc[:,['age','resting_blood_pressure','cholesterol','cigarettes_per_day','years_as_smoker',
+'resting_hr','max_hr_ach','tpeakbps', 'rldv5e']]
+{% endhighlight %}
 
+And visualize the correlation between each attribute by creating a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating an unequivocal negative correlation, 0 indicate no correlation, and 1 indicating an unequivocal positive correlation. 
 
+{% highlight python %}
+
+colormap = plt.cm.RdBu
+plt.figure(figsize=(14,12))
+plt.title('Heart Disease Pearson Correlation of Features', y = 1.05, size = 15)
+sns.heatmap(pca_attr.astype(float).corr(),linewidths = 0.1,vmax = 1.0, 
+            square = True, cmap = colormap, linecolor = 'white', annot = True)
+plt.show()
+{% endhighlight %}
+
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_dis_pearsoncor.png" >
 
 ##  Building a Neural Network with Keras
 
@@ -88,6 +115,7 @@ target = master_df[['DIAGNOSIS']].reset_index(drop=True).replace([2,3,4], value 
 
 
 ## Alternative Machine Learning Techniques
+
 
 
 ## Ensembling/Stacking 
