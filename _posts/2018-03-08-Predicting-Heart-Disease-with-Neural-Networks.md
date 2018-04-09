@@ -173,8 +173,15 @@ print(explained_variance.sum())
 
 ##  Building a Neural Network with Keras
 
+{% highlight python %}
 
-
+# import necessary keras functions for Deep Learning
+from keras.layers import Dense, Dropout
+from keras.models import Sequential
+from keras.utils import to_categorical
+from keras.callbacks import EarlyStopping
+from sklearn.model_selection import train_test_split
+{% endhighlight %}
 
 ## Alternative Machine Learning Techniques
 
