@@ -189,6 +189,14 @@ from keras.callbacks import EarlyStopping
 from sklearn.model_selection import train_test_split
 {% endhighlight %}
 
+
+<figure class="half">
+    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/neuron.png" >
+    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/neural_net2.jpg" >
+    <figcaption> Source: <a href = "http://cs231n.github.io/neural-networks-1/">Stanford Vision & Learning Lab</a></figcaption>
+</figure>
+
+
 ## Alternative Machine Learning Techniques
 
 
