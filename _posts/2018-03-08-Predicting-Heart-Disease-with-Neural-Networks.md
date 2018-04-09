@@ -64,7 +64,7 @@ master_df.head()
 
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/master_df.png" >
 
-The master DataFrame as a total of 375 observations and 63 attributes.
+The master DataFrame as a total of 375 observations and 63 features.
 
 In order to complete PCA and fit machine learning models, its important to store our target labels in a separate DataFrame. The target labels are the diagnosis of heart disease. The doctors who collected the data determined the presence of heart disease in each patient on an integer value classification scale from 0 to 4: 0 indicates no presence of heart disease, and 4 indicates significant, concerning presence. For this study, we only care about binary classification of heart disease: 0 for no presence, and 1 for presence. 
 
@@ -74,7 +74,11 @@ The following python command converts prediction values of 2,3, and 4 to 1, so w
 target = master_df[['DIAGNOSIS']].reset_index(drop=True).replace([2,3,4], value = [1,1,1])
 {% endhighlight %}
 
-## Principle Component Analysis 
+Now we're ready to dive into principle component analysis to become more familiar with our data.
+
+## Principle Component Analysis (PCA)
+
+Principle component analysis, or colloquially known as dimensionality reduction, is a statistical procedure that uses eigenvalue decomposition to generalize the most important features in a dataset. PCA simplifies the complexity of high dimensional (many features) data while retaining trends and patterns. For example, the popular beginner machine learning [MNIST Database](http://yann.lecun.com/exdb/mnist/) of handwritten digits has 60,000 observations (rows) and 785 features (columns). [A Kaggler](https://www.kaggle.com/ddmngml/pca-and-svm-on-mnist-dataset) that completed PCA on this dataset effectively reduced the MNIST dimensions from 785 to 16, and retained 59% of the variance, or information that the original dataset conveyed. He also reduced the dataset from 785 to 49, and retained 82% of the variance. By simplifying the dataset into principle components, we can observe features that contribute more information to the dataset than others, speed up process time if the dimensionality reduced is significant, and visualize trends and patterns of datasets that have many features. 
 
 PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, continous values must be used for PCA analysis: 
 
