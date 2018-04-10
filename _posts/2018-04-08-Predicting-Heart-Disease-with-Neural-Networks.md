@@ -179,22 +179,45 @@ print(explained_variance.sum())
 
 Neural networks, also referred to as deep learning in a broad sense, is a biologically inspired machine learning technique that enables a computer to build a complicated array of nodes that provide solutions to seemingly impossible tasks. 
 
-{% highlight python %}
+<figure class="half">
+    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/neuron_2.png" >
+    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/neural_net2.jpg" >
+    <figcaption> Left: Biological inspiration for Neural Networks; Right: Example of a forward feeding Neural Network. Source: <a href = "http://cs231n.github.io/neural-networks-1/">Stanford Vision & Learning Lab</a></figcaption>
+</figure>
 
-# import necessary keras functions for Deep Learning
+
+{% highlight python %}
+# import necessary keras packages for Deep Learning
 from keras.layers import Dense, Dropout
 from keras.models import Sequential
 from keras.utils import to_categorical
 from keras.callbacks import EarlyStopping
 from sklearn.model_selection import train_test_split
+
+nn_attr = master_df2.loc[:,['age','sex','cp_type','resting_blood_pressure','hypertension',
+'cholesterol','cigarettes_per_day','years_as_smoker', 'fasting_blood_sugar', 'hist_heart_dis','resting_hr','max_hr_ach','tpeakbps', 'exer_ind_angina', 'rldv5e']]
+
+n_cols = nn_attr.shape[1]
 {% endhighlight %}
 
+{% highlight python %}
+nn_attr_scaled = StandardScaler().fit_transform(nn_attr)
 
-<figure class="half">
-    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/neuron_2.png" >
-    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/neural_net2.jpg" >
-    <figcaption> Source: <a href = "http://cs231n.github.io/neural-networks-1/">Stanford Vision & Learning Lab</a></figcaption>
-</figure>
+X_train, X_test, y_train, y_test = train_test_split(
+nn_attr_scaled, target, train_size=0.80, random_state=42)
+X_train.shape
+
+y_train = to_categorical(y_train)
+y_test = to_categorical(y_test)
+
+{% endhighlight %}
+
+### Model Architecture
+
+{% highlight python %}
+
+
+{% endhighlight %}
 
 
 ## Alternative Machine Learning Techniques
