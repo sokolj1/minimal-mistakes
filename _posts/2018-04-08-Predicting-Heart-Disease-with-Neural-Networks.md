@@ -220,6 +220,15 @@ y_test = to_categorical(y_test)
 {% endhighlight %}
 
 
+### Overfitting Prevention Practices
+
+- L2 Regularization 
+- Dropout 
+- Input noise 
+
+
+
+
 ## Alternative Machine Learning Techniques
 
 
