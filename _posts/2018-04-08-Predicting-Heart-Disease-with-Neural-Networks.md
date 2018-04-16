@@ -8,7 +8,7 @@ classes: wide
 
 ---
 
-## Predictive Analytics Case Study: Multi-layer neural network using Keras to help healthcare professionals understand patient cardiovascular health 
+## Predictive Analytics Case Study: A multi-layer neural network using Keras to help healthcare professionals understand patient cardiovascular health 
 
 Heart disease is described as any condition that affects the heart. Heart disease is often used interchangably with the term "cardiovascular disease." However, cardiovascular disease generally refers to conditions involving heart blockages such as atherosclerosis (narrowing or blocking of the ateries due to plaque buildup), whereas heart disease is an umbrella term that is inclusive of other heart conditions. Heart Disease can not only affect the arteries, but the heart muscle, valves, rhythm, or other important aspects of a well-functioning heart. 
 
