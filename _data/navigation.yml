@@ -4,9 +4,9 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: /about
-  - title: "Shiny"
-    url: /How-the-Philadelphia-Eagles-Won-Super-Bowl-52/
   - title: "Neural Networks"
     url: /Predicting-Heart-Disease-with-Neural-Networks/
+  - title: "Tableau"
+    url: /Interactive-Super-Bowl-Tableau-Dashboard/
   - title: "K-Means"
     url: /K-Means-Clustering-Implementation/
