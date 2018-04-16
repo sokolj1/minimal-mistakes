@@ -6,9 +6,11 @@ author_profile: true
 
 classes: wide
 
+published: false
+
 ---
 
-## A statistical breakdown of the birdgang's success in the 2017-2018 season
+## Dashboard visualization of Super Bowl 46 - 52 depicting play by play win probabilities of each game
 
 As a lifelong Giants fan, it was painful to watch the Philadelphia Eagles win their first championship 
 since 1960, and their first Super Bowl victory in the history of the franchise. Oh well, gone are the days of using the default end all argument with the hypothetical question “How many Super Bowl rings do the Eagles have?” It makes me sick to my stomach.
