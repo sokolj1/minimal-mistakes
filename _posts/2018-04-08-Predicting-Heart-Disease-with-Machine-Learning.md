@@ -235,6 +235,9 @@ y_test = to_categorical(y_test)
 
 ## Ensembling/Stacking 
 
+<video width="480" height="320" controls="controls">
+  <source src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_video_final.mp4" type="video/mp4">
+</video>
 
 
  
