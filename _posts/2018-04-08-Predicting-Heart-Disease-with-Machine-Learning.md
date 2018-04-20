@@ -34,7 +34,7 @@ Preventative care implements healthcare prophylaxis measures to prevent people f
  - Plausible likelihood of developing heart disease: Prophylaxis recommended 
  - Very likely heart disease has developed: Run additional tests to confirm severity of heart disease
  
-Although healthcare professionals invoke incredible decision making abilities upon rendering a diagnosis, data science can help healthcare professionals regarding patient diagnosis for heart disease. The healthcare industry collects a substantial amount of data for each individual patient with appointments, office/lab tests, and medical history. With mainstream adoption of artifical intelligence and machine learning, the same attributes that healthcare professionals use to traditionally diagnose a patient with likelihood of heart disease along with additional attributes can be leveraged to create machine learning models that help nurses, physician assistants, and medical doctors understand their patient's health and make better decisions. By implementing a heart disease prediction system by [stacking](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/) machine learning techniques, this system will "learn" or fit from labeled data, resulting in a machine learning machine that can probabilistically predict the likelihood that a patient will be diagnosed with heart disease. 
+Although healthcare professionals invoke incredible decision making abilities upon rendering a diagnosis, data science can help healthcare professionals regarding patient diagnosis for heart disease. The healthcare industry collects a substantial amount of data for each individual patient with appointments, office/lab tests, and medical history. With mainstream adoption of artifical intelligence and machine learning, the same attributes that healthcare professionals use to traditionally diagnose a patient with likelihood of heart disease along with additional attributes can be leveraged to create machine learning models that help nurses, physician assistants, and medical doctors understand their patient's health and make better decisions. By implementing a heart disease prediction system using machine learning techniques, this system will "learn" or fit from labeled data, creating a model that can probabilistically predict the likelihood that a patient will be diagnosed with heart disease. 
 
 ## Data Source: University of California Irvine (UCI) Machine Learning Repository
 
@@ -73,6 +73,29 @@ The following python command converts prediction values of 2,3, and 4 to 1, so w
 {% highlight python %}
 target = master_df[['DIAGNOSIS']].reset_index(drop=True).replace([2,3,4], value = [1,1,1])
 {% endhighlight %}
+
+## Selecting the Features for Analysis
+
+Feature selection is one of the most important aspects of machine learning. These features will serve as the foundation of your model; the right features should be chosen with considerable research and rationale for each decision. For our example, the data scientist should consult healthcare professionals such as cardiologists and ECG/EKG technicians to determine the features that reliably diagnosis heart disease. 
+
+Unfortunately, by using a pre-aggregated dataset, only features that are present are workable, and additional features can not be added. The main contributing factor for my feature decisions were presence of clean data; the dataset is dirty beyond belief. A few features that were viable in the Cleveland dataset had missing/invalid values in the Long Beach dataset. Nonetheless, I narrowed down the selection to 14 features: 
+
+1. Age (continous)
+2. Sex (binary)
+3. Resting blood pressure (continous)
+4. Cholesterol (continous)
+5. Cigarettes per day (continous)
+6. Years as smoker (continous
+7. Fasting blood sugar (binary)
+8. History of heart disease (binary)
+9. Resting heart rate (continous)
+10. Maximum heart rate achieved (continous)
+11. Metabolic Equivalent of Task (METs) (continous)
+12. Peak Exercise blood pressure (tpeakbps) (continous)
+13. Exercise Induced Angina (binary)
+14. Exercise Stress Test (rldv5e) (continous)
+
+
 
 Now we're ready to dive into principle component analysis to become more familiar with our data.
 
