@@ -233,7 +233,7 @@ y_test = to_categorical(y_test)
 
 Test:
 
-<video src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_test.mp4" width="320" height="200" controls preload></video>
+<!-- <video src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_test.mp4" width="320" height="200" controls preload></video> -->
 
 
 ## Ensembling/Stacking 
