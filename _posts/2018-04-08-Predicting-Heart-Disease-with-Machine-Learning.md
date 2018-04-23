@@ -194,7 +194,7 @@ plt.show()
 
 {% endhighlight %}
 
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/pca_result.png" >
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_dis_pca_results.png" >
 
 {% highlight python %}
 explained_variance = pca_2.explained_variance_ratio_
