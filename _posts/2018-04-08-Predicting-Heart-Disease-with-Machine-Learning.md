@@ -244,6 +244,7 @@ nn_attr_scaled = StandardScaler().fit_transform(nn_attr)
 
 Considering all of our data is standardized, we can divide our data into a 'train' dataset and a 'test' dataset. To legitimately evaluate the efficacy of the fitted, or trained model, we must use data that did NOT train the data. The data science community calls the unfitted data 'unseen.' The rule of thumb is to divide the master DataFrame into separate 70-75% train and 20-25% test DataFrames. There are manual ways to Pythonically complete this task, but using the popular machine learning library sci-kit learn, the function train_test_split does all the heavy lifting:
 
+{% highlight python %}
 X_train, X_test, y_train, y_test = train_test_split(
 nn_attr_scaled, target, train_size=0.80, random_state=42)
 X_train.shape
