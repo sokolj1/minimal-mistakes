@@ -154,9 +154,9 @@ from sklearn import preprocessing
 pca_numpy = pca_attr.dropna().values
 {% endhighlight %}
 
-In order to obtain the most accurate the PCA analysis results or model fitting, the data needs to be _scaled_. If not, features that has higher quantitative values will influence the results far more than other features. There are several methods to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the feature standard deviation. Mathematically speaking: 
+In order to obtain the most accurate PCA analysis results, the data needs to be _scaled_. One of the most important aspects of data preprocessing, if scaling is overlooked then features that have higher quantitative values will influence the results far more than the other features. There are several ways to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the difference by the feature standard deviation. Mathematically speaking: 
 
-$$f(x) = \frac{X - /bar{X}{std(X)}$$
+$$f(x) = \frac{X - /bar{X}{std(X)}}$$
 
 {% highlight python %}
 pca_scaled = StandardScaler().fit_transform(pca_numpy)
