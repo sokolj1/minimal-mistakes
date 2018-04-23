@@ -78,12 +78,12 @@ target = master_df[['DIAGNOSIS']].reset_index(drop=True).replace([2,3,4], value 
 
 Feature selection is one of the most important aspects of machine learning. These features will serve as the foundation of your model; the right features should be chosen with considerable research and rationale for each decision. For our example, the data scientist should consult healthcare professionals such as cardiologists and ECG/EKG technicians to determine the features that reliably diagnosis heart disease. 
 
-Unfortunately, by using an already aggregated dataset from a repository, only the data present is useable. The main contributing factors for my feature decisions were the following: 
+Unfortunately, by using an already aggregated dataset from a repository, only the data present is useable. The main factors that influenced my decision for selection of each feature was the following: 
 - Presence of clean data, as the dataset is dirty beyond belief. For instance, a few features that were viable in the Cleveland dataset had missing/invalid values in the Long Beach dataset. 
-- I have basic heart disease risk factor knowledge stemming from my undergraduate studies and working as a Pharmacy Techician, so I know classic indicators such as blood pressure, cholesterol, and family history are important features to include for the model. Lifestyle choices also have a major influence on heart health, so I choose several exercise and smoking metrics to incldue in the study. 
-- Features should have no presence or small degree of multicollinearily. Considering logisitic regression is a generalized linear model (GLM), multicollinearity may result in inconsistent parameter estimates. So fitting the training data several times can yield vastly different optimized parameters (weights) each time. This can lead to different out of sample error, making the model's predictive power too inconsistent to use.
+- Using heart disease risk factor knowledge derived from my undergraduate studies and working as a Pharmacy Techician, so I know classic indicators such as blood pressure, cholesterol, and family history are important features to include for the model. Lifestyle choices also have a major influence on heart health, so I choose several exercise and smoking metrics to incldue in the study. 
+- Features should have no presence or minimal degree of multicollinearily. Considering logisitic regression is a generalized linear model (GLM), multicollinearity may result in inconsistent parameter estimates. So fitting the training data can yield vastly different optimized parameters (weights) each time the model is fitted. This can lead to huge variations in the out of sample error, making the model's predictive power too inconsistent for viability. 
 - Features should not be redundant. The dataset has many instances of continous and discrete measures for features that are the same i.e cigarettes per day (0 - 100 cigarettes) and smoker? (1 or 0), resting blood pressure (90 to 200 mm Hg) and hypertension (1 or 0). So for these examples, I kept the continous features and left out the redundant binary features. 
-Ultimately, I narrowed down the selection to 14 features: 
+Ultimately, I narrowed down the selection to 14 features: 10 continous and 4 binary. 
 
 
 1. Age (continous)
@@ -101,15 +101,13 @@ Ultimately, I narrowed down the selection to 14 features:
 13. Exercise Induced Angina (binary)
 14. Exercise Stress Test (rldv5e) (continous)
 
-
-
 Now we're ready to dive into principle component analysis to become more familiar with our data.
 
 ## Principle Component Analysis (PCA)
 
 Principle component analysis, or colloquially known as dimensionality reduction, is a statistical procedure that uses eigenvalue decomposition to generalize the most important features in a dataset. PCA simplifies the complexity of high dimensional (many features) data while retaining trends and patterns. For example, the popular beginner machine learning [MNIST Database](http://yann.lecun.com/exdb/mnist/) of handwritten digits has 60,000 observations (rows) and 785 features (columns). [A Kaggler](https://www.kaggle.com/ddmngml/pca-and-svm-on-mnist-dataset) that completed PCA on this dataset effectively reduced the MNIST dimensions from 785 to 16, and retained 59% of the variance, or information that the original dataset conveyed. In a separate trial, he also reduced the dataset from 785 to 49, and retained 82% of the variance. By simplifying the dataset into principle components, we can observe features that contribute more information to the dataset than others, speed up process time if the dimensionality reduced is significant, and visualize trends and patterns of datasets that have many features. 
 
-PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, continous values must be used for PCA analysis: 
+PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, the 10 continous values out of the total 14 must be used for PCA analysis: 
 
 1. Age
 2. Resting blood pressure 
