@@ -310,17 +310,82 @@ There are 94 observations in y_test. Since the return dictionary returns the res
 
 I consider a model above 70% accuracy to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 73% accuracy is excellent. The data scientist can always reconfigure the model architecture, since building a solid neural network stems from iterations of trial and error based off of intuition and experience. 
 
-However, I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model from the heart disease dataset. Spoiler: logistic regression yields greater error out accuracy than my neural network model. 
+However, I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model with the same features from the heart disease dataset. Spoiler: logistic regression yields greater error out accuracy than my neural network model. 
+
+K-folds cross validation should increase model error out accuracy considering the model uses _all_ observations for model training. The observations are randomly divided into train and test datasets, the model is fitted, then the model is randomly divided again, fitted, and so on, K times with resampling. So all observations are used as training data to fit the model. To determine final accuracy output, all of the model accuracies are averaged for a cumulative accuracy score. This model uses 10 fold cross validation. 
+
+{% highlight python %}
+# establish K-folds cross validation
+kf = StratifiedKFold(np.reshape(target.values, [375,]), n_folds = 10, random_state = None, shuffle = True)
+
+# Logistic regression with 10 fold stratified cross-validation using model specific cross-validation in scikit-learn
+lgclf = LogisticRegressionCV(Cs=list(np.power(10.0, np.arange(-10, 10))),penalty = 'l2',scoring = 'roc_auc',cv = kf)
+lgclf.fit(nn_attr_scaled, target)
+y_pred = lgclf.predict(nn_attr_scaled)
+
+# Show classification report for the best model (set of parameters) run over the full dataset
+print("Classification report:")
+print(classification_report(target, y_pred))
+
+# Show accuracy and area under ROC curve
+print("Accuracy: %0.3f" % accuracy_score(target, y_pred, normalize=True))
+print("Aucroc: %0.3f" % metrics.roc_auc_score(target, y_pred))
+
+{% endhighlight %}
+
+{% highlight python %}
+# logisitic regression cross validation: binary response, at risk or no risk
+def suggest_diag_binary(age, sex, resting_blood_pressure, cholesterol, cigarettes_per_day, 
+years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, mets, tpeakbps, exer_ind_angina, rldv5e):
+    
+    features = np.column_stack([age, sex, resting_blood_pressure, cholesterol, cigarettes_per_day, 
+    years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, mets, tpeakbps, exer_ind_angina, rldv5e])
+    
+    features_scaled = scaler.transform(features)
+    prediction = lgclf.predict(features_scaled)[0].tolist()
+    
+    pred_str = []
+    if (prediction == 1): 
+        pred_str.append("At Risk")
+    else: 
+        pred_str.append("No Risk")
+    
+    return(pred_str)
+
+suggest_diag_binary(18, 0, 120, 150, 0, 0, 0,0, 65, 200, 15, 140, 0, 93)
+
+{% endhighlight %}
+
+
+{% highlight python %}
+# logisitic regression cross validation: probability, 0 - 100%
+def suggest_diag_prob(age, sex, resting_blood_pressure, cholesterol, cigarettes_per_day, 
+years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, mets, tpeakbps, exer_ind_angina, rldv5e):
+    
+    features = np.column_stack([age, sex, resting_blood_pressure, cholesterol, cigarettes_per_day, 
+    years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, mets, tpeakbps, exer_ind_angina, rldv5e])
+    
+    features_scaled = scaler.transform(features)
+    predict_proba = lgclf.predict_proba(features_scaled)[0,1].tolist()
+    
+    return(predict_proba)
+suggest_diag_prob(18, 0, 120, 150, 0, 0, 0,0, 65, 200, 15, 140, 0, 93)
+{% endhighlight %}
 
 
 
 
-Test:
 
-<!-- <video src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_test.mp4" width="320" height="200" controls preload></video> -->
+## Connect to TabPy
 
+{% highlight python %}
+# Connect to TabPy server using the client library
+connection = tabpy_client.Client('http://localhost:9004')
 
-## Ensembling/Stacking 
+# Publish the suggest_diag_prob function to TabPy server so it can be used from Tableau
+connection.deploy('heart_disease_logregcv_prob',
+                  suggest_diag_prob, override = True)
+{% endhighlight %}
 
 <video width="480" height="320" controls="controls">
   <source src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_video_final.mp4" type="video/mp4">
