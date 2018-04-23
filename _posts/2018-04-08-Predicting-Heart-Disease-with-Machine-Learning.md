@@ -139,7 +139,7 @@ square = True, cmap = colormap, linecolor = 'white', annot = True)
 plt.show()
 {% endhighlight %}
 
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_dis_pearsoncor.png" >
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/hd_pearson_correlation.png" >
 
 A Notable positive correlations amongst the data are cigarettes per day as years as a smoker also increases. 
 
