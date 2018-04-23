@@ -242,7 +242,7 @@ Just as we did with PCA, our neural network data must be scaled:
 nn_attr_scaled = StandardScaler().fit_transform(nn_attr)
 {% endhighlight %}
 
-Considering all of our data is standardized, we can divide our data into a 'train' dataset and a 'test' dataset. To legitimately evaluate the efficacy of the fitted, or trained model, we must use data that did NOT train the data. The data science community calls the unfitted data 'unseen.' The rule of thumb is to divide the master DataFrame into separate 70-75% train and 20-25% test DataFrames. There are manual ways to Pythonically complete this task, but using the popular machine learning library sci-kit learn, the function train_test_split does all the heavy lifting:
+Considering all of our data is standardized, we can divide our data into a 'train' dataset and a 'test' dataset. To legitimately evaluate the efficacy of the fitted, or trained model, we must use data that did NOT train the neural network. The data science community calls the unfitted data 'unseen.' The rule of thumb is to divide the master DataFrame into separate 70-75% train and 20-25% test DataFrames. There are manual ways to Pythonically complete this task, but using the popular machine learning library sci-kit learn, the function train_test_split does all the heavy lifting:
 
 {% highlight python %}
 X_train, X_test, y_train, y_test = train_test_split(
@@ -257,21 +257,63 @@ y_test = to_categorical(y_test)
 ### Model Architecture
 
 {% highlight python %}
+# number of DataFrame columns, or number of features. Used to initialize NN model architecture 
+n_cols = nn_attr.shape[1]
 
+# establish the neural network by declaring a Sequential model format
+model = Sequential()
+
+# input layer
+model.add(Dense(100, activation='relu', input_shape=(n_cols,)))
+
+# use batch normalization to normalize input
+model.add(BatchNormalization())
+
+# first hidden layer
+model.add(Dense(100, activation='relu'))
+
+# second hidden layer 
+model.add(Dense(100, activation='relu'))
+
+model.add(Dropout(0.10))
+
+# output layer
+model.add(Dense(2, activation = 'softmax'))
+
+# compile neural network by optimizing loss function (categorical cross entropy) using stochasic gradient descent. 
+model.compile(loss = 'binary_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
+
+early_stopping_monitor = EarlyStopping(patience = 2)
+
+model_training = model.fit(X_train, y_train_cat, epochs = 50, callbacks = [early_stopping_monitor])
 
 {% endhighlight %}
 
 
-### Overfitting Prevention Practices
-
-- L2 Regularization 
-- Dropout 
-- Input noise 
 
 
+{% highlight python %}
 
+pred = model.predict(X_test, verbose = False)
+
+pred_boolean = np.round(pred)
+
+boolean = (y_test_cat == pred_boolean)
+unique, counts = np.unique(boolean, return_counts = True)
+dict(zip(unique, counts))
+
+{% endhighlight %}
+
+There are 94 observations in y_test. Since the return dictionary returns the result (matches or no match) twice, and dict(zip()) counts all instances of true and false in the array, divide the amount of true instances (138) in half to obtain 68 observations that were predicted correctly. Divide this value by the total number of observations (94) to obtain an error-out value of ~73%.
 
 ## Alternative Machine Learning Techniques
+
+I consider a model above 70% accuracy to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 73% accuracy is excellent. The data scientist can always reconfigure the model architecture, since building a solid neural network stems from iterations of trial and error based off of intuition and experience. 
+
+However, I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model from the heart disease dataset. Spoiler: logistic regression yields greater error out accuracy than my neural network model. 
+
+
+
 
 Test:
 
