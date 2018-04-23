@@ -119,21 +119,21 @@ PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, the
 8. Peak exercise blood pressure (Part 1)
 9. Height of peak exercise ST measurement
 
-We need to filter the master DataFrame to a new DataFrame that consists of just these attributes: 
+We will filter the master DataFrame to a new DataFrame that consists of just these continous attributes: 
 
 {% highlight python %}
-pca_attr = master_df.loc[:,['age','resting_blood_pressure','cholesterol',
-'cigarettes_per_day','years_as_smoker','resting_hr','max_hr_ach','tpeakbps', 'rldv5e']]
+pca_analysis = master_df.loc[:,['age','resting_blood_pressure','cholesterol',
+'cigarettes_per_day','years_as_smoker','resting_hr','max_hr_ach','mets', 'tpeakbps','rldv5e']]
 {% endhighlight %}
 
-And visualize the correlation between each attribute by creating a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating an unequivocal negative correlation, 0 indicating no correlation, and 1 indicating an unequivocal positive correlation. 
+And visualize the correlation between each attribute by creating a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating a negative correlation, 0 indicating no correlation, and 1 indicating a positive correlation. 
 
 {% highlight python %}
 
 colormap = plt.cm.RdBu
-plt.figure(figsize=(14,12))
+plt.figure(figsize = (14,12))
 plt.title('Heart Disease Pearson Correlation of Features', y = 1.05, size = 15)
-sns.heatmap(pca_attr.astype(float).corr(),linewidths = 0.1,vmax = 1.0, 
+sns.heatmap(pca_analysis.astype(float).corr(),linewidths = 0.1,vmax = 1.0, 
 square = True, cmap = colormap, linecolor = 'white', annot = True)
 
 plt.show()
@@ -141,17 +141,24 @@ plt.show()
 
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/hd_pearson_correlation.png" >
 
-A Notable positive correlations amongst the data are cigarettes per day as years as a smoker also increases. 
+A notable positive correlation amongst the data is cigarettes per day as years as a smoker increases. 
 
+We'll now dive into the PCA code: 
 {% highlight python %}
 # import necessary Python libraries for PCA 
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn import preprocessing
+
+# drop NA values and convert from type DataFrame to Numpy array
+pca_numpy = pca_attr.dropna().values
 {% endhighlight %}
 
+In order to obtain the most accurate the PCA analysis results or model fitting, the data needs to be _scaled_. If not, features that has higher quantitative values will influence the results far more than other features. There are several methods to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the feature standard deviation. Mathematically speaking: 
+
+$$f(x) = \frac{X - /bar{X}{std(X)}$$
+
 {% highlight python %}
-pca_numpy = pca_attr.dropna().values
 pca_scaled = StandardScaler().fit_transform(pca_numpy)
 
 pca_2 = PCA(n_components=2)
