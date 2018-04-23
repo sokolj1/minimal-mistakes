@@ -78,7 +78,13 @@ target = master_df[['DIAGNOSIS']].reset_index(drop=True).replace([2,3,4], value 
 
 Feature selection is one of the most important aspects of machine learning. These features will serve as the foundation of your model; the right features should be chosen with considerable research and rationale for each decision. For our example, the data scientist should consult healthcare professionals such as cardiologists and ECG/EKG technicians to determine the features that reliably diagnosis heart disease. 
 
-Unfortunately, by using a pre-aggregated dataset, only features that are present are workable, and additional features can not be added. The main contributing factor for my feature decisions were presence of clean data; the dataset is dirty beyond belief. A few features that were viable in the Cleveland dataset had missing/invalid values in the Long Beach dataset. Nonetheless, I narrowed down the selection to 14 features: 
+Unfortunately, by using an already aggregated dataset from a repository, only the data present is useable. The main contributing factors for my feature decisions were the following: 
+- Presence of clean data, as the dataset is dirty beyond belief. For instance, a few features that were viable in the Cleveland dataset had missing/invalid values in the Long Beach dataset. 
+- I have basic heart disease risk factor knowledge stemming from my undergraduate studies and working as a Pharmacy Techician, so I know classic indicators such as blood pressure, cholesterol, and family history are important features to include for the model. Lifestyle choices also have a major influence on heart health, so I choose several exercise and smoking metrics to incldue in the study. 
+- Features should have no presence or small degree of multicollinearily. Considering logisitic regression is a generalized linear model (GLM), multicollinearity may result in inconsistent parameter estimates. So fitting the training data several times can yield vastly different optimized parameters (weights) each time. This can lead to different out of sample error, making the model's predictive power too inconsistent to use.
+- Features should not be redundant. The dataset has many instances of continous and discrete measures for features that are the same i.e cigarettes per day (0 - 100 cigarettes) and smoker? (1 or 0), resting blood pressure (90 to 200 mm Hg) and hypertension (1 or 0). So for these examples, I kept the continous features and left out the redundant binary features. 
+Ultimately, I narrowed down the selection to 14 features: 
+
 
 1. Age (continous)
 2. Sex (binary)
