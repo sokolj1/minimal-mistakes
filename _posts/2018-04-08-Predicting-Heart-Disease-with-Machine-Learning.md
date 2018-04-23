@@ -221,21 +221,28 @@ Neural networks, also referred to as deep learning in a broad sense, is a biolog
 
 
 {% highlight python %}
-# import necessary keras packages for Deep Learning
+# import necessary Keras packages for Deep Learning
 from keras.layers import Dense, Dropout
 from keras.models import Sequential
 from keras.utils import to_categorical
 from keras.callbacks import EarlyStopping
 from sklearn.model_selection import train_test_split
 
+# store pertinent features in separate DataFrame to build the neural network:
 nn_attr = master_df2.loc[:,['age','sex','cp_type','resting_blood_pressure','hypertension',
 'cholesterol','cigarettes_per_day','years_as_smoker', 'fasting_blood_sugar', 'hist_heart_dis','resting_hr','max_hr_ach','tpeakbps', 'exer_ind_angina', 'rldv5e']]
 
+# number of DataFrame columns, or number of features. Used to initialize NN model architecture 
 n_cols = nn_attr.shape[1]
 {% endhighlight %}
 
+Just as we did with PCA, our neural network data must be scaled: 
+
 {% highlight python %}
 nn_attr_scaled = StandardScaler().fit_transform(nn_attr)
+{% endhighlight %}
+
+Considering all of our data is standardized, we can divide our data into a 'train' dataset and a 'test' dataset. To legitimately evaluate the efficacy of the fitted, or trained model, we must use data that did NOT train the data. The data science community calls the unfitted data 'unseen.' The rule of thumb is to divide the master DataFrame into separate 70-75% train and 20-25% test DataFrames. There are manual ways to Pythonically complete this task, but using the popular machine learning library sci-kit learn, the function train_test_split does all the heavy lifting:
 
 X_train, X_test, y_train, y_test = train_test_split(
 nn_attr_scaled, target, train_size=0.80, random_state=42)
