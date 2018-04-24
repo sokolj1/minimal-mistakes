@@ -36,6 +36,8 @@ Preventative care implements healthcare prophylaxis measures to prevent people f
  
 Although healthcare professionals invoke incredible decision making abilities upon rendering a diagnosis, data science can help healthcare professionals regarding patient diagnosis for heart disease. The healthcare industry collects a substantial amount of data for each individual patient with appointments, office/lab tests, and medical history. With mainstream adoption of artifical intelligence and machine learning, the same attributes that healthcare professionals use to traditionally diagnose a patient with likelihood of heart disease along with additional attributes can be leveraged to create machine learning models that help nurses, physician assistants, and medical doctors understand their patient's health and make better decisions. By implementing a heart disease prediction system using machine learning techniques, this system will "learn" or fit from labeled data, creating a model that can probabilistically predict the likelihood that a patient will be diagnosed with heart disease. 
 
+Once the machine learning model is fitted, the Python code can be deployed to Tableau using TabPy. This API allows for a graphical user interface in which the end user can modify patient data in Tableau parameter fields. The parameters serve as arguments for the backend machine learning Python functions that ultimately returns a binary prediction (no presence or presence of heart disease) in addition to the probability of the latter being true. 
+
 ## Data Source: University of California Irvine (UCI) Machine Learning Repository
 
 The data for this case study was obtained from UCI's machine learning repository. The dataset is compartmentalized into four txt files by donating city: 
@@ -348,11 +350,12 @@ print(classification_report(target, y_pred))
 # Show accuracy and area under ROC curve
 print("Accuracy: %0.3f" % accuracy_score(target, y_pred, normalize=True))
 print("Aucroc: %0.3f" % metrics.roc_auc_score(target, y_pred))
-
 {% endhighlight %}
 
+It turns out that using logistic regression results in an error out of 78%. This will be our deployable TabPy function. 
+
 {% highlight python %}
-# logisitic regression cross validation: binary response, at risk or no risk
+# logistic regression cross validation: binary response, at risk or no risk
 def suggest_diag_binary(age, sex, resting_blood_pressure, cholesterol, cigarettes_per_day, 
 years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, mets, tpeakbps, exer_ind_angina, rldv5e):
     
@@ -392,9 +395,8 @@ suggest_diag_prob(18, 0, 120, 150, 0, 0, 0,0, 65, 200, 15, 140, 0, 93)
 
 
 
-
-
 ## Connect to TabPy
+
 
 {% highlight python %}
 # Connect to TabPy server using the client library
