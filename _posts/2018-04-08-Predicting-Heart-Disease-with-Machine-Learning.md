@@ -376,7 +376,7 @@ suggest_diag_binary(18, 0, 120, 150, 0, 0, 0,0, 65, 200, 15, 140, 0, 93)
 
 
 {% highlight python %}
-# logisitic regression cross validation: probability, 0 - 100%
+# logistic regression cross validation: probability, 0 - 100%
 def suggest_diag_prob(age, sex, resting_blood_pressure, cholesterol, cigarettes_per_day, 
 years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, mets, tpeakbps, exer_ind_angina, rldv5e):
     
