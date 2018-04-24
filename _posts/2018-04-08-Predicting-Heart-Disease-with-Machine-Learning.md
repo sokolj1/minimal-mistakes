@@ -239,7 +239,8 @@ n_cols = nn_attr.shape[1]
 Just as we did with PCA, our neural network data must be scaled: 
 
 {% highlight python %}
-nn_attr_scaled = StandardScaler().fit_transform(nn_attr)
+scaler = preprocessing.StandardScaler().fit(nn_attr)
+nn_attr_scaled = scaler.transform(nn_attr)
 {% endhighlight %}
 
 Considering all of our data is standardized, we can divide our data into a 'train' dataset and a 'test' dataset. To legitimately evaluate the efficacy of the fitted, or trained model, we must use data that did NOT train the neural network. The data science community calls the unfitted data 'unseen.' The rule of thumb is to divide the master DataFrame into separate 70-75% train and 20-25% test DataFrames. There are manual ways to Pythonically complete this task, but using the popular machine learning library sci-kit learn, the function train_test_split does all the heavy lifting:
@@ -247,7 +248,18 @@ Considering all of our data is standardized, we can divide our data into a 'trai
 {% highlight python %}
 X_train, X_test, y_train, y_test = train_test_split(
 nn_attr_scaled, target, train_size=0.80, random_state=42)
-X_train.shape
+{% endhighlight %}
+
+We also need to reshape the diagnosis (label) dataset. The _to_categorical_ function converts a class vector to a binary class matrix. For example, instead of the y_train and y_test datasets consisting of n rows and 1 column of 1's and 0's depending on the diagnosis, _to_categorical_ reshapes these DataFrames to n rows and 2 columns, one for each class: 
+
+<figure class="half">
+    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/y_test.png" >
+    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/y_test_cat.png" >
+    <figcaption> Left: y_test DataFrame before categorical reshaping; Right: y_test DataFrame after using to_categorical function.</figcaption>
+</figure>
+
+
+{% highlight python %}
 
 y_train = to_categorical(y_train)
 y_test = to_categorical(y_test)
