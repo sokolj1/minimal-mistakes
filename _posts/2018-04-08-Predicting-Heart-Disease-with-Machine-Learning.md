@@ -324,7 +324,7 @@ To illustrate the predictions of the model, a confusion matrix is created. The d
 
 
 
-## Alternative Machine Learning Techniques
+## Alternative Machine Learning Technique: Logistic Regression
 
 I consider a model above 70% accuracy to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 73% accuracy is excellent. The data scientist can always reconfigure the model architecture, since building a solid neural network stems from iterations of trial and error based off of intuition and experience. 
 
