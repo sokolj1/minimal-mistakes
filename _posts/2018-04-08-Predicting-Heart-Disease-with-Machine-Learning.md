@@ -372,7 +372,7 @@ connection.deploy('heart_disease_logregcv_prob',
                   suggest_diag_prob, override = True)
 {% endhighlight %}
 
-TabPy should now to communicating with the Python script or iPython notebook. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public like the chloropeth dashboard. Nonetheless, I improvised and took a 30 second on-screen video to showcase the dashboard. After several tedious days of tweaking the design, the final product is depicted in the video below: 
+TabPy should now be communicating with the Python script or iPython notebook. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public like the chloropeth dashboard. Nonetheless, I improvised and took a 30 second on-screen video to showcase the dashboard. After several tedious days of tweaking the design, the final product is depicted in the video below: 
 
 <video width="480" height="320" controls="controls">
   <source src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_video_final.mp4" type="video/mp4">
