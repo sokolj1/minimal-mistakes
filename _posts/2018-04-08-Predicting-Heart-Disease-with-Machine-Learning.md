@@ -82,7 +82,7 @@ Feature selection is one of the most important aspects of machine learning. Thes
 
 Unfortunately, by using an already aggregated dataset from a repository, only the data present is useable. The main factors that influenced my decision for selection of each feature was the following: 
 - Presence of clean data, as the dataset is dirty beyond belief. For instance, a few features that were viable in the Cleveland dataset had missing/invalid values in the Long Beach dataset. 
-- Using heart disease risk factor knowledge derived from my undergraduate studies and working as a Pharmacy Techician, so I know classic indicators such as blood pressure, cholesterol, and family history are important features to include for the model. Lifestyle choices also have a major influence on heart health, so I choose several exercise and smoking metrics to incldue in the study. 
+- Using heart disease risk factor knowledge derived from my undergraduate studies and working as a Pharmacy Techician. I know classic indicators such as blood pressure, cholesterol, and family history are important features to include for the model. Lifestyle choices also have a major influence on heart health, so I choose several exercise and smoking metrics to incldue in the study. 
 - Features should have no presence or minimal degree of multicollinearily. Considering logisitic regression is a generalized linear model (GLM), multicollinearity may result in inconsistent parameter estimates. So fitting the training data can yield vastly different optimized parameters (weights) each time the model is fitted. This can lead to huge variations in the out of sample error, making the model's predictive power too inconsistent for viability. 
 - Features should not be redundant. The dataset has many instances of continous and discrete measures for features that are the same i.e cigarettes per day (0 - 100 cigarettes) and smoker? (1 or 0), resting blood pressure (90 to 200 mm Hg) and hypertension (1 or 0). So for these examples, I kept the continous features and left out the redundant binary features. 
 Ultimately, I narrowed down the selection to 14 features: 10 continous and 4 binary. 
@@ -380,7 +380,7 @@ TabPy should now be communicating with the Python script or iPython notebook. Un
 
 I hope you enjoyed reading this post about my semester long project for Data Analysis and Operations Research. Feel free to comment below. Thank you! 
 
-- John
+John
 
  
 
