@@ -318,6 +318,12 @@ dict(zip(unique, counts))
 
 There are 94 observations in y_test. Since the return dictionary returns the result (matches or no match) twice, and dict(zip()) counts all instances of true and false in the array, divide the amount of true instances (138) in half to obtain 68 observations that were predicted correctly. Divide this value by the total number of observations (94) to obtain an error-out value of ~73%.
 
+To illustrate the predictions of the model, a confusion matrix is created. The detailed code is in the Jupyter Notebook. 
+
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/hd_conf_matrix.png" >
+
+
+
 ## Alternative Machine Learning Techniques
 
 I consider a model above 70% accuracy to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 73% accuracy is excellent. The data scientist can always reconfigure the model architecture, since building a solid neural network stems from iterations of trial and error based off of intuition and experience. 
