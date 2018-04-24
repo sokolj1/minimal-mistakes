@@ -332,51 +332,13 @@ I consider a model above 70% accuracy to be a decent classifier. For this partic
 
 However, I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model with the same features from the heart disease dataset. Spoiler: logistic regression yields greater error out accuracy than my neural network model. 
 
-K-folds cross validation should increase model error out accuracy considering the model uses _all_ observations for model training. The observations are randomly divided into train and test datasets, the model is fitted, then the model is randomly divided again, fitted, and so on, K times with resampling. So all observations are used as training data to fit the model. To determine final accuracy output, all of the model accuracies are averaged for a cumulative accuracy score. This model uses 10 fold cross validation. 
+### Training logistic regression using k-folds method
 
-{% highlight python %}
-# establish K-folds cross validation
-kf = StratifiedKFold(np.reshape(target.values, [375,]), n_folds = 10, random_state = None, shuffle = True)
+K-folds cross validation increases model error out accuracy. The model uses _all_ observations for model training. The observations are randomly divided into train and test datasets, the model is fitted, then the model is randomly divided again, fitted, and so on, K times with resampling. So all observations are used as training data to fit the model. To determine final accuracy output, all of the model accuracies are averaged for a cumulative accuracy score. This model uses 10 fold cross validation. For the sake of brevity, please reference the logistic regression model fitting code in the Jupyter Notebook. 
 
-# Logistic regression with 10 fold stratified cross-validation using model specific cross-validation in scikit-learn
-lgclf = LogisticRegressionCV(Cs=list(np.power(10.0, np.arange(-10, 10))),penalty = 'l2',scoring = 'roc_auc',cv = kf)
-lgclf.fit(nn_attr_scaled, target)
-y_pred = lgclf.predict(nn_attr_scaled)
-
-# Show classification report for the best model (set of parameters) run over the full dataset
-print("Classification report:")
-print(classification_report(target, y_pred))
-
-# Show accuracy and area under ROC curve
-print("Accuracy: %0.3f" % accuracy_score(target, y_pred, normalize=True))
-print("Aucroc: %0.3f" % metrics.roc_auc_score(target, y_pred))
-{% endhighlight %}
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/logistic_reg_fitting.png" >
 
 It turns out that using logistic regression results in an error out of 78%. This will be our deployable TabPy function. 
-
-{% highlight python %}
-# logistic regression cross validation: binary response, at risk or no risk
-def suggest_diag_binary(age, sex, resting_blood_pressure, cholesterol, cigarettes_per_day, 
-years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, mets, tpeakbps, exer_ind_angina, rldv5e):
-    
-    features = np.column_stack([age, sex, resting_blood_pressure, cholesterol, cigarettes_per_day, 
-    years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, mets, tpeakbps, exer_ind_angina, rldv5e])
-    
-    features_scaled = scaler.transform(features)
-    prediction = lgclf.predict(features_scaled)[0].tolist()
-    
-    pred_str = []
-    if (prediction == 1): 
-        pred_str.append("At Risk")
-    else: 
-        pred_str.append("No Risk")
-    
-    return(pred_str)
-
-suggest_diag_binary(18, 0, 120, 150, 0, 0, 0,0, 65, 200, 15, 140, 0, 93)
-
-{% endhighlight %}
-
 
 {% highlight python %}
 # logistic regression cross validation: probability, 0 - 100%
@@ -397,6 +359,9 @@ suggest_diag_prob(18, 0, 120, 150, 0, 0, 0,0, 65, 200, 15, 140, 0, 93)
 
 ## Connect to TabPy
 
+Connecting Tableau to TabPy is relatively pain free after [installation](https://github.com/tableau/TabPy). Afterwards, run startup.sh (located in the TabPy-server folder) in the terminal to initiate the TabPy instance listening on localhost port 9004. Also ensure TabPy is [properly configured](https://www.tableau.com/about/blog/2016/11/leverage-power-python-tableau-tabpy-62077) in Tableau Desktop under Help > Settings and Performance > Manage External Connection.
+
+Once both tasks are complete, deploy the logistic regression function to Tableau.
 
 {% highlight python %}
 # Connect to TabPy server using the client library
@@ -407,11 +372,15 @@ connection.deploy('heart_disease_logregcv_prob',
                   suggest_diag_prob, override = True)
 {% endhighlight %}
 
+TabPy should now to communicating with the Python script or iPython notebook. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public like the chloropeth dashboard. Nonetheless, I improvised and took a 30 second on-screen video to showcase the dashboard. After several tedious days of tweaking the design, the final product is depicted in the video below: 
+
 <video width="480" height="320" controls="controls">
   <source src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_video_final.mp4" type="video/mp4">
 </video>
 
+I hope you enjoyed reading this post about my semester long project for Data Analysis and Operations Research. Feel free to comment below. Thank you! 
 
+- John
 
  
 
