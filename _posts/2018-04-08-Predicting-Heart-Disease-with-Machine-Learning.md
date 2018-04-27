@@ -40,7 +40,7 @@ Once the machine learning model is fitted, the Python code can be deployed to Ta
 
 ## Data Source: University of California Irvine (UCI) Machine Learning Repository
 
-The data for this case study was obtained from UCI's machine learning repository. The dataset is compartmentalized into four txt files by donating city: 
+The data for this case study was obtained from the UCI Machine Learning Repository. The dataset is compartmentalized into four text files by donating city: 
 - Cleveland, Ohio, United States
 - Long Beach, California, United States
 - Budapest, Hungary 
@@ -66,9 +66,9 @@ master_df.head()
 
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/master_df.png" >
 
-The master DataFrame as a total of 375 observations and 63 features.
+The master DataFrame has a total of 375 observations and 63 features.
 
-In order to complete PCA and fit machine learning models, its important to store our target labels in a separate DataFrame. The target labels are the diagnosis of heart disease. The doctors who collected the data determined the presence of heart disease in each patient on an integer value classification scale from 0 to 4: 0 indicates no presence of heart disease, and 4 indicates significant, concerning presence. For this study, we only care about binary classification of heart disease: 0 for no presence, and 1 for presence. 
+In order to complete PCA and fit machine learning models, it's important to store our target labels in a separate DataFrame. The target labels are the diagnosis of heart disease. The doctors who collected the data determined the presence of heart disease in each patient on an integer value classification scale from 0 to 4: 0 indicates no presence of heart disease, and 4 indicates significant, concerning presence. For this study, we only care about binary classification of heart disease: 0 for no presence, and 1 for presence. 
 
 The following python command converts prediction values of 2,3, and 4 to 1, so we're left with a DataFrame with only binary classification.
 
@@ -82,34 +82,34 @@ Feature selection is one of the most important aspects of machine learning. Thes
 
 Unfortunately, by using an already aggregated dataset from a repository, only the data present is useable. The main factors that influenced my decision for selection of each feature was the following: 
 - Presence of clean data, as the dataset is dirty beyond belief. For instance, a few features that were viable in the Cleveland dataset had missing/invalid values in the Long Beach dataset. 
-- Using heart disease risk factor knowledge derived from my undergraduate studies and working as a Pharmacy Techician. I know classic indicators such as blood pressure, cholesterol, and family history are important features to include for the model. Lifestyle choices also have a major influence on heart health, so I choose several exercise and smoking metrics to incldue in the study. 
-- Features should have no presence or minimal degree of multicollinearily. Considering logisitic regression is a generalized linear model (GLM), multicollinearity may result in inconsistent parameter estimates. So fitting the training data can yield vastly different optimized parameters (weights) each time the model is fitted. This can lead to huge variations in the out of sample error, making the model's predictive power too inconsistent for viability. 
-- Features should not be redundant. The dataset has many instances of continous and discrete measures for features that are the same i.e cigarettes per day (0 - 100 cigarettes) and smoker? (1 or 0), resting blood pressure (90 to 200 mm Hg) and hypertension (1 or 0). So for these examples, I kept the continous features and left out the redundant binary features. 
-Ultimately, I narrowed down the selection to 14 features: 10 continous and 4 binary. 
+- Using heart disease risk factor knowledge derived from my undergraduate studies and working as a Pharmacy Technician. I know classic indicators such as blood pressure, cholesterol, and family history are important features to include for the model. Lifestyle choices also have a major influence on heart health, so I choose several exercise and smoking metrics to include in the study. 
+- Features should have no presence or minimal degree of multicollinearity. Considering logistic regression is a generalized linear model (GLM), multicollinearity may result in inconsistent parameter estimates. So fitting the training data can yield vastly different optimized parameters (weights) each time the model is fitted. This can lead to huge variations in the out of sample error, making the model's predictive power too inconsistent for viability. 
+- Features should not be redundant. The dataset has many instances of continuous and discrete measures for features that are the same i.e cigarettes per day (0 - 100 cigarettes) and smoker? (1 or 0), resting blood pressure (90 to 200 mm Hg) and hypertension (1 or 0). So for these examples, I kept the continous features and left out the redundant binary features. 
+Ultimately, I narrowed down the selection to 14 features: 10 continuous and 4 binary. 
 
 
-1. Age (continous)
+1. Age (continuous)
 2. Sex (binary)
-3. Resting blood pressure (continous)
+3. Resting blood pressure (continuous)
 4. Cholesterol (continous)
-5. Cigarettes per day (continous)
-6. Years as smoker (continous
+5. Cigarettes per day (continuous)
+6. Years as smoker (continuous)
 7. Fasting blood sugar (binary)
 8. History of heart disease (binary)
-9. Resting heart rate (continous)
-10. Maximum heart rate achieved (continous)
-11. Metabolic Equivalent of Task (METs) (continous)
-12. Peak Exercise blood pressure (tpeakbps) (continous)
+9. Resting heart rate (continuous)
+10. Maximum heart rate achieved (continuous)
+11. Metabolic Equivalent of Task (METs) (continuous)
+12. Peak Exercise blood pressure (tpeakbps) (continuous)
 13. Exercise Induced Angina (binary)
-14. Exercise Stress Test (rldv5e) (continous)
+14. Exercise Stress Test (rldv5e) (continuous)
 
 Now we're ready to dive into principle component analysis to become more familiar with our data.
 
 ## Principle Component Analysis (PCA)
 
-Principle component analysis, or colloquially known as dimensionality reduction, is a statistical procedure that uses eigenvalue decomposition to generalize the most important features in a dataset. PCA simplifies the complexity of high dimensional (many features) data while retaining trends and patterns. For example, the popular beginner machine learning [MNIST Database](http://yann.lecun.com/exdb/mnist/) of handwritten digits has 60,000 observations (rows) and 785 features (columns). [A Kaggler](https://www.kaggle.com/ddmngml/pca-and-svm-on-mnist-dataset) that completed PCA on this dataset effectively reduced the MNIST dimensions from 785 to 16, and retained 59% of the variance, or information that the original dataset conveyed. In a separate trial, he also reduced the dataset from 785 to 49, and retained 82% of the variance. By simplifying the dataset into principle components, we can observe features that contribute more information to the dataset than others, speed up process time if the dimensionality reduced is significant, and visualize trends and patterns of datasets that have many features. 
+Principle component analysis, or colloquially known as dimensionality reduction, is a statistical procedure that uses eigenvalue decomposition to generalize the most important features in a dataset. PCA simplifies the complexity of high dimensional (many features) data while retaining trends and patterns. For example, the popular beginner machine learning [MNIST Database](http://yann.lecun.com/exdb/mnist/) of handwritten digits has 60,000 observations (rows) and 785 features (columns). [A Kaggler](https://www.kaggle.com/ddmngml/pca-and-svm-on-mnist-dataset) completed PCA on this dataset. He effectively reduced the MNIST dimensions from 785 to 16, and retained 59% of the variance, or information that the original dataset conveyed. In a separate trial, he also reduced the dataset from 785 to 49, and retained 82% of the variance. By simplifying the dataset into principle components, we can observe features that contribute more information to the dataset than others, speed up process time if the dimensionality reduced is significant, and visualize trends and patterns of datasets that have many features. 
 
-PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, the 10 continous values out of the total 14 must be used for PCA analysis: 
+PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, the 10 continuous values out of the total 14 must be used for PCA analysis: 
 
 1. Age
 2. Resting blood pressure 
@@ -156,7 +156,7 @@ from sklearn import preprocessing
 pca_numpy = pca_attr.dropna().values
 {% endhighlight %}
 
-In order to obtain the most accurate PCA analysis results, the data needs to be _scaled_. One of the most important aspects of data preprocessing, if scaling is overlooked then features that have higher quantitative values will influence the results far more than the other features. There are several ways to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the difference by the feature standard deviation. Mathematically speaking: 
+In order to obtain the most accurate PCA analysis results, the data needs to be _scaled_. This critical step is one of the most important aspects of data preprocessing. If scaling is overlooked, then features that have higher quantitative values will influence the results far more than the other features. There are several ways to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the difference by the feature standard deviation. Mathematically speaking: 
 
 $$f(x) = \frac{X - /bar{X}{std(X)}}$$
 
@@ -328,7 +328,7 @@ To illustrate the predictions of the model, a confusion matrix is created. The d
 
 ## Alternative Machine Learning Technique: Logistic Regression
 
-I consider a model above 70% accuracy to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 73% accuracy is excellent. The data scientist can always reconfigure the model architecture, since building a solid neural network stems from iterations of trial and error based off of intuition and experience. 
+Model accuracy above 70% accuracy is considered to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 73% accuracy is excellent. The data scientist can always reconfigure the model architecture, since building a solid neural network stems from iterations of trial and error based off of intuition and experience. 
 
 However, I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model with the same features from the heart disease dataset. Spoiler: logistic regression yields greater error out accuracy than my neural network model. 
 
