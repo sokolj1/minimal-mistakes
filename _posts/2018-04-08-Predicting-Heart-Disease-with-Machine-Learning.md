@@ -8,7 +8,7 @@ classes: wide
 
 ---
 
-## Predictive Analytics Case Study: A neural network and logisitic regression model is created to help healthcare professionals understand patient cardiovascular health
+## Predictive Analytics Case Study: A logisitic regression model is created to help healthcare professionals understand patient cardiovascular health
 
 Heart disease is described as any condition that detrimentally affects the heart. Heart disease is often used interchangeably with the term "cardiovascular disease." However, cardiovascular disease generally refers to conditions involving heart blockages such as atherosclerosis (narrowing or blocking of the arteries due to plaque buildup), whereas heart disease is an umbrella term that is inclusive of other heart conditions. Heart Disease can not only affect the arteries, but the heart muscle, valves, rhythm, or other important aspects of a well-functioning heart. 
 
