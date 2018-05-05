@@ -1,6 +1,6 @@
 ---
 header:
-  image: /assets/internal_structures_2_0.png
+  image: /TabPy Dashboard.png
   
 author_profile: true
 
