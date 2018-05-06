@@ -48,33 +48,11 @@ The data for this case study was obtained from the UCI Machine Learning Reposito
 
 Considering the focus on heart disease in the United States, only the Cleveland and Long Beach files were used for this study. After rigorous data cleaning, both files were converted into csv files and imported into a Pandas Python DataFrame: 
 
-{% highlight python %}
-# import pertinent Python data manipulation and visualization libraries
-import pandas as pd
-import numpy as np
-import matplotlib.pylab as plt
-import seaborn as sns
-
-# read in cleveland and long beach datasets
-cleveland = pd.read_csv('cleveland_clean_3.csv', sep = ',', header = 2)
-longbeach = pd.read_csv('long-beach-va_storage_1.csv', sep = ',', header = 2)
-
-# concatenate both datasets into one Pandas DataFrame; observe first 5 rows
-master_df = pd.concat([cleveland,longbeach])
-master_df.head()
-{% endhighlight %}
-
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/master_df.png" >
 
 The master DataFrame has a total of 375 observations and 63 features.
 
 In order to complete PCA and fit machine learning models, it's important to store our target labels in a separate DataFrame. The target labels are the diagnosis of heart disease. The doctors who collected the data determined the presence of heart disease in each patient on an integer value classification scale from 0 to 4: 0 indicates no presence of heart disease, and 4 indicates significant, concerning presence. For this study, we only care about binary classification of heart disease: 0 for no presence, and 1 for presence. 
-
-The following python command converts prediction values of 2,3, and 4 to 1, so we're left with a DataFrame with only binary classification.
-
-{% highlight python %}
-target = master_df[['DIAGNOSIS']].reset_index(drop=True).replace([2,3,4], value = [1,1,1])
-{% endhighlight %}
 
 ## Selecting the Features for Analysis
 
@@ -378,7 +356,7 @@ TabPy should now be communicating with the Python script or iPython notebook. Un
   <source src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_video_final.mp4" type="video/mp4">
 </video>
 
-I hope you enjoyed reading this post about my semester long project for Data Analysis and Operations Research. Feel free to comment below. Thank you! 
+I hope you enjoyed reading this post about my semester long project for Data Analysis and Operations Research. Feel free to comment below. Thank you!
 
 John
 
