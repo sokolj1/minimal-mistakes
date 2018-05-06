@@ -65,6 +65,23 @@ Unfortunately, by using an already aggregated dataset from a repository, only th
 - Features should not be redundant. The dataset has many instances of continuous and discrete measures for features that are the same i.e cigarettes per day (0 - 100 cigarettes) and smoker? (1 or 0), resting blood pressure (90 to 200 mm Hg) and hypertension (1 or 0). So for these examples, I kept the continous features and left out the redundant binary features. 
 Ultimately, I narrowed down the selection to 14 features: 10 continuous and 4 binary. 
 
+| Feature                     | Type              |     
+|                         ---                     |
+|  Age                        | continuous        |
+|  Resting blood pressure     | continuous        |
+|  Cholesterol                | continuous        |
+|  Cigarettes per day         | continuous        |
+|   Years as smoker           | continuous        |
+|   Resting heart rate        | continuous        |
+|  Maximum heart rate achieved| continuous        |
+|  Metabolic Equivalent of Task (METs)  | continuous   |
+|  Peak Exercise blood pressure (tpeakbps)| continuous |
+|  Exercise Stress Test (rldv5e)     | continuous   |
+|  Fasting blood sugar               | binary       |
+|  History of heart disease          | binary       |
+|  Exercise Induced Angina           | binary       |
+|  Sex                               | binary       |
+
 
 1. Age (continuous)
 2. Sex (binary)
