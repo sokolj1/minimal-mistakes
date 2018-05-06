@@ -88,26 +88,9 @@ Now we're ready to dive into principle component analysis to become more familia
 
 Principle component analysis, or colloquially known as dimensionality reduction, is a statistical procedure that uses eigenvalue decomposition to generalize the most important features in a dataset. PCA simplifies the complexity of high dimensional (many features) data while retaining trends and patterns. For example, the popular beginner machine learning [MNIST Database](http://yann.lecun.com/exdb/mnist/) of handwritten digits has 60,000 observations (rows) and 785 features (columns). [A Kaggler](https://www.kaggle.com/ddmngml/pca-and-svm-on-mnist-dataset) completed PCA on this dataset. He effectively reduced the MNIST dimensions from 785 to 16, and retained 59% of the variance, or information that the original dataset conveyed. In a separate trial, he also reduced the dataset from 785 to 49, and retained 82% of the variance. By simplifying the dataset into principle components, we can observe features that contribute more information to the dataset than others, speed up process time if the dimensionality reduced is significant, and visualize trends and patterns of datasets that have many features. 
 
-PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, the 10 continuous values out of the total 14 must be used for PCA analysis: 
+PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, the 10 continuous values out of the total 14 are the only attributes that can be used for PCA analysis. 
 
-1. Age
-2. Resting blood pressure 
-3. Cholesterol 
-4. Cigarettes per day
-5. Years as smoker 
-6. Resting heart rate 
-7. Maximum heart rate achieved 
-8. Peak exercise blood pressure (Part 1)
-9. Height of peak exercise ST measurement
-
-We will filter the master DataFrame to a new DataFrame that consists of just these continous attributes: 
-
-{% highlight python %}
-pca_analysis = master_df.loc[:,['age','resting_blood_pressure','cholesterol',
-'cigarettes_per_day','years_as_smoker','resting_hr','max_hr_ach','mets', 'tpeakbps','rldv5e']]
-{% endhighlight %}
-
-And visualize the correlation between each attribute by creating a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating a negative correlation, 0 indicating no correlation, and 1 indicating a positive correlation. 
+We will filter the master DataFrame to a new DataFrame that consists of just these continous attributes, then visualize the correlation between each attribute by creating a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating a negative correlation, 0 indicating no correlation, and 1 indicating a positive correlation. 
 
 {% highlight python %}
 
