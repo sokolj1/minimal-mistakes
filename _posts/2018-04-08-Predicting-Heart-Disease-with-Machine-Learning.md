@@ -92,20 +92,9 @@ PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, the
 
 We will filter the master DataFrame to a new DataFrame that consists of just these continous attributes, then visualize the correlation between each attribute by creating a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating a negative correlation, 0 indicating no correlation, and 1 indicating a positive correlation. 
 
-{% highlight python %}
-
-colormap = plt.cm.RdBu
-plt.figure(figsize = (14,12))
-plt.title('Heart Disease Pearson Correlation of Features', y = 1.05, size = 15)
-sns.heatmap(pca_analysis.astype(float).corr(),linewidths = 0.1,vmax = 1.0, 
-square = True, cmap = colormap, linecolor = 'white', annot = True)
-
-plt.show()
-{% endhighlight %}
-
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/hd_pearson_correlation.png" >
 
-A notable positive correlation amongst the data is cigarettes per day as years as a smoker increases. 
+Notable positive correlations amongst the data are cigarettes per day as years as a smoker increases, and METs as maximum heart rate achieved increases. 
 
 We'll now dive into the PCA code: 
 {% highlight python %}
@@ -118,9 +107,7 @@ from sklearn import preprocessing
 pca_numpy = pca_attr.dropna().values
 {% endhighlight %}
 
-In order to obtain the most accurate PCA analysis results, the data needs to be _scaled_. This critical step is one of the most important aspects of data preprocessing. If scaling is overlooked, then features that have higher quantitative values will influence the results far more than the other features. There are several ways to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the difference by the feature standard deviation. Mathematically speaking: 
-
-$$f(x) = \frac{X - /bar{X}{std(X)}}$$
+In order to obtain the most accurate PCA analysis results, the data needs to be _scaled_. This critical step is one of the most important aspects of data preprocessing. If scaling is overlooked, then features that have higher quantitative values will influence the results far more than the other features. There are several ways to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the difference by the feature standard deviation. 
 
 {% highlight python %}
 pca_scaled = StandardScaler().fit_transform(pca_numpy)
@@ -175,39 +162,10 @@ print(explained_variance.sum())
 
 ##  Building a Neural Network with Keras
 
-Neural networks, also referred to as deep learning in a broad sense, is a biologically inspired machine learning technique that enables a computer to build a complicated array of nodes that provide solutions to seemingly impossible tasks. 
-
-<figure class="half">
-    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/neuron_2.png" >
-    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/neural_net2.jpg" >
-    <figcaption> Left: Biological inspiration for Neural Networks; Right: Example of a forward feeding Neural Network. Source: <a href = "http://cs231n.github.io/neural-networks-1/">Stanford Vision & Learning Lab</a></figcaption>
-</figure>
 
 
-{% highlight python %}
-# import necessary Keras packages for Deep Learning
-from keras.layers import Dense, Dropout
-from keras.models import Sequential
-from keras.utils import to_categorical
-from keras.callbacks import EarlyStopping
-from sklearn.model_selection import train_test_split
 
-# store pertinent features in separate DataFrame to build the neural network:
-nn_attr = master_df2.loc[:,['age','sex','cp_type','resting_blood_pressure','hypertension',
-'cholesterol','cigarettes_per_day','years_as_smoker', 'fasting_blood_sugar', 'hist_heart_dis','resting_hr','max_hr_ach','tpeakbps', 'exer_ind_angina', 'rldv5e']]
-
-# number of DataFrame columns, or number of features. Used to initialize NN model architecture 
-n_cols = nn_attr.shape[1]
-{% endhighlight %}
-
-Just as we did with PCA, our neural network data must be scaled: 
-
-{% highlight python %}
-scaler = preprocessing.StandardScaler().fit(nn_attr)
-nn_attr_scaled = scaler.transform(nn_attr)
-{% endhighlight %}
-
-Considering all of our data is standardized, we can divide our data into a 'train' dataset and a 'test' dataset. To legitimately evaluate the efficacy of the fitted, or trained model, we must use data that did NOT train the neural network. The data science community calls the unfitted data 'unseen.' The rule of thumb is to divide the master DataFrame into separate 70-75% train and 20-25% test DataFrames. There are manual ways to Pythonically complete this task, but using the popular machine learning library sci-kit learn, the function train_test_split does all the heavy lifting:
+Considering all of our data is standardized, we can divide our data into a 'train' dataset and a 'test' dataset. To legitimately evaluate the efficacy of the fitted, or trained model, we must use data that did NOT train the logistic regression model. The data science community calls the unfitted data 'unseen.' The rule of thumb is to divide the master DataFrame into separate 70-75% train and 20-25% test DataFrames. There are manual ways to Pythonically complete this task, but using the popular machine learning library sci-kit learn, the function train_test_split does all the heavy lifting:
 
 {% highlight python %}
 X_train, X_test, y_train, y_test = train_test_split(
@@ -216,83 +174,10 @@ nn_attr_scaled, target, train_size=0.80, random_state=42)
 
 We also need to reshape the diagnosis (label) dataset. The _to_categorical_ function converts a class vector to a binary class matrix. For example, instead of the y_train and y_test datasets consisting of n rows and 1 column of 1's and 0's depending on the diagnosis, _to_categorical_ reshapes these DataFrames to n rows and 2 columns, one for each class: 
 
-<figure class="half">
-    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/y_test.png" >
-    <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/y_test_cat.png" >
-    <figcaption> Left: y_test DataFrame before categorical reshaping; Right: y_test DataFrame after using to_categorical function.</figcaption>
-</figure>
 
+## Logistic Regression
 
-{% highlight python %}
-
-y_train = to_categorical(y_train)
-y_test = to_categorical(y_test)
-
-{% endhighlight %}
-
-### Model Architecture
-
-{% highlight python %}
-# number of DataFrame columns, or number of features. Used to initialize NN model architecture 
-n_cols = nn_attr.shape[1]
-
-# establish the neural network by declaring a Sequential model format
-model = Sequential()
-
-# input layer
-model.add(Dense(100, activation='relu', input_shape=(n_cols,)))
-
-# use batch normalization to normalize input
-model.add(BatchNormalization())
-
-# first hidden layer
-model.add(Dense(100, activation='relu'))
-
-# second hidden layer 
-model.add(Dense(100, activation='relu'))
-
-model.add(Dropout(0.10))
-
-# output layer
-model.add(Dense(2, activation = 'softmax'))
-
-# compile neural network by optimizing loss function (categorical cross entropy) using stochasic gradient descent. 
-model.compile(loss = 'binary_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
-
-early_stopping_monitor = EarlyStopping(patience = 2)
-
-model_training = model.fit(X_train, y_train_cat, epochs = 50, callbacks = [early_stopping_monitor])
-
-{% endhighlight %}
-
-
-
-
-{% highlight python %}
-
-pred = model.predict(X_test, verbose = False)
-
-pred_boolean = np.round(pred)
-
-boolean = (y_test_cat == pred_boolean)
-unique, counts = np.unique(boolean, return_counts = True)
-dict(zip(unique, counts))
-
-{% endhighlight %}
-
-There are 94 observations in y_test. Since the return dictionary returns the result (matches or no match) twice, and dict(zip()) counts all instances of true and false in the array, divide the amount of true instances (138) in half to obtain 68 observations that were predicted correctly. Divide this value by the total number of observations (94) to obtain an error-out value of ~73%.
-
-To illustrate the predictions of the model, a confusion matrix is created. The detailed code is in the Jupyter Notebook. 
-
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/hd_conf_matrix.png" >
-
-
-
-## Alternative Machine Learning Technique: Logistic Regression
-
-Model accuracy above 70% accuracy is considered to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 73% accuracy is excellent. The data scientist can always reconfigure the model architecture, since building a solid neural network stems from iterations of trial and error based off of intuition and experience. 
-
-However, I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model with the same features from the heart disease dataset. Spoiler: logistic regression yields greater error out accuracy than my neural network model. 
+Model accuracy above 70% accuracy is considered to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 78% accuracy is excellent. I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model with the same features from the heart disease dataset.
 
 ### Training logistic regression using k-folds method
 
@@ -316,8 +201,6 @@ years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, me
     return(predict_proba)
 suggest_diag_prob(18, 0, 120, 150, 0, 0, 0,0, 65, 200, 15, 140, 0, 93)
 {% endhighlight %}
-
-
 
 ## Connect to TabPy
 
