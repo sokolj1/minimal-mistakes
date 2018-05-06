@@ -65,38 +65,22 @@ Unfortunately, by using an already aggregated dataset from a repository, only th
 - Features should not be redundant. The dataset has many instances of continuous and discrete measures for features that are the same i.e cigarettes per day (0 - 100 cigarettes) and smoker? (1 or 0), resting blood pressure (90 to 200 mm Hg) and hypertension (1 or 0). So for these examples, I kept the continous features and left out the redundant binary features. 
 Ultimately, I narrowed down the selection to 14 features: 10 continuous and 4 binary. 
 
-| Feature                     | Type              |     
-|                         ---                     |
-|  Age                        | continuous        |
-|  Resting blood pressure     | continuous        |
-|  Cholesterol                | continuous        |
-|  Cigarettes per day         | continuous        |
-|   Years as smoker           | continuous        |
-|   Resting heart rate        | continuous        |
-|  Maximum heart rate achieved| continuous        |
-|  Metabolic Equivalent of Task (METs)  | continuous   |
-|  Peak Exercise blood pressure (tpeakbps)| continuous |
-|  Exercise Stress Test (rldv5e)     | continuous   |
-|  Fasting blood sugar               | binary       |
-|  History of heart disease          | binary       |
-|  Exercise Induced Angina           | binary       |
-|  Sex                               | binary       |
-
-
-1. Age (continuous)
-2. Sex (binary)
-3. Resting blood pressure (continuous)
-4. Cholesterol (continous)
-5. Cigarettes per day (continuous)
-6. Years as smoker (continuous)
-7. Fasting blood sugar (binary)
-8. History of heart disease (binary)
-9. Resting heart rate (continuous)
-10. Maximum heart rate achieved (continuous)
-11. Metabolic Equivalent of Task (METs) (continuous)
-12. Peak Exercise blood pressure (tpeakbps) (continuous)
-13. Exercise Induced Angina (binary)
-14. Exercise Stress Test (rldv5e) (continuous)
+|   |Feature                          | Type              |     
+|---|                       ---       |     ---           |
+| 1 | Age                             | continuous        |
+| 2 | Resting blood pressure          | continuous        |
+| 3 | Cholesterol                     | continuous        |
+| 4 | Cigarettes per day              | continuous        |
+| 5 | Years as smoker                 | continuous        |
+| 6 | Resting heart rate              | continuous        |
+| 7 | Maximum heart rate achieved     | continuous        |
+| 8 | Metabolic Equivalent of Task (METs)  | continuous   |
+| 9 | Peak Exercise blood pressure (tpeakbps)| continuous |
+| 10| Exercise Stress Test (rldv5e)     | continuous   |
+| 11| Fasting blood sugar               | binary       |
+| 12| History of heart disease          | binary       |
+| 13| Exercise Induced Angina           | binary       |
+| 14| Sex                               | binary       |
 
 Now we're ready to dive into principle component analysis to become more familiar with our data.
 
