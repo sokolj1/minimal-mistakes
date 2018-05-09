@@ -8,7 +8,7 @@ classes: wide
 
 ---
 
-## Dashboard visualization of Super Bowl XLIV - LII showing play by play win probabilities and play descriptions
+## Dashboard visualization of Super Bowl XLIV - LII showing win probabilities and play descriptions
 
 As a lifelong Giants fan, it was painful to watch the Philadelphia Eagles win their first championship 
 since 1960, and their first Super Bowl victory in the history of the franchise, on February 4th, 2018. Gone are the days
