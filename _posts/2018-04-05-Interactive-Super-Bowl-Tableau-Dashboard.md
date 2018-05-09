@@ -38,7 +38,7 @@ Discovering the data reaches back to 2009 made me reassess the scope of my proje
 
 ### Tableau
 
-<iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="785"></iframe>
+<iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="800"></iframe>
 
 
 
