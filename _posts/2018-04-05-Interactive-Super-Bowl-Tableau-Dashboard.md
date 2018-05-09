@@ -20,5 +20,8 @@ But as someone who has a love for the game of Football, Super Bowl LII was an in
 - 
 
 
-After watching the highlight reel and hearing these facts, I wanted to dive deeper into this Super Bowl. I wanted to see the pivotal turning points in the game, and how these plays affected both teams chances of winning the game at the given moment. 
+After watching the highlight reel and hearing these facts, I wanted to dive deeper into this Super Bowl. I wanted to see the pivotal turning points in the game, and how these plays affected both teams chances of winning the game at the given moment. So I decided to create an interactive data visualization deliverable for my Data Visualization semester project. 
+
+## Data Source
+Determining the right data source wasn't easy, considering data science/statistics for Football does not have the luxury of a built-up infastructure like Baseball as of 2018. I looked into proprietary software like [SportRadar](https://www.sportradar.com/) but I determined paying for a few months of access to their API was not worth the money. Surreptitiously, while researching data sources, I found the open-source R package [nflscrapR](https://github.com/maksimhorowitz/nflscrapR), which scrapes data off the official NFL API. Although I was looking to work with Python due to instructor preference, I was already fluent in R from implementing machine learning techniques and a Data Exploration course from Fall 2017, so I knew the learning curve would be minimal to take advantage of nflscrapR. 
 
