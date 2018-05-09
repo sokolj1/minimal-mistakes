@@ -4,6 +4,8 @@ header:
 
 author_profile: true
 
+classes: wide
+
 ---
 
 ## Dashboard visualization of Super Bowl XLVI - LII showing play by play win probabilities and play descriptions
