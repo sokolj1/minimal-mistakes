@@ -8,18 +8,17 @@ classes: wide
 
 ---
 
-## Dashboard visualization of Super Bowl 46 - 52 depicting play by play win probabilities of each game
+## Dashboard visualization of Super Bowl XLVI - LII showing play by play win probabilities and play descriptions
 
 As a lifelong Giants fan, it was painful to watch the Philadelphia Eagles win their first championship 
-since 1960, and their first Super Bowl victory in the history of the franchise. Oh well, gone are the days
+since 1960, and their first Super Bowl victory in the history of the franchise, on February 4th, 2018. Gone are the days
 of using the default end all argument with the hypothetical question “How many Super Bowl rings do the Eagles have?” 
-It makes me sick to my stomach.
+The idea is anathema to any Giants fan and any football fan that has a disdain for the birdgang (Cowboys, Redskins, Patriots, etc). 
 
-Although the Eagles are not my favorite NFL team in the world (ranked 31/32 of my favorite teams right in front of Dallas),
-from an objective standpoint, the Philadelphia Eagles performed at an outstanding level this past season. They ended the 
-season with a 13-3 win/loss record. The birdgang also cliched the NFC East division title by week 14, but this seemed like 
-a pyrric victory with the loss of QB Carson Wentz to a torn ACL and LCL. With backup quarterback Nick Foles now at the helm, 
-even the media inside the city of Philadelphia wrote this team off as possibly losing the divisional round game. As for the 
-fans of the other 31 NFL teams, they doubted the Eagle's ability to sustain their level of success.
+But as someone who has a love for the game of Football, Super Bowl LII was an incredibly entertaining matchup that set several precedents, such as: 
+- 1,151 total offensive yardage, more than 200 yards more than any previous Super Bowl
+- 
 
+
+After watching the highlight reel and hearing these facts, I wanted to dive deeper into this Super Bowl. I wanted to see the pivotal turning points in the game, and how these plays affected both teams chances of winning the game at the given moment. 
 
