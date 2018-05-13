@@ -57,23 +57,32 @@ library(ggplot2)
 library(dplyr)
 
 # extract the statistics for the last game of the 2017 season (Super Bowl LII)
-super_bowl52 <- game_play_by_play(GameID = tail(extracting_gameids(2017, playoffs = TRUE), n = 1))
+super_bowl52 <- game_play_by_play(GameID = tail(extracting_gameids(2017, 
+playoffs = TRUE), n = 1))
 
 # queries time remaining after each play, home team win probability, away team win probability, and play description 
-eagles_pats <- data.frame(super_bowl52$TimeSecs,super_bowl52$Home_WP_post,super_bowl52$Away_WP_post, super_bowl52$desc)
+eagles_pats <- data.frame(super_bowl52$TimeSecs,super_bowl52$Home_WP_post,
+super_bowl52$Away_WP_post, super_bowl52$desc)
 
 # omit erroneous instances where home team win probability == away team win probability
 eagles_pats_final <- na.omit(eagles_pats[!(eagles_pats$super_bowl52.Home_WP_post == eagles_pats$super_bowl52.Away_WP_post),])
 
 # rename columns
-colnames(eagles_pats_final) = c("time_remaining", "Home", "Away", "Play Description")
+colnames(eagles_pats_final) = c("time_remaining", "Home", 
+"Away", "Play Description")
 
 # ggplot of Super Bowl LII for EDA
-ggplot(eagles_pats_final, aes(x = eagles_pats_final$time_remaining, y = eagles_pats_final$Home)) +
-geom_line(aes(x = eagles_pats_final$time_remaining, y = eagles_pats_final$Home,color = "#c60c30")) + 
-geom_line(aes(x = eagles_pats_final$time_remaining, y = eagles_pats_final$Away, color = "#004953")) + 
-scale_x_reverse(breaks = c(3600, 3300, 3000, 2700, 2400, 2100, 1800, 1500, 1200, 900, 600, 300, 0), 
-labels = c("Kickoff", "", "","Q1","","", "Halftime", "","","Q3","","","End of Regulation")) + ylab("Win Probability") + xlab("") + ggtitle("Super Bowl LII Win Probability Chart") + scale_color_manual(values=c("#004953", "#c60c30"), labels = c("PHI", "NE")) + labs(color = "", caption = "Source: nflscrapR") 
+ggplot(eagles_pats_final, aes(x = eagles_pats_final$time_remaining, 
+y = eagles_pats_final$Home)) + geom_line(aes(x = eagles_pats_final$time_remaining, 
+y = eagles_pats_final$Home,color = "#c60c30")) + 
+geom_line(aes(x = eagles_pats_final$time_remaining, 
+y = eagles_pats_final$Away, color = "#004953")) + 
+scale_x_reverse(breaks = c(3600, 3300, 3000, 2700, 2400, 2100, 
+1800, 1500, 1200, 900, 600, 300, 0), labels = c("Kickoff", "", "","Q1","","", 
+"Halftime", "","","Q3","","","End of Regulation")) + ylab("Win Probability") 
++ xlab("") + ggtitle("Super Bowl LII Win Probability Chart") + 
+scale_color_manual(values=c("#004953", "#c60c30"), labels = c("PHI", "NE")) + 
+labs(color = "", caption = "Source: nflscrapR") 
 {% endhighlight %}
 
 <img src="../assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/PHI_NE_PLOT.jpeg" align="center" > 
