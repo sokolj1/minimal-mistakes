@@ -117,7 +117,7 @@ sb52_phi_merge <- merge(sb52_phi_pos, sb52_phi_def, by = "TimeRemaining", all = 
 
 {% endhighlight %}
 
-The dataframe also needs to be reversed to illustrate the beginning of the end counting down towards the end, and also remove NA values. 
+The dataframe needs to be reversed to illustrate the beginning of the game counting down to the end; NA values also need to be removed. 
 
 {% highlight r %}
 # reverses the dataframe so TimeRemaining is organized in decreasing order, also removes na values 
@@ -128,7 +128,7 @@ sb52_phi_scores <- sb52_phi_scores[dim(sb52_phi_scores)[1]:1,]
 colnames(sb52_phi_scores) = c("TimeRemaining", "Away")
 {% endhighlight %}
 
-This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the end product is another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now that all the data is cleaned and prepared, it is ready for visualization. 
+This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the result of rigourous data cleaning was another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now that all the data is cleaned and prepared, it is ready for visualization. 
 
 ## Choosing the Right Data Visualization Tool
 As an intern at AtlantiCare Health System in Egg Harbor Township, NJ, I picked up Tableau to create interactive dashboards for end users such as doctors and administrative staff to track prevalence of Venus Thromoembolism (VTE). With this experience, I learned the idiosyncrasies of the high level business intelligence software. After looking into open-source alternatives like Plotly and Bokeh, the interactivity is there, but customization of the interactivity is limited. Tableau's tooltip is customizable and has little to no lag time between hover over and displaying information. I knew Tableau was the right choice despite the negative aspect of proprietary software. Although Tableau tutorials are out of scope for this post, here are a few links to help get started with Tableau: 
