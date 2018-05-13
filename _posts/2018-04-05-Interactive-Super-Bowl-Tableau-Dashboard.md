@@ -19,7 +19,6 @@ But as someone who has a love for the game of Football, Super Bowl LII was an in
 >- 1,151 total offensive yardage (Patriots 613 and Eagles 513), more than 200 yards more than any previous Super Bowl.
 - The Eagles are the first team in NFL history (regular season or postseason) to win a game despite allowing more than 600 yards.
 - The Eagles are the 4th team in NFL history to win the Super Bowl after having a losing record the year before.
-
 Source: [Sportingnews](http://www.sportingnews.com/nfl/news/super-bowl-52-eagles-patriots-stats-fast-facts-records-milestones/1kbmcltvjrukzzty6cpb8796y)
 
 After reading these facts, I decided to dive deeper into the details of this Super Bowl. I wanted to see the pivotal turning points of the game, and how these plays affected both teams chances of winning at any given moment. So I created an interactive Tableau dashboard deliverable for my Data Visualization semester long project. 
