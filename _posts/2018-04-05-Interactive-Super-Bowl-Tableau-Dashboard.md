@@ -77,8 +77,8 @@ y = eagles_pats_final$Home,color = "#c60c30")) +
 geom_line(aes(x = eagles_pats_final$time_remaining, 
 y = eagles_pats_final$Away, color = "#004953")) + 
 scale_x_reverse(breaks = c(3600, 3300, 3000, 2700, 2400, 2100, 
-1800, 1500, 1200, 900, 600, 300, 0), labels = c("Kickoff", "", "","Q1","","", 
-"Halftime", "","","Q3","","","End of Regulation")) + ylab("Win Probability") 
+1800, 1500, 1200, 900, 600, 300, 0), labels = c("Kickoff", "", "","End of Q1","","", 
+"Halftime", "","","End of Q3","","","End of Regulation")) + ylab("Win Probability") 
 + xlab("") + ggtitle("Super Bowl LII Win Probability Chart") + 
 scale_color_manual(values=c("#004953", "#c60c30"), labels = c("PHI", "NE")) + 
 labs(color = "", caption = "Source: nflscrapR") 
@@ -86,10 +86,10 @@ labs(color = "", caption = "Source: nflscrapR")
 
 <img src="../assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/PHI_NE_PLOT.jpeg" align="center" > 
 
-A few noticeable observations is that the Eagles commanded the greater win probability for a majority of the game, suggesting the Eagles were in the drivers seat with the exception of a few minutes in the first quarter and the final minutes of the game. Although this is a great visualization tool, the graphic doesn't provide context for the data itself, such as what play occurred that resulted in a change in win probability? This involved another layer of data complexity, preferably with plot interactivity. Unfortunately, ggplot does not support this functionality, so I looked elsewhere for an interactive data visualization solution. 
+A few noticeable observations is the Eagles commanded the greater win probability for a majority of the game, suggesting the Eagles were in the drivers seat with the exception of a few minutes in the first quarter and the final minutes of the game. Although this is a great visualization tool, the graphic doesn't provide context for the data itself, such as what play occurred that resulted in a change in win probability? This involved another layer of data complexity, preferably with plot interactivity. Unfortunately, ggplot does not support this functionality, so I looked elsewhere for an interactive data visualization solution. 
 
 ## Choosing the Right Data Visualization Tool
-
+As an intern at AtlantiCare Health System in Egg Harbor Township, NJ, I picked up Tableau to create interactive dashboards for end users such as doctors and administrative staff to track prevalence of Venus Thromoembolism (VTE). With this experience, I learned the idiosyncrasies of the high level business intelligence software. After looking into open-source alternatives like Plotly and Bokeh, I knew Tableau was the right choice despite the negative of proprietary software. Although Tableau tutorials are out of scope for this post, here are a few links to get started with Tableau: 
 
 
 ### Tableau
