@@ -88,6 +88,48 @@ labs(color = "", caption = "Source: nflscrapR")
 
 A few noticeable observations is the Eagles commanded the greater win probability for a majority of the game, suggesting the Eagles were in the drivers seat with the exception of a few minutes in the first quarter and the final minutes of the game. Although this is a great visualization tool, the graphic doesn't provide context for the data itself, such as what play occurred that resulted in a change in win probability? This involved another layer of data complexity, preferably with plot interactivity. Unfortunately, ggplot does not support this functionality, so I looked elsewhere for an interactive data visualization solution. 
 
+One nflscrapR attribute for game_play_by_play data is play description after each play, so this attribute ideal for providing the user context with respect to win probability. After extracting the win probablities and play description, the individual dataframes were concatenated using rbind(), then written to a [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl46_52.csv). 
+
+Perhaps the biggest challenge was extracting and tabluating the team scores data. nflscrapR only provides the possession team and defensive team scores. So the scores had to be organized by possession and defense for each team, then joined together by the common field, TimeRemaining.
+
+{% highlight r %}
+# PHI Score
+# filters by possession team 
+sb52_phi_pos <- super_bowl52 %>% filter(super_bowl52$posteam == "PHI")
+
+# queries time remaining and scores when Philly possessed the ball 
+sb52_phi_pos <- data.frame(sb52_phi_pos$TimeSecs, sb52_phi_pos$PosTeamScore)
+
+# rename columns
+colnames(sb52_phi_pos) = c("TimeRemaining", "Score")
+
+# filters by defensive team 
+sb52_phi_def <- super_bowl52 %>% filter(super_bowl52$DefensiveTeam == "PHI")
+
+# queries time remaining and scores when Philly played defense
+sb52_phi_def <- data.frame(sb52_phi_def$TimeSecs, sb52_phi_def$DefTeamScore) 
+
+# rename columns
+colnames(sb52_phi_def) = c("TimeRemaining", "Score")
+
+# join both possession and defensive dataframes by common field TimeRemaining
+sb52_phi_merge <- merge(sb52_phi_pos, sb52_phi_def, by = "TimeRemaining", all = TRUE)
+
+{% endhighlight %}
+
+The dataframe also needs to be reversed to illustrate the beginning of the end counting down towards the end, and also remove NA values. 
+
+{% highlight r %}
+# reverses the dataframe so TimeRemaining is organized in decreasing order, also removes na values 
+sb52_phi_scores  <- cbind(sb52_phi_merge[1], mycol = apply(sb52_phi_merge[-1], 1, max, na.rm = TRUE))
+sb52_phi_scores <- sb52_phi_scores[dim(sb52_phi_scores)[1]:1,]
+
+# rename columns
+colnames(sb52_phi_scores) = c("TimeRemaining", "Away")
+{% endhighlight %}
+
+This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the end product is another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now that all the data is cleaned and prepared, it is ready for visualization. 
+
 ## Choosing the Right Data Visualization Tool
 As an intern at AtlantiCare Health System in Egg Harbor Township, NJ, I picked up Tableau to create interactive dashboards for end users such as doctors and administrative staff to track prevalence of Venus Thromoembolism (VTE). With this experience, I learned the idiosyncrasies of the high level business intelligence software. After looking into open-source alternatives like Plotly and Bokeh, the interactivity is there, but customization of the interactivity is limited. Tableau's tooltip is customizable and has little to no lag time between hover over and displaying information. I knew Tableau was the right choice despite the negative aspect of proprietary software. Although Tableau tutorials are out of scope for this post, here are a few links to help get started with Tableau: 
 
@@ -97,8 +139,8 @@ As an intern at AtlantiCare Health System in Egg Harbor Township, NJ, I picked u
 Students can download a one-year Tableau Desktop license for _*free*_ [here](https://www.tableau.com/academic/students). 
 For everyone else, Tableau skills can still be honed with [Tableau Public](https://public.tableau.com/en-us/s/), the medium that I will use to ultimately post my Tableau workbook. 
 
-### Final Product
-One nflscrapR attribute for game_play_by_play data is play description after each play, so this attribute ideal for providing the user context with respect to win probability. After extracting the win probablities and play description, the individual dataframes were concatenated using rbind(), then written to a [csv file](
+### Final Deliverable: Tableau Dashboard
+
 
 <iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="805"></iframe>
 
