@@ -19,7 +19,7 @@ But as someone who has a love for the game of Football, Super Bowl LII was an in
 >- 1,151 total offensive yardage (Patriots 613 and Eagles 513), more than 200 yards more than any previous Super Bowl.
 - The Eagles are the first team in NFL history (regular season or postseason) to win a game despite allowing more than 600 yards.
 - The Eagles are the 4th team in NFL history to win the Super Bowl after having a losing record the year before.  
-Source: [Sportingnews](http://www.sportingnews.com/nfl/news/super-bowl-52-eagles-patriots-stats-fast-facts-records-milestones/1kbmcltvjrukzzty6cpb8796y)
+Source: [Sportingnews](http://www.sportingnews.com/nfl/news/super-bowl-52-eagles-patriots-stats-fast-facts-records-milestones/1kbmcltvjrukzzty6cpb8796y).
 
 After reading these facts, I decided to dive deeper into the details of this Super Bowl. I wanted to see the pivotal turning points of the game, and how these plays affected both teams chances of winning at any given moment. So I created an interactive Tableau dashboard deliverable for my Data Visualization semester long project. 
 
@@ -89,10 +89,16 @@ labs(color = "", caption = "Source: nflscrapR")
 A few noticeable observations is the Eagles commanded the greater win probability for a majority of the game, suggesting the Eagles were in the drivers seat with the exception of a few minutes in the first quarter and the final minutes of the game. Although this is a great visualization tool, the graphic doesn't provide context for the data itself, such as what play occurred that resulted in a change in win probability? This involved another layer of data complexity, preferably with plot interactivity. Unfortunately, ggplot does not support this functionality, so I looked elsewhere for an interactive data visualization solution. 
 
 ## Choosing the Right Data Visualization Tool
-As an intern at AtlantiCare Health System in Egg Harbor Township, NJ, I picked up Tableau to create interactive dashboards for end users such as doctors and administrative staff to track prevalence of Venus Thromoembolism (VTE). With this experience, I learned the idiosyncrasies of the high level business intelligence software. After looking into open-source alternatives like Plotly and Bokeh, I knew Tableau was the right choice despite the negative of proprietary software. Although Tableau tutorials are out of scope for this post, here are a few links to get started with Tableau: 
+As an intern at AtlantiCare Health System in Egg Harbor Township, NJ, I picked up Tableau to create interactive dashboards for end users such as doctors and administrative staff to track prevalence of Venus Thromoembolism (VTE). With this experience, I learned the idiosyncrasies of the high level business intelligence software. After looking into open-source alternatives like Plotly and Bokeh, the interactivity is there, but customization of the interactivity is limited. Tableau's tooltip is customizable and has little to no lag time between hover over and displaying information. I knew Tableau was the right choice despite the negative aspect of proprietary software. Although Tableau tutorials are out of scope for this post, here are a few links to help get started with Tableau: 
 
+- [Udemy Tableau 10 Desktop Training](https://www.udemy.com/tableau-10/learn/v4/content).
+- [Official Tableau Training Videos](https://www.tableau.com/learn/training).
 
-### Tableau
+Students can download a one-year Tableau Desktop license for _*free*_ [here](https://www.tableau.com/academic/students). 
+For everyone else, Tableau skills can still be honed with [Tableau Public](https://public.tableau.com/en-us/s/), the medium that I will use to ultimately post my Tableau workbook. 
+
+### Final Product
+One nflscrapR attribute for game_play_by_play data is play description after each play, so this attribute ideal for providing the user context with respect to win probability. After extracting the win probablities and play description, the individual dataframes were concatenated using rbind(), then written to a [csv file](
 
 <iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="805"></iframe>
 
