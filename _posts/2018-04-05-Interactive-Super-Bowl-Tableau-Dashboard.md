@@ -136,11 +136,11 @@ As an intern at AtlantiCare Health System in Egg Harbor Township, NJ, I picked u
 - [Udemy Tableau 10 Desktop Training](https://www.udemy.com/tableau-10/learn/v4/content).
 - [Official Tableau Training Videos](https://www.tableau.com/learn/training).
 
-Students can download a one-year Tableau Desktop license for _*free*_ [here](https://www.tableau.com/academic/students). 
+Students can download a one-year [Tableau Desktop](https://www.tableau.com/academic/students) license for _free_. 
 For everyone else, Tableau skills can still be honed with [Tableau Public](https://public.tableau.com/en-us/s/), the medium that I will use to ultimately post my Tableau workbook. 
 
 ### Final Deliverable: Tableau Dashboard
-The end product is the dashboard below rendered using Tableau Public. 
+The end product is the dashboard below rendered using Tableau Public. The workbook can be downloaded by clicking on the 'download' icon on the bottom right corner of the dashboard.
 
 <iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="805"></iframe>
 
@@ -149,4 +149,6 @@ Since I created this dashboard for a data visualization course, I incorporated t
 >- Tufte's Principle:
 - Kosslyn's Principles:
 - Cairo's Wheel:
+
+I hope this post serves as an example for how powerful Tableau dashboards can be for visualizing data. Although I am an open-source data science advocate at heart, Tableau is my preferable tool for data visualization because of the seamless interactivity it provides for the data.  
 
