@@ -8,10 +8,9 @@ published: true
 >I Love Data. I'm a Data Science graduate student for the [Data Science and Strategic Analytics program](https://stockton.edu/graduate/data-science_strategic-analytics.html) at [Stockton University](https://stockton.edu).
 
 Academic interests: 
-- Data Visualization
-- Software Development
-- Statistics
-- Machine Learning
+- [Data Visualization](/Interactive-Super-Bowl-Tableau-Dashboard/)
+- [Statistics](/Assessment-of-Cardiovascular-Fitness-using-R/)
+- [Machine Learning](/Assessment-of-Cardiovascular-Fitness-using-R/)
 
 Industry interests: 
 - Sports & healthcare analytics 
