@@ -4,9 +4,9 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: /about
-  - title: "Predicting Heart Disease"
-    url: /Predicting-Heart-Disease-with-Neural-Networks/
+  - title: "Predict Heart Disease"
+    url: /Predicting-Heart-Disease-with-Machine-Learning/
   - title: "Super Bowl Dashboard"
     url: /Interactive-Super-Bowl-Tableau-Dashboard/
-  - title: "Assessing Fitness Level"
+  - title: "Assess Fitness Level"
     url: /Assessment-of-Cardiovascular-Fitness-using-R/
