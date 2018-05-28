@@ -93,7 +93,7 @@ author:
   name             : "John Sokol"
   avatar           :  sunny_isles_1.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist, <br> Graduate Student at Stockton University"
-  location         : "Galloway, NJ"
+  location         : "Barnegat, NJ"
   email            : johnsokol11@gmail.com
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -120,7 +120,7 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-  Resume           : https://drive.google.com/file/d/1SM7Phq5tKkAEX408bVYDa45nQSPmA8CV/view?usp=sharing
+  Resume           : "https://drive.google.com/file/d/1SM7Phq5tKkAEX408bVYDa45nQSPmA8CV/view?usp=sharing"
 
 
 # Reading Files
