@@ -97,77 +97,20 @@ Now we're ready to dive into principle component analysis to become more familia
 
 Principle component analysis, or colloquially known as dimensionality reduction, is a statistical procedure that uses eigenvalue decomposition to generalize the most important features in a dataset. PCA simplifies the complexity of high dimensional (many features) data while retaining trends and patterns. For example, the popular beginner machine learning [MNIST Database](http://yann.lecun.com/exdb/mnist/) of handwritten digits has 60,000 observations (rows) and 785 features (columns). [A Kaggler](https://www.kaggle.com/ddmngml/pca-and-svm-on-mnist-dataset) completed PCA on this dataset. He effectively reduced the MNIST dimensions from 785 to 16, and retained 59% of the variance, or information that the original dataset conveyed. In a separate trial, he also reduced the dataset from 785 to 49, and retained 82% of the variance. By simplifying the dataset into principle components, we can observe features that contribute more information to the dataset than others, speed up process time if the dimensionality reduced is significant, and visualize trends and patterns of datasets that have many features. 
 
-PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, the 10 continuous values out of the total 14 are the only attributes that can be used for PCA analysis. 
+PCA is not ideal for non-continuous, discrete dataset attributes. Therefore, the 10 continuous values out of the total 14 are the only attributes that can be used for PCA analysis. In order to obtain the most accurate PCA analysis results, the data needs to be _scaled_. This critical step is one of the most important aspects of data preprocessing. If scaling is overlooked, then features that have higher quantitative values will influence the results far more than the other features. There are several ways to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the difference by the feature standard deviation. 
 
-We will filter the master DataFrame to a new DataFrame that consists of just these continous attributes, then visualize the correlation between each attribute by creating a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating a negative correlation, 0 indicating no correlation, and 1 indicating a positive correlation. 
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_dis_pca_results.png" >
+
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/explained_var.png" >
+
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/explained_var_sum.png" >
+
+
+In addition to PCA, the continous attributes are visualized by using a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating a negative correlation, 0 indicating no correlation, and 1 indicating a positive correlation. 
 
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/hd_pearson_correlation.png" >
 
 Notable positive correlations amongst the data are cigarettes per day as years as a smoker increases, and METs as maximum heart rate achieved increases. 
-
-We'll now dive into the PCA code: 
-{% highlight python %}
-# import necessary Python libraries for PCA 
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
-from sklearn import preprocessing
-
-# drop NA values and convert from type DataFrame to Numpy array
-pca_numpy = pca_attr.dropna().values
-{% endhighlight %}
-
-In order to obtain the most accurate PCA analysis results, the data needs to be _scaled_. This critical step is one of the most important aspects of data preprocessing. If scaling is overlooked, then features that have higher quantitative values will influence the results far more than the other features. There are several ways to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the difference by the feature standard deviation. 
-
-{% highlight python %}
-pca_scaled = StandardScaler().fit_transform(pca_numpy)
-
-pca_2 = PCA(n_components=2)
-principalComponents = pca_2.fit_transform(pca_scaled)
-principalDf = pd.DataFrame(data = principalComponents, columns = ['principal component 1', 'principal component 2'])
-
-pca_finalDf = principalDf.join(target)
-pca_finalDf.head()
-{% endhighlight %}
-
-Plot Principle Component 1 as the independent variable, and Principle Component 2 as the dependent variable: 
-
-{% highlight python %}
-plt.style.use('ggplot')
-
-fig = plt.figure(figsize = (8,8))
-ax = fig.add_subplot(1,1,1) 
-ax.set_xlabel('Principal Component 1', fontsize = 15)
-ax.set_ylabel('Principal Component 2', fontsize = 15)
-ax.set_title('PCA: 2 Components ', fontsize = 20)
-
-targets = [0,1]
-colors = ['#006400', '#FF3030']
-#CD853F 
-for target, color in zip(targets, colors):
-    indicesToKeep = finalDf['DIAGNOSIS'] == target
-    ax.scatter(finalDf.loc[indicesToKeep, 'principal component 1']
-            ,finalDf.loc[indicesToKeep, 'principal component 2']
-            ,c = color
-            ,s = 50)
-ax.legend(targets)
-plt.show()
-
-{% endhighlight %}
-
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_dis_pca_results.png" >
-
-{% highlight python %}
-explained_variance = pca_2.explained_variance_ratio_
-print(explained_variance) # principle component 1; principle component 2
-{% endhighlight %}
-
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/explained_var.png" >
-
-{% highlight python %}
-print(explained_variance.sum())
-{% endhighlight %}
-
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/explained_var_sum.png" >
 
 Considering all of our data is standardized, we can divide our data into a 'train' dataset and a 'test' dataset. To legitimately evaluate the efficacy of the fitted, or trained model, we must use data that did NOT train the logistic regression model. The data science community calls the unfitted data 'unseen.' The rule of thumb is to divide the master DataFrame into separate 70-75% train and 20-25% test DataFrames. There are manual ways to Pythonically complete this task, but using the popular machine learning library sci-kit learn, the function train_test_split does all the heavy lifting:
 
