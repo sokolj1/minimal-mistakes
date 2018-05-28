@@ -10,6 +10,15 @@ classes: wide
 
 ## A logisitic regression model is fitted, then deployed via TabPy to help healthcare professionals understand patient cardiovascular health
 
+## Summary
+This study aims to assess the viability of predictive analytics in the healthcare industry. Using United States heart disease data from the UCI machine learning repository, several machine learning techniques were trained and optimized for assisting healthcare professionals with predicting the likelihood of a confirmed presence of heart disease. Selection of the fourteen training features was based upon data cleanliness and clinical validity of the feature's contribution to presence of heart disease. 
+
+Principle Component Analysis served as an exploratory data analysis technique. The dimensionality of the UCI machine learning repository heart disease dataset was reduced from the ten continuous features to two principle components for 2D visualization. The PCA dimensionality reduction retained only 39% of the dataset variance, suggesting the ten features contributed to heart disease prediction fairly equally. To choose the best machine learning technique to train the data, the innovative automated machine learning package Tree Based Optimization Tool (TPOT) determined logistic regression as the optimal technique/classifier with the most predictive power. A logistic regression model was fitted with 78% error out accuracy. 
+
+The logistic regression model was instantiated in a Python function, then deployed to a Tableau Dashboard with Tableau extension TabPy to build a plausible graphical user interface; the healthcare professional can modify model parameters for each patient to obtain a risk assessment based on the aforementioned health metrics. This predictive analytics application serves as proof of viability for implementation in the healthcare industry. In regards to long term implications, this study enables healthcare professionals to consider putting into practice machine learning predictive analytics for future state patient risk assessment. 
+
+## Introduction
+
 Heart disease is described as any condition that detrimentally affects the heart. Heart disease is often used interchangeably with the term "cardiovascular disease." However, cardiovascular disease generally refers to conditions involving heart blockages such as atherosclerosis (narrowing or blocking of the arteries due to plaque buildup), whereas heart disease is an umbrella term that is inclusive of other heart conditions. Heart Disease can not only affect the arteries, but the heart muscle, valves, rhythm, or other important aspects of a well-functioning heart. 
 
 The pervasiveness of heart disease in the United States has merited the ailment as the leading cause of death in the United States.
@@ -160,11 +169,6 @@ print(explained_variance.sum())
 
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/explained_var_sum.png" >
 
-##  Building a Neural Network with Keras
-
-
-
-
 Considering all of our data is standardized, we can divide our data into a 'train' dataset and a 'test' dataset. To legitimately evaluate the efficacy of the fitted, or trained model, we must use data that did NOT train the logistic regression model. The data science community calls the unfitted data 'unseen.' The rule of thumb is to divide the master DataFrame into separate 70-75% train and 20-25% test DataFrames. There are manual ways to Pythonically complete this task, but using the popular machine learning library sci-kit learn, the function train_test_split does all the heavy lifting:
 
 {% highlight python %}
@@ -174,18 +178,23 @@ nn_attr_scaled, target, train_size=0.80, random_state=42)
 
 We also need to reshape the diagnosis (label) dataset. The _to_categorical_ function converts a class vector to a binary class matrix. For example, instead of the y_train and y_test datasets consisting of n rows and 1 column of 1's and 0's depending on the diagnosis, _to_categorical_ reshapes these DataFrames to n rows and 2 columns, one for each class: 
 
+## Tree Based Python Optimization Tool (TPOT)
+One of the biggest challenges with machine learning is determining the best technique and hyper-parameters that best models the data. With a plethora of machine learning techniques, such as support vector machines (SVM), generalized linear models (GLM), neural networks, gradient boosting, etc, it can take weeks for the data scientist to choose the best algorithm and tuning parameters for ultimately the most accurate model. 
+
+However, a new Python package called the Tree Based Python Optimization Tool (TPOT) by Randy Olsen is an automated machine learning tool that optimizes machine learning pipelines using genetic algorithms. Although this process can take hours or even up to 24 hours, TPOT is an ideal method for choosing the best pipeline for modeling the data. For the purposes of this case study, TPOT was set to stop after 20 minutes. 
+
+<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/tpot-ml-pipeline.png">
 
 ## Logistic Regression
 
-Model accuracy above 70% accuracy is considered to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 78% accuracy is excellent. I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model with the same features from the heart disease dataset.
-
-### Training logistic regression using k-folds method
+Logistic regression is a method for estimating categorical relationships amongst input variables based upon a trained probabilistic model. For this study, binomial logistic regression is employed to return the probability, or likelihood of heart disease classification. 
 
 K-folds cross validation increases model error out accuracy. The model uses _all_ observations for model training. The observations are randomly divided into train and test datasets, the model is fitted, then the model is randomly divided again, fitted, and so on, K times with resampling. So all observations are used as training data to fit the model. To determine final accuracy output, all of the model accuracies are averaged for a cumulative accuracy score. This model uses 10 fold cross validation. For the sake of brevity, please reference the logistic regression model fitting code in the Jupyter Notebook. 
 
 <img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/logistic_reg_fitting.png" >
 
 It turns out that using logistic regression results in an error out of 78%. This will be our deployable TabPy function. 
+Model accuracy above 70% accuracy is considered to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 78% accuracy is excellent. I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model with the same features from the heart disease dataset.
 
 {% highlight python %}
 # logistic regression cross validation: probability, 0 - 100%
@@ -204,6 +213,8 @@ suggest_diag_prob(18, 0, 120, 150, 0, 0, 0,0, 65, 200, 15, 140, 0, 93)
 
 ## Connect to TabPy
 
+Tableau is a business intelligence company that produces powerful software for interactive data visualizations. Tableau has become a household name in the business world at a rapid pace. Their software allows for simple creation of interactive dashboards that reduces the amount of time for the end-user to reach viable insights. Although basic Tableau requires no coding experience, this limits the power of the software in regards to tasks pertaining to data science. TabPy is a Tableau extension that can import python code into Tableau dashboards, bridging the gap between business intelligence and data science. This extension will be used to deploy the fitted logistic regression function into the Tableau dashboard so the end user can modify the patient health parameters, so a likelihood metric can be returned.
+
 Connecting Tableau to TabPy is relatively pain free after [installation](https://github.com/tableau/TabPy). Afterwards, run startup.sh (located in the TabPy-server folder) in the terminal to initiate the TabPy instance listening on localhost port 9004. Also ensure TabPy is [properly configured](https://www.tableau.com/about/blog/2016/11/leverage-power-python-tableau-tabpy-62077) in Tableau Desktop under Help > Settings and Performance > Manage External Connection.
 
 Once both tasks are complete, deploy the logistic regression function to Tableau.
@@ -217,7 +228,7 @@ connection.deploy('heart_disease_logregcv_prob',
                   suggest_diag_prob, override = True)
 {% endhighlight %}
 
-TabPy should now be communicating with the Python script or iPython notebook. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public like the chloropeth dashboard. Nonetheless, I improvised and took a 30 second on-screen video to showcase the dashboard. After several tedious days of tweaking the design, the final product is depicted in the video below: 
+TabPy should now be communicating with the Python script. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public. Nonetheless, I improvised and took a 30 second on-screen video to showcase the dashboard. After several tedious days of tweaking the design, the final product is depicted in the video below: 
 
 <video width="480" height="320" controls="controls">
   <source src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_video_final.mp4" type="video/mp4">
