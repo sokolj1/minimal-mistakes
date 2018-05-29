@@ -10,7 +10,7 @@ published: true
 Academic interests: 
 - [Data Visualization](/Interactive-Super-Bowl-Tableau-Dashboard/)
 - [Statistics](/Assessment-of-Cardiovascular-Fitness-using-R/)
-- [Machine Learning](/Assessment-of-Cardiovascular-Fitness-using-R/)
+- [Machine Learning](/Predicting-Heart-Disease-with-Machine-Learning/)
 
 Industry interests: 
 - Sports & healthcare analytics 
