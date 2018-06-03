@@ -178,10 +178,9 @@ TabPy should now be communicating with the Python script. Unfortunately, Tableau
    <source src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_video_final.webmhd.webm"></source> 
 </video>
 
-<video src="heart_disease_video_final_.mp4" width="320" height="200" controls preload></video>
+<video src="heart_disease_video_final.webmhd.webm" width="320" height="200" controls preload></video>
 
-
-^Video Test
+^Open Source Video Test
 
 John
 
