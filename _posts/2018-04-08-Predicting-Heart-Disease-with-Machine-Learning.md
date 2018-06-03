@@ -8,7 +8,7 @@ classes: wide
 
 ---
 
-## A logisitic regression model is fitted, then deployed via TabPy to help healthcare professionals understand patient cardiovascular health
+## A logistic regression model is fitted, then deployed via TabPy to help healthcare professionals understand patient cardiovascular health
 
 ## Summary
 This study aims to assess the viability of predictive analytics in the healthcare industry. Using United States heart disease data from the UCI machine learning repository, several machine learning techniques were trained and optimized for assisting healthcare professionals with predicting the likelihood of a confirmed presence of heart disease. Selection of the fourteen training features was based upon data cleanliness and clinical validity of the feature's contribution to presence of heart disease. 
@@ -19,12 +19,13 @@ The logistic regression model was instantiated in a Python function, then deploy
 
 ## Table of Contents:
 1. [Introduction](#introduction)
-2. [Predictive Analytics Case Study: Heart Disease](#Predictive Analytics Case Study: Heart Disease)
-3. [Data Source: University of California Irvine (UCI) Machine Learning Repository](#Data Source: University of California Irvine (UCI) Machine Learning Repository)
-4. [Selecting the Features for Analysis](#Selecting the Features for Analysis)
-5. [Principle Component Analysis (PCA)](#Principle Component Analysis (PCA))
-6. [Logistic Regression](#Logistic Regression)
-7. [Connect to TabPy](#Connect to TabPy)
+2. [Predictive Analytics Case Study: Heart Disease](#predictive-analytics-case-study-heart-disease)
+3. [Data Source: University of California Irvine (UCI) Machine Learning Repository](#data-source-university-of-california-irvine-uci-machine-learning-repository)
+4. [Selecting the Features for Analysis](#selecting-the-features-for-analysis)
+5. [Principle Component Analysis (PCA)](#principle-component-analysis-pca)
+6. [TPOT](#tree-based-python-optimization-tool-tpot)
+6. [Logistic Regression](#logistic-regression)
+7. [Connect to TabPy](#connect-to-tabpy)
 
 ## Introduction
 
