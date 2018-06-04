@@ -4,6 +4,8 @@ header:
   
 author_profile: true
 
+toc: true
+ 
 classes: wide
 
 ---
