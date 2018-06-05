@@ -183,22 +183,6 @@ connection.deploy('heart_disease_logregcv_prob',
 
 TabPy should now be communicating with the Python script. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public. Nonetheless, I improvised and took a 30 second on-screen video to showcase the dashboard. After several tedious days of tweaking the design, the final product is depicted in the video below: 
 
-<video poster="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/TabPy Dashboard.png" width="480" height="320" controls preload> 
-  <source src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_video_final_.mp4" media="only screen and (min-device-width: 568px)"></source>
-   <source src="assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_video_final.webmhd.webm"></source> 
-</video>
-
-<video id="sampleMovie" width="320" height="200" preload controls>
-<source src="heart_disease_video_final.webmhd.webm" type='video/webm; codecs="vp8, vorbis"' />
-</video>
-
-^Open Source Video Test 2.0
-
-Youtube Embed Test:
-
-{ % include youtubePlayer.html id="IvUU8joBb1Q" %}
-
-
 iframe:
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/0gF1u9eAPAY"
