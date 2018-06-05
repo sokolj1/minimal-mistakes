@@ -194,6 +194,11 @@ TabPy should now be communicating with the Python script. Unfortunately, Tableau
 
 ^Open Source Video Test 2.0
 
+Youtube Embed Test:
+
+{ % include youtubePlayer.html id="0gF1u9eAPAY" %}
+
+
 John
 
  
