@@ -183,7 +183,6 @@ connection.deploy('heart_disease_logregcv_prob',
 
 TabPy should now be communicating with the Python script. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public. Nonetheless, I improvised and took a 30 second on-screen video to showcase the dashboard. After several tedious days of tweaking the design, the final product is depicted in the video below: 
 
-iframe:
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/0gF1u9eAPAY"
   frameborder="0"></iframe>
