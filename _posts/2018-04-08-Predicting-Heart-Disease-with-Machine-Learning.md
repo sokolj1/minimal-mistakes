@@ -199,6 +199,12 @@ Youtube Embed Test:
 { % include youtubePlayer.html id="IvUU8joBb1Q" %}
 
 
+iframe:
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/0gF1u9eAPAY"
+  frameborder="0"></iframe>
+
+
 John
 
  
