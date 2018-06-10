@@ -8,9 +8,6 @@ classes: wide
 
 ---
 
-## A logistic regression model is fitted, then deployed via TabPy to help healthcare professionals understand patient cardiovascular health
-
-## Summary
 This study aims to assess the viability of predictive analytics in the healthcare industry. Using United States heart disease data from the UCI machine learning repository, several machine learning techniques were trained and optimized for assisting healthcare professionals with predicting the likelihood of a confirmed presence of heart disease. Selection of the fourteen training features was based upon data cleanliness and clinical validity of the feature's contribution to presence of heart disease. 
 
 Principle Component Analysis served as an exploratory data analysis technique. The dimensionality of the UCI machine learning repository heart disease dataset was reduced from the ten continuous features to two principle components for 2D visualization. The PCA dimensionality reduction retained only 39% of the dataset variance, suggesting the ten features contributed to heart disease prediction fairly equally. To choose the best machine learning technique to train the data, the innovative automated machine learning package Tree Based Optimization Tool (TPOT) determined logistic regression as the optimal technique/classifier with the most predictive power. A logistic regression model was fitted with 78% error out accuracy. 
