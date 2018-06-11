@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 
 header:
-  image: "LBI_1st_street.jpg"
+  image: "assets/about/LBI_1st_street.jpg"
 
 published: true
 ---
