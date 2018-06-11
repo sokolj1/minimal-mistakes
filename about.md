@@ -9,7 +9,7 @@ header:
 published: true
 ---
 
->I Love Data. I'm a Data Science graduate student for the [Data Science and Strategic Analytics program](https://stockton.edu/graduate/data-science_strategic-analytics.html) at Stockton University.
+>I Love Data. I'm a Data Science graduate student for the [Data Science and Strategic Analytics program](https://stockton.edu/graduate/data-science_strategic-analytics.html) at Stockton University, a Data Analytics Intern at [AtlantiCare Health System](http://www.atlanticare.org), and founder/principal of Sokol Analytics Consulting.
 
 Academic interests: 
 - [Data Visualization](/Interactive-Super-Bowl-Tableau-Dashboard/)
