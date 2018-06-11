@@ -17,7 +17,10 @@ Academic interests:
 - [Machine Learning](/Predicting-Heart-Disease-with-Machine-Learning/)
 
 Industry interests: 
-- Sports & healthcare analytics 
+- Sports
+- Healthcare
+- Education
+- Real Estate
 
 ## Technical Skills:
 
