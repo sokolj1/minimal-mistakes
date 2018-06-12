@@ -20,7 +20,6 @@ The logistic regression model was instantiated in a Python function, then deploy
 3. [Data Source: University of California Irvine (UCI) Machine Learning Repository](#data-source-university-of-california-irvine-uci-machine-learning-repository)
 4. [Selecting the Features for Analysis](#selecting-the-features-for-analysis)
 5. [Principle Component Analysis (PCA)](#principle-component-analysis-pca)
-6. [TPOT](#tree-based-python-optimization-tool-tpot)
 6. [Logistic Regression](#logistic-regression)
 7. [Connect to TabPy](#connect-to-tabpy)
 
