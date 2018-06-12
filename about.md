@@ -10,7 +10,7 @@ header:
 published: true
 ---
 
-I Love Data. I'm a Data Science graduate student for the [Data Science and Strategic Analytics program](https://stockton.edu/graduate/data-science_strategic-analytics.html) at Stockton University, a Data Analytics Intern at [AtlantiCare Health System](http://www.atlanticare.org), and founder/principal of Sokol Analytics Consulting.
+I'm a Data Science graduate student for the [Data Science and Strategic Analytics program](https://stockton.edu/graduate/data-science_strategic-analytics.html) at Stockton University, a Data Analytics Intern at [AtlantiCare Health System](http://www.atlanticare.org), and founder/principal of Sokol Analytics Consulting. Here is my [resume](/assets/resume/resume 6_5_2018.pdf)
 
 Academic interests: 
 - [Data Visualization](/Interactive-Super-Bowl-Tableau-Dashboard/)
