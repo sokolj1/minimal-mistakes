@@ -146,9 +146,18 @@ The end product is the dashboard below rendered using Tableau Public. The workbo
 
 Since I created this dashboard for a data visualization course, I incorporated the three key concepts that were learned during the semester: Tufte's Principles, Kosslyn's Principles, and Cairo's Wheel. A few major implementations of these ideas are described below, and can be accessed using the tooltip in the dashboard: 
 
->- Tufte's Principle:
+- Tufte's Principles: 
+1. Above all else, show the data. The focus should be on the content of the data. 
+2. Data-ink / total ink. One should maximize the data-ink ratio, within reason.
+3. Emphasize important data elements using color.
 - Kosslyn's Principles:
+1. The color scheme should be cogent and simple to understand in context of the visualized data
+2. Understanding breaks down once too much information. Provide neither too much or too little information.
+3. Provide neither too much or too little information.
 - Cairo's Wheel:
+1. Functionality (0.9)  to Decoration (0.1): Measures the embellishment/decorative detail incorporated into the visualization.
+2. Multidimensionality (0.7) to Familiarity (0.2): Assess the structure of the visualization and the dimensions used to access additional data
+3. Density (0.7) to Lightness (0.3): Measures the granularity of the data. 
 
-I hope this post serves as an example for how powerful Tableau dashboards can be for visualizing data. Although I am an open-source data science advocate at heart, Tableau is my preferable tool for data visualization because of the seamless interactivity it provides for the data.  
+I hope this post serves as an example for how powerful Tableau dashboards can be for visualizing data. Although I am an open-source data science advocate at heart, Tableau is my preferable tool for data visualization because of the seamless interactivity it provides for accessing additional information about the data.
 
