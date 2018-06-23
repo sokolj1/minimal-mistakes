@@ -28,7 +28,7 @@ I'm a Data Science graduate student for the [Data Science and Strategic Analytic
 |             Sports                             |
 
 ## Background: 
-I graduated Stockton University with a Bachelor of Science in Biochemistry, and a computer science minor with _cum laude_ honors in May 2017. Exposure to the field of computer science and Java programming as an undergraduate shifted my interests from the natural sciences to mathematics and software development. After rigorous research into the nascent study of data science, I applied to the MS Data Science & Strategic Analytics program at my undergraduate alma mater. A few weeks into the first semester, I was hooked on all things data. I want to have a _strong_ command of this rapidly developing field. I am on track to graduate with a Master of Science degree in August 2018. 
+I graduated Stockton University with a Bachelor of Science in Biochemistry, and a computer science minor with _cum laude_ honors in May 2017. Exposure to the field of computer science and Java programming as an undergraduate shifted my interests from the natural sciences to mathematics and software development. After rigorous research into the nascent study of data science, I applied to the MS Data Science & Strategic Analytics program at my undergraduate alma mater. After a few weeks into the first semester, I was hooked on all things data. I am on track to graduate in August 2018. 
 
 Other things in life I enjoy are spending time with my family, photography, unique culinary experiences, and physical activity (running, biking, and lifting). 
 
