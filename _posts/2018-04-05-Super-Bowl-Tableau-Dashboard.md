@@ -11,34 +11,34 @@ classes: wide
 ## Dashboard visualization of Super Bowl XLIV - LII showing win probabilities and play descriptions
 
 As a lifelong Giants fan, it was painful to watch the Philadelphia Eagles win their first championship 
-since 1960, and their first Super Bowl victory in the history of the franchise, on February 4th, 2018. Gone are the days
+since 1960, and their first Super Bowl victory in the history of the franchise. Gone are the days
 of using the default end all argument with the hypothetical question “How many Super Bowl rings do the Eagles have?” 
 The idea is anathema to any Giants fan and any football fan that has a disdain for the birdgang (Cowboys, Redskins, Patriots, etc). 
 
-But as someone who has a love for the game of Football, Super Bowl LII was an incredibly entertaining matchup that established several football precedents, such as: 
+But as someone who has a love for the game of Football, Super Bowl LII was an incredibly entertaining matchup that established several precedents, such as: 
 >- 1,151 total offensive yardage (Patriots 613 and Eagles 513), more than 200 yards more than any previous Super Bowl.
 - The Eagles are the first team in NFL history (regular season or postseason) to win a game despite allowing more than 600 yards.
 - The Eagles are the 4th team in NFL history to win the Super Bowl after having a losing record the year before.  
 Source: [Sportingnews](http://www.sportingnews.com/nfl/news/super-bowl-52-eagles-patriots-stats-fast-facts-records-milestones/1kbmcltvjrukzzty6cpb8796y).
 
-After reading these facts, I decided to dive deeper into the details of this Super Bowl. I wanted to see the pivotal turning points of the game, and how these plays affected both teams chances of winning at any given moment. So I created an interactive Tableau dashboard deliverable for my Data Visualization semester long project. 
+After reading these facts, I decided to dive deeper into the details of Super Bowl LII. I wanted to see the pivotal turning points of the game, and how these plays affected the likelihood of both teams winning at any given moment. So I created an interactive Tableau dashboard deliverable for my Data Visualization project. 
 
-Win Probability is a statistical tool that suggests a certain team's likelihood of winning at any given point in the game. For this project, any given point is defined as after each play, so it will be a measure of _post-snap_ win probability.
+Win Probability is a statistical tool that suggests a certain team's likelihood of winning at any given point in the game. Any given point is defined as after each play, so it's a measure of _post-snap_ win probability.
 
 ## Data Source
-Determining the right data source wasn't easy, considering data science/statistics for Football does not have the luxury of a built-up analytics infastructure like Baseball as of 2018. I looked into proprietary software like [SportRadar](https://www.sportradar.com/) but I determined paying for a few months of API access was not worth the money. Surreptitiously, while researching data sources, I found the open-source R package [nflscrapR](https://github.com/maksimhorowitz/nflscrapR), which scrapes data off the official NFL API. R is a free programming and statistical software language widely used amongst statisticans and data scientists for data manipulation. Although I was looking to work with Python due to instructor preference, I was already fluent in R from implementing machine learning techniques and a Data Exploration course from Fall 2017, so I knew the learning curve would be minimal to take advantage of nflscrapR. 
+Determining the right data source wasn't easy, considering data science/statistics for Football does not have the luxury of a built-up analytics infastructure like Baseball as of 2018. I looked into proprietary software like [SportRadar](https://www.sportradar.com/) but I determined paying for a few months of API access was not worth it. Surreptitiously, while researching data sources, I found the open-source R package [nflscrapR](https://github.com/maksimhorowitz/nflscrapR), which scrapes data off the official NFL API. Although I was looking to work with Python due to instructor preference, I was already fluent in R from implementing machine learning techniques.
 
 ### nflscrapR
 The nflscrapR Github page provides several examples of querying the official NFL API to help new users hit the ground running. Two important aspects of the package are the following:
 - Game level analysis.
 - Data available after the 2009 season.
 
-Discovering the data reaches back to 2009 made me reassess the scope of my project: why not visualize team data from _every_ Super Bowl between 2009 and present day? One game didn't seem like enough work for a semester long project. Besides, this meant Super Bowl XLVI (46) would be included, when the Giants upset the Patriots a second time for their 4th franchise Super Bowl. So this sounded like a great idea!
+Discovering the data goes back to 2009 made me reassess the scope of my project: why not visualize team data from _every_ Super Bowl between 2009 and present day? One game didn't seem like enough work for a semester long project. Besides, this meant Super Bowl XLVI (46) would be included, when the Giants upset the Patriots a second time for their 4th franchise Super Bowl. So this sounded like a great idea!
 
 ### Data Cleaning & Preprocessing
-This step is extremely important in the project workflow. Knowledgeable manipulation skills can save hours of work, which can be devoted to data interpretation and implementing good data visualization practices, all while preserving the integrity of the data itself. To start using R, there are several integrated development environments (IDE) out there, but I recommend using [RStudio](https://www.rstudio.com) because it's user friendly. 
+This step is extremely important in the project workflow. Knowledgeable manipulation skills can save hours of work that can be devoted to data interpretation and implementing good data visualization practices, all while preserving the integrity of the data itself.
 
-Once RStudio is ready, download the nflscrapR package directly from Github using a few keystrokes:
+Download the nflscrapR package directly from Github using a few keystrokes in RStudio:
 {% highlight r %}
 # need 'devtools' to download packages from Github
 install.packages('devtools')
@@ -48,7 +48,7 @@ devtools::install_github(repo = "maksimhorowitz/nflscrapR")
 library(nflscrapR)
 {% endhighlight %}
 
-The following is R code for retrieving the win probability statistics for Super Bowl LII, and a quick ggplot graphic for exploratory data analysis (EDA). The complete R script is available [here](https://github.com/sokolj1/Super-Bowl-Data-Visualization/blob/master/data_visualization_nflscrapR.R).
+The following is R code for retrieving the win probability statistics for Super Bowl LII, and a quick ggplot graphic for exploratory data analysis. The complete R script is available [here](https://github.com/sokolj1/Super-Bowl-Data-Visualization/blob/master/data_visualization_nflscrapR.R).
 
 {% highlight r %}
 # import additional libraries for data viz and manipulation
@@ -86,9 +86,9 @@ labs(color = "", caption = "Source: nflscrapR")
 
 <img src="../assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/PHI_NE_PLOT.jpeg" align="center" > 
 
-A few noticeable observations is the Eagles commanded the greater win probability for a majority of the game, suggesting the Eagles were in the drivers seat with the exception of a few minutes in the first quarter and the final minutes of the game. Although this is a great visualization tool, the graphic doesn't provide context for the data itself, such as what play occurred that resulted in a change in win probability? This involved another layer of data complexity, preferably with plot interactivity. Unfortunately, ggplot does not support this functionality, so I looked elsewhere for an interactive data visualization solution. 
+A few noticeable observations is the Eagles commanded the greater win probability for a majority of the game, suggesting the Eagles were in the drivers seat with the exception of a few minutes in the first quarter and the final minutes of the game. Although this is a great visualization tool, the graphic doesn't provide context for the data itself, such as what play occurred that resulted in a change in win probability. This involves another layer of data complexity, preferably with plot interactivity. Unfortunately, ggplot does not support this functionality, so Tableau was my go to interactive data viz solution. 
 
-One nflscrapR attribute for game_play_by_play data is play description after each play, so this attribute ideal for providing the user context with respect to win probability. After extracting the win probablities and play description, the individual dataframes were concatenated using rbind(), then written to a [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl46_52.csv). 
+One nflscrapR attribute for game_play_by_play data is play description after each play, so this attribute is ideal for providing the user context with respect to win probability. After extracting the win probablities and play description, the individual dataframes were concatenated using rbind(), then written to a [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl46_52.csv). 
 
 Perhaps the biggest challenge was extracting and tabluating the team scores data. nflscrapR only provides the possession team and defensive team scores. So the scores had to be organized by possession and defense for each team, then joined together by the common field, TimeRemaining.
 
@@ -117,7 +117,7 @@ sb52_phi_merge <- merge(sb52_phi_pos, sb52_phi_def, by = "TimeRemaining", all = 
 
 {% endhighlight %}
 
-The dataframe needs to be reversed to illustrate the beginning of the game counting down to the end; NA values also need to be removed. 
+The dataframe needs to be reversed to show beginning of the game counting down to the end; NA values also need to be removed.
 
 {% highlight r %}
 # reverses the dataframe so TimeRemaining is organized in decreasing order, also removes na values 
@@ -128,10 +128,10 @@ sb52_phi_scores <- sb52_phi_scores[dim(sb52_phi_scores)[1]:1,]
 colnames(sb52_phi_scores) = c("TimeRemaining", "Away")
 {% endhighlight %}
 
-This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the result of rigourous data cleaning was another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now that all the data is cleaned and prepared, it is ready for visualization. 
+This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the result of rigourous data cleaning was another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now the data is ready for visualization. 
 
 ## Choosing the Right Data Visualization Tool
-As an intern at AtlantiCare Health System in Egg Harbor Township, NJ, I picked up Tableau to create interactive dashboards for end users such as doctors and administrative staff to track prevalence of Venus Thromoembolism (VTE). With this experience, I learned the idiosyncrasies of the high level business intelligence software. After looking into open-source alternatives like Plotly and Bokeh, the interactivity is there, but customization of the interactivity is limited. Tableau's tooltip is customizable and has little to no lag time between hover over and displaying information. I knew Tableau was the right choice despite the negative aspect of proprietary software. Although Tableau tutorials are out of scope for this post, here are a few links to help get started with Tableau: 
+As an intern at AtlantiCare Health System, I picked up Tableau to create dashboards for doctors and administrative staff to track prevalence of Venus Thromoembolism (VTE). With this experience, I learned the idiosyncrasies of the high level business intelligence software. After looking into open-source alternatives like Plotly and Bokeh, the interactivity is there, but customization of the interactivity is limited. Tableau's tooltip is customizable and has little to no lag time between hover over and displaying information. Although Tableau tutorials are out of scope for this post, here are a few links to help get started with Tableau: 
 
 - [Udemy Tableau 10 Desktop Training](https://www.udemy.com/tableau-10/learn/v4/content).
 - [Official Tableau Training Videos](https://www.tableau.com/learn/training).
