@@ -158,9 +158,24 @@ connection.deploy('heart_disease_logregcv_prob',
                   suggest_diag_prob, override = True)
 {% endhighlight %}
 
-TabPy should now be communicating with the Python script. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public. Nonetheless, I improvised and took a 30 second on-screen video to showcase the dashboard. After several tedious days of tweaking the design, the final product is depicted in the video below: 
+TabPy should now be communicating with the Python script. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public. Nonetheless, I have a 30 second on-screen video to showcase the dashboard: 
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/0gF1u9eAPAY"
   frameborder="0"></iframe>
+
+The following is an assessment of Tableau Dashboards with respect to predictive analytics in the healthcare industry.
+
+### Negatives 
+TabPy is painfully slow with transmitting the updated parameters across the local server to call the logistic regression python function, and then returning the probability of the patient being at risk. In the fast paced healthcare setting, healthcare professionals demand an unimpeded workflow to prioritize patient care. Inputting all fourteen patient health attributes into the dashboard takes approximately one minute. This metric should be closer to 20 - 30 seconds at most. TabPy is still being in beta, so performance concerns may be assuaged in future iterations. Furthermore, the Tableau software is expensive. With commercial licenses upwards of $1,999 per li- cense, small healthcare organizations such as doctors offices may not have the financial means to prioritize Tableau in their budget.
+
+### Positives 
+The positive aspects of the dashboard are groundbreaking from a predictive analytics perspective. Performance issues aside, this application has the potential to become a huge contribution to healthcare professional’s decision regarding patient health. Machine learning is a powerful data science technology that can be utilized in the healthcare industry, but there must be a graphical user interface for the end user to interact and manipulate the function inputs, which would be the patient data.
+
+## Future Work
+Although this case study has shed light on how machine learning can greatly benefit the healthcare industry, there is room for study improvement. More data/patient observations must be obtained to fit a better model and validate model performance measures. Once this task is complete, this data can be run through TPOT for up to 24 hours to find the best model for the data. These two actions would greatly improve the viability of the study.
+
+## Changing the Healthcare Landscape
+In summary, machine learning has proven to be a viable data science assistant for healthcare professionals. The logistic regression model was instantiated in a Python function, then deployed to a Tableau Dashboard with Tableau extension TabPy to build a plausible graphical user interface; the healthcare professional can modify model parameters for each patient to obtain a risk assessment based on the aforementioned measured health metrics. This predictive analytics application serves as proof of viability for implementation in the healthcare industry. As far as long term implications, this study enables healthcare professionals to consider putting into practice machine learning predictive analytics for future state aid in risk assessment.
+
 
