@@ -1,6 +1,6 @@
 ---
 header:
-  image: /assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/TabPy Dashboard.png
+  image: /assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_screenshot_8_2_2018.png
   
 author_profile: true
  
