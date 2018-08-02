@@ -161,9 +161,10 @@ connection.deploy('heart_disease_logregcv_prob',
 TabPy should now be communicating with the Python script. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public. Nonetheless, I have a 30 second on-screen video to showcase the dashboard: 
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/0gF1u9eAPAY"
+  src="https://www.youtube.com/embed/yW1hmb3GL30"
   frameborder="0"></iframe>
-
+  
+ 
 The following is an assessment of Tableau Dashboards with respect to predictive analytics in the healthcare industry.
 
 ### Negatives 
