@@ -28,6 +28,30 @@ used as a soft introduction to Python.
 
 ## The Time Value of Money
 
+### Calculating Return on Investment (% Gain)
+
+Return on investment is the ratio between the net profit and initial cost of investment. Mathematically: 
+
+$$Return (% Gain) = \large \frac{v_2 - v_1}{v_1}$$
+
+where 
+
+$$v_1$$: initial value of the investment at time
+
+$$v_2$$: final value of the investment at time
+
+The cumulative returns from investing $100 in an asset that grows at 5% per year, over a 2 year period can be calculated in Python as: 
+
+{% highlight python %}
+
+future_value = 100 * (1 + 0.06)**30
+print("Future Value of Investment: " + str(round(future_value, 2)))
+
+# Future Value of Investment: 574.35
+
+{% endhighlight %}
+
+
 
 
 
