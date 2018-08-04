@@ -32,7 +32,7 @@ used as a soft introduction to Python.
 
 Return on investment is the ratio between the net profit and initial cost of investment. Mathematically: 
 
-$$Return (% Gain) = \large \frac{v_2 - v_1}{v_1}$$
+$$Return(% Gain) = \large \frac{v_2 - v_1}{v_1}$$
 
 where 
 
