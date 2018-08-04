@@ -7,6 +7,7 @@ tags: [finance, python]
 author_profile: true
 classes: wide
 excerpt: "Notes from the DataCamp course"
+mathjax: true
 
 ---
 
