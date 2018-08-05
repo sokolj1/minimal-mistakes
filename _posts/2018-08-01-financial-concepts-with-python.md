@@ -56,7 +56,7 @@ print("Future Value of Investment: " + str(round(future_value, 2)))
 
 This metric tracks the value of an investment that consistently experiences growth or depreciation. 
 
-$$Investment Value = \large v_0 * (1 + r)^{t}}$$
+$$Investment Value = \large \v_0 * (1 + r)^{t}}$$
 
 where
 
