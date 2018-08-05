@@ -66,7 +66,10 @@ $$t$$: The lifespan of the investment (time)
 
 $$v_0$$: The initial value of the investment at time 0
 
+If the growth rate r is negative, the investment’s value will depreciate (shrink) over time. 
+Example: Investing $100 in an asset that grows at 5% per year, over a 2 year period can be calculated as: 
 
+\[ 100 * (1 + 0.05)^2 = 110.25 \]
 
 
 
