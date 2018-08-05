@@ -56,7 +56,7 @@ print("Future Value of Investment: " + str(round(future_value, 2)))
 
 This metric tracks the value of an investment that consistently experiences growth or depreciation. 
 
-$$Investment = \large \v_0 * (1 + r)^{t}}$$
+$$Investment = \large {v_0 * (1 + r)^{t}}$$
 
 where
 
@@ -86,7 +86,8 @@ growth_rate = 0.06
 
 # investment compounded once per year
 compound_periods_1 = 1
-investment_1 = initial_investment * (1+ (growth_rate / compound_periods_1))**(growth_periods*compound_periods_1)
+investment_1 = initial_investment * (1+ (growth_rate / 
+compound_periods_1))**(growth_periods*compound_periods_1)
 
 print("Investment 1: " + str(round(investment_1, 2)))
 # $574.35
