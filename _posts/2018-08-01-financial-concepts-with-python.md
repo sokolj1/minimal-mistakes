@@ -18,7 +18,7 @@ used as a soft introduction to Python.
 
 ## Table of Contents:
 1. [The Time Value of Money](#the-time-value-of-money)
-2. [Compound Interest]()
+2. [Compound Interest](#compound-interest)
 3. [Discounting and Projecting Cash Flows]()
 4. [Making Rational Economic Decisions]()
 5. [Mortgage Structures]()
@@ -73,7 +73,7 @@ Example: Investing $100 in an asset that grows at 5% per year, over a 2 year per
 
 ## Compound Interest
 
-Both time and the rate of return are very important variables when forecasting the future value of an investment. Specifically, the number of compounding intervals is an extremely important determinant of investment accumulation. 
+Both time and the rate of return are important variables when forecasting the future value of an investment. Specifically, the number of compounding intervals has the most influence regarding interest accumulation. 
 
 >“Compound interest is the 8th wonder of the world” – Albert Einstein
 
