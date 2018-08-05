@@ -71,6 +71,37 @@ Example: Investing $100 in an asset that grows at 5% per year, over a 2 year per
 
 \[ 100 * (1 + 0.05)^2 = 110.25 \]
 
+## Compound Interest
+
+Both time and the rate of return are very important variables when forecasting the future value of an investment. Specifically, the number of compounding intervals is an extremely important determinant of investment accumulation. 
+
+>“Compound interest is the 8th wonder of the world” – Albert Einstein
+
+{% highlight python %}
+
+# Predefined variables
+initial_investment = 100
+growth_periods = 30
+growth_rate = 0.06
+
+# investment compounded once per year
+compound_periods_1 = 1
+investment_1 = initial_investment * (1+ (growth_rate / compound_periods_1))**(growth_periods*compound_periods_1)
+
+print("Investment 1: " + str(round(investment_1, 2)))
+# $574.35
+
+# Investment 2 compounded quarterly: $596.93
+
+# Investment 3 compounded monthly: $602.26
+{% endhighlight %}
+
+
+
+
+
+
+
 
 
 
