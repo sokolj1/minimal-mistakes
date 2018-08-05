@@ -52,6 +52,21 @@ print("Future Value of Investment: " + str(round(future_value, 2)))
 
 {% endhighlight %}
 
+### Cumulative Growth
+
+This metric tracks the value of an investment that consistently experiences growth or depreciation. 
+
+$$Investment Value = \large v_0 * (1 + r)^{t}}$$
+
+where
+
+$$r$$: The investment’s expected rate of return (growth rate)
+
+$$t$$: The lifespan of the investment (time) 
+
+$$v_0$$: The initial value of the investment at time 0
+
+
 
 
 
