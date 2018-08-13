@@ -9,7 +9,7 @@ classes: wide
 excerpt: "Notes from the DataCamp course"
 mathjax: true
 
-publish: false
+published: false
 
 ---
 
