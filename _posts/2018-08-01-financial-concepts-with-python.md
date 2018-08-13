@@ -9,6 +9,8 @@ classes: wide
 excerpt: "Notes from the DataCamp course"
 mathjax: true
 
+publish: false
+
 ---
 
 Summer classes are over, which means now I have time to organize my grad school notes for shareability
