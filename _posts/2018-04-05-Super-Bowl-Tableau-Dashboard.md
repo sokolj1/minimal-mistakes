@@ -16,7 +16,7 @@ of using the default end all argument with the hypothetical question “How many
 The idea is anathema to any Giants fan and any football fan that has a disdain for the birdgang (Cowboys, Redskins, Patriots, etc). 
 
 But as someone who has a love for the game of Football, Super Bowl LII was an incredibly entertaining matchup that established several precedents, such as: 
->- 1,151 total offensive yardage (Patriots 613 and Eagles 513), more than 200 yards more than any previous Super Bowl.
+> - 1,151 total offensive yardage (Patriots 613 and Eagles 513), more than 200 yards more than any previous Super Bowl.
 - The Eagles are the first team in NFL history (regular season or postseason) to win a game despite allowing more than 600 yards.
 - The Eagles are the 4th team in NFL history to win the Super Bowl after having a losing record the year before.  
 Source: [Sportingnews](http://www.sportingnews.com/nfl/news/super-bowl-52-eagles-patriots-stats-fast-facts-records-milestones/1kbmcltvjrukzzty6cpb8796y).
