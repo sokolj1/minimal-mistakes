@@ -90,7 +90,7 @@ A few noticeable observations is the Eagles commanded the greater win probabilit
 
 One nflscrapR attribute for game_play_by_play data is play description after each play, so this attribute is ideal for providing the user context with respect to win probability. After extracting the win probablities and play description, the individual dataframes were concatenated using rbind(), then written to a [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl46_52.csv). 
 
-Perhaps the biggest challenge was extracting and tabluating the team scores data. nflscrapR only provides the possession team and defensive team scores. So the scores had to be organized by possession and defense for each team, then joined together by the common field, TimeRemaining.
+Perhaps the biggest challenge was extracting and tabluating the team scores data. nflscrapR only provides the possession team and defensive team scores. So the scores had to be organized by possession and defense for each team, then joined together by the common fields of TimeRemaining and Super Bowl.
 
 {% highlight r %}
 # PHI Score
