@@ -15,10 +15,12 @@ published: true
 
 This post is about essential communicative skills that a data scientist should understand to 
 effectively convey his or her findings. The topic is so important that a 6 week accelerated 
-course is dedicated to this study with 'Communicating Data Stories'. The course description is as follows: 
+course is dedicated to this study with 'Communicating Data Stories'. The course description is the following: 
 
 > Creating a narrative with data. Covers selection, refinement, analysis and visualization with data,
-as well as data Journalism, data rhetoric, and modes of communication.
+as well as data journalism, data rhetoric, and modes of communication.
+
+
 
 
 
