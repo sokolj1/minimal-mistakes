@@ -23,9 +23,9 @@ Source: [Sportingnews](http://www.sportingnews.com/nfl/news/super-bowl-52-eagles
 
 Considering the magnitude of this game, the following question arose: 
 
->*What were the turning points of the game, the key plays that had the most impact, and how did these plays affect the likelihood of either team winning at any given moment? 
+>What were the key plays, the turning points, that had the most impact on game? How did the plays affect the likelihood of either team winning? 
 
-The manifestation of these questions is an interactive Tableau dashboard. The time remaining in the game (independent variable) is plotted against win probability (dependent variable), a statistical tool that suggests a team's likelihood of winning after each play. The true value of Tableau is the ability to swap between Super Bowls in one view, and accessing each play description using tooltips. 
+I created an interactive Tableau dashboard to answer these questions. The time remaining in the game (independent variable) is plotted against win probability (dependent variable), a statistical tool that suggests a team's likelihood of winning after each play. The true value of Tableau is the ability to swap between Super Bowls in one view, and accessing each play description using tooltips. 
 
 ## Data Source
 Determining the right data source wasn't easy. Statistical analysis with American Football does not have the luxury of a built-up infastructure like Baseball as of May 2018. I looked into proprietary software like [SportRadar](https://www.sportradar.com/) but I determined paying for a few months of API access was not worth it. Surreptitiously, while researching data sources, I found the open-source R package [nflscrapR](https://github.com/maksimhorowitz/nflscrapR), which scrapes data off the official NFL API.
