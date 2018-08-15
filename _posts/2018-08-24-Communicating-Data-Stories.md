@@ -31,7 +31,12 @@ The book used as the primary resource for course material is Randy Olsen's Houst
 4. ["The Hero's Journey" Narrative](#the-hero's-journey-narrative)
 
 ## Science and Communication: Where the Problem Lies
-    
+
+The course and book revolves around the notion that most scientists experience 'narrative deficiency': an insufficent understanding of narrative and not knowing how to apply the power of storytelling to their scientific work. First, lets identify notable issues in the scientific community that can be mitigated by narrative understanding. 
+
+Academic instituions who measure competency for faculty and graduate students by quantity of published papers are inadverantly creating a toxic environment of publish or perish. [John Ioannidis](https://en.wikipedia.org/wiki/John_Ioannidis), Professor of Medicine and of Health Research and Policy at Stanford University, stated "Most of the claimed statistically significant effects in traditional medical research are false positives or substantially exaggerated." This may be attributed to pressure to publish positive studies and the public shaming of null studies. The success of a paper is _not_ about the story itself, but *how the story is told*. 
+
+
 
 
 
