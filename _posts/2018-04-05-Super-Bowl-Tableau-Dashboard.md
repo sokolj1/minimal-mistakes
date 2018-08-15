@@ -37,17 +37,17 @@ The nflscrapR Github page provides several examples of querying the official NFL
 
 Discovering the data goes back to 2009 made me reassess the scope of my project: why not visualize key plays and win probabilities from _every_ Super Bowl between 2009 and present day?
 
-|                 Super Bowl   | Teams (away vs. home)                          |
-|                    ---       |        ---                                     |
-| Super Bowl XLIV (44)         | New Orleans Saints vs. Indianapolis Colts      |
-| Super Bowl XLV (45)          | Pittsburgh Steelers vs. Green Bay Packers      |
-| Super Bowl XLVI (46)         | New York Giants vs. New England Patriots       |
-| Super Bowl XLVII (47)        | Baltimore Ravens vs. San Francisco 49ers       |
-| Super Bowl XLVIII (48)       | Seattle Seahawks vs. Denver Broncos            |
-| Super Bowl XLIX (49)         | New England Patriots vs. Seattle Seahawks      |
-| Super Bowl 50                | Carolina Panthers vs. Denver Broncos           |
-| Super Bowl LI (51)           | New England Patriots vs. Atlanta Falcons       |
-| Super Bowl LII (52)          | Philadelphia Eagles vs. New England Patriots   |
+|                 Super Bowl   | Teams (away vs. home)                          |     Date          |
+|                    ---       |        ---                                     |      ---          |
+| Super Bowl XLIV (44)         | New Orleans Saints vs. Indianapolis Colts      |  7 February 2010  |
+| Super Bowl XLV (45)          | Pittsburgh Steelers vs. Green Bay Packers      |  6 February 2011  |
+| Super Bowl XLVI (46)         | New York Giants vs. New England Patriots       |  5 February 2012  |
+| Super Bowl XLVII (47)        | Baltimore Ravens vs. San Francisco 49ers       |  3 February 2013  |
+| Super Bowl XLVIII (48)       | Seattle Seahawks vs. Denver Broncos            |  2 February 2014  |
+| Super Bowl XLIX (49)         | New England Patriots vs. Seattle Seahawks      |  1 February 2015  |
+| Super Bowl 50                | Carolina Panthers vs. Denver Broncos           |  7 February 2016  |
+| Super Bowl LI (51)           | New England Patriots vs. Atlanta Falcons       |  5 February 2017  |
+| Super Bowl LII (52)          | Philadelphia Eagles vs. New England Patriots   |  4 February 2018  |
 
 
 ### Data Cleaning & Preprocessing
