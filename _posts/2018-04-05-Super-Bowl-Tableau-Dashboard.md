@@ -47,7 +47,7 @@ Discovering the data goes back to 2009 made me reassess the scope of my project:
 | Super Bowl XLIX (49)         | New England Patriots (28) vs. Seattle Seahawks (24)     |  1 February 2015  |
 | Super Bowl 50                | Carolina Panthers (10) vs. Denver Broncos (24)          |  7 February 2016  |
 | Super Bowl LI (51)           | New England Patriots (34) vs. Atlanta Falcons (28)      |  5 February 2017  |
-| Super Bowl LII (52)          | Philadelphia Eagles (44) vs. New England Patriots (33)  |  4 February 2018  |
+| Super Bowl LII (52)          | Philadelphia Eagles (41) vs. New England Patriots (33)  |  4 February 2018  |
 
 
 ### Data Cleaning & Preprocessing
