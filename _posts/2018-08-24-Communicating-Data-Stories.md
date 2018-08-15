@@ -36,6 +36,9 @@ The course and book revolves around the notion that most scientists experience '
 
 Academic instituions who measure competency for faculty and graduate students by quantity of published papers are inadverantly creating a toxic environment of publish or perish. [John Ioannidis](https://en.wikipedia.org/wiki/John_Ioannidis), Professor of Medicine and of Health Research and Policy at Stanford University, stated "Most of the claimed statistically significant effects in traditional medical research are false positives or substantially exaggerated." This may be attributed to pressure to publish positive studies and the public shaming of null studies. The success of a paper is _not_ about the story itself, but *how the story is told*. 
 
+This next issue in science goes back to the inability to successfully grasp how to tell a story. For papers that clearly have a lack of narrative understanding, they may simply repeat fact after fact with no overall sense of context. On the opposite end of that spectrum, there could be multiple issues occuring, or multiple key turning points in the paper that the main message the paper is trying to convey is lost in complexity. I feel like these issues are prevalent in science, and also other domains as well, because the education system stresses learning the required content to a fault. Very few individuals are actually taught how to communicate the content. Hopefully this post drives home several key points to help prevent these concerns in the future. 
+
+## The Foundation of Narrative Structure
 
 
 
