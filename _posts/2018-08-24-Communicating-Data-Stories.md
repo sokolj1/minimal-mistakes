@@ -20,6 +20,11 @@ course is dedicated to this study with 'Communicating Data Stories'. The course 
 > Creating a narrative with data. Covers selection, refinement, analysis and visualization with data,
 as well as data journalism, data rhetoric, and modes of communication.
 
+The goals of the course are to learn how to develop an argument with data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. 
+
+The book used as the primary resource for course material is Randy Olsen's Houston, We Have a Narrative. A link to purchase can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback on Amazon. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen. 
+
+
 
 
 
