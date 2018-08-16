@@ -27,8 +27,9 @@ The book used as the primary resource for course material is Randy Olsen's Houst
 ## Table of Contents
 1. [Science and Communication: Where the Problem Lies](#science-and-communication-where-the-problem-lies)
 2. [The Foundation of Narrative Structure](#the-foundation-of-narrative-structure)
-3. [Dobzhansky Template](#dobzhansky-template)
-4. ["The Hero's Journey" Narrative](#the-hero's-journey-narrative)
+    1. [Dobzhansky Template](#dobzhansky-template)
+    2. [And, But, Therefore](#and-but-therefore)
+3. ["The Hero's Journey" Narrative](#the-hero's-journey-narrative)
 
 ## Science and Communication: Where the Problem Lies
 
@@ -44,7 +45,14 @@ I believe these issues are prevalent in science, and also other domains as well,
 
 ## The Foundation of Narrative Structure
 
-Olsen drives home a call to action for scientists to develop _story sense_, or narrative intuition. 
+Olsen drives home a call to action for scientists to develop _story sense_, or narrative intuition, which like most things in life, require practice before mastery is obtained. An effective technique to develop narrative intuition is by creating a Dobzhansky Template and using the And, But, Therefore (ABT) formatting structure. 
+
+### Dobzhansky Template
+
+
+
+
+### And, But, Therefore
 
 
 
