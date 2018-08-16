@@ -33,4 +33,4 @@ I graduated Stockton University with a Bachelor of Science in Biochemistry, and 
 Other things in life I enjoy are spending time with my family, photography, unique culinary experiences, and physical activity (running, biking, and lifting). 
 
 ## About sokolj.com: 
-This personal website is hosted by Github Pages and created using the Jekyll template Minimal Mistakes. The author Michael Rose provides great [documentation](https://mmistakes.github.io/minimal-mistakes/) regarding setup for this template. 
+This website is hosted by Github Pages and was created using the Jekyll Minimal Mistakes. The author Michael Rose provides great [documentation](https://mmistakes.github.io/minimal-mistakes/) about setup for this template. 
