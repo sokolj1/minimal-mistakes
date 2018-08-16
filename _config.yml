@@ -90,9 +90,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "John Sokol"
+  name             : "John Sokol, M.S."
   avatar           :  sunny_isles_1.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist, <br> Graduate Student at Stockton University"
+  bio              : "Data Scientist"
   location         : "Barnegat, NJ"
   email            : johnsokol11@gmail.com
   uri              :
