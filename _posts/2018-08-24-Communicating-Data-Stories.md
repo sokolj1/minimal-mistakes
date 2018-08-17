@@ -56,7 +56,7 @@ Olsen gives special importance to a call to action for scientists to develop _st
 
 The And, But, Therefore (ABT) narrative structure is considered the "DNA of story" that serves to organize the writer's thoughts in a concise and compelling manner. ABT is the crux of any story. It is the essential components of the narrative that need to be conveyed so that the reader understands what is happening. The structure of ABT is the following: 
 
-____________ and ____________, but ____________, therefore ____________. 
+______________________ and ______________________, but ______________________, therefore ______________________. 
 
 
 Here is an example of ABT in action applied to The Wizard of Oz: 
