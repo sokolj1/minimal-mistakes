@@ -49,7 +49,13 @@ Olsen gives special importance to a call to action for scientists to develop _st
 
 ### Dobzhansky Template
 
+Theodosius Dobzhansky was a famous geneticist who said one of the most important statements in biological philosophy: 
 
+> "Nothing in biology makes sense _except_ in the light of evolution." 
+
+This statement encapsules the significance of thinking about biology in context of evolution. This is the overarching narrative that tells the story of how biology works.
+
+In the same regard, this statement can be applied to any topic. 
 
 
 ### And, But, Therefore
@@ -59,12 +65,12 @@ The And, But, Therefore (ABT) narrative structure is considered the "DNA of stor
 ______________________ and ______________________, but ______________________, therefore ______________________. 
 
 
-Here is an example of ABT in action applied to The Wizard of Oz: 
+Here is an example of ABT applied to The Wizard of Oz:
 
 
 > There is a little girl living on a farm in Kansas, **and** her life is boring, **but** one day a tornado sweeps her away to the land of Oz, **therefore** she must undertake a journey to find her way home. 
 
-Simple, concise, and gets the main message of the movie across in a single sentence. Extremely powerful. Once you create this  template for a PowerPoint presentation for your day job or a semester long research paper, it is easy to reference your ABT template as a roadmap to a single cohesive idea that you want the audience to take away from your findings.
+Simple, concise, and gets the main message of the movie across. Extremely powerful. Once you create this  template for a PowerPoint presentation for your day job or a semester long research paper, it is easy to reference your ABT template as a roadmap to a single cohesive idea that you want the audience to take away from your findings.
 
 
 
