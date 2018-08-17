@@ -45,7 +45,7 @@ I believe these issues are prevalent in science, and also other domains as well,
 
 ## The Foundation of Narrative Structure
 
-Olsen drives home a call to action for scientists to develop _story sense_, or narrative intuition, which like most things in life, require practice before mastery is obtained. An effective technique to develop narrative intuition is by creating a Dobzhansky Template and using the And, But, Therefore (ABT) formatting structure. 
+Olsen gives special importance to a call to action for scientists to develop _story sense_, or narrative intuition, which like most things in life, require practice before mastery is obtained. An effective technique to develop narrative intuition is to create a Dobzhansky Template and use the And, But, Therefore (ABT) formatting structure. 
 
 ### Dobzhansky Template
 
@@ -53,6 +53,18 @@ Olsen drives home a call to action for scientists to develop _story sense_, or n
 
 
 ### And, But, Therefore
+
+The And, But, Therefore (ABT) narrative structure is considered the "DNA of story" that serves to organize the writer's thoughts in a concise and compelling manner. ABT is the crux of any story. It is the essential components of the narrative that need to be conveyed so that the reader understands what is happening. The structure of ABT is the following: 
+
+____________ and ____________, but ____________, therefore ____________. 
+
+
+Here is an example of ABT in action applied to The Wizard of Oz: 
+
+
+> There is a little girl living on a farm in Kansas, **and** her life is boring, **but** one day a tornado sweeps her away to > the land of Oz, **therefore** she must undertake a journey to find her way home. 
+
+Simple, concise, and gets the main message of the movie across in a single sentence. Extremely powerful. Once you create this  template for a PowerPoint presentation for your day job or a semester long research paper, it is easy to reference this as a roadmap to a cohesive idea that you want the audience to take away from your findings.
 
 
 
