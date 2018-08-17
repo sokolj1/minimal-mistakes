@@ -27,8 +27,8 @@ The book used as the primary resource for course material is Randy Olsen's Houst
 ## Table of Contents
 1. [Science and Communication: Where the Problem Lies](#science-and-communication-where-the-problem-lies)
 2. [The Foundation of Narrative Structure](#the-foundation-of-narrative-structure)
-    1. [Dobzhansky Template](#dobzhansky-template)
-    2. [And, But, Therefore](#and-but-therefore)
+    * [Dobzhansky Template](#dobzhansky-template)
+    * [And, But, Therefore](#and-but-therefore)
 3. ["The Hero's Journey" Narrative](#the-hero's-journey-narrative)
 
 ## Science and Communication: Where the Problem Lies
