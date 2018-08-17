@@ -90,7 +90,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "John Sokol, M.S."
+  name             : "John Sokol, MS"
   avatar           :  sunny_isles_1.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist"
   location         : "Barnegat, NJ"
