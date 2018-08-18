@@ -30,6 +30,7 @@ The book used as the primary resource for course material is Randy Olsen's Houst
     * [Dobzhansky Template](#dobzhansky-template)
     * [And, But, Therefore](#and-but-therefore)
 3. ["The Hero's Journey" Narrative](#the-hero's-journey-narrative)
+4. [Extra Storytelling Tips](#extra-storytelling-tips)
 
 ## Science and Communication: Where the Problem Lies
 
@@ -53,9 +54,13 @@ Theodosius Dobzhansky was a famous geneticist who said one of the most important
 
 > "Nothing in biology makes sense _except_ in the light of evolution." 
 
-This statement encapsules the significance of thinking about biology in context of evolution. This is the overarching narrative that tells the story of how biology works.
+This statement encapsules biology in context of evolution, which is the overarching narrative telling the story of how  different facets of biology, such as biochemistry, microbiology, genetics, etc are tied together by the concept of evolution. 
 
-In the same regard, this statement can be applied to any topic. 
+In the same regard, this quote by Dobzhansky can be applied to any topic by making the template generic: 
+
+Nothing in ______________________ makes sense _except_ in the light of ______________________.
+
+
 
 
 ### And, But, Therefore
