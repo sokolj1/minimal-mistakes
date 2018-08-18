@@ -56,7 +56,7 @@ This statement encapsules biology in context of evolution, which is the overarch
 
 In the same regard, this quote by Dobzhansky can be applied to any topic by making the template generic: 
 
-Nothing in ______________________ makes sense _except_ in the light of ______________________.
+Nothing in \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ makes sense _except_ in the light of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
 
 This template helps the data scientist find a central theme that embraces the heart and soul of the narrative. Finding the right words, especially for the second blank, takes practice and effort. If you are just lukewarm after proposing a plausible word, most likely there is a better word that will serve as the foundation for your story. Here are a few other examples of the Dobzhansky template in action: 
@@ -77,7 +77,7 @@ During the brainstorming stages of a project, devote some time to thinking about
 
 The And, But, Therefore (ABT) narrative structure is considered the "DNA of story" that serves to organize the writer's thoughts in a concise and compelling manner. ABT is the crux of any story. It is the essential components of the narrative that need to be conveyed so that the reader understands what is happening. The structure of ABT is the following: 
 
-______________________ and ______________________, but ______________________, therefore ______________________. 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, but \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, therefore \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. 
 
 
 Here is an example of ABT applied to The Wizard of Oz:
