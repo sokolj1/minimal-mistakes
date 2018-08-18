@@ -54,14 +54,26 @@ Theodosius Dobzhansky was a famous geneticist who said one of the most important
 
 > "Nothing in biology makes sense _except_ in the light of evolution." 
 
-This statement encapsules biology in context of evolution, which is the overarching narrative telling the story of how  different facets of biology, such as biochemistry, microbiology, genetics, etc are tied together by the concept of evolution. 
+This statement encapsules biology in context of evolution, which is the overarching narrative telling the story of how  different facets of biology, such as biochemistry, microbiology, and genetics, are tied together by the concept of evolution. 
 
 In the same regard, this quote by Dobzhansky can be applied to any topic by making the template generic: 
 
 Nothing in ______________________ makes sense _except_ in the light of ______________________.
 
 
+This template helps the data scientist find a central theme that embraces the heart and soul of the narrative. Finding the right words, especially for the second blank, takes practice and effort. If you are just lukewarm after proposing a plausible word, most likely there is a better word that will serve as the foundation for your story. Here are a few other examples of the Dobzhansky template in action: 
 
+1. Apple: Nothing in Apple Computers makes sense _except_ in the light of innovation. 
+
+2. Wawa: Nothing in Wawa makes sense _except_ in the light of convenience ([Don't know what a Wawa is?](https://www.wawa.com)) 
+
+3. Communication: Nothing in communication makes sense _except_ in the light of simplicity. 
+
+Perhaps most important is Dobzhansky's comments regarding a story that lack a central theme/focus: 
+
+> Without that light, it becomes a pile of sundry facts—some of them interesting or curious but making no meaningful picture as a whole.
+
+During the brainstorming stages of a project, devote some time to thinking about an ideal Dobzansky template to create a meaningful picture for your story. 
 
 ### And, But, Therefore
 
