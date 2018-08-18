@@ -13,7 +13,7 @@ published: true
 
 ---
 
-The data scientist should have strong comprehension about communicating various findings and insights to a wide variety of audiences, from key stakeholders within an organization to hundreds at a public conference. The topic is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program. The course description is the following: 
+The data scientist should have strong comprehension of communicating various findings and insights to a wide variety of audiences, from key stakeholders within an organization to hundreds at a public conference. The topic is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program. The course description is the following: 
 
 > Creating a narrative with data. Covers selection, refinement, analysis and visualization with data,
 as well as data journalism, data rhetoric, and modes of communication.
@@ -40,7 +40,7 @@ Academic institutions that measure competency for faculty and graduate students 
 
 This next issue in science goes back to the inability to successfully grasp how to tell a story. For papers that clearly have a lack of narrative understanding, they may simply repeat fact after fact with no overall sense of context. On the opposite end of the spectrum, there could be multiple issues occurring, or several key turning points in the paper that the main message is lost in complexity. There is an optimum amount of narrative complexion balanced simultanously with simplicity that must be determined by the data scientist; enough complextion to be engaging, not confusing, and simplistic enough for the desired audience, not boring. 
 
-I believe these issues are prevalent in science, and also other domains as well, because higher education focuses on learning the required content to a fault. Very few institutions teach how effective scientific communication. Hopefully this post drives home several key points to help allay these concerns.
+I believe these issues are prevalent in science, and also other domains as well, because higher education focuses on learning the required content to a fault. It is rare for institutions to explicitly teach scientific communication, so there is a large deficient of liberal arts communicative knowledge. It is my hope that the following content drives home several key points to allay these concerns.
 
 ## The Foundation of Narrative Structure
 
