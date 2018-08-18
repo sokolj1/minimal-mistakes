@@ -34,7 +34,11 @@ The book used as the primary resource for course material is Randy Olsen's Houst
 
 The course and book revolves around the notion that most scientists experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. First, let's identify notable issues in the scientific community that can be mitigated by narrative understanding. 
 
-<img src="/assets/communicating-data-stories/cartoon-science-communication.gif" caption = "Source: Elena Suglia" class = "center">
+<figure>
+  <img src="/assets/communicating-data-stories/cartoon-science-communication.gif" class = "center">
+  <figcaption> Elena Suglia
+  </figcaption>
+</figure>
 
 Academic institutions that measure competency for faculty and graduate students by quantity of published papers are inadvertently creating a toxic environment of publish or perish. [John Ioannidis](https://en.wikipedia.org/wiki/John_Ioannidis), Professor of Medicine and of Health Research and Policy at Stanford University, stated "Most of the claimed statistically significant effects in traditional medical research are false positives or substantially exaggerated." This may be attributed to pressure to publish positive studies and the public shaming of null studies. In reality, the success of a paper is _not_ about the story itself, but *how the story is told*. 
 
@@ -77,15 +81,22 @@ During the brainstorming stages of a project, devote some time to thinking about
 
 The And, But, Therefore (ABT) narrative structure is considered the "DNA of story" that serves to organize the writer's thoughts in a concise and compelling manner. ABT is the crux of any story. It is the essential components of the narrative that need to be conveyed so that the reader understands what is happening. The structure of ABT is the following: 
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, but \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, therefore \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, but \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, therefore \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. 
 
 
 Here is an example of ABT applied to The Wizard of Oz:
 
-
 > There is a little girl living on a farm in Kansas, **and** her life is boring, **but** one day a tornado sweeps her away to the land of Oz, **therefore** she must undertake a journey to find her way home. 
 
-Simple, concise, and gets the main message of the movie across. Extremely powerful. Once you create this  template for a PowerPoint presentation for your day job or a semester long research paper, it is easy to reference your ABT template as a roadmap to a single cohesive idea that you want the audience to take away from your findings.
+Simple, concise, and gets the main message of the movie across. Extremely powerful. Once you create this  template for a PowerPoint presentation for your day job or a semester long research paper, it is easy to reference your ABT template as a roadmap to a single cohesive idea that you want the audience to take away from your findings. 
+
+The ABT follows the traditional three act play structure: beginning (thesis), middle (antithesis), and end (synthesis). The 'And' component establishes the situation, the 'But' establishes the conflict, and the 'Therefore' resolves the conflict. Olsen is credited for coining this template as 'ABT', this narrative structure has actually been intertwined with story for centuries. Although Olsen frequently bashes modern day scientists in his book, he acknowledges the communicative storytelling gifts of Watson and Crick, codiscoverers of the DNA molecule. It turns out they used the ABT framework with their landmark paper _Molecular Structure of Nucleic Acids_: 
+
+<figure>
+  <img src="/assets/communicating-data-stories/watson_crick.png" class = "center">
+  <figcaption> Olsen 2015
+  </figcaption>
+</figure>
 
 ## Extra Storytelling Tips
 
