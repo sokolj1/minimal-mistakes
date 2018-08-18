@@ -10,22 +10,7 @@ header:
 published: true
 ---
 
-I'm a Data Analytics Intern at AtlantiCare Health System and a graduate of Stockton University's [Data Science and Strategic Analytics program](https://stockton.edu/graduate/data-science_strategic-analytics.html).
-
-
-|                 Data Science Subsection Interests                          |
-|                              ---                                           |
-| [Data Visualization](/Interactive-Super-Bowl-Tableau-Dashboard/)           |
-| [Statistics](/Assessment-of-Cardiovascular-Fitness-using-R/)               |
-| [Machine Learning](/Predicting-Heart-Disease-with-Machine-Learning/)       |
-
-
-| Data Science Industry Application Interests    |
-|            ---                                 |
-|            Healthcare                          |
-|            Education                           |
-|           Real Estate                          |
-|             Sports                             |
+I'm a Data Analytics Intern at AtlantiCare Health System and a graduate of Stockton University's [Data Science & Strategic Analytics program](https://stockton.edu/graduate/data-science_strategic-analytics.html).
 
 ## Background: 
 I graduated Stockton University with a Bachelor of Science in Biochemistry, and a computer science minor with _cum laude_ honors in May 2017. Exposure to the field of computer science with Java as an undergraduate shifted my interests from the natural sciences to applications of data with computer programming. After rigorous research into the study of data science, I was accepted to the MS Data Science & Strategic Analytics program at my undergraduate alma mater, and graduated in August 2018.  
