@@ -13,9 +13,7 @@ published: true
 
 ---
 
-This post is about essential communication skills that a data scientist should understand to 
-effectively convey his or her findings. The topic is so important that a 6 week accelerated 
-course is dedicated to this study with 'Communicating Data Stories'. The course description is the following: 
+The data scientist should have strong comprehension about communicating various findings and insights to a wide variety of audiences, from key stakeholders within an organization to hundreds at a public conference. The topic is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program. The course description is the following: 
 
 > Creating a narrative with data. Covers selection, refinement, analysis and visualization with data,
 as well as data journalism, data rhetoric, and modes of communication.
