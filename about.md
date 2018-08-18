@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 
 header:
-  image: "assets/about/LBI_1st_street.jpg"
-  caption: "N 1st Street, Surf City, NJ | August 20, 2017"
+  image: "assets/about/data_jawn.jpg"
+  caption: "DataJawn, Philadelphia | June 13, 2018"
 
 published: true
 ---
