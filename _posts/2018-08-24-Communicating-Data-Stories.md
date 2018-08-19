@@ -35,7 +35,7 @@ The book used as the primary resource for course material is Randy Olsen's Houst
 The course and book revolves around the notion that most scientists experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. First, let's identify notable issues in the scientific community that can be mitigated by narrative understanding. 
 
 <figure>
-  <img src="/assets/communicating-data-stories/cartoon-science-communication.gif">
+  <img src="/assets/communicating-data-stories/cartoon-science-communication.gif" width = "589" height = "400">
   <figcaption> Elena Suglia
   </figcaption>
 </figure>
@@ -93,7 +93,7 @@ Simple, concise, and gets the main message of the movie across. Extremely powerf
 The ABT follows the traditional three act play structure: beginning (thesis), middle (antithesis), and end (synthesis). The 'And' component establishes the situation, the 'But' establishes the conflict, and the 'Therefore' resolves the conflict. Olsen is credited for coining this template as 'ABT', this narrative structure has actually been intertwined with story for centuries. Although Olsen frequently bashes modern day scientists in his book, he acknowledges the communicative storytelling gifts of Watson and Crick, codiscoverers of the DNA molecule. It turns out they used the ABT framework with their landmark paper _Molecular Structure of Nucleic Acids_: 
 
 <figure>
-  <img src="/assets/communicating-data-stories/watson_crick.png">
+  <img src="/assets/communicating-data-stories/watson_crick.png" width = "589" height = "400">
   <figcaption> Olsen 2015
   </figcaption>
 </figure>
