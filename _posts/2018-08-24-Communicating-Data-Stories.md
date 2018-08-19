@@ -132,7 +132,7 @@ The Hero's Journey template is the following:
 
 * Strive for short, succient titles.
 
-* The two worst possible ways communication can go wrong are boring and/or confusing routes. 
+* The two worst possible ways communication can go wrong are boring and/or confusing interpretations. 
 
 > "Truths can not walk on their own legs" - Karlyn Campbell. Truths must be explained, defended, and spread through language, argument, and appeal. 
 
