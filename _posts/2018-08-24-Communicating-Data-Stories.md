@@ -35,7 +35,7 @@ The book used as the primary resource for course material is Randy Olsen's Houst
 The course and book revolves around the notion that most scientists experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. First, let's identify notable issues in the scientific community that can be mitigated by narrative understanding. 
 
 <figure>
-  <img src="/assets/communicating-data-stories/cartoon-science-communication.gif" width = "589" height = "400">
+  <img src="/assets/communicating-data-stories/cartoon-science-communication.gif" width = "598" height = "526">
   <figcaption> Elena Suglia
   </figcaption>
 </figure>
@@ -63,7 +63,9 @@ In the same regard, this quote by Dobzhansky can be applied to any topic by maki
 Nothing in \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ makes sense _except_ in the light of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
 
-This template helps the data scientist find a central theme that embraces the heart and soul of the narrative. Finding the right words, especially for the second blank, takes practice and effort. If you are just lukewarm after proposing a plausible word, most likely there is a better word that will serve as the foundation for your story. Here are a few other examples of the Dobzhansky template in action: 
+This template helps the data scientist find a central theme that embraces the heart and soul of the narrative. Finding the right words, especially for the second blank, takes practice and effort. If you are just lukewarm after proposing a plausible word, most likely there is a better word that will serve as the foundation for your story.
+
+Here are a few other examples of the Dobzhansky template in action: 
 
 1. Apple: Nothing in Apple Computers makes sense _except_ in the light of innovation. 
 
@@ -74,6 +76,8 @@ This template helps the data scientist find a central theme that embraces the he
 Perhaps most important is Dobzhansky's comments regarding a story that lack a central theme/focus: 
 
 > Without that light, it becomes a pile of sundry facts—some of them interesting or curious but making no meaningful picture as a whole.
+
+
 
 During the brainstorming stages of a project, devote some time to thinking about an ideal Dobzansky template to create a meaningful picture for your story. 
 
@@ -93,18 +97,50 @@ Simple, concise, and gets the main message of the movie across. Extremely powerf
 The ABT follows the traditional three act play structure: beginning (thesis), middle (antithesis), and end (synthesis). The 'And' component establishes the situation, the 'But' establishes the conflict, and the 'Therefore' resolves the conflict. Olsen is credited for coining this template as 'ABT', this narrative structure has actually been intertwined with story for centuries. Although Olsen frequently bashes modern day scientists in his book, he acknowledges the communicative storytelling gifts of Watson and Crick, codiscoverers of the DNA molecule. It turns out they used the ABT framework with their landmark paper _Molecular Structure of Nucleic Acids_: 
 
 <figure>
-  <img src="/assets/communicating-data-stories/watson_crick.png" width = "589" height = "400">
+  <img src="/assets/communicating-data-stories/watson_crick.png" width = "661" height = "491">
   <figcaption> Olsen 2015
   </figcaption>
 </figure>
 
+## "The Hero's Journey" Narrative
+
+The Hero's Journey template is the following: 
+
+1. In an ordinary world
+
+2. A flawed protagonist
+
+3. Has a catalytic event that upends world
+
+4. After taking stock
+
+5. 
+
+6. But when the stakes get raised
+
+7. The protagonist must learn the lesson. 
+
+8. To stop the antagonist
+
+9. 
+
 ## Extra Storytelling Tips
 
+* The power of storytelling rests in specifics, as the human mind tends to default towards generalities. 
 
+* Narrative benefits the storyteller because it activates the brain and unifies the thinking of the audience.
 
+* Strive for short, succient titles.
 
+* The two worst possible ways communication can go wrong are boring and/or confusing routes. 
 
+> "Truths can not walk on their own legs" - Karlyn Campbell. Truths must be explained, defended, and spread through language, argument, and appeal. 
 
+* Sending theh narrative off is a great thing, but only _once_, and utilize a singular narrative, as more than one is confusing. 
+
+* When creating narrative content, capture the "inner monologue", as nobody wants to listen to a person with no emotions. 
+
+* 
 
 
 
