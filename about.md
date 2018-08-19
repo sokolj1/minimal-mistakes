@@ -13,7 +13,11 @@ I graduated Stockton University with a Bachelor of Science in Biochemistry, and 
 
 Besides munging datasets, other things I enjoy are spending time with my family, photography, unique culinary experiences, and running, tennis, biking, and lifting. 
 
-<img src="/assets/about/data_jawn.jpg" caption = "DataJawn, Philadelphia | June 13, 2018" class = "center">
+<figure>
+  <img src="/assets/about/data_jawn.jpg" caption = "DataJawn, Philadelphia | June 13, 2018" class = "center">
+  <figcaption> DataJawn Conference, Philadelphia | June 13, 2018
+  </figcaption>
+</figure>
 
 ## About sokolj.com: 
 This website is hosted by Github Pages and was created using the Jekyll Minimal Mistakes. The author Michael Rose provides great [documentation](https://mmistakes.github.io/minimal-mistakes/) about setup for this template. 
