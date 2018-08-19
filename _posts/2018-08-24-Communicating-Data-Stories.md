@@ -5,7 +5,6 @@ date:   2018-08-24
 tags: [communication, leadership]
 
 author_profile: true
-classes: wide
 excerpt: "Key takeaways from this Data Science summer course"
 mathjax: true
 toc: true 
