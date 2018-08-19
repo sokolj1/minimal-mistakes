@@ -8,7 +8,7 @@ author_profile: true
 classes: wide
 excerpt: "Key takeaways from this Data Science summer course"
 mathjax: true
-toc: true
+toc: true 
 
 published: true
 
