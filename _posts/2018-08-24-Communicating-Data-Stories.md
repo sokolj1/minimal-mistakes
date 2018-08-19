@@ -22,14 +22,6 @@ The goals of the course are to learn how to develop an argument with data scienc
 
 The book used as the primary resource for course material is Randy Olsen's Houston, We Have a Narrative. A link to purchase can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback on Amazon. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen. 
 
-## Table of Contents
-1. [Science and Communication: Where the Problem Lies](#science-and-communication-where-the-problem-lies)
-2. [The Foundation of Narrative Structure](#the-foundation-of-narrative-structure)
-    * [Dobzhansky Template](#dobzhansky-template)
-    * [And, But, Therefore](#and-but-therefore)
-3. ["The Hero's Journey" Narrative](#the-hero's-journey-narrative)
-4. [Extra Storytelling Tips](#extra-storytelling-tips)
-
 ## Science and Communication: Where the Problem Lies
 
 The course and book revolves around the notion that most scientists experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. First, let's identify notable issues in the scientific community that can be mitigated by narrative understanding. 
