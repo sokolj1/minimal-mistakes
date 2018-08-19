@@ -9,7 +9,7 @@ en: &DEFAULT_EN
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 : "Toggle Menu"
-  toc_label                  : "On This Page"
+  toc_label                  : "Overview"
   ext_link_label             : "Direct Link"
   less_than                  : "less than"
   minute_read                : "minute read"
@@ -17,7 +17,7 @@ en: &DEFAULT_EN
   meta_label                 :
   tags_label                 : "Tags:"
   categories_label           : "Categories:"
-  date_label                 : "Updated:"
+  date_label                 : "Published on"
   comments_label             : "Leave a Comment"
   comments_title             : "Comments"
   more_label                 : "Learn More"
