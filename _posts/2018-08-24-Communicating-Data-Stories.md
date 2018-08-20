@@ -1,7 +1,7 @@
 ---
 
 title:  "Communicating Data Stories"
-date:   2018-08-24
+date:   2018-08-20
 tags: [communication, leadership]
 
 author_profile: true
