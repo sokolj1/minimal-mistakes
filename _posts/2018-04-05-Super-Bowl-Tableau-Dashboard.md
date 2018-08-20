@@ -2,8 +2,8 @@
 header:
   image: /assets/foles.jpg
 
+tags: [sports, tableau]
 author_profile: true
-
 toc: true
 
 excerpt: "Dashboard visualization of Super Bowl XLIV - LII win probabilities and play descriptions"
