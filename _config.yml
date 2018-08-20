@@ -92,7 +92,7 @@ analytics:
 author:
   name             : "John Sokol, MS"
   avatar           :  sunny_isles_1.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist"
+  bio              :  <i> Data Scientist <br> Always Learning </i>
   location         : 
   email            : johnsokol11@gmail.com
   uri              :
