@@ -13,7 +13,7 @@ published: true
 
 ---
 
-Throughout a career, the data scientist more than likely must communicate various findings and insights to a variety of audiences, from stakeholders within an organization to hundreds of people at a public conference. The topic is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program.
+Throughout a career, the data scientist will communicate various findings and insights to a variety of audiences, from stakeholders within an organization to hundreds of people at a public conference. The topic is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program.
 
 The goals of the course are to learn how to develop an argument with data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. 
 
