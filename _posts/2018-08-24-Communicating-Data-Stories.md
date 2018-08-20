@@ -13,10 +13,7 @@ published: true
 
 ---
 
-The data scientist needs a strong comprehension of communicating various findings and insights to a wide variety of audiences, from key stakeholders within an organization to hundreds at a public conference. The topic is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program. The course description is the following: 
-
-> Creating a narrative with data. Covers selection, refinement, analysis and visualization with data,
-as well as data journalism, data rhetoric, and modes of communication.
+Throughout a career, the data scientist more than likely must communicate various findings and insights to a variety of audiences, from stakeholders within an organization to hundreds of people at a public conference. The topic is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program.
 
 The goals of the course are to learn how to develop an argument with data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. 
 
@@ -24,11 +21,11 @@ The book used as the primary resource for course material is Randy Olsen's Houst
 
 ## Science and Communication: Where the Problem Lies
 
-The course and book revolves around the notion that most scientists experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. First, let's identify notable issues in the scientific community that can be mitigated by narrative understanding. 
+Oslen's book posits scientists are prone to experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. Let's identify a few issues in the science community that can be potentially mitigated with adopting narrative intuition. 
 
 <figure>
   <img src="/assets/communicating-data-stories/cartoon-science-communication.gif" width = "598" height = "526">
-  <figcaption> Elena Suglia
+  <figcaption> Source: Elena Suglia
   </figcaption>
 </figure>
 
