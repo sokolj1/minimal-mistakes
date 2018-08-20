@@ -260,6 +260,4 @@ color = factor(implemented_kmeans$cluster_id))) + geom_point()
 
 This plot is exactly the same as the plot with the built in K-means Clustering function, with the exception of the cluster identifiers. The groupings are the same, but the numbering is different.
 
-If you want to take a look at the source code, please see this [github repository](https://github.com/sokolj1/K_Means_Clustering) titled K_Means_Clustering. Thank you for reading!
-
-John
+If you want to take a look at the source code, please see the [github repository](https://github.com/sokolj1/K_Means_Clustering) titled K_Means_Clustering. Thank you for reading!
