@@ -12,7 +12,7 @@ excerpt: "Dashboard visualization of Super Bowl XLIV - LII win probabilities and
 
 ---
 
-As a lifelong Giants fan, it was painful to watch the Philadelphia Eagles win their first championship 
+As a Giants fan, it was painful to watch the Philadelphia Eagles win their first championship 
 since 1960, and their first Super Bowl victory in the history of the franchise. Gone are the days
 of using the default end all argument with the hypothetical question “How many Super Bowl rings do the Eagles have?” 
 The idea is anathema to any Giants fan and football fans that has a disdain for the birdgang (Cowboys, Redskins, Patriots, etc). 
