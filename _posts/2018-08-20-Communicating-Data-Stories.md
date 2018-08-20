@@ -17,7 +17,7 @@ Throughout a career, the data scientist will communicate various findings and in
 
 The goals of the course are to learn how to develop an argument with data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. 
 
-The book used as the primary resource for course material is Randy Olsen's Houston, We Have a Narrative. A link to purchase can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback on Amazon. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen. 
+The book used as the primary resource for course material is Randy Olsen's _Houston, We Have a Narrative_. A link to purchase can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback on Amazon. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen. 
 
 ## Science and Communication: Where the Problem Lies
 
@@ -25,15 +25,15 @@ Oslen's book posits scientists are prone to experience _narrative deficiency_: a
 
 <figure>
   <img src="/assets/communicating-data-stories/cartoon-science-communication.gif" width = "598" height = "526">
-  <figcaption> Source: Elena Suglia
+  <figcaption> Photo Credit: Elena Suglia
   </figcaption>
 </figure>
 
 Academic institutions that measure competency for faculty and graduate students by quantity of published papers are inadvertently creating a toxic environment of publish or perish. [John Ioannidis](https://en.wikipedia.org/wiki/John_Ioannidis), Professor of Medicine and of Health Research and Policy at Stanford University, stated "Most of the claimed statistically significant effects in traditional medical research are false positives or substantially exaggerated." This may be attributed to pressure to publish positive studies and the public shaming of null studies. In reality, the success of a paper is _not_ about the story itself, but *how the story is told*. 
 
-This next issue in science goes back to the inability to successfully grasp how to tell a story. For papers that clearly have a lack of narrative understanding, they may simply repeat fact after fact with no overall sense of context. On the opposite end of the spectrum, there could be multiple issues occurring, or several key turning points in the paper that the main message is lost in complexity. There is an optimum amount of narrative complexion balanced simultanously with simplicity that must be determined by the data scientist; enough complextion to be engaging, not confusing, and simplistic enough for the desired audience, not boring. 
+All of these issues are derived from the inability to successfully tell a story. For papers that exemplify lack of narrative understanding, the author may repeat fact after fact with no sense of context. On the opposite end of the spectrum, there could be multiple issues occurring; there are so many key turning points in the paper that the main message is lost in complexity. There is an optimum amount of narrative complexion balanced simultanously with simplicity that must be determined by the data scientist; enough complextion to be engaging, not confusing, and simplistic enough for the desired audience, not boring. Thus it is my hope that the following content drives home these key ideas so everyone, not just scientists, can develop narrative intuition in their own work.
 
-I believe these issues are prevalent in science, and also other domains as well, because higher education focuses on learning the required content to a fault. It is rare for institutions to explicitly teach scientific communication, so there is a large deficient of liberal arts communicative knowledge. It is my hope that the following content drives home several key points to allay these concerns.
+<!-- I believe these issues are prevalent in science, and also other domains as well, because higher education focuses on learning the required content to a fault. It is rare for institutions to explicitly teach scientific communication, so there is a large deficiency of liberal arts communicative knowledge. It is my hope that the following content drives home several key points to allay these concerns. -->
 
 ## The Foundation of Narrative Structure
 
