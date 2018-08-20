@@ -9,7 +9,7 @@ classes: wide
 excerpt: "Ordinary least squares algorithm using Python"
 mathjax: true
 
-published: true
+published: false
 
 ---
 
