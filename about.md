@@ -29,4 +29,5 @@ Feel free to contact me via:
 * Twitter: [@john_sokol1](https://twitter.com/John_Sokol1)
 * LinkedIn: [sokolj](https://www.linkedin.com/in/sokolj/)
 * GitHub: [sokolj1](https://github.com/sokolj1)
+
 Thank you for reading!
