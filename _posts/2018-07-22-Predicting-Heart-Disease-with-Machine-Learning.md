@@ -15,15 +15,6 @@ Principle Component Analysis served as an exploratory data analysis technique. T
 
 The logistic regression model was instantiated in a Python function, then deployed to a Tableau Dashboard with Tableau extension TabPy to build a plausible graphical user interface; the healthcare professional can modify model parameters for each patient to obtain a risk assessment based on the aforementioned health metrics. This predictive analytics application serves as proof of viability for implementation in the healthcare industry. In regards to long term implications, this study enables healthcare professionals to consider putting into practice machine learning predictive analytics for future state patient risk assessment. 
 
-## Table of Contents:
-1. [Introduction](#introduction)
-2. [Predictive Analytics Case Study: Heart Disease](#predictive-analytics-case-study-heart-disease)
-3. [Data Source: University of California Irvine (UCI) Machine Learning Repository](#data-source-university-of-california-irvine-uci-machine-learning-repository)
-4. [Selecting the Features for Analysis](#selecting-the-features-for-analysis)
-5. [Principle Component Analysis (PCA)](#principle-component-analysis-pca)
-6. [Logistic Regression](#logistic-regression)
-7. [Connect to TabPy](#connect-to-tabpy)
-
 ## Introduction
 
 Heart disease is described as any condition that detrimentally affects the heart. Heart disease is often used interchangeably with the term "cardiovascular disease." However, cardiovascular disease generally refers to conditions involving heart blockages such as atherosclerosis (narrowing or blocking of the arteries due to plaque buildup), whereas heart disease is an umbrella term that is inclusive of other heart conditions. Heart Disease can not only affect the arteries, but the heart muscle, valves, rhythm, or other important aspects of a well-functioning heart. 
