@@ -45,9 +45,9 @@ All of these issues are derived from the inability to successfully tell a story.
 
 <!-- I believe these issues are prevalent in science, and also other domains as well, because higher education focuses on learning the required content to a fault. It is rare for institutions to explicitly teach scientific communication, so there is a large deficiency of liberal arts communicative knowledge. It is my hope that the following content drives home several key points to allay these concerns. -->
 
-## The Foundation of Narrative Structure
+## Narrative Structure
 
-Olsen gives special importance to a call to action for scientists to develop _story sense_, or narrative intuition, which like most things in life, require practice before mastery is obtained. An effective technique to develop narrative intuition is to create a Dobzhansky Template and use the And, But, Therefore (ABT) formatting structure. 
+Olsen gives special importance to a call to action for scientists to develop _story sense_, or narrative intuition, which like most things in life, require practice before mastery is obtained. An effective way to develop narrative intuition is to prioritize narrative structure by using the [Dobzhansky Template](#dobzhansky-template), [And, But Therefore](#and-but-therefore), and [The Hero's Journey](#the-hero's-journey)
 
 ### Dobzhansky Template
 
@@ -101,7 +101,7 @@ The ABT follows the traditional three act play structure: beginning (thesis), mi
   </figcaption>
 </figure>
 
-## "The Hero's Journey" Narrative
+### "The Hero's Journey" Narrative
 
 The Hero's Journey template is the following: 
 
@@ -122,6 +122,11 @@ The Hero's Journey template is the following:
 8. To stop the antagonist
 
 9. 
+
+
+## McKee's Triangle
+
+
 
 ## Extra Storytelling Tips
 
