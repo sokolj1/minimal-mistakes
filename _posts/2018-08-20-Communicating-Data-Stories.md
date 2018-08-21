@@ -1,20 +1,17 @@
 ---
-
 <!-- header:
   image: /assets/communicating-data-stories/heart_disease_pres_5.1.2018.png
   caption: Predicting Heart Disease Presentation | 5/1/2018 -->
-
-title:  "Communicating Data Stories"
-date:   2018-08-20
-tags: [communication, leadership]
-
+title: Communicating Data Stories
+date: {}
+tags:
+  - communication
+  - leadership
 author_profile: true
-excerpt: "Key takeaways from this Stockton University Data Science summer course"
+excerpt: Key takeaways from this Stockton University Data Science summer course
 mathjax: true
-toc: true 
-
+toc: true
 published: true
-
 ---
 
 Throughout a career, the data scientist will communicate various findings and insights to a variety of audiences, from stakeholders within an organization to hundreds of people at a public conference. The topic is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program.
@@ -76,7 +73,9 @@ Perhaps most important is Dobzhansky's comments regarding a story that lack a ce
 
 > Without that light, it becomes a pile of sundry facts—some of them interesting or curious but making no meaningful picture as a whole.
 
+For this post, a solid Dobzhansky statement would be:
 
+Nothing about **communication** makes sense except in the light of **simplicity** and **structure**.
 
 During the brainstorming stages of a project, devote some time to thinking about an ideal Dobzansky template to create a meaningful picture for your story. 
 
@@ -113,7 +112,7 @@ The Hero's Journey template is the following:
 
 4. After taking stock
 
-5. 
+5. The hero commits to action
 
 6. But when the stakes get raised
 
@@ -121,7 +120,7 @@ The Hero's Journey template is the following:
 
 8. To stop the antagonist
 
-9. 
+9. And achieve the goal
 
 
 ## McKee's Triangle
@@ -144,9 +143,4 @@ The Hero's Journey template is the following:
 
 * When creating narrative content, capture the "inner monologue", as nobody wants to listen to a person with no emotions. 
 
-* 
-
-
-
-
-
+*
