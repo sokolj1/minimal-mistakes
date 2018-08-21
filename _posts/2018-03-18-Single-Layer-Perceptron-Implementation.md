@@ -1,6 +1,6 @@
 ---
 header:
-  image: /assets/perceptron_neuron.jpg
+  image: /assets/single-layer-perceptron/perceptron_neuron.jpg
 
 author_profile: true
 
@@ -10,7 +10,7 @@ classes: wide
 
 ## Understanding the linearly separable binary classifier from the ground up using R
 
-The perceptron. It has become a rite of passage for comprehending the underlying mechanism of neural networks, and machine learning as a whole. The algorithm was invented in 1957 at the Cornell Aeronautical Laboratory by Frank Rosenblatt with funding from the US government [[1]](http://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0042519). The concept behind the perceptron is simple: separate two distinct categories of data based on linear separability. This tutorial uses data that has 2 dimensions, which can be downloaded [here](https://sokolj.com/assets/2018-03-04-Single-Layer-Perceptron-Implementation/percep_data.csv). Lets start by importing the data into RStudio, then dividing the dataset into separate train and test DataFrames (80% train, 20% test). 
+The perceptron. It has become a rite of passage for comprehending the underlying mechanism of neural networks, and machine learning as a whole. The algorithm was invented in 1957 at the Cornell Aeronautical Laboratory by Frank Rosenblatt with funding from the US government [[1]](http://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0042519). The concept behind the perceptron is simple: separate two distinct categories of data based on linear separability. This tutorial uses data that has 2 dimensions, which can be downloaded [here](https://sokolj.com/assets/single-layer-perceptron/percep_data.csv). Lets start by importing the data into RStudio, then dividing the dataset into separate train and test DataFrames (80% train, 20% test). 
 
 
 {% highlight r %}
@@ -34,7 +34,7 @@ with(train, plot(X1, X2, col = Y + 3, xlab = "Feature 1", ylab = "Feature 2", ma
 
 {% endhighlight %}
 
-<img src="../assets/2018-03-04-Single-Layer-Perceptron-Implementation/init_percep_plot.jpg" align="center" > 
+<img src="../assets/single-layer-perceptron/init_percep_plot.jpg" align="center" > 
 
 It looks like with the exception of a few outliers, the data is linearly separably. Great! We can now proceed to learn the intracacies of this neural network classifier. 
 
@@ -151,6 +151,6 @@ To close the function, establish a list of several key attributes for the return
 
 {% endhighlight %}
 
-<img src="../assets/2018-03-04-Single-Layer-Perceptron-Implementation/weighted_predictions.jpeg" align="center" > 
+<img src="../assets/single-layer-perceptron/weighted_predictions.jpeg" align="center" > 
 
 
