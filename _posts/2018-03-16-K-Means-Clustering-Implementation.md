@@ -1,6 +1,6 @@
 ---
 header:
-  image: /assets/2018-03-16-K-Means-Clustering/pokemon_background.jpg
+  image: /assets/K-Means-Clustering/pokemon_background.jpg
 author_profile: true
 classes: wide
 published: true
@@ -17,7 +17,7 @@ head(pokemon)
 
 {% endhighlight %}
 
-<img src="../assets/2018-03-16-K-Means-Clustering/k_means_1.png" align="center" > 
+<img src="../assets/K-Means-Clustering/k_means_1.png" align="center" > 
 
 This dataset contains 12 features consisting of the number, name, first and second type, and basic statistics: Total Points, HP, Attack, Defense, Special Attack, Special Defense, Speed, Generation and Legendary status for exactly 800 pokemon (observations) describing the data. It turns out these pokemon statistics serve as a great introduction to unsupervised learning. 
 
@@ -31,7 +31,7 @@ xlab("Speed") + ylab("Defense")
 
 {% endhighlight %}
 
-<img src="../assets/2018-03-16-K-Means-Clustering/pokemon_init_ggplot.jpeg" align="center" > 
+<img src="../assets/K-Means-Clustering/pokemon_init_ggplot.jpeg" align="center" > 
 
 How would the K-means Clustering algorithm be applicable to this relationship of two pokemon features? If we are doing an analysis of pokemon to classify, or group, the pokemon that have optimal speed _and_ defense, K-means Clustering can determine the grouping of these pokemon. We will choose an arbitrary k value of 4. Once the K-means Clustering algorithm is rendered to the plot, we obtain the following result: 
 
@@ -46,7 +46,7 @@ ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, color = factor(km.out$
 
 {% endhighlight %}
 
-<img src="../assets/2018-03-16-K-Means-Clustering/pokemon_after_kmeans.jpeg" align="center" > 
+<img src="../assets/K-Means-Clustering/pokemon_after_kmeans.jpeg" align="center" > 
 
 It looks like the pokemon in cluster 2 have optimal defense and adequate speed, and the pokemon in cluster 3 have optimal speed and adequate defense. Although we have obtained our answer, I used the built in kmeans() R function to complete this task. But what happens behind the scenes with K-means clustering algorithm? How does it determine cluster assignments? All will be explained. 
 
@@ -72,7 +72,7 @@ ggtitle("Pokemon Species TWSS Elbow Plot") + xlab("K value") + ylab("TWSS")
 
 {% endhighlight %}
 
-<img src="../assets/2018-03-16-K-Means-Clustering/pokemon_elbow_plot.jpeg" align="center" > 
+<img src="../assets/K-Means-Clustering/pokemon_elbow_plot.jpeg" align="center" > 
 
 The interpretation of the elbow plot is up to the discretion of the user. I chose a k value of 4 because that is when the twss value begins to level off, but another data scientist could have chosen a k value of 3 or even 6 depending on the research situation and the question he or she is trying to answer. The takeaway here is to use an elbow plot to determine the appropriate amount of clusters for the K-means Clustering algorithm. 
 
@@ -254,7 +254,7 @@ color = factor(implemented_kmeans$cluster_id))) + geom_point()
 
 {% endhighlight %}
 
-<img src="../assets/2018-03-16-K-Means-Clustering/implemented_kmeans.jpeg" align="center" > 
+<img src="../assets/K-Means-Clustering/implemented_kmeans.jpeg" align="center" > 
 
 
 
