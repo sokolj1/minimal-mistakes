@@ -24,6 +24,9 @@ sokolj.com is hosted by Github Pages and was created using Jekyll Minimal Mistak
 
 
 ## Contact Me
-Feel free to contact me using the links on the homepage. 
+Feel free to contact me via: 
+* Email: johnsokol11@gmail.com
+* Twitter: [sokolj1](https://twitter.com/John_Sokol1)
+* LinkedIn: [sokolj](https://www.linkedin.com/in/sokolj/)
 
 Thank you for reading!
