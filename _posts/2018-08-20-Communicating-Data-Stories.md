@@ -1,8 +1,8 @@
 ---
 
-header:
+<!-- header:
   image: /assets/communicating-data-stories/heart_disease_pres_5.1.2018.png
-  caption: Predicting Heart Disease Presentation | 5/1/2018
+  caption: Predicting Heart Disease Presentation | 5/1/2018 -->
 
 title:  "Communicating Data Stories"
 date:   2018-08-20
@@ -22,6 +22,12 @@ Throughout a career, the data scientist will communicate various findings and in
 The book used as the primary resource for course material is Randy Olsen's _Houston, We Have a Narrative_. A link to purchase can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback on Amazon. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen. 
 
 The goals of the course were to learn how to develop an argument with data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. This post focuses on accomplishing these objectives by means of sound narrative structure, which ultimately develops narrative intuition. 
+
+<figure>
+  <img src="/assets/communicating-data-stories/heart_disease_pres_5.1.2018.png" width = "598" height = "526">
+  <figcaption> Predicting Heart Disease Presentation | May 1, 2018
+  </figcaption>
+</figure>
 
 ## Science and Communication: Where the Problem Lies
 
