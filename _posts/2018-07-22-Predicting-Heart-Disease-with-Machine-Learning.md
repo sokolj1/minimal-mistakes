@@ -3,8 +3,7 @@ header:
   image: /assets/predicting-heart-disease/heart_disease_screenshot_8_2_2018.png
   
 author_profile: true
- 
-classes: wide
+toc: true 
 
 excerpt: Predictive analytics application in the healthcare industry
 
