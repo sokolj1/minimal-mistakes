@@ -1,6 +1,6 @@
 ---
 header:
-  image: /assets/foles.jpg
+  image: /assets/Super-Bowl-Dashboard/foles.jpg
 
 tags: [sports, tableau]
 author_profile: true
