@@ -101,11 +101,11 @@ scale_color_manual(values=c("#004953", "#c60c30"), labels = c("PHI", "NE")) +
 labs(color = "", caption = "Source: nflscrapR") 
 {% endhighlight %}
 
-<img src="../assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/PHI_NE_PLOT.jpeg" align="center" > 
+<img src="../assets/Super-Bowl-Dashboard/PHI_NE_PLOT.jpeg" align="center" > 
 
 A few noticeable observations is the Eagles commanded the greater win probability for a majority of the game, suggesting the Eagles were in the drivers seat with the exception of a few minutes in the first quarter and the final minutes of the game. Although this is a great visualization tool, the graphic doesn't provide context for the data itself, such as what play occurred that resulted in a change in win probability. This involves another layer of data complexity, preferably with plot interactivity. Unfortunately, ggplot does not support this functionality, so Tableau was my go to interactive data viz solution. 
 
-One nflscrapR attribute for game_play_by_play data is play description after each play, so this attribute is ideal for providing the user context with respect to win probability. After extracting the win probablities and play description, the individual dataframes were concatenated using rbind(), then written to a [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl46_52.csv). 
+One nflscrapR attribute for game_play_by_play data is play description after each play, so this attribute is ideal for providing the user context with respect to win probability. After extracting the win probablities and play description, the individual dataframes were concatenated using rbind(), then written to a [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/Super-Bowl-Dashboard/super_bowl46_52.csv). 
 
 Perhaps the biggest challenge was extracting and tabluating the team scores data. nflscrapR only provides the possession team and defensive team scores. So the scores had to be organized by possession and defense for each team, then joined together by the common fields of TimeRemaining and Super Bowl.
 
@@ -145,7 +145,7 @@ sb52_phi_scores <- sb52_phi_scores[dim(sb52_phi_scores)[1]:1,]
 colnames(sb52_phi_scores) = c("TimeRemaining", "Away")
 {% endhighlight %}
 
-This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super Bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the result of rigourous data cleaning was another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/2018-04-05-Interactive-Super-Bowl-Tableau-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now the data is ready for visualization. 
+This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super Bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the result of rigourous data cleaning was another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/Super-Bowl-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now the data is ready for visualization. 
 
 ## Choosing the Right Data Visualization Tool
 As an intern at AtlantiCare Health System, I picked up Tableau to create dashboards for doctors and administrative staff to track prevalence of Venus Thromoembolism (VTE). With this experience, I learned the idiosyncrasies of the high level business intelligence software. After looking into open-source alternatives like Plotly and Bokeh, the interactivity is there, but customization of the interactivity is limited. Tableau's tooltip is customizable and has little to no lag time between hover over and displaying information. Although Tableau tutorials are out of scope for this post, here are a few links to help get started with Tableau: 
