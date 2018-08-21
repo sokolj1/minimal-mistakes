@@ -24,7 +24,7 @@ The book used as the primary resource for course material is Randy Olsen's _Hous
 The goals of the course were to learn how to develop an argument with data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. This post focuses on accomplishing these objectives by means of sound narrative structure, which ultimately develops narrative intuition. 
 
 <figure>
-  <img src="/assets/communicating-data-stories/heart_disease_pres_5.1.2018.png" width = "598" height = "526">
+  <img src="/assets/communicating-data-stories/heart_disease_pres_5.1.2018.png" width = "1278" height = "713">
   <figcaption> Predicting Heart Disease Presentation | May 1, 2018
   </figcaption>
 </figure>
