@@ -1,10 +1,12 @@
 ---
 header:
-  image: /assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_disease_screenshot_8_2_2018.png
+  image: /assets/predicting-heart-disease/heart_disease_screenshot_8_2_2018.png
   
 author_profile: true
  
 classes: wide
+
+excerpt: Predictive analytics application in the healthcare industry
 
 ---
 
@@ -57,7 +59,7 @@ Once the machine learning model is fitted, it can be deployed to Tableau using T
 
 The data was obtained from the UCI Machine Learning Repository. Considering the focus on heart disease in the United States, only the Cleveland and Long Beach files were used. After rigorous data cleaning, both files were imported into a Pandas DataFrame: 
 
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/master_df.png" >
+<img src="/assets/predicting-heart-disease/master_df.png" >
 
 The master DataFrame has 375 observations and 63 features.
 
@@ -99,15 +101,15 @@ Principle component analysis, or colloquially known as dimensionality reduction,
 
 PCA is not ideal for non-continuous, discrete dataset attributes. The 10 continuous values out of the total 14 are the only attributes that can be used for PCA analysis. In order to obtain the most accurate PCA analysis results, the data needs to be scaled. If scaling is overlooked, then features that have higher quantitative values will influence the results far more than the other features. There are several ways to scale data, but the most common is to subtract each observation by the overall feature mean, then divide the difference by the feature standard deviation. 
 
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/heart_dis_pca_results.png" >
+<img src="/assets/predicting-heart-disease/heart_dis_pca_results.png" >
 
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/explained_var.png" >
+<img src="/assets/predicting-heart-disease/explained_var.png" >
 
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/explained_var_sum.png" >
+<img src="/assets/predicting-heart-disease/explained_var_sum.png" >
 
 The continous attributes are also visualized using a Pearson correlation matrix. The correlation values range from -1 to 1, with -1 indicating a negative correlation, 0 indicating no correlation, and 1 indicating a positive correlation. 
 
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/hd_pearson_correlation.png" >
+<img src="/assets/predicting-heart-disease/hd_pearson_correlation.png" >
 
 Notable positive correlations amongst the data are cigarettes per day as years as a smoker increases, and an increase in METs as maximum heart rate achieved increases. 
 
@@ -121,7 +123,7 @@ Logistic regression is a method for estimating categorical relationships amongst
 
 K-folds cross validation increases model error out accuracy. The model uses _all_ observations for model training. The observations are randomly divided into train and test datasets, the model is fitted, then the model is randomly divided again, fitted, and so on, K times with resampling. So all observations are used as training data to fit the model. To determine final accuracy output, all of the model accuracies are averaged for a cumulative accuracy score. This model uses 10 fold cross validation. For the sake of brevity, please reference the logistic regression model fitting code in the Jupyter Notebook. 
 
-<img src="/assets/2018-03-08-Predicting-Heart-Disease-with-Neural-Networks/logistic_reg_fitting.png" >
+<img src="/assets/predicting-heart-disease/logistic_reg_fitting.png" >
 
 It turns out that using logistic regression results in an error out of 78%. This will be our deployable TabPy function. 
 Model accuracy above 70% accuracy is considered to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 78% accuracy is excellent. I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model with the same features from the heart disease dataset.
