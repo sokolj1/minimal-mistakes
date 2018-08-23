@@ -81,7 +81,7 @@ The ABT follows the traditional three act play structure: beginning (thesis), mi
 
 <figure>
   <img src="/assets/communicating-data-stories/watson_crick.png" width = "661" height = "491">
-  <figcaption> Olsen 2015
+  <figcaption> Credit: J. D. Watson and F. H. C. Crick, 1953
   </figcaption>
 </figure>
 
@@ -155,6 +155,13 @@ The _Wizard of Oz_ is a prime example of archplot.
 
 ### Application to Data Communication
 
+It is not concidence that numerous movies considered all time greats are built upon the archplot narrative structure. The masses are subconsciously drawn towards archplot storylines. The more archplot tenets violated, the less people interested in a story/research findings. Therefore, it imperative to keep these archplot attributes in mind when developing a narrative. Oslen says it best with the following application to science: 
+
+<figure>
+  <img src="/assets/communicating-data-stories/archplot_example.png" width = "661" height = "491">
+  <figcaption> Credit: Olsen 2015
+  </figcaption>
+</figure>
 
 
 
