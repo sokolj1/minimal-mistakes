@@ -29,9 +29,6 @@ The book used for the course Communicating Data Stories is Randy Olsen's _Housto
 
 ## Where the Problem Lies
 
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
-{: .notice--info}
-
 Oslen's book posits scientists are prone to experiencing _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. Let's identify a few issues in the science community that can be potentially mitigated with adopting a sense of narrative. 
 
 <figure>
