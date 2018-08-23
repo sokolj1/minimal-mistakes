@@ -49,7 +49,7 @@ Here are a few other examples of the Dobzhansky template in action:
 
 1. Apple: Nothing about Apple Computers makes sense _except_ in the light of innovation. 
 
-2. Wawa: Nothing about Wawa makes sense _except_ in the light of convenience ([Don't know what a Wawa is?](https://www.wawa.com)) 
+2. Wawa: Nothing about Wawa makes sense _except_ in the light of convenience ([Don't know what a Wawa is?](https://www.wawa.com)).
 
 3. Tom Brady: Nothing about Tom Brady makes sense _except_ in the light of [discipline](https://nesn.com/2016/01/tom-brady-opens-up-about-his-discipline-which-could-be-qbs-top-trait/). 
 
@@ -132,14 +132,13 @@ The _Wizard of Oz_ is a prime example of archplot.
 
 ### Application to Data Communication
 
-It is not concidence that numerous movies considered all time greats are built upon the archplot narrative structure. The masses are subconsciously drawn towards archplot storylines. The more archplot tenets violated, the less people interested in a story/research findings. Therefore, it imperative to keep these archplot attributes in mind when developing a narrative. Oslen says it best with the following application to science: 
+It is not concidence that numerous movies considered all time greats are built upon the archplot narrative structure. The masses are subconsciously drawn towards archplot storylines. The more archplot tenets violated, the less people interested in a story/research findings. Therefore, it imperative to keep these archplot attributes in mind when developing a narrative. Oslen says it best with an elaboration of what it means to lean towards miniplot:
 
 <figure>
   <img src="/assets/communicating-data-stories/archplot_example.png" width = "661" height = "491">
   <figcaption> Credit: Olsen, 2015
   </figcaption>
 </figure>
-
 
 
 
