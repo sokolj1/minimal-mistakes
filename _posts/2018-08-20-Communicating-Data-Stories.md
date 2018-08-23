@@ -1,7 +1,8 @@
----
 <!-- header:
   image: /assets/communicating-data-stories/heart_disease_pres_5.1.2018.png
   caption: Predicting Heart Disease Presentation | 5/1/2018 -->
+  
+---
 title: Communicating Data Stories
 date: {}
 tags:
