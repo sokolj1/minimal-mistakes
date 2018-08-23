@@ -24,12 +24,13 @@ Throughout a career, the data scientist will frequently communicate their analys
 
 <!--Stockton University's Data Science program believes communication is so important that a 6 week accelerated summer course is dedicated to the betterment of conveying information and ideas. The goals of the course are to learn to develop an argument from data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. -->
 
-The book used for the course Communicating Data Stories is Randy Olsen's _Houston, We Have a Narrative_, which can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen.{: .notice--info}
+The book used for the course Communicating Data Stories is Randy Olsen's _Houston, We Have a Narrative_, which can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen.
+{: .notice--info}
 
-## Science and Communication: Where the Problem Lies
+## Where the Problem Lies
 
 **Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
-{: .notice}
+{: .notice--info}
 
 Oslen's book posits scientists are prone to experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. Let's identify a few issues in the science community that can be potentially mitigated with adopting a sense of narrative. 
 
