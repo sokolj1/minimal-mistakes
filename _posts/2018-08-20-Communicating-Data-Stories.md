@@ -14,9 +14,7 @@ published: true
   image: /assets/communicating-data-stories/heart_disease_pres_5.1.2018.png
   caption: Predicting Heart Disease Presentation | 5/1/2018 -->
   
-Throughout a career, the data scientist will frequently communicate their analysis and conclusions to a variety of audiences, from stakeholders within an organization to hundreds of people at a conference. But unfortunately, at least from my observation, learning the art of communication plays second fiddle to hard skill data science techniques such as machine learning and data visualization. This post focuses on developing communication skills, applicable to _all_ career paths, by means of simplistic narrative structure.
-
-Communication is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program. The goals of the course were to learn how to develop an argument with data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science.
+Throughout a career, the data scientist will frequently communicate their analysis and conclusions to a variety of audiences, from stakeholders within an organization to hundreds of people at a conference. But unfortunately, learning the art of communication plays second fiddle to hard skill data science techniques such as machine learning and data visualization. Even if you believe this skill can be cultivated at the workplace through experience, we can all benefit from better communication of our work. This post focuses on developing these communication skills, applicable to _all_ careers, by means of simplistic narrative structure.
 
 <figure>
   <img src="/assets/communicating-data-stories/heart_disease_pres_5.1.2018_cropped.png" width = "992" height = "712">
@@ -24,12 +22,14 @@ Communication is so important that a 6 week accelerated summer course is dedicat
   </figcaption>
 </figure>
 
-The book used for course is Randy Olsen's _Houston, We Have a Narrative_, which can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen.{: .notice--info}
+<!--Stockton University's Data Science program believes communication is so important that a 6 week accelerated summer course is dedicated to the betterment of conveying information and ideas. The goals of the course are to learn to develop an argument from data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. -->
+
+The book used for the course Communicating Data Stories is Randy Olsen's _Houston, We Have a Narrative_, which can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen.{: .notice--info}
+
+## Science and Communication: Where the Problem Lies
 
 **Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
 {: .notice}
-
-## Science and Communication: Where the Problem Lies
 
 Oslen's book posits scientists are prone to experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. Let's identify a few issues in the science community that can be potentially mitigated with adopting a sense of narrative. 
 
