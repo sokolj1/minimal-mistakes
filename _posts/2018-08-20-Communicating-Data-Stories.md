@@ -159,7 +159,7 @@ It is not concidence that numerous movies considered all time greats are built u
 
 <figure>
   <img src="/assets/communicating-data-stories/archplot_example.png" width = "661" height = "491">
-  <figcaption> Credit: Olsen 2015
+  <figcaption> Credit: Olsen, 2015
   </figcaption>
 </figure>
 
