@@ -66,12 +66,12 @@ During the brainstorming stages of a project, devote some time to thinking about
 
 ### And, But, Therefore
 
-The And, But, Therefore (ABT) narrative structure is considered the "DNA of story" that serves to organize the writer's thoughts in a concise and compelling manner. ABT is the crux of any story. It is the essential components of the narrative that need to be conveyed so that the reader understands what is happening. The structure of ABT is the following: 
+The And, But, Therefore (ABT) narrative structure is considered the "DNA of story" that serves to organize the writer's thoughts in a concise and compelling manner. ABT is the crux of any story. It is the essential components of the narrative that needs to be conveyed so the reader understands what is happening. The structure of ABT is the following: 
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, but \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, therefore \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. 
 
 
-Here is an example of ABT applied to _The Wizard of Oz_:
+Here is ABT applied to _The Wizard of Oz_:
 
 > There is a little girl living on a farm in Kansas, **and** her life is boring, **but** one day a tornado sweeps her away to the land of Oz, **therefore** she must undertake a journey to find her way home.
 
