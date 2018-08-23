@@ -4,7 +4,6 @@
   
 ---
 title: Communicating Data Stories
-date: {}
 tags:
   - communication
   - leadership
