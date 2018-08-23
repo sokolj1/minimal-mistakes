@@ -26,6 +26,9 @@ Communication is so important that a 6 week accelerated summer course is dedicat
 
 The book used for course is Randy Olsen's _Houston, We Have a Narrative_, which can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen.{: .notice--info}
 
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
+{: .notice}
+
 ## Science and Communication: Where the Problem Lies
 
 Oslen's book posits scientists are prone to experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. Let's identify a few issues in the science community that can be potentially mitigated with adopting a sense of narrative. 
