@@ -5,7 +5,7 @@ tags:
   - communication
   - leadership
 author_profile: true
-excerpt: Key takeaways from this Stockton University Data Science summer course
+excerpt: How to use structure and simplicity to convey a compelling data narrative 
 mathjax: true
 toc: true
 published: true
@@ -14,9 +14,7 @@ published: true
   image: /assets/communicating-data-stories/heart_disease_pres_5.1.2018.png
   caption: Predicting Heart Disease Presentation | 5/1/2018 -->
   
-Throughout a career, the data scientist will communicate various findings and insights to a variety of audiences, from stakeholders within an organization to hundreds of people at a public conference. The topic is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program.
-
-The book used as the primary resource for course material is Randy Olsen's _Houston, We Have a Narrative_. A link to purchase can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback on Amazon. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen. 
+Throughout a career, the data scientist will communicate various findings and insights to a variety of audiences, from stakeholders within an organization to hundreds of people at a public conference. Communication is so important that a 6 week accelerated summer course is dedicated to the study of communicative practices for Stockton University's Data Science program.
 
 The goals of the course were to learn how to develop an argument with data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. This post focuses on accomplishing these objectives by means of sound narrative structure, which ultimately develops narrative intuition. 
 
@@ -25,6 +23,8 @@ The goals of the course were to learn how to develop an argument with data scien
   <figcaption> Predicting Heart Disease Presentation | May 1, 2018
   </figcaption>
 </figure>
+
+[The book used as the primary resource for course material is Randy Olsen's _Houston, We Have a Narrative_. A link to purchase can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback on Amazon. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen.]{: .notice--info}
 
 ## Science and Communication: Where the Problem Lies
 
