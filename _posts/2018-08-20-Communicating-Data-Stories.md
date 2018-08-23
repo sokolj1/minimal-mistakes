@@ -125,6 +125,12 @@ The Hero's Journey template is the following:
 
 ## McKee's Triangle
 
+<figure>
+  <img src="/assets/communicating-data-stories/McKee_triangle.jpg" width = "661" height = "491">
+  <figcaption> Source: [University of Montana](http://www.umontanamediaarts.com/MART101L/the-mckee-triangle)
+  </figcaption>
+</figure>
+
 
 
 ## Extra Storytelling Tips
