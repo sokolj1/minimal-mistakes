@@ -127,9 +127,11 @@ The Hero's Journey template is the following:
 
 <figure>
   <img src="/assets/communicating-data-stories/McKee_triangle.jpg" width = "661" height = "491">
-  <figcaption> Source: [University of Montana](http://www.umontanamediaarts.com/MART101L/the-mckee-triangle)
+  <figcaption> Source: University of Montana
   </figcaption>
 </figure>
+
+McKee's Triangle sheds light on how different types of narrative play into audience perception and engagement.
 
 
 
@@ -148,5 +150,3 @@ The Hero's Journey template is the following:
 * Sending theh narrative off is a great thing, but only _once_, and utilize a singular narrative, as more than one is confusing. 
 
 * When creating narrative content, capture the "inner monologue", as nobody wants to listen to a person with no emotions. 
-
-*
