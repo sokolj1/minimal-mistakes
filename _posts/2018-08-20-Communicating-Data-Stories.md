@@ -32,7 +32,7 @@ The book used for the course Communicating Data Stories is Randy Olsen's _Housto
 **Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
 {: .notice--info}
 
-Oslen's book posits scientists are prone to experience _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. Let's identify a few issues in the science community that can be potentially mitigated with adopting a sense of narrative. 
+Oslen's book posits scientists are prone to experiencing _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. Let's identify a few issues in the science community that can be potentially mitigated with adopting a sense of narrative. 
 
 <figure>
   <img src="/assets/communicating-data-stories/cartoon-science-communication.gif" width = "598" height = "526">
@@ -131,11 +131,11 @@ The Hero's Journey template is the following:
 
 <figure>
   <img src="/assets/communicating-data-stories/McKee_triangle.jpg" width = "661" height = "491">
-  <figcaption> Source: University of Montana
+  <figcaption> Photo Credit: University of Montana
   </figcaption>
 </figure>
 
-McKee's Triangle sheds light on how different types of narrative play into audience perception and engagement.
+McKee's Triangle sheds light on how different types of narrative play into perception and engagement of the audience.
 
 
 
@@ -149,8 +149,8 @@ McKee's Triangle sheds light on how different types of narrative play into audie
 
 * The two worst possible ways communication can go wrong are boring and/or confusing interpretations. 
 
-> "Truths can not walk on their own legs" - Karlyn Campbell. Truths must be explained, defended, and spread through language, argument, and appeal. 
+* "Truths can not walk on their own legs" - Karlyn Campbell. Truths must be explained, defended, and spread through language, argument, and appeal. 
 
-* Sending theh narrative off is a great thing, but only _once_, and utilize a singular narrative, as more than one is confusing. 
+* Sending the narrative off is a great thing, but only _once_, and utilize a singular narrative, as more than one is confusing. 
 
 * When creating narrative content, capture the "inner monologue", as nobody wants to listen to a person with no emotions. 
