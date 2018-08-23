@@ -24,6 +24,8 @@ Throughout a career, the data scientist will frequently communicate their analys
 
 <!--Stockton University's Data Science program believes communication is so important that a 6 week accelerated summer course is dedicated to the betterment of conveying information and ideas. The goals of the course are to learn to develop an argument from data science techniques, share ideas and knowledge with diverse audiences, and formulate a balanced perspective on an issue or topic from the field of data science. -->
 
+**Disclaimer: I am not a self-proclaimed expert in communicative practices. The following denotes the most important takeaways from the Communicating Data Stories course at Stockton University, in hopes that the reader will apply these concepts to their own work.**
+
 The book used for the course Communicating Data Stories is Randy Olsen's _Houston, We Have a Narrative_, which can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen.
 {: .notice--info}
 
