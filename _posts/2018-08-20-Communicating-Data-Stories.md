@@ -88,7 +88,7 @@ The ABT follows the traditional three act play structure: beginning (thesis), mi
 
 In a similar manner for the Dobzhansky Statement, I also created an ABT for this post: 
 
-> Communicating is one of the most important skills for the modern scientist. But as scientists learn new skills, I posit communication plays second fiddle to learning hard skill techniques. Therefore, this post serves as a supplemental guide to enhance communication skills by employing simplistic narrative structure. 
+> Communicating is an important skill for the modern scientist, **as** analysis and research is only as good as the quality of the presentation. **But** as scientists learn new skills, I posit communication plays second fiddle to learning hard skill techniques. **Therefore**, this post serves as a supplemental guide to enhance communication skills by employing simplistic narrative structure. 
 
 ## McKee's Triangle
 
