@@ -4,8 +4,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
     url: /about
-  - title: "Tags"
-    url: /tags/index
+  # - title: "Tags"
+  #   url: /tags/index
   # - title: "Predict Heart Disease"
   #  url: /Predicting-Heart-Disease-with-Machine-Learning/
   #- title: "Super Bowl Dashboard"
