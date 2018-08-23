@@ -14,7 +14,7 @@ published: true
   image: /assets/communicating-data-stories/heart_disease_pres_5.1.2018.png
   caption: Predicting Heart Disease Presentation | 5/1/2018 -->
   
-Throughout a career, the data scientist will frequently communicate their analysis and conclusions to a variety of audiences, from stakeholders within an organization to hundreds of people at a conference. But unfortunately, learning the art of communication plays second fiddle to hard skill data science techniques such as machine learning and data visualization. Even if you believe this skill can be cultivated at the workplace through experience, we can all benefit from better communication of our work. This post focuses on developing these communication skills, applicable to _all_ careers, by means of simplistic narrative structure.
+Throughout a career, the data scientist will frequently communicate their analysis and conclusions to a variety of audiences, from stakeholders within an organization to hundreds of people at a conference. But unfortunately, learning the art of communication plays second fiddle to hard skill data science techniques such as machine learning and data visualization. Even if you believe this skill can be cultivated at the workplace through experience, we can all benefit from better communication. This post focuses on developing these communication skills, applicable to _all_ careers, by means of simplistic narrative structure.
 
 <figure>
   <img src="/assets/communicating-data-stories/heart_disease_pres_5.1.2018_cropped.png" width = "992" height = "712">
@@ -27,58 +27,41 @@ Throughout a career, the data scientist will frequently communicate their analys
 The book used for the course Communicating Data Stories is Randy Olsen's _Houston, We Have a Narrative_, which can be found [here](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X) for about $15 paperback. The author is [Scientist-turned filmmaker](http://www.randyolsonproductions.com/randy_olson/randy_olson_index.html) Randy Olsen, not [Life Epigenetics AI researcher](http://www.randalolson.com) Randy Olsen.
 {: .notice--info}
 
-## Where the Problem Lies
-
-Oslen's book posits scientists are prone to experiencing _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. Let's identify a few issues in the science community that can be potentially mitigated with adopting a sense of narrative. 
-
-<figure>
-  <img src="/assets/communicating-data-stories/cartoon-science-communication.gif" width = "598" height = "526">
-  <figcaption> Photo Credit: Elena Suglia
-  </figcaption>
-</figure>
-
-Academic institutions that measure competency for faculty and graduate students by quantity of published papers are inadvertently creating a toxic environment of publish or perish. [John Ioannidis](https://en.wikipedia.org/wiki/John_Ioannidis), Professor of Medicine and of Health Research and Policy at Stanford University, stated "Most of the claimed statistically significant effects in traditional medical research are false positives or substantially exaggerated." This may be attributed to pressure to publish positive studies and the public shaming of null studies. In reality, the success of a paper is _not_ about the story itself, but *how the story is told*. 
-
-All of these issues are derived from the inability to successfully tell a story. For papers that exemplify lack of narrative understanding, the author may repeat fact after fact with no sense of context. On the opposite end of the spectrum, there could be multiple issues occurring; there are so many key turning points in the paper that the main message is lost in complexity. There is an optimum amount of narrative complexion balanced simultanously with simplicity that must be determined by the data scientist; enough complextion to be engaging, not confusing, and simplistic enough for the desired audience, not boring. Thus it is my hope that the following content drives home these key ideas so everyone, not just scientists, can develop narrative intuition in their own work.
-
-<!-- I believe these issues are prevalent in science, and also other domains as well, because higher education focuses on learning the required content to a fault. It is rare for institutions to explicitly teach scientific communication, so there is a large deficiency of liberal arts communicative knowledge. It is my hope that the following content drives home several key points to allay these concerns. -->
-
 ## Narrative Structure
 
-Olsen gives special importance to a call to action for scientists to develop _story sense_, or narrative intuition, which like most things in life, require practice before mastery is obtained. An effective way to develop narrative intuition is to prioritize narrative structure by using the [Dobzhansky Template](#dobzhansky-template), [And, But Therefore](#and-but-therefore), and [The Hero's Journey](#the-hero's-journey)
+Oslen's book posits the scientist is prone to experiencing _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. He gives special importance to a call to action for scientists to develop _story sense_, or narrative intuition, which like most things in life, require practice before mastery is obtained. An effective way to develop narrative intuition is to prioritize simplistic narrative structure by using the [Dobzhansky Template](#dobzhansky-template), [And, But Therefore](#and-but-therefore), and [The Hero's Journey](#the-hero's-journey)
 
 ### Dobzhansky Template
 
 Theodosius Dobzhansky was a famous geneticist who said one of the most important statements in biological philosophy: 
 
-> "Nothing in biology makes sense _except_ in the light of evolution." 
+> "Nothing about biology makes sense _except_ in the light of evolution." 
 
 This statement encapsules biology in context of evolution, which is the overarching narrative telling the story of how  different facets of biology, such as biochemistry, microbiology, and genetics, are tied together by the concept of evolution. 
 
-In the same regard, this quote by Dobzhansky can be applied to any topic by making the template generic: 
+This quote by Dobzhansky can be applied to any topic by making the template generic: 
 
-Nothing in \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ makes sense _except_ in the light of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+Nothing about \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ makes sense _except_ in the light of \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
 
-
-This template helps the data scientist find a central theme that embraces the heart and soul of the narrative. Finding the right words, especially for the second blank, takes practice and effort. If you are just lukewarm after proposing a plausible word, most likely there is a better word that will serve as the foundation for your story.
+This template helps to find a central theme that embraces the heart and soul of the narrative. Finding the right words, especially for the second blank, takes practice and effort. If you are just lukewarm after proposing a plausible word, most likely there is a better word that will serve as the foundation for your story.
 
 Here are a few other examples of the Dobzhansky template in action: 
 
-1. Apple: Nothing in Apple Computers makes sense _except_ in the light of innovation. 
+1. Apple: Nothing about Apple Computers makes sense _except_ in the light of innovation. 
 
-2. Wawa: Nothing in Wawa makes sense _except_ in the light of convenience ([Don't know what a Wawa is?](https://www.wawa.com)) 
+2. Wawa: Nothing about Wawa makes sense _except_ in the light of convenience ([Don't know what a Wawa is?](https://www.wawa.com)) 
 
-3. Communication: Nothing in communication makes sense _except_ in the light of simplicity. 
-
-Perhaps most important is Dobzhansky's comments regarding a story that lack a central theme/focus: 
-
-> Without that light, it becomes a pile of sundry facts—some of them interesting or curious but making no meaningful picture as a whole.
+3. Tom Brady: Nothing about Tom Brady makes sense _except_ in the light of [discipline](https://nesn.com/2016/01/tom-brady-opens-up-about-his-discipline-which-could-be-qbs-top-trait/). 
 
 For this post, a solid Dobzhansky statement would be:
 
 Nothing about **communication** makes sense except in the light of **simplicity** and **structure**.
 
-During the brainstorming stages of a project, devote some time to thinking about an ideal Dobzansky template to create a meaningful picture for your story. 
+Here is Dobzhansky's comments regarding a story that lack a central theme/focus: 
+
+> Without that light, it becomes a pile of sundry facts—some of them interesting or curious but making no meaningful picture as a whole.
+
+During the brainstorming stages of a project, devote some time to thinking about an ideal Dobzansky template that establishes a central theme to guide your thinking process that ultimately creates a meaningful picture for your story. 
 
 ### And, But, Therefore
 
