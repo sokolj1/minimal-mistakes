@@ -90,29 +90,6 @@ In a similar manner for the Dobzhansky Statement, I also created an ABT for this
 
 > Communicating is one of the most important skills for the modern scientist. But as scientists learn new skills, I posit communication plays second fiddle to learning hard skill techniques. Therefore, this post serves as a supplemental guide to enhance communication skills by employing simplistic narrative structure. 
 
-### "The Hero's Journey" Narrative
-
-The Hero's Journey template is the following: 
-
-1. In an ordinary world
-
-2. A flawed protagonist
-
-3. Has a catalytic event that upends world
-
-4. After taking stock
-
-5. The hero commits to action
-
-6. But when the stakes get raised
-
-7. The protagonist must learn the lesson. 
-
-8. To stop the antagonist
-
-9. And achieve the goal
-
-
 ## McKee's Triangle
 
 McKee's Triangle sheds light on how different types of narrative play into the perception and engagement of the audience. The three main story plots are archplot, mini-plot and anti-plot, with a focus on comparing archplot and mini-plot.
