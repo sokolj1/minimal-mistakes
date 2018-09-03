@@ -10,7 +10,7 @@ mathjax: true
 published: true
 ---
 
-This past summer, Shawn Casler and I created a promotional video for the Data Science & Strategic Analytics program. The one minute video defines the field of data science, shows learned data science skills advancing traditional marine biology, and attests the data science program enables career upward mobility.
+Shawn Casler and I created a promotional video using Final Cut Pro for the Data Science & Strategic Analytics program. The one minute video defines the field of data science, shows learned data science skills advancing traditional marine biology, and attests the data science program enables career upward mobility.
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/aBaCEJUrU8g"
