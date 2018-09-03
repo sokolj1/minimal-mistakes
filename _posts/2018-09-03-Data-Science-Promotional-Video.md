@@ -5,7 +5,7 @@ tags:
   - data science
   - stockton university
 author_profile: true
-excerpt: Short video for those interested in Stockton University's self-standing Masters degree
+excerpt: Short video for those interested in the self-standing MS degree
 mathjax: true
 published: true
 ---
