@@ -15,4 +15,4 @@ shows data science skills cultivated in the classroom advancing marine biology s
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/aBaCEJUrU8g"
-  frameborder="0"allowfullscreen></iframe>
+  frameborder="0"></iframe>
