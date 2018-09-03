@@ -154,7 +154,7 @@ TabPy should now be communicating with the Python script. Unfortunately, Tableau
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/yW1hmb3GL30"
-  frameborder="0"></iframe>
+  frameborder="0" allowfullscreen></iframe>
   
  
 The following is an assessment of Tableau Dashboards with respect to predictive analytics in the healthcare industry.
