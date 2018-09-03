@@ -19,7 +19,7 @@ I am also continuing my academic career as Adjunct Professor of Business at Stoc
 Besides munging datasets, building awesome visualizations, and tuning machine learning models, other things I enjoy are spending time with my family, photography, unique culinary experiences, and running, tennis, biking, and lifting. 
 
 <figure>
-  <img src="/assets/about/data_jawn.jpg" caption = "DataJawn, Philadelphia | June 13, 2018" class = "center">
+  <img src="/assets/about/data_jawn.jpg" caption = "DataJawn, Philadelphia PA | June 13, 2018" class = "center">
   <figcaption> DataJawn Conference, Philadelphia | June 13, 2018
   </figcaption>
 </figure>
