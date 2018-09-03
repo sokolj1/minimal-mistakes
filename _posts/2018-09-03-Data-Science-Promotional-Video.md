@@ -2,7 +2,6 @@
 title: Stockton University Data Science Promotional Video
 date:   2018-09-03
 tags:
-  - data science
   - stockton university
 author_profile: true
 excerpt: Short video for those interested in the self-standing MS degree
