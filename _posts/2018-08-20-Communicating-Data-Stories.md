@@ -31,7 +31,9 @@ The book used for the course Communicating Data Stories is Randy Olsen's _Housto
 
 ## Narrative Structure
 
-Oslen's book posits the scientist is prone to experiencing _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. He gives special importance to a call to action for scientists to develop _story sense_, or narrative intuition, which like most things in life, require practice before mastery is obtained. An effective way to develop narrative intuition is to prioritize simplistic narrative structure by using the [Dobzhansky Template](#dobzhansky-template), [And, But Therefore](#and-but-therefore), and [The Hero's Journey](#the-hero's-journey)
+Oslen's book posits the scientist is prone to experiencing _narrative deficiency_: an insufficent understanding of narrative, or not knowing how to apply the power of storytelling to their scientific work. He gives special importance to a call to action for scientists to develop _story sense_, or narrative intuition, which like most things in life, require practice before mastery is obtained. An effective way to develop narrative intuition is to prioritize simplistic narrative structure by using the [Dobzhansky Template](#dobzhansky-template), the [And, But Therefore](#and-but-therefore) template, and [McKee's Triangle](#mckee's-triangle)
+
+<!-- and [The Hero's Journey](#the-hero's-journey) -->
 
 ### Dobzhansky Template
 
