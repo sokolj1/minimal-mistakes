@@ -6,17 +6,17 @@ permalink: /about/
 published: true
 ---
 
-I'm a Data Scientist at AtlantiCare Health System <!-- and Adjunct Professor of Business at Stockton University. -->
+John Sokol is a Data Scientist at AtlantiCare Health System and holds an adjunct role as a business professor at Stockton University.
 
 ## Background
-I graduated Stockton University with a Bachelor of Science in Biochemistry, and a computer science minor in May 2017. Exposure to computer science using Java as an undergraduate shifted my interests from the natural sciences to applications of data with computer programming. After considerable research into data science, I applied and was accepted into the Master of Science in [Data Science & Strategic Analytics](http://stockton.edu/datascience) program at my undergraduate alma mater, and graduated in August 2018.
+John graduated Stockton University with a Bachelor of Science in Biochemistry, and a computer science minor in May 2017. Exposure to computer science using Java as an undergraduate shifted his interests from the natural sciences to applications of data with computer programming. After considerable research into data science, he was accepted into the Master of Science in [Data Science & Strategic Analytics](http://stockton.edu/datascience) program at his undergraduate alma mater, and graduated in August 2018.
 
 ## Professional Experience
-I began an internship at AtlantiCare Health System in March 2018 manipulating data models and creating Tableau dashboards for the quality department. After graduation, I was hired as a Data Solutions Architect, and I am currently working on a project for the Cardiovascular Service Line.
+John began an internship at AtlantiCare Health System in March 2018, manipulating data models and creating Tableau dashboards for the quality department. After graduation, he was hired as a Data Solutions Architect, and currently works on a project for the Cardiovascular Service Line.
 
-<!-- I am also continuing my academic career as Adjunct Professor of Business at Stockton University, teaching MGMT 3125 - Introduction to Data Visualization for Fall 2018 and Spring 2019. I am excited to teach undergraduate students the art of telling a story with data by means of coherent, organized and interactive graphics. -->
+John also teaches MGMT 3125 - Introduction to Data Visualization, where undergraduate business analytics students learn the art of data storytelling by means of coherent, organized and interactive visualizations.
 
-Now that my Tuesday nights are free, I plan to become an active participant in the [DataPhilly](https://www.meetup.com/DataPhilly/) meetup group. They faciliated the DataJawn conference in June 2018, which was an excellent event about applied data science in healthcare and networking with other data scientists.
+Now that Tuesday nights are free, John plans to become an active participant in the [DataPhilly](https://www.meetup.com/DataPhilly/) meetup group. They faciliated the DataJawn conference in June 2018, which was an excellent event about applied data science in healthcare and networking with other data scientists.
 
 <figure>
   <img src="/assets/about/data_jawn.jpg" caption = "DataJawn, Philadelphia | June 13, 2018" class = "center">
@@ -24,7 +24,8 @@ Now that my Tuesday nights are free, I plan to become an active participant in t
   </figcaption>
 </figure>
 
-Besides munging datasets, building awesome visualizations, and tuning machine learning models, other things I enjoy are spending time with my family, photography, unique culinary experiences, and running, tennis, biking, and lifting. 
+
+Besides munging datasets, building awesome visualizations, and tuning machine learning models, other things John enjoys are spending time with family, photography, unique culinary experiences, and running, tennis, biking, and lifting. 
 
 ## Setup
 sokolj.com is hosted by Github Pages and was created using Jekyll Minimal Mistakes. The author Michael Rose provides great [documentation](https://mmistakes.github.io/minimal-mistakes/) about setup for this template. 
