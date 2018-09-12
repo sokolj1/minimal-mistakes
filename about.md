@@ -25,7 +25,7 @@ Now that Tuesday nights are free, John plans to become an active participant in 
 </figure>
 
 
-Besides munging datasets, building awesome visualizations, and tuning machine learning models, other things John enjoys are spending time with family, photography, unique culinary experiences, and running, tennis, biking, and lifting. 
+Besides munging datasets, building awesome visualizations, and tuning machine learning models, John enjoys spending time with family, photography, unique culinary experiences, and running, tennis, biking, and lifting. 
 
 ## Setup
 sokolj.com is hosted by Github Pages and was created using Jekyll Minimal Mistakes. The author Michael Rose provides great [documentation](https://mmistakes.github.io/minimal-mistakes/) about setup for this template. 
