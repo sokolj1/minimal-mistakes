@@ -4,11 +4,10 @@ date:   2018-09-14
 tags:
   - stockton university
 author_profile: true
-excerpt: I teach this course. Notes, videos, and assignments within
+excerpt: I teach this course. Repository for notes, lecture videos, and assignments
 mathjax: true
 published: true
 ---
 
-## Syllabus
 
 
