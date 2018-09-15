@@ -2,7 +2,10 @@
 header:
   image: /assets/Super-Bowl-Dashboard/foles.jpg
 
-tags: [sports, tableau]
+tags:
+  - sports
+  - tableau
+  - r
 author_profile: true
 toc: true
 
