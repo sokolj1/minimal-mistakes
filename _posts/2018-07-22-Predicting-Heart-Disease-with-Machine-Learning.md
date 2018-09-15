@@ -2,6 +2,12 @@
 header:
   image: /assets/predicting-heart-disease/heart_disease_screenshot_8_2_2018.png
   
+tags: 
+  - python
+  - tableau
+  - pca
+  - logistic regression
+  - healthcare
 author_profile: true
 toc: true 
 
