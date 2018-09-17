@@ -6,7 +6,7 @@ permalink: /about/
 published: true
 ---
 
-John Sokol is a Data Scientist at AtlantiCare Health System and holds an adjunct role as a business professor at Stockton University.
+John Sokol is a Data Scientist at AtlantiCare Health System and an Adjunct Professor of Business at Stockton University.
 
 ## Background
 John graduated Stockton University with a Bachelor of Science in Biochemistry, and a computer science minor in May 2017. Exposure to computer science using Java as an undergraduate shifted his interests from the natural sciences to applications of data with computer programming. After considerable research into data science, he was accepted into the Master of Science in [Data Science & Strategic Analytics](http://stockton.edu/datascience) program at his undergraduate alma mater, and graduated in August 2018.
