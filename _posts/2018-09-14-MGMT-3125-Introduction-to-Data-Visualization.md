@@ -139,7 +139,8 @@ There isn't a single correct visual display. Rather, there are different types o
 
 ### Assignment 1 - Excel Graphs
 
-* [Download here](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
+* [Download Directions](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
+* [Download IT tickets dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx
 
 
 
