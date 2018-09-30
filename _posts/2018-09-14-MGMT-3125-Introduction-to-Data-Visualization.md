@@ -137,6 +137,12 @@ Secondary y-axis: generally not a good idea
 
 There isn't a single correct visual display. Rather, there are different types of visuals that could meet a given need. The most important aspect of visual build/design is _What do you need your audience to know?_ Choose a visual display to make this abundantly clear.
 
+### Assignment 1 - Excel Graphs
+
+* [Download here](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
+
+
+
 ## Week 3 - 9/24
 
 
