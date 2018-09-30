@@ -36,6 +36,46 @@ This is the first course with a comprehensive overview of the fundamental concep
 
 ## Week 1 - 9/10
 
+### Notes from Storytelling with Data, Chapter 1: The Importance of Context Before Building the Visualization
+
+#### Exploratory vs. Explanatory analysis
+*	Ex_plor_atory - understand the data to determine what may be noteworthy to show the audience
+* Ex_plan_atory - Specific story about the data to tell
+
+Too often the visualization author shows the exploratory analysis instead of simply the important facets of the study the audience cares about.
+
+#### The Who, What and How of Context
+
+Who: Very important to understand the intended audience and how they perceive you. This will shape how you approach creating the visualization. 
+
+* The Who aspect helps to identify common ground that will facilitate relaying your findings to that audience
+* The more specific identification of the audience, the better. Just saying clients/key stakeholders usually isn't specific enough 
+
+What: What do you need your audience to know? 
+
+* Should be clear how you want your audience to react
+* Take into account overall tone of visualization and/or presentation
+* If you are the one analyzing and communicating the data, you are considered the 'subject matter expert'
+* Be confident with your findings! Don't let fear of public speaking decrease your credibility
+
+How: Mechanism of conveying the information
+* Live presentations should have a paucity of detail considering you're available to answer questions
+* Write ups/static documents demand generous detail to cover all the bases for possible client/stakeholder questions
+
+#### The Big Idea
+
+A single sentence summary of the study background information, issue the study is trying to solve, and the outcome of the study. Three components of The Big Idea:
+
+* The idea must articulate your unique point of view
+* The idea must convey what is at stake
+* The idea must be a complete sentence
+
+#### Storyboarding
+
+Very powerful way of organizing ideas by creating a visual outline for the content of the visualization.
+
+* Our minds do not think linearly; our minds scatter our thoughts. Time and effort must be put forth to organize them properly.
+* A few pieces of paper and pen just fine for this task. Alternatively, if you have a Mac or iOS software, I recommend [MindNode](https://mindnode.com)
 
 
 ## Week 2 - 9/17
