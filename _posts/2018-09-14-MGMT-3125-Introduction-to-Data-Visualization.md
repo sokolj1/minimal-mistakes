@@ -36,13 +36,13 @@ This is the first course with a comprehensive overview of the fundamental concep
 
 ## Week 1 - 9/10
 
-### Notes from Storytelling with Data, Chapter 1: The Importance of Context Before Building the Visualization
+### Storytelling with Data, Chapter 1: The Importance of Context Before Building the Visualization
 
 #### Exploratory vs. Explanatory analysis
-*	Ex_plor_atory - understand the data to determine what may be noteworthy to show the audience
-* Ex_plan_atory - Specific story about the data to tell
+*	Ex _plor_ atory - understand the data to determine what may be noteworthy to show the audience
+* Ex _plan_ atory - Specific story about the data to tell
 
-Too often the visualization author shows the exploratory analysis instead of simply the important facets of the study the audience cares about.
+Too often the visualization author shows the exploratory analysis instead of the important explanatory facets the audience cares about.
 
 #### The Who, What and How of Context
 
