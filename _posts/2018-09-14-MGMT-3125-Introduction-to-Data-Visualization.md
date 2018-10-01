@@ -146,5 +146,50 @@ There isn't a single correct visual display. Rather, there are different types o
 
 ## Week 3 - 9/24
 
+### Chapter 3: Clutter is Your Enemy!
+
+#### Cognitive Load & Clutter
+
+* Cognitive load: Every single element added to a page takes up cognitive load on the part of the audience.
+* Identify anything that doesn't add informative value. Remove these elements.
+* Maximize the data ink ratio or signal to noise ratio to relieve cognitive load.
+
+* Clutter: Visual elements that take up space but don't increase understanding.
+* Why reduce clutter? Clutter makes visualizations more complicated than necessary
+
+Employ the Gestalt Principles of Visual Perception to identify communicative elements and noisy elements. 
+
+#### Gestalt Principles of Visual Perception
+
+* Proximity: Tendency to think of physically close objects as belonging to a group.
+* Similarity: Objects that are of similar color, shape, size, or orientation are perceived as related or belonging to a group.
+* Enclosure: Objects that are physically enclosed together as belonging to a group.
+* Closure: When parts of a whole are missing, our eyes fill in the gap; This principle renders chart borders and background shading unnecessary.
+* Continuity: When looking at objects, our eyes seek the smoothest path and naturally create continuity in what we see even where it may not explicitly exist. 
+* Connection: Connective property typically has a strong associate value than similar color, size, or shape.
+
+Without obvious visual cues, the audience will typically start at the top left of a visualization, then move their eyes in a "Z" shape across the page or screen as they take in information
+
+* Because of this, upper left justify text (title, axis, legends, etc).
+* Generally, diagonal elements such as lines connecting text to visual attributes should be avoided.
+* White space is akin to pauses in sentences; use white space strategically to draw attention to the parts of the page that are not white space. 
+* Contrast: The more things we make different, the lesser the degree to which any of them stand out.
+
+#### Decluttering Strategies
+* Remove chart border
+* Remove gridlines
+* Remove data markers
+* Clean up axis labels
+* Label data directly
+* Leverage consistent color
+
+Anytime you put information in front of an audience, you are creating cognitive load and asking them to use their brain power to process that information. Visual clutter creates excessive cognitive load that can hinder the transmission of your message. The Gestalt principles helps identify and remove unnecessary visual elements. Leverage alignment of elements and maintain white space to help make the interpretation of visuals a comfortable experience for the audience.
+
+### Assignment 2 - Introduction to Tableau
+
+* 
 
 
+## Week 4 - 10/01
+
+### Chapter 4: Focus your Audience's Attention
