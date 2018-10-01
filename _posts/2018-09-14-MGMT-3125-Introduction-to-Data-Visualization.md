@@ -187,9 +187,16 @@ Anytime you put information in front of an audience, you are creating cognitive 
 
 ### Assignment 2 - Introduction to Tableau
 
-* 
+<figure>
+  <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "992" height = "712">
+</figure>
 
 
 ## Week 4 - 10/01
 
 ### Chapter 4: Focus your Audience's Attention
+
+### Assignment 3 - Tableau Line Graphs
+
+
+
