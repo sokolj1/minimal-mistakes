@@ -188,7 +188,7 @@ Anytime you put information in front of an audience, you are creating cognitive 
 ### Assignment 2 - Introduction to Tableau
 
 <figure>
-  <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "992" height = "712">
+  <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "1015" height = "725">
 </figure>
 
 
