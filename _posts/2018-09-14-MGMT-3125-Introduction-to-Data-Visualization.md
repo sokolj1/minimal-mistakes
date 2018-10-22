@@ -196,6 +196,58 @@ Anytime you put information in front of an audience, you are creating cognitive 
 
 ### Chapter 4: Focus your Audience's Attention
 
+#### Actively Engage the Audience
+
+Pre-attentive attributes
+* Visualization attributes such as size, color, and position that are strategically employed to highly important aspects of the data. 
+* Also used to create a visual hierarchy of elements to lead the audience through the information I want to communicate.
+
+It is important to understand how our audience sees and processes information puts ourselves in a better position to communicate effectively. 
+
+There are three types of memory that is important to understand for designing effective visual communication:
+1. Iconic memory
+* Information that that stays in memory for a fraction of a second before you sub-consciously decide to remove the memory or move it to short-term memory
+
+2. Short-term memory
+* People can keep about four chunks of visual information in their short-term memory at once
+* Emphasizing a large amount of information on a visualization places an unnecessary burden on our audience, and thereby lose our ability to communicate effectively. 
+
+3. Long-term memory
+* Short term memory either goes to long term memory or our brain removes it. Aggregate of visual and verbal memory.
+* Built up over a lifetime and is vitally important for pattern recognition and general cognitive processing. 
+
+> By using pre-attentive attributes strategically, we can enable our audience to see what we want them to see before they even know they're seeing it!
+
+When used sparingly, pre-attentive attributes can be extremely useful for:
+* Drawing your audiences attention quickly to where you want them to look
+* Creating a visual hierarchy of information
+
+Some pre-attentive attributes grabs your attention, such as color and size, whereas italics achieve a milder emphasis. 
+
+#### Create a visual hierarchy of information
+
+There are variances within specific pre-attentive attributes that will draw attention with more or less strength
+* For example, a bright blue will draw more attention than a muted blue. Both will draw more attention than light gray
+* Leverage this variance to make the visuals scannable by emphasizing some components and de-emphasizing others. This establishes implicit instructions for the audience
+
+Size:
+* Relative size denotes relative importance
+* If visualization attributes are equally important, then make them equally as big. Otherwise, if one this is really important, then make that BIG
+
+Color:
+* Don't make an attribute colorful just to make it colorful. Leverage color selectively as a strategic tool to highlight the important parts of the visualization. Use of color should always be intentional.
+* Start out by creating a visualization with all shades of gray, then pick a single bold color to draw attention to where you want it. 
+* Don't use black as a base color. Color stands out more against gray than black. 
+* Use color sparingly
+* Use it consistently
+* Design with the colorblind in mind
+* Be thoughtful of the tone color conveys
+* Consider to leverage brand colors
+
+Position:
+* Without other visual cues, most members of an audience will start at the top-left and scan with their eyes in a zig-zag motion across the screen. 
+* Top-left, top-right, bottom-left, bottom-right
+
 ### Assignment 3 - Tableau Line Graphs
 
 
