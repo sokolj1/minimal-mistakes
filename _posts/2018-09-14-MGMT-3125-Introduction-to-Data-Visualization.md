@@ -191,10 +191,6 @@ Anytime you put information in front of an audience, you are creating cognitive 
 * [Download IT tickets dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
 * [Download life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
 
-<figure>
-  <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "1015" height = "725">
-</figure>
-
 
 ## Week 4 - 10/01
 
@@ -253,6 +249,13 @@ Position:
 * Top-left, top-right, bottom-left, bottom-right
 
 ### Assignment 3 - Tableau Line Graphs
+
+* [Download assignment 3 directions](/assets/mgmt_3125/week4/Assignment 3 - Line Graphs.pdf)
+* [Download life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
+
+<figure>
+  <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "1015" height = "725">
+</figure>
 
 
 
