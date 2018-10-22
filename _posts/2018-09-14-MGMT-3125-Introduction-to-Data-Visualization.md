@@ -121,7 +121,7 @@ Choosing the right visualization is typically selected from 8 traditional method
 * Always needs to have a zero baseline, or else there will be misconceptions about the graph.
 * Common decision is to preserve the axis labels or eliminate them entirely to label the data points. If you're focusing on big picture trends, then leave the axis labels. If you're focused on the specific numerical values, then label the data points directly. 
 
-8. Horizontal bar graph
+<!-- 8. Horizontal bar graph -->
 
 
 #### Graphs to be Avoided
@@ -139,8 +139,8 @@ There isn't a single correct visual display. Rather, there are different types o
 
 ### Assignment 1 - Excel Graphs
 
-* [Download Directions](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
-* [Download IT tickets dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx
+* [Download assignment 1 directions](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
+* [Download IT tickets dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
 
 
 
@@ -186,6 +186,10 @@ Without obvious visual cues, the audience will typically start at the top left o
 Anytime you put information in front of an audience, you are creating cognitive load and asking them to use their brain power to process that information. Visual clutter creates excessive cognitive load that can hinder the transmission of your message. The Gestalt principles helps identify and remove unnecessary visual elements. Leverage alignment of elements and maintain white space to help make the interpretation of visuals a comfortable experience for the audience.
 
 ### Assignment 2 - Introduction to Tableau
+
+* [Download assignment 2 directions](/assets/mgmt_3125/week3/Assignment 2 - Intro Tableau.pdf)
+* [Download IT tickets dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
+* [Download life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
 
 <figure>
   <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "1015" height = "725">
