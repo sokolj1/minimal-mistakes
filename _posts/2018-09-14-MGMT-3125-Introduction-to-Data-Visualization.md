@@ -257,5 +257,6 @@ Position:
   <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "1015" height = "725">
 </figure>
 
-
+Font awesome icons:
 <i class="fa fa-map-marker" aria-hidden="true" style="color:#1F2326;"></i>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
