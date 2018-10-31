@@ -221,7 +221,8 @@ body:hover .visually-hidden button {
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    color: #ff4500;
+    //color: #ff4500;
+     color: #1F2326;
   }
 
   .fa-google-plus,
@@ -241,7 +242,8 @@ body:hover .visually-hidden button {
 
   .fa-linkedin,
   .fa-linkedin-in {
-    color: $linkedin-color;
+    // color: $linkedin-color;
+     color: #1F2326;
   }
 
   .fa-pinterest,
@@ -271,7 +273,8 @@ body:hover .visually-hidden button {
 
   .fa-twitter,
   .fa-twitter-square {
-    color: $twitter-color;
+    //color: $twitter-color;
+     color: #1F2326;
   }
 
   .fa-vimeo,
@@ -294,11 +297,13 @@ body:hover .visually-hidden button {
   }
   
   .fa-book {
-    color: #A0522D; 
+    // color: #A0522D; 
+    color: #1F2326;
   }
   
   .fa-envelope-square {
-    color: #EC3A32; 
+    // color: #EC3A32;
+    color: #1F2326;
   }
   
 }
