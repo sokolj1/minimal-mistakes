@@ -191,10 +191,18 @@ Anytime you put information in front of an audience, you are creating cognitive 
 * [Download IT tickets dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
 * [Download life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
 
-### Intro to Tableau Video
+### Videos
+
+#### Tableau Basics
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/4VzmdekIw00"
+  frameborder="0" allowfullscreen></iframe>
+  
+#### Changing Tableau Data Sources
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/yXqC_cGpIMg"
   frameborder="0" allowfullscreen></iframe>
 
 ## Week 4 - 10/01
