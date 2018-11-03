@@ -265,6 +265,10 @@ Position:
 
 ### Week 4 Videos
 
+#### Tableau Line Graphs
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/ThTu-47Qd68"
+  frameborder="0" allowfullscreen></iframe>
 
 
 ## Week 5 - 10/08
