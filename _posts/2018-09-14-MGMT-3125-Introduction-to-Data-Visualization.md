@@ -289,7 +289,7 @@ Position:
 
 #### Acceptance
 
-### Assignment 4 - Tableau Bar Graphs
+### Assignment 4: Tableau Bar Graphs
 
 * [Download assignment 4 directions](/assets/mgmt_3125/week5/Assignment 4 - Bar Graphs.pdf)
 * [Download IT tickets dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
@@ -300,4 +300,28 @@ Position:
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/ey42xjtdtHw"
   frameborder="0" allowfullscreen></iframe>
+
+## Week 6 - 10/15
+
+### Chapter 6: Dissecting Model Visuals
+
+## Week 7 - 10/22
+
+### Chapter 7: Lessons in Storytelling
+
+### Assignment 5: Calculated Fields & Parameters
+
+* [Assignment 5 directions](/assets/mgmt_3125/week7/Assignment 5 - Calculated Fields, Parameters.pdf)
+* [Walmart dataset](/assets/mgmt_3125/week7/Walmart Retail Sales 2012-2015.csv)
+* [Titanic dataset csv file](/assets/mgmt_3125/week7/titanic_clean_.csv)
+* [Titanic dataset readme](/assets/mgmt_3125/week7/titanic_readme.txt)
+
+### Week 7 Videos
+
+## Week 8 - 10/29
+
+## Week 9 - 11/05
+
+## Week 10 - 11/12
+
 
