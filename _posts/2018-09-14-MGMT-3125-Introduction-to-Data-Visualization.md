@@ -259,9 +259,11 @@ Position:
 * [Download assignment 3 directions](/assets/mgmt_3125/week4/Assignment 3 - Line Graphs.pdf)
 * [Download life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
 
+<!--
 <figure>
   <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "1015" height = "725">
 </figure>
+-->
 
 ### Week 4 Videos
 
