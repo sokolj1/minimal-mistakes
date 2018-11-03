@@ -294,5 +294,8 @@ Position:
 * [Download assignment 4 directions](/assets/mgmt_3125/week5/Assignment 4 - Bar Graphs.pdf)
 * [Download IT tickets dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
 
-
+#### Tableau Bar Graphs
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/ey42xjtdtHw"
+  frameborder="0" allowfullscreen></iframe>
 
