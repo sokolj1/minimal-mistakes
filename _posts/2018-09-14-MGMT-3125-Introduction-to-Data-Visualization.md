@@ -318,6 +318,18 @@ Position:
 
 ### Week 7 Videos
 
+#### Tableau Calculated Fields
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/DMgbqUQYiDo"
+  frameborder="0" allowfullscreen></iframe>
+
+#### Tableau Parameters
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/lmkA_pzcQ6Q"
+  frameborder="0" allowfullscreen></iframe>
+
 ## Week 8 - 10/29
 
 ## Week 9 - 11/05
