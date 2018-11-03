@@ -256,3 +256,29 @@ Position:
 <figure>
   <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "1015" height = "725">
 </figure>
+
+## Week 5 - 10/08
+
+### Chapter 5: Think Like a Designer
+
+#### Highlight the important stuff
+
+#### Eliminate distractions
+
+#### Create a clear visual hierarchy
+
+#### Don't overcomplicate 
+
+#### Text is your friend
+
+#### Aesthetics 
+
+#### Acceptance
+
+### Assignment 4 - Tableau Bar Graphs
+
+* [Download assignment 4 directions](/assets/mgmt_3125/week5/Assignment 4 - Bar Graphs.pdf)
+* [Download IT tickets dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
+
+
+
