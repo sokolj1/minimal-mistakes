@@ -277,19 +277,75 @@ Position:
 
 ### Chapter 5: Think Like a Designer
 
+This chapter explains how traditional design considerations are applied to create visualizations 
+and persuade an audience to accept your visual designs. 
+
 #### Highlight the important stuff
+
+One main theme of the textbook is to employ preattentive attributes to draw attention to 
+specific points of the visualization. This section sheds lights onto how much of the visual should 
+be highlighted; as highlighted items in the visual increase, the power of highlighting effects to draw 
+the audience to a specific talking point decreases. 
+
+> At most, it is recommended only 10% of the visual design be highlighted - Universal Principles of Design (Lidwell, Holden, and Butler, 2003). 
+
+**Bold**, _italics_, and <u>underline</u>
+* Use for titles, labels, captions and short word sequences. Bold preferred over italics as this adds minimal noise to the visual.
+
+Typeface
+* Avoid using different fonts, as this can easily disrupt aesthetics. 
+
+Color
+* Highly effective when used strategically and sparingly to draw your audience to a visual attribute you want to emphasize. It is wise to make all other attributes gray, while making your important attribute(s) a color that stands in clear contrast such as bright blue, orange, or red. 
+
+Size
+* Size is another great preattentive to use to draw attention from your audience.
 
 #### Eliminate distractions
 
-#### Create a clear visual hierarchy
+Make spartan decisions as to which visual attributes are expendable. 
+
+* Not all data is equally important.
+
+* Consider if summarizing is appropriate instead of including extraneous detail.
+
+* Ask yourself, would eliminating this attribute change anything? If the answer is no, then remove it!
+
+* Push less important information to the background. Let your prominent attributes stand out. 
 
 #### Don't overcomplicate 
 
+> The more complicated a visualization looks, the more time the audience perceives it will take to understand and the less likely they are to spend time to understand it... between simple and complicated, favor simple. - Cole Knaflic
+
+Make your visualization legible
+* Use consistent, easily readable font. 
+
+Use simple language
+* Refrain from using convoluted jargon, and when in doubt, define a word or phase that isn't assumed to be common knowledge. 
+
 #### Text is your friend
+
+Use text in your visualization to provide context by labeling data points, introducing the visual, reinforcing key concepts, and ultimately to tell a cohesive story. 
+
+Text elements in visuals that are necessary
+* Title.
+* Axis labels (unless the title conveys this in a straightforward manner).
+* Short conclusive interpretive statement (see below)
+
+> Don't assume the audience will intrepret the visual the same way you do. If there is a conclusion you want the audience to meet, state it plainly!
 
 #### Aesthetics 
 
-#### Acceptance
+Beauty is one of the most important considerations for your audience to accept the message of your visual. Taking time to create visually appealing design means the audience will have more patience with the visual. 
+
+Color
+* We have already discussed the important of wise color use. Remember, use sparingly and strategically. 
+
+Alignment
+* Create clean vertical and horizontal lines that denote attribute organization.
+
+White Space
+* Preserve margins and don't add unnecessary elements just to fill in extra space.
 
 ### Assignment 4: Tableau Bar Graphs
 
