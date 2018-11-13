@@ -14,3 +14,7 @@ Shawn Casler and I created a promotional video using Final Cut Pro for the Data 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/aBaCEJUrU8g"
   frameborder="0" allowfullscreen></iframe>
+
+The self-standing Master's degree consists of 30 credit hours (10 graduate courses) that can be completed in full time or part time study. Full-time study is the preferred route and in this mode the degree may be completed in one calendar year. The courses are hybrid, with weekly meeting times on Tuesdays from 6:00pm - 9:00pm and an online learning environment. 
+
+For more information, please visit [stockton.edu/datascience](stockton.edu/datascience)
