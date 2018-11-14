@@ -15,6 +15,17 @@ With deep learning taking the data science community by storm, people tend to lo
 
 
 ## Background
+
+### Assumptions
+
+Before logistic regression can be considered a valid statistics test, several test assumptions must be confirmed: 
+
+* Assume linear relationship between independent variables and logit function
+
+* No mulitcollinearity 
+
+* No significant outliers
+
 Logistic regression is used to predict dichotomous (binary) variables. Here are a few classification examples: 
 
 * Presence of disease? (yes/no)
@@ -22,4 +33,5 @@ Logistic regression is used to predict dichotomous (binary) variables. Here are 
 * Loan default? (yes/no)
 
 Predictions can be derived from simple (one independent variable) and multivariate (two or more independent variables).
+
 
