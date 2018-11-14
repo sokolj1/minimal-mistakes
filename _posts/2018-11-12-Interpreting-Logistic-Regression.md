@@ -11,6 +11,15 @@ mathjax: true
 published: false
 ---
 
-With deep learning taking the data science community by storm, people tend to look down at relatively simple machine learning algorithms. Although deep learning can tackle problems that require complex input-output mappings, these models lack adequate interpretability.
+With deep learning taking the data science community by storm, people tend to look down at relatively simple machine learning algorithms. Although deep learning can tackle problems that require complex input-output mappings, these models lack adequate interpretability. Enter logistic regression, which provides interpretable reasoning for the predictive outputs of this type of statistical model. The purpose of this post is to shed light on exactly how to interpret logistic regression outputs. 
 
-Enter logistic regression. 
+
+## Background
+Logistic regression is used to predict dichotomous (binary) variables. Here are a few classification examples: 
+
+* Presence of disease? (yes/no)
+* Death? (yes/no)
+* Loan default? (yes/no)
+
+Predictions can be derived from simple (one independent variable) and multivariate (two or more independent variables).
+
