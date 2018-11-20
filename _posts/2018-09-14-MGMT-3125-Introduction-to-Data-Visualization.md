@@ -390,8 +390,25 @@ White Space
 
 ## Week 8 - 10/29
 
+### Chapter 8: Putting it All Together
+
 ## Week 9 - 11/05
 
+### Chapter 9: Data Visualization Case Studies
+
+### Assignment 7: Tableau Dashboard Design
+
 ## Week 10 - 11/12
+
+### Chapter 10: Final Thoughts
+
+### Assignment 8: Tableau Stories
+
+## Week 11 - 11/19
+
+### Chapter 7: Lesson's in Storytelling
+
+
+
 
 
