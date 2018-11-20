@@ -392,6 +392,8 @@ White Space
 
 ### Chapter 8: Putting it All Together
 
+### Assignment 6: Text Tables & Data Joins
+
 ## Week 9 - 11/05
 
 ### Chapter 9: Data Visualization Case Studies
@@ -407,6 +409,8 @@ White Space
 ## Week 11 - 11/19
 
 ### Chapter 7: Lesson's in Storytelling
+
+### Posting Dashboard to Tableau Public
 
 
 
