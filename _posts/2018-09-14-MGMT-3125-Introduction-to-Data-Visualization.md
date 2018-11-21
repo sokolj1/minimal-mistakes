@@ -394,6 +394,12 @@ White Space
 
 ### Assignment 6: Text Tables & Data Joins
 
+#### Tableau Text Tables
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/HNRdr_RvDWY"
+  frameborder="0" allowfullscreen></iframe>
+
 ## Week 9 - 11/05
 
 ### Chapter 9: Data Visualization Case Studies
