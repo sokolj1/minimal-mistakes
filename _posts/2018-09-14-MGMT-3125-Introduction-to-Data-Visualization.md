@@ -412,6 +412,11 @@ White Space
   src="https://www.youtube.com/embed/ZxlsdrSZNpA"
   frameborder="0" allowfullscreen></iframe>
 
+#### Building Tableau Dashboards
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/5Em1ZTzfnPE"
+  frameborder="0" allowfullscreen></iframe>
 
 ## Week 10 - 11/12
 
