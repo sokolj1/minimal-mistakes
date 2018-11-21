@@ -27,6 +27,19 @@ This is the first course with a comprehensive overview of the fundamental concep
 
 * [Download syllabus here](/assets/mgmt_3125/MGMT3125_Fall2018.pdf)
 
+### Datasets
+
+Datasets pertinent to each assignment are provided under the respective assignment header, but all datasets are organized here for easy reference.
+
+* [IT tickets by month dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
+* [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
+* [Life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
+* [Walmart dataset](/assets/mgmt_3125/week7/Walmart Retail Sales 2012-2015.csv)
+* [Titanic dataset](/assets/mgmt_3125/week7/titanic_clean_.csv)
+* [User device](/assets/mgmt_3125/week8/user_device.csv)
+* [User usage](/assets/mgmt_3125/week8/user_usage.csv)
+
+
 
 ## Week 1 - 9/10
 
@@ -133,9 +146,8 @@ There isn't a single correct visual display. Rather, there are different types o
 
 ### Assignment 1 - Excel Graphs
 
-* [Download assignment 1 directions](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
-* [Download IT tickets dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
-
+* [Assignment 1 directions](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
+* [IT tickets by month dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
 
 ## Week 3 - 9/24
 
@@ -256,8 +268,8 @@ Position:
 
 ### Assignment 3 - Tableau Line Graphs
 
-* [Download assignment 3 directions](/assets/mgmt_3125/week4/Assignment 3 - Line Graphs.pdf)
-* [Download life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
+* [Assignment 3 directions](/assets/mgmt_3125/week4/Assignment 3 - Line Graphs.pdf)
+* [Life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
 
 <!--
 <figure>
@@ -349,8 +361,8 @@ White Space
 
 ### Assignment 4: Tableau Bar Graphs
 
-* [Download assignment 4 directions](/assets/mgmt_3125/week5/Assignment 4 - Bar Graphs.pdf)
-* [Download IT tickets dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
+* [Assignment 4 directions](/assets/mgmt_3125/week5/Assignment 4 - Bar Graphs.pdf)
+* [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
 
 ### Week 5 Videos
 
@@ -371,7 +383,7 @@ White Space
 
 * [Assignment 5 directions](/assets/mgmt_3125/week7/Assignment 5 - Calculated Fields, Parameters.pdf)
 * [Walmart dataset](/assets/mgmt_3125/week7/Walmart Retail Sales 2012-2015.csv)
-* [Titanic dataset csv file](/assets/mgmt_3125/week7/titanic_clean_.csv)
+* [Titanic dataset](/assets/mgmt_3125/week7/titanic_clean_.csv)
 * [Titanic dataset readme](/assets/mgmt_3125/week7/titanic_readme.txt)
 
 ### Week 7 Videos
@@ -429,6 +441,8 @@ White Space
 ### Chapter 10: Final Thoughts
 
 ### Assignment 8: Tableau Stories
+
+* [Assignment 8 directions](/assets/mgmt_3125/week10/Assignment 8 - Tableau Stories.pdf)
 
 ## Week 11 - 11/19
 
