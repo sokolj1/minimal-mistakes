@@ -393,6 +393,9 @@ White Space
 ### Chapter 8: Putting it All Together
 
 ### Assignment 6: Text Tables & Data Joins
+* [Assignment 6 directions](/assets/mgmt_3125/week8/Assignment 6 - Text Tables, Joins.pdf)
+* [User device](/assets/mgmt_3125/week8/user_device.csv)
+* [user usage](/assets/mgmt_3125/week8/user_usage.csv)
 
 #### Tableau Text Tables
 
