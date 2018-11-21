@@ -409,6 +409,9 @@ White Space
 
 ### Assignment 7: Tableau Dashboard Design
 
+* [Assignment 7 directions](/assets/mgmt_3125/week9/Assignment 7 - Dashboard Design.pdf)
+* [Walmart dataset](/assets/mgmt_3125/week9/Walmart Retail Sales 2012-2015.csv)
+
 #### Geospatial Data and Tooltips
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
@@ -432,6 +435,8 @@ White Space
 ### Chapter 7: Lesson's in Storytelling
 
 ### Posting Dashboard to Tableau Public
+
+* [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
 
 
 
