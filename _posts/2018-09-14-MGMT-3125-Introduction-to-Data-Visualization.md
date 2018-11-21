@@ -406,6 +406,13 @@ White Space
 
 ### Assignment 7: Tableau Dashboard Design
 
+#### Geospatial Data and Tooltips
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/ZxlsdrSZNpA"
+  frameborder="0" allowfullscreen></iframe>
+
+
 ## Week 10 - 11/12
 
 ### Chapter 10: Final Thoughts
