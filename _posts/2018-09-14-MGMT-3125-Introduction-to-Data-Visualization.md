@@ -4,7 +4,7 @@ date:   2018-09-14
 tags:
   - stockton university
   - tableau
-author_profile: true
+author_profile: false
 excerpt: I currently teach this course. Repository for notes, lecture videos, and assignments
 toc: true
 mathjax: true
