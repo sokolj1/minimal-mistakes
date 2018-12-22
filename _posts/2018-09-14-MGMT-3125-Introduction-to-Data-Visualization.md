@@ -39,8 +39,6 @@ Datasets pertinent to each assignment are provided under the respective assignme
 * [User device](/assets/mgmt_3125/week8/user_device.csv)
 * [User usage](/assets/mgmt_3125/week8/user_usage.csv)
 
-
-
 ## Week 1 - 9/10
 
 ### Chapter 1: The Importance of Context
