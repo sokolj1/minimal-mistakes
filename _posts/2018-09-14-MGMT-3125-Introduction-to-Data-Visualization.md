@@ -13,7 +13,7 @@ published: true
 
 ## Course Information
 
-### Description:
+### Description
 
 Introduction to Data Visualization provides an overview of business analytics, including the process of business analytics / business intelligence analysis, big data management, and principles of data visualization and dashboard design. The course uses spreadsheet software (Excel, Google Sheets) and Tableau.
 
