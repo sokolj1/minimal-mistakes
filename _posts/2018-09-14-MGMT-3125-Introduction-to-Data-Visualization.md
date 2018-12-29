@@ -531,12 +531,4 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
 
-## Week 12 - 11/26
-
-
-
-
-## Week 13 - 12/03
-
-
 
