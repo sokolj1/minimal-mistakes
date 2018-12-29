@@ -440,6 +440,31 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ### Chapter 8: Putting it all together
 
+We have learned six individual lessons. When used together, they form a sound and robust approach to data visualization: 
+
+* Understand the context (chapter 1)
+* Choose an appropriate display (chapter 2)
+* Eliminate clutter (chapter 3)
+* Draw attention where you want it (chapter 4)
+* Think like a designer (chapter 5)
+* Tell a story (chapter 7)
+
+This chapter involves applying the storytelling concepts of chapter 7 to the data visualization process.
+
+#### Lesson 1: Understand the context
+
+#### Lesson 2: Choose an appropriate display
+
+
+#### Lesson 3: Eliminate clutter
+
+#### Lesson 4: Draw attention wher you want your audience to focus
+
+#### Lesson 5: Think like a designer
+
+#### Lesson 6: Tell a story
+
+
 ### Assignment 6: Text tables & data joins
 * [Assignment 6 directions](/assets/mgmt_3125/week8/Assignment 6 - Text Tables, Joins.pdf)
 * [User device](/assets/mgmt_3125/week8/user_device.csv)
@@ -454,6 +479,26 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 ## Week 9 - 11/05
 
 ### Chapter 9: Data visualization case studies
+
+This chapter consists of strategies to overcome common pitfalls and struggles of communicating with data: 
+
+* Color considerations with a dark background
+* Leveraging animation in visuals
+* Establishing logic in order
+* Strategies for avoiding the spaghetti graph
+* Alteratives to pie charts
+
+#### Color considerations with a dark background
+
+#### Leveraging animation in visuals
+
+#### Establishing logic in order
+
+#### Strategies for avoiding the spaghetti graph
+
+#### Alteratives to pie charts
+
+
 
 ### Assignment 7: Tableau dashboard design
 
