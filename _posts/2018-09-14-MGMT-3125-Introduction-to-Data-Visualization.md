@@ -527,9 +527,7 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 ## Week 11 - 11/19
 
-### Chapter 7: Lesson's in storytelling
-
-### Posting dashboard to Tableau Public
+### Upload dashboard to Tableau Public
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
 
