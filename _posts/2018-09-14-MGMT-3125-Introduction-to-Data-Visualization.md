@@ -29,7 +29,7 @@ This is the first course with a comprehensive overview of the fundamental concep
 
 ### Datasets
 
-Datasets pertinent to each assignment are provided under the respective assignment header, but all datasets are organized here for easy reference.
+Datasets pertinent to each assignment are provided under the respective assignment header, but all datasets are available here for easy reference.
 
 * [IT tickets by month dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
 * [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
@@ -41,17 +41,17 @@ Datasets pertinent to each assignment are provided under the respective assignme
 
 ## Week 1 - 9/10
 
-### Chapter 1: The Importance of Context
+### Chapter 1: The importance of context
 
 To consider context is strongly encouraged before building a visualization.
 
-#### Exploratory vs. Explanatory analysis
+#### Exploratory vs. explanatory analysis
 *	Ex _plor_ atory: understand the data to determine what is noteworthy to show the audience
 * Ex _plan_ atory: the specific story about the data to tell the audience
 
 Too often the visualization author shows the exploratory analysis instead of the important explanatory analysis the audience will care about.
 
-#### The Who, What and How of Context
+#### The who, what and how of context
 
 Who: Very important to understand the intended audience and how they perceive you. This will shape how you approach creating the visualization. 
 
@@ -69,7 +69,7 @@ How: Mechanism of conveying the information
 * Live presentations should have a paucity of detail considering you're available to answer questions
 * Write ups/static documents demand generous detail to cover all the bases for possible client/stakeholder questions
 
-#### The Big Idea
+#### The big idea
 
 A single sentence summary of the study background information, issue the study is trying to solve, and the outcome of the study. Three components of The Big Idea:
 
@@ -86,11 +86,11 @@ Very powerful way of organizing ideas by creating a visual outline for the conte
 
 ## Week 2 - 9/17
 
-### Chapter 2: Choosing an Effective Visualization
+### Chapter 2: Choosing an effective visualization
 
 Choosing the right visualization is typically selected from 8 traditional methods. Knaflic elaborates on the scenarios that fit each visualization best.
 
-#### The 8 common visualizations
+#### The eight common visualizations
 
 1. Simple text
 * Works great for just a number or two.
@@ -129,7 +129,7 @@ Choosing the right visualization is typically selected from 8 traditional method
 <!-- 8. Horizontal bar graph -->
 
 
-#### Graphs to be Avoided
+#### Graphs to be avoided
 
 Area Graphs
 * Avoid area graphs, as human eyes are optimized for attributing quantitative value to two-dimensional space.
@@ -142,16 +142,16 @@ Secondary y-axis: generally not a good idea
 
 There isn't a single correct visual display. Rather, there are different types of visuals that could meet a given need. The most important aspect of visual build/design is _What do you need your audience to know?_ Choose a visual display to make this abundantly clear.
 
-### Assignment 1 - Excel Graphs
+### Assignment 1 - Excel graphs
 
 * [Assignment 1 directions](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
 * [IT tickets by month dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
 
 ## Week 3 - 9/24
 
-### Chapter 3: Clutter is Your Enemy!
+### Chapter 3: Clutter is your enemy!
 
-#### Cognitive Load & Clutter
+#### Cognitive load & clutter
 
 * Cognitive load: Every single element added to a page takes up cognitive load on the part of the audience.
 * Identify anything that doesn't add informative value. Remove these elements.
@@ -162,7 +162,7 @@ There isn't a single correct visual display. Rather, there are different types o
 
 Employ the Gestalt Principles of Visual Perception to identify communicative elements and noisy elements. 
 
-#### Gestalt Principles of Visual Perception
+#### Gestalt Principles of visual perception
 
 * Proximity: Tendency to think of physically close objects as belonging to a group.
 * Similarity: Objects that are of similar color, shape, size, or orientation are perceived as related or belonging to a group.
@@ -178,7 +178,7 @@ Without obvious visual cues, the audience will typically start at the top left o
 * White space is akin to pauses in sentences; use white space strategically to draw attention to the parts of the page that are not white space. 
 * Contrast: The more things we make different, the lesser the degree to which any of them stand out.
 
-#### Decluttering Strategies
+#### Decluttering strategies
 * Remove chart border
 * Remove gridlines
 * Remove data markers
@@ -196,13 +196,13 @@ Anytime you put information in front of an audience, you are creating cognitive 
 
 ### Week 3 Videos
 
-#### Tableau Basics
+#### Tableau basics
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/4VzmdekIw00"
   frameborder="0" allowfullscreen></iframe>
   
-#### Changing Tableau Data Sources
+#### Changing Tableau data sources
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/yXqC_cGpIMg"
@@ -210,9 +210,9 @@ Anytime you put information in front of an audience, you are creating cognitive 
 
 ## Week 4 - 10/01
 
-### Chapter 4: Focus your Audience's Attention
+### Chapter 4: Focus your audience's attention
 
-#### Actively Engage the Audience
+#### Actively engage the audience
 
 Pre-attentive attributes
 * Visualization attributes such as size, color, and position that are strategically employed to highly important aspects of the data. 
@@ -264,7 +264,7 @@ Position:
 * Without other visual cues, most members of an audience will start at the top-left and scan with their eyes in a zig-zag motion across the screen. 
 * Top-left, top-right, bottom-left, bottom-right
 
-### Assignment 3 - Tableau Line Graphs
+### Assignment 3 - Tableau line graphs
 
 * [Assignment 3 directions](/assets/mgmt_3125/week4/Assignment 3 - Line Graphs.pdf)
 * [Life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
@@ -277,7 +277,7 @@ Position:
 
 ### Week 4 Videos
 
-#### Tableau Line Graphs
+#### Tableau line graphs
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/ThTu-47Qd68"
   frameborder="0" allowfullscreen></iframe>
@@ -285,7 +285,7 @@ Position:
 
 ## Week 5 - 10/08
 
-### Chapter 5: Think Like a Designer
+### Chapter 5: Think like a designer
 
 This chapter explains how traditional design considerations are applied to create visualizations 
 and persuade an audience to accept your visual designs. 
@@ -357,27 +357,65 @@ Alignment
 White Space
 * Preserve margins and don't add unnecessary elements just to fill in extra space.
 
-### Assignment 4: Tableau Bar Graphs
+### Assignment 4: Tableau bar graphs
 
 * [Assignment 4 directions](/assets/mgmt_3125/week5/Assignment 4 - Bar Graphs.pdf)
 * [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
 
 ### Week 5 Videos
 
-#### Tableau Bar Graphs
+#### Tableau bar graphs
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/ey42xjtdtHw"
   frameborder="0" allowfullscreen></iframe>
 
 ## Week 6 - 10/15
 
-### Chapter 6: Dissecting Model Visuals
+### Chapter 6: Dissecting model visuals
+
+This chapter provides several examples of implementing the data visualization concepts explained
+above by discussing the thought process behind why the visualizations are effective.
+
+It is strongly encouraged to consider your audience. How will they process the information? What attributes of the visualization should be emphasized and de-emphasized? The following are very important to think about:
+
+* Choice of visual
+* Color
+* Size
+* Relative ordering of data
+* Alignment and positioning of elements
+* Use of words 
+
+Examining each model visual will help reinforce the concepts of chapters 1 - 5. 
+
+#### Model visual #1: Line graph
+
+#### Model visual #2: Annotated line graph with forecast
+
+#### Model visual #3: 100% stacked bars
+
+#### Model visual #4: Leveraging positive and negative stacked bars
+
+#### Model visual #5: Horizontal stacked bars
+
+#### In closing
 
 ## Week 7 - 10/22
 
-### Chapter 7: Lessons in Storytelling
+### Chapter 7: Lessons in storytelling
 
-### Assignment 5: Calculated Fields & Parameters
+Great storytelling is an incredibly underrated and powerful and skill. The author can devote a great amount of time creating the perfect visualization, but if the author fails to communciate a compelling story, the message won't be as impactful, or worse, obfuscated.
+
+This chapter is all about leveraging the power of storytelling to communicate effectively with data. 
+
+#### The magic of story
+
+#### Constructing the story
+
+#### The narrative structure
+
+#### Tactics to help ensure the story is clear
+
+### Assignment 5: Calculated fields & parameters
 
 * [Assignment 5 directions](/assets/mgmt_3125/week7/Assignment 5 - Calculated Fields, Parameters.pdf)
 * [Walmart dataset](/assets/mgmt_3125/week7/Walmart Retail Sales 2012-2015.csv)
@@ -386,13 +424,13 @@ White Space
 
 ### Week 7 Videos
 
-#### Tableau Calculated Fields
+#### Tableau calculated fields
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/DMgbqUQYiDo"
   frameborder="0" allowfullscreen></iframe>
 
-#### Tableau Parameters
+#### Tableau parameters
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/lmkA_pzcQ6Q"
@@ -400,14 +438,14 @@ White Space
 
 ## Week 8 - 10/29
 
-### Chapter 8: Putting it All Together
+### Chapter 8: Putting it all together
 
-### Assignment 6: Text Tables & Data Joins
+### Assignment 6: Text tables & data joins
 * [Assignment 6 directions](/assets/mgmt_3125/week8/Assignment 6 - Text Tables, Joins.pdf)
 * [User device](/assets/mgmt_3125/week8/user_device.csv)
 * [User usage](/assets/mgmt_3125/week8/user_usage.csv)
 
-#### Tableau Text Tables
+#### Tableau text tables
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/HNRdr_RvDWY"
@@ -415,20 +453,20 @@ White Space
 
 ## Week 9 - 11/05
 
-### Chapter 9: Data Visualization Case Studies
+### Chapter 9: Data visualization case studies
 
-### Assignment 7: Tableau Dashboard Design
+### Assignment 7: Tableau dashboard design
 
 * [Assignment 7 directions](/assets/mgmt_3125/week9/Assignment 7 - Dashboard Design.pdf)
 * [Walmart dataset](/assets/mgmt_3125/week9/Walmart Retail Sales 2012-2015.csv)
 
-#### Geospatial Data and Tooltips
+#### Geospatial data and tooltips
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/ZxlsdrSZNpA"
   frameborder="0" allowfullscreen></iframe>
 
-#### Building Tableau Dashboards
+#### Building Tableau dashboards
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/5Em1ZTzfnPE"
@@ -436,17 +474,17 @@ White Space
 
 ## Week 10 - 11/12
 
-### Chapter 10: Final Thoughts
+### Chapter 10: Final thoughts
 
-### Assignment 8: Tableau Stories
+### Assignment 8: Tableau stories
 
 * [Assignment 8 directions](/assets/mgmt_3125/week10/Assignment 8 - Tableau Stories.pdf)
 
 ## Week 11 - 11/19
 
-### Chapter 7: Lesson's in Storytelling
+### Chapter 7: Lesson's in storytelling
 
-### Posting Dashboard to Tableau Public
+### Posting dashboard to Tableau Public
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
 
@@ -456,10 +494,6 @@ White Space
 
 
 ## Week 13 - 12/03
-
-
-
-
 
 
 
