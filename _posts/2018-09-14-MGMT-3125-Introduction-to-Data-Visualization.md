@@ -517,12 +517,6 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 #### Alteratives to pie charts
 
-### Assignment 7: ggplot line, bar graphs, Tidyverse (part 1)
-
-
-
-
-
 ### Chapter 10: Final thoughts
 
 #### Where to go from here
@@ -539,9 +533,15 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 #### Recap: A quick look at all we've learned
 
+### Assignment 7: ggplot line, bar graphs, Tidyverse (part 1)
+
+[Assignment 7]()
+
 ## Week 12 - 4/7
 
 ### Assignment 8: ggplot line, bar graphs, Tidyverse (part 2)
+
+[Assignment 8]()
 
 ## Week 13 - 4/14
 
