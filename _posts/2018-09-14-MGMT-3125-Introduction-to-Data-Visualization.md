@@ -15,9 +15,9 @@ published: true
 
 ### Description
 
-Introduction to Data Visualization provides an overview of business analytics, including the process of business analytics / business intelligence analysis, big data management, and principles of data visualization and dashboard design. The course uses spreadsheet software (Excel, Google Sheets) and Tableau.
+Introduction to Data Visualization provides an overview of business analytics, including the process of business intelligence and dashboard design, principles of data visualization, and effectively communicating data stories. The course uses Excel, Tableau and R software.
 
-This is the first course with a comprehensive overview of the fundamental concepts and tools of business analytics for improving business decision making and performance. This is a hands-on course that is designed to introduce the principles and techniques for data visualization. Visualizations are graphical depictions of data that can improve comprehension, communication, and decision making. Students will learn visual representation methods and techniques that increase the understanding of complex data and models. Emphasis is placed on the identification of patterns, trends and differences from data sets across categories, space, and time. 
+This is the first course with a comprehensive overview of the fundamental concepts and tools of business analytics for improving decision making and performance. This is a hands-on course that is designed to introduce both the principles of data visualization and industry standard data visualization software. Visualizations are graphical depictions of data that can improve comprehension, communication, and decision making. Students will learn visual representation methods and techniques that increase the understanding of complex data models. Emphasis is placed on the identification of patterns, trends and differences in various datasets. For software, Excel, Tableau and R are used to apply the abovementioned data visualization principles.
 
 ### Textbook
 
@@ -39,7 +39,7 @@ Datasets pertinent to each assignment are provided under the respective assignme
 * [User device](/assets/mgmt_3125/week8/user_device.csv)
 * [User usage](/assets/mgmt_3125/week8/user_usage.csv)
 
-## Week 1 - 9/10
+## Week 1 - 1/20
 
 ### Chapter 1: The importance of context
 
@@ -84,7 +84,12 @@ Very powerful way of organizing ideas by creating a visual outline for the conte
 * Our minds do not think linearly; our minds scatter our thoughts. Time and effort must be put forth to organize them properly.
 * A few pieces of paper and pen just fine for this task. Alternatively, if you have a Mac or iOS software, I recommend [MindNode](https://mindnode.com)
 
-## Week 2 - 9/17
+### Assignment 1 - Excel graphs
+
+* [Assignment 1](/assets/mgmt_3125/Assignment 1 - Excel Graphs_s19.pdf)
+* [IT tickets by month dataset](/assets/mgmt_3125/IT tickets by location, month (2017).xlsx)
+
+## Week 2 - 1/27
 
 ### Chapter 2: Choosing an effective visualization
 
@@ -142,10 +147,9 @@ Secondary y-axis: generally not a good idea
 
 There isn't a single correct visual display. Rather, there are different types of visuals that could meet a given need. The most important aspect of visual build/design is _What do you need your audience to know?_ Choose a visual display to make this abundantly clear.
 
-### Assignment 1 - Excel graphs
+### Assignment 2 - Introduction to Tableau
 
-* [Assignment 1 directions](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
-* [IT tickets by month dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
+* [Assignment 2](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
 
 ## Week 3 - 9/24
 
