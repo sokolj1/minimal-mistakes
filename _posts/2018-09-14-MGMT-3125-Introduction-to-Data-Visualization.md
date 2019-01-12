@@ -392,6 +392,10 @@ White Space
   src="https://www.youtube.com/embed/5Em1ZTzfnPE"
   frameborder="0" allowfullscreen></iframe>
   
+#### Upload dashboard to Tableau Public
+
+* [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
+  
 
 ## Week 6 - 2/24
 
@@ -492,7 +496,7 @@ This chapter involves applying the storytelling concepts of chapter 7 to the dat
 
 ## Week 11 - 3/31
 
-### Chapter 9: Data visualization case studies
+### Chapter 9: Case studies
 
 This chapter consists of strategies to overcome common pitfalls and struggles of communicating with data: 
 
@@ -531,18 +535,6 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 #### Recap: A quick look at all we've learned
 
-#### Geospatial data and tooltips
-
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/ZxlsdrSZNpA"
-  frameborder="0" allowfullscreen></iframe>
-
-#### Building Tableau dashboards
-
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/5Em1ZTzfnPE"
-  frameborder="0" allowfullscreen></iframe>
-
 ## Week 11 - 3/31
 
 ### Assignment 7: ggplot line, bar graphs, Tidyverse (part 1)
@@ -555,11 +547,6 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 ## Week 12 - 4/7
 
 ### Assignment 8: ggplot line, bar graphs, Tidyverse (part 2)
-
-### Upload dashboard to Tableau Public
-
-* [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
-
 
 ## Week 13 - 4/14
 
