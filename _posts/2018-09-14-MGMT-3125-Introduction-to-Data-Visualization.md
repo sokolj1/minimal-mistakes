@@ -25,7 +25,7 @@ This is the first course with a comprehensive overview of the fundamental concep
 
 ### Syllabus
 
-* [Download syllabus here](/assets/mgmt_3125/MGMT3125_Fall2018.pdf)
+* [Download here](/assets/mgmt_3125/MGMT3125_Spring2019.pdf)
 
 ### Datasets
 
