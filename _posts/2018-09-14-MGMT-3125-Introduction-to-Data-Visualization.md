@@ -539,11 +539,6 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 ### Assignment 7: ggplot line, bar graphs, Tidyverse (part 1)
 
-### Upload dashboard to Tableau Public
-
-* [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
-
-
 ## Week 12 - 4/7
 
 ### Assignment 8: ggplot line, bar graphs, Tidyverse (part 2)
