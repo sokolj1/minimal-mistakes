@@ -1,6 +1,6 @@
 ---
 title: MGMT 3125 - Introduction to Data Visualization
-date:   2018-09-14
+date:   2018-01-12
 tags:
   - stockton university
   - tableau
