@@ -36,8 +36,6 @@ Datasets applicable to each assignment are provided under the respective assignm
 * [Life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
 * [Walmart dataset](/assets/mgmt_3125/week7/Walmart Retail Sales 2012-2015.csv)
 * [Titanic dataset](/assets/mgmt_3125/week7/titanic_clean_.csv)
-* [User device](/assets/mgmt_3125/week8/user_device.csv)
-* [User usage](/assets/mgmt_3125/week8/user_usage.csv)
 
 ## Week 1 - 1/20
 
