@@ -230,8 +230,6 @@ Anytime you put information in front of an audience, you are creating cognitive 
   
 
 
-
-
 ## Week 4 - 2/10
 
 ### Chapter 4: Focus your audience's attention
@@ -399,7 +397,7 @@ White Space
 #### Upload dashboard to Tableau Public
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
-  
+
 
 ## Week 6 - 2/24
 
@@ -440,7 +438,6 @@ Examining each model visual will help reinforce the concepts of chapters 1 - 5.
   src="https://www.youtube.com/embed/HNRdr_RvDWY"
   frameborder="0" allowfullscreen></iframe>
   
-
 ## Week 7 - 3/3
 
 ### Mid-Term exam review
