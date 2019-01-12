@@ -44,8 +44,8 @@ Datasets applicable to each assignment are provided under the respective assignm
 To consider context is strongly encouraged before building a visualization.
 
 #### Exploratory vs. explanatory analysis
-*	Ex _plor_ atory: understand the data to determine what is noteworthy to show the audience
-* Ex _plan_ atory: the specific story about the data to tell the audience
+*	Ex_plor_atory: understand the data to determine what is noteworthy to show the audience
+* Ex_plan_atory: the specific story about the data to tell the audience
 
 Too often the visualization author shows the exploratory analysis instead of the important explanatory analysis the audience will care about.
 
@@ -229,6 +229,9 @@ Anytime you put information in front of an audience, you are creating cognitive 
   frameborder="0" allowfullscreen></iframe>
   
 
+
+
+
 ## Week 4 - 2/10
 
 ### Chapter 4: Focus your audience's attention
@@ -303,6 +306,7 @@ Position:
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/lmkA_pzcQ6Q"
   frameborder="0" allowfullscreen></iframe>
+
 
 
 ## Week 5 - 2/17
