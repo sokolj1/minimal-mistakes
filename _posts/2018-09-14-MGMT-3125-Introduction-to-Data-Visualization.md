@@ -17,7 +17,7 @@ published: true
 
 Introduction to Data Visualization provides an overview of business analytics, including the process of business intelligence and dashboard design, principles of data visualization, and effectively communicating data stories. The course uses Excel, Tableau and R software.
 
-This is the first course with a comprehensive overview of the fundamental concepts and tools of business analytics to improve decision making and performance. This is a hands-on course that is designed to introduce both the principles of data visualization and industry standard data visualization software. Visualizations are graphical depictions of data that can improve comprehension, communication, and decision making. Students will learn visual representation methods and techniques that increase the understanding of complex data models. Emphasis is placed on the identification of patterns, trends and differences in various datasets. For software, Excel, Tableau and R are used to apply the abovementioned data visualization principles.
+This the first course with a comprehensive overview of the fundamental concepts and tools of business analytics to improve decision making and performance. This is a hands-on course that is designed to introduce both the principles of data visualization and industry standard data visualization software. Students will learn visual representation methods and techniques that increase the understanding of complex data models. Emphasis is placed on the identification of patterns, trends and notable differences in various datasets. Excel, Tableau and R are used to apply the abovementioned data visualization principles.
 
 ### Textbook
 
@@ -29,7 +29,7 @@ This is the first course with a comprehensive overview of the fundamental concep
 
 ### Datasets
 
-Datasets pertinent to each assignment are provided under the respective assignment header, but all datasets are available here for easy reference.
+Datasets applicable to each assignment are provided under the respective assignment header, but all datasets are available here for easy reference.
 
 * [IT tickets by month dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
 * [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
@@ -89,6 +89,12 @@ Very powerful way of organizing ideas by creating a visual outline for the conte
 * [Assignment 1](/assets/mgmt_3125/Assignment 1 - Excel Graphs_s19.pdf)
 * [IT tickets by month dataset](/assets/mgmt_3125/IT tickets by location, month (2017).xlsx)
 
+
+
+
+
+
+
 ## Week 2 - 1/27
 
 ### Chapter 2: Choosing an effective visualization
@@ -147,11 +153,27 @@ Secondary y-axis: generally not a good idea
 
 There isn't a single correct visual display. Rather, there are different types of visuals that could meet a given need. The most important aspect of visual build/design is _What do you need your audience to know?_ Choose a visual display to make this abundantly clear.
 
+#### Tableau basics
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/4VzmdekIw00"
+  frameborder="0" allowfullscreen></iframe>
+  
+#### Changing Tableau data sources
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/yXqC_cGpIMg"
+  frameborder="0" allowfullscreen></iframe>
+
 ### Assignment 2 - Introduction to Tableau
 
 * [Assignment 2](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
 
-## Week 3 - 9/24
+
+
+
+
+## Week 3 - 2/3
 
 ### Chapter 3: Clutter is your enemy!
 
@@ -192,27 +214,24 @@ Without obvious visual cues, the audience will typically start at the top left o
 
 Anytime you put information in front of an audience, you are creating cognitive load and asking them to use their brain power to process that information. Visual clutter creates excessive cognitive load that can hinder the transmission of your message. The Gestalt principles helps identify and remove unnecessary visual elements. Leverage alignment of elements and maintain white space to help make the interpretation of visuals a comfortable experience for the audience.
 
-### Assignment 2 - Introduction to Tableau
+### Assignment 3 - Tableau Line and bar graphs
 
-* [Download assignment 2 directions](/assets/mgmt_3125/week3/Assignment 2 - Intro Tableau.pdf)
-* [Download IT tickets dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
-* [Download life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
+* [assignment 2]()
 
 ### Week 3 Videos
 
-#### Tableau basics
-
+#### Tableau bar graphs
 <iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/4VzmdekIw00"
+  src="https://www.youtube.com/embed/ey42xjtdtHw"
+  frameborder="0" allowfullscreen></iframe>
+
+#### Tableau line graphs
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/ThTu-47Qd68"
   frameborder="0" allowfullscreen></iframe>
   
-#### Changing Tableau data sources
 
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/yXqC_cGpIMg"
-  frameborder="0" allowfullscreen></iframe>
-
-## Week 4 - 10/01
+## Week 4 - 2/10
 
 ### Chapter 4: Focus your audience's attention
 
@@ -268,26 +287,27 @@ Position:
 * Without other visual cues, most members of an audience will start at the top-left and scan with their eyes in a zig-zag motion across the screen. 
 * Top-left, top-right, bottom-left, bottom-right
 
-### Assignment 3 - Tableau line graphs
+### Assignment 4 - Calculated fields and parameters
 
 * [Assignment 3 directions](/assets/mgmt_3125/week4/Assignment 3 - Line Graphs.pdf)
 * [Life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
 
-<!--
-<figure>
-  <img src="/assets/mgmt_3125/Life Expectancy Dashboard.jpg" width = "1015" height = "725">
-</figure>
--->
-
 ### Week 4 Videos
 
-#### Tableau line graphs
+#### Tableau calculated fields
+
 <iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/ThTu-47Qd68"
+  src="https://www.youtube.com/embed/DMgbqUQYiDo"
+  frameborder="0" allowfullscreen></iframe>
+
+#### Tableau parameters
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/lmkA_pzcQ6Q"
   frameborder="0" allowfullscreen></iframe>
 
 
-## Week 5 - 10/08
+## Week 5 - 2/17
 
 ### Chapter 5: Think like a designer
 
@@ -361,19 +381,21 @@ Alignment
 White Space
 * Preserve margins and don't add unnecessary elements just to fill in extra space.
 
-### Assignment 4: Tableau bar graphs
+### Assignment 5: Dashboard design and Tableau stories
 
 * [Assignment 4 directions](/assets/mgmt_3125/week5/Assignment 4 - Bar Graphs.pdf)
 * [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
 
 ### Week 5 Videos
 
-#### Tableau bar graphs
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/ey42xjtdtHw"
-  frameborder="0" allowfullscreen></iframe>
+#### Building Tableau dashboards
 
-## Week 6 - 10/15
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/5Em1ZTzfnPE"
+  frameborder="0" allowfullscreen></iframe>
+  
+
+## Week 6 - 2/24
 
 ### Chapter 6: Dissecting model visuals
 
@@ -403,7 +425,28 @@ Examining each model visual will help reinforce the concepts of chapters 1 - 5.
 
 #### In closing
 
-## Week 7 - 10/22
+### Assignment 6: Text tables
+* [Assignment 6]()
+
+#### Week 6 videos
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/HNRdr_RvDWY"
+  frameborder="0" allowfullscreen></iframe>
+  
+
+## Week 7 - 3/3
+
+### Mid-Term exam review
+
+
+  
+  
+
+  
+  
+
+## Week 9 - 3/17
 
 ### Chapter 7: Lessons in storytelling
 
@@ -419,32 +462,13 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 #### Tactics to help ensure the story is clear
 
-### Assignment 5: Calculated fields & parameters
 
-* [Assignment 5 directions](/assets/mgmt_3125/week7/Assignment 5 - Calculated Fields, Parameters.pdf)
-* [Walmart dataset](/assets/mgmt_3125/week7/Walmart Retail Sales 2012-2015.csv)
-* [Titanic dataset](/assets/mgmt_3125/week7/titanic_clean_.csv)
-* [Titanic dataset readme](/assets/mgmt_3125/week7/titanic_readme.txt)
 
-### Week 7 Videos
-
-#### Tableau calculated fields
-
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/DMgbqUQYiDo"
-  frameborder="0" allowfullscreen></iframe>
-
-#### Tableau parameters
-
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/lmkA_pzcQ6Q"
-  frameborder="0" allowfullscreen></iframe>
-
-## Week 8 - 10/29
+## Week 10 - 3/24
 
 ### Chapter 8: Putting it all together
 
-We have learned six individual lessons. When used together, they form a sound and robust approach to data visualization: 
+We have learned six lessons. When used together, they form a sound and robust approach to data visualization: 
 
 * Understand the context (chapter 1)
 * Choose an appropriate display (chapter 2)
@@ -459,7 +483,6 @@ This chapter involves applying the storytelling concepts of chapter 7 to the dat
 
 #### Lesson 2: Choose an appropriate display
 
-
 #### Lesson 3: Eliminate clutter
 
 #### Lesson 4: Draw attention wher you want your audience to focus
@@ -469,18 +492,7 @@ This chapter involves applying the storytelling concepts of chapter 7 to the dat
 #### Lesson 6: Tell a story
 
 
-### Assignment 6: Text tables & data joins
-* [Assignment 6 directions](/assets/mgmt_3125/week8/Assignment 6 - Text Tables, Joins.pdf)
-* [User device](/assets/mgmt_3125/week8/user_device.csv)
-* [User usage](/assets/mgmt_3125/week8/user_usage.csv)
-
-#### Tableau text tables
-
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/HNRdr_RvDWY"
-  frameborder="0" allowfullscreen></iframe>
-
-## Week 9 - 11/05
+## Week 11 - 3/31
 
 ### Chapter 9: Data visualization case studies
 
@@ -502,12 +514,24 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 #### Alteratives to pie charts
 
+### Assignment 7: ggplot line, bar graphs, Tidyverse
 
 
-### Assignment 7: Tableau dashboard design
+### Chapter 10: Final thoughts
 
-* [Assignment 7 directions](/assets/mgmt_3125/week9/Assignment 7 - Dashboard Design.pdf)
-* [Walmart dataset](/assets/mgmt_3125/week9/Walmart Retail Sales 2012-2015.csv)
+#### Where to go from here
+
+#### Tip 1: Learn your tools well
+
+#### Tip 2: Iterate and seek feedback
+
+#### Tip 3: Devote time to storytelling with data
+
+#### Tip 4: Seek inspiration through good examples
+
+#### Tip 5: Have fun and find your style
+
+#### Recap: A quick look at all we've learned
 
 #### Geospatial data and tooltips
 
@@ -521,18 +545,34 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
   src="https://www.youtube.com/embed/5Em1ZTzfnPE"
   frameborder="0" allowfullscreen></iframe>
 
-## Week 10 - 11/12
+## Week 11 - 3/31
 
-### Chapter 10: Final thoughts
-
-### Assignment 8: Tableau stories
-
-* [Assignment 8 directions](/assets/mgmt_3125/week10/Assignment 8 - Tableau Stories.pdf)
-
-## Week 11 - 11/19
+### Assignment 7: ggplot line, bar graphs, Tidyverse (part 1)
 
 ### Upload dashboard to Tableau Public
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
+
+
+## Week 12 - 4/7
+
+### Assignment 8: ggplot line, bar graphs, Tidyverse (part 2)
+
+### Upload dashboard to Tableau Public
+
+* [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
+
+
+## Week 13 - 4/14
+
+
+
+## Week 14 - 4/21
+
+
+
+## Week 15 - 4/28
+
+
 
 
