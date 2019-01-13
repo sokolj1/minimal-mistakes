@@ -41,7 +41,10 @@ Datasets applicable to each assignment are provided under the respective assignm
 
 ### Chapter 1: The importance of context
 
-To consider context is strongly encouraged before building a visualization.
+To consider context is strongly encouraged before building any visualization. The underlying situations to take into consideration:
+* Who is your audience?
+* What do you need them to know or do?
+* How will you communicate? What is the medium of choice?
 
 #### Exploratory vs. explanatory analysis
 *	Ex_plor_atory: understand the data to determine what is noteworthy to show the audience
@@ -53,19 +56,19 @@ Too often the visualization author shows the exploratory analysis instead of the
 
 Who: Very important to understand the intended audience and how they perceive you. This will shape how you approach creating the visualization. 
 
-* The Who aspect helps to identify common ground that will facilitate relaying your findings to that audience
+* Helps to identify common ground to help relay your findings to your audience
 * The more specific identification of the audience, the better. Just saying clients/key stakeholders usually isn't specific enough 
 
 What: What do you need your audience to know? 
 
 * Should be clear how you want your audience to react
 * Take into account overall tone of visualization and/or presentation
-* If you are the one analyzing and communicating the data, you are considered the 'subject matter expert'
+* If you are analyzing and communicating the data, you are considered the 'subject matter expert'
 * Be confident with your findings! Don't let fear of public speaking decrease your credibility
 
 How: Mechanism of conveying the information
-* Live presentations should have a paucity of detail considering you're available to answer questions
-* Write ups/static documents demand generous detail to cover all the bases for possible client/stakeholder questions
+* Live presentations should have little detail considering you're available to answer questions
+* Static documents demand generous detail to cover all the bases for possible client/stakeholder questions
 
 #### The big idea
 
@@ -85,13 +88,7 @@ Very powerful way of organizing ideas by creating a visual outline for the conte
 ### Assignment 1 - Excel graphs
 
 * [Assignment 1](/assets/mgmt_3125/Assignment 1 - Excel Graphs_s19.pdf)
-* [IT tickets by month dataset](/assets/mgmt_3125/IT tickets by location, month (2017).xlsx)
-
-
-
-
-
-
+* [IT tickets](/assets/mgmt_3125/IT tickets by location, month (2017).xlsx)
 
 ## Week 2 - 1/27
 
