@@ -24,6 +24,12 @@ John plans to become an active participant in the [DataPhilly](https://www.meetu
   </figcaption>
 </figure>
 
+<figure>
+  <img src="/assets/about/sokol_baldwin_4_24_18.jpg" caption = "Machine Learning | April 24, 2018" class = "center">
+  <figcaption> Machine Learning | April 24, 2018
+  </figcaption>
+</figure>
+
 In his spare time, John enjoys spending time with family, photography, unique food experiences, running, tennis, biking, and lifting. 
 
 ## Setup
