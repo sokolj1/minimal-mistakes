@@ -25,9 +25,7 @@ Before logistic regression can be considered a valid algorithm for the data, che
 
 3. Assume linear relationship between continuous independent variables and logit function.
 
-4. No mulitcollinearity.
-
-* The independent variables can not be correlated with one another, which leads to difficulty interpreting the variance explained in the dependent variable. 
+4. No mulitcollinearity. The independent variables can not be correlated with one another. This leads to difficulty interpreting the variance explained in the dependent variable. 
 
 5. No significant outliers.
 
