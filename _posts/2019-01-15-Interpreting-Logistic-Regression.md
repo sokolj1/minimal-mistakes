@@ -4,7 +4,7 @@ date:   2019-01-15
 tags:
   - python
   - machine learning
-author_profile: true
+author_profile: false
 excerpt: Predicting Titanic passenger survival
 toc: true
 mathjax: true
