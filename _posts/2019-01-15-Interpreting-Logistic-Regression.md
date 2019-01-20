@@ -48,7 +48,8 @@ The first step of building any machine learning model is investigating the datas
 ### Exploratory data analysis
 
 Import the necessary Python libraries:
-{% highlight python %}
+
+```python
 import pandas as pd
 import scipy as scpy
 import numpy as np
@@ -68,7 +69,7 @@ from sklearn.svm import SVC
 
 %matplotlib inline
 
-{% endhighlight %}
+```
 
 Import the csv file with Pandas:
 
