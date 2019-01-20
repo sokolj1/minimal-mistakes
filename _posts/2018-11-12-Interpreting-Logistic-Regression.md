@@ -1,11 +1,11 @@
 ---
 title: Application of Logistic Regression
-date:   2018-01-15
+date:   2019-01-15
 tags:
   - python
   - machine learning
 author_profile: true
-excerpt:
+excerpt: Predicting Titanic passenger survival
 toc: true
 mathjax: true
 published: true
