@@ -31,11 +31,11 @@ This the first course with a comprehensive overview of the fundamental concepts 
 
 Datasets applicable to each assignment are provided under the respective assignment header, but all datasets are available here for easy reference.
 
-* [IT tickets by month dataset](/assets/mgmt_3125/IT Tickets by Month.xlsx)
-* [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
-* [Life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
-* [Walmart dataset](/assets/mgmt_3125/week7/Walmart Retail Sales 2012-2015.csv)
-* [Titanic dataset](/assets/mgmt_3125/week7/titanic_clean_.csv)
+* [IT tickets by month, location](/assets/mgmt_3125/week1/IT tickets by location, month (2017).xlsx)
+* [World life expectancies](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
+* [Walmart retail sales](/assets/mgmt_3125/week7/Walmart Retail Sales 2012-2015.csv)
+* [RMS Titanic](/assets/mgmt_3125/week7/titanic_clean_.csv)
+* [Super Bowl 44 - 52 win probability](/assets/mgmt_3125/super_bowl44_52.csv)
 
 ## Week 1 - 1/20
 
