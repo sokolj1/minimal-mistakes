@@ -1,6 +1,6 @@
 ---
-title: Interpreting Logistic Regression
-date:   2018-11-12
+title: Application of Logistic Regression
+date:   2018-01-15
 tags:
   - python
   - machine learning
@@ -8,7 +8,7 @@ author_profile: true
 excerpt:
 toc: true
 mathjax: true
-published: false
+published: true
 ---
 
 With deep learning taking the data science community by storm, people tend to look down at relatively simple machine learning algorithms. Although deep learning can tackle problems that require complex input-output mappings, these deep learning models lack adequate interpretability. Enter logistic regression, which provides interpretable reasoning for the predictive outputs of this type of statistical model. The purpose of this post is to provide an example application of logistic regression and how to interpret the model outcome.
