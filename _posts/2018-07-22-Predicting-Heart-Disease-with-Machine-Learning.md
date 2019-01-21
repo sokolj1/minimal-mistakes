@@ -8,7 +8,7 @@ tags:
   - pca
   - logistic regression
   - healthcare
-author_profile: true
+author_profile: false
 toc: true 
 
 excerpt: Predictive analytics application in the healthcare industry
