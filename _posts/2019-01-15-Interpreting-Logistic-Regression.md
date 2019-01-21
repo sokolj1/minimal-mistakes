@@ -81,7 +81,7 @@ train.head(8)
 
 ```
 
-<img src="/assets/titanic_regression/train_head_1" >
+<img src="/assets/titanic_regression/train_head_1.png" >
 
 Next, use Pandas DataFrame methods .describe and .info to obtain feature distribution and data types.
 
