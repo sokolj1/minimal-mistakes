@@ -101,7 +101,7 @@ Here are preliminary thoughts for each feature:
 * Sex: **USEFUL** Gender of each passenger.
 * Age: **USEFUL** Min age of newborn infant ( < 1 year old) and max age of 80 years old.
 * SibSp: **USEFUL** Numeric data, max number of siblings / spouses aboard is 8. 
-* Parch: ** USEFL** max number of parents / children aboard is 6, useful.
+* Parch: **USEFUL** max number of parents / children aboard is 6, useful.
 * Ticket: Categorical data, potential to be useful, but values may be too distinct. 
 * Fare: Numeric data, preliminary assumption of higher fare correlates to higher social class, which may predict survival. 
 * Cabin: Categorical data, potential to be useful.
