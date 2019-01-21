@@ -124,7 +124,7 @@ K-folds cross validation increases model error out accuracy. The model uses _all
 It turns out that using logistic regression results in an error out of 78%. This will be our deployable TabPy function. 
 Model accuracy above 70% accuracy is considered to be a decent classifier. For this particular study where the model is trained with a limited amount of observations, there is a case that 78% accuracy is excellent. I recently coded logistic regression from stratch in R. Knowing logistic regression is a binary classifier and considering the purpose of this post is an introduction to machine learning, I built a logistic regression model with the same features from the heart disease dataset.
 
-{% highlight python %}
+```python
 # logistic regression cross validation: probability, 0 - 100%
 def suggest_diag_prob(age, sex, resting_blood_pressure, cholesterol, cigarettes_per_day, 
 years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, mets, tpeakbps, exer_ind_angina, rldv5e):
@@ -137,7 +137,7 @@ years_as_smoker, fasting_blood_sugar, hist_heart_dis, resting_hr, max_hr_ach, me
     
     return(predict_proba)
 suggest_diag_prob(18, 0, 120, 150, 0, 0, 0,0, 65, 200, 15, 140, 0, 93)
-{% endhighlight %}
+```
 
 ## Connect to TabPy
 
@@ -147,14 +147,14 @@ Connecting Tableau to TabPy is relatively pain free after [installation](https:/
 
 Once both tasks are complete, deploy the logistic regression function to Tableau.
 
-{% highlight python %}
+```python
 # Connect to TabPy server using the client library
 connection = tabpy_client.Client('http://localhost:9004')
 
 # Publish the suggest_diag_prob function to TabPy server so it can be used from Tableau
 connection.deploy('heart_disease_logregcv_prob',
                   suggest_diag_prob, override = True)
-{% endhighlight %}
+```
 
 TabPy should now be communicating with the Python script. Unfortunately, Tableau dashbords connected to exernal services such as TabPy can _not_ be posted to Tableau Public. Nonetheless, I have a 30 second on-screen video to showcase the dashboard: 
 
