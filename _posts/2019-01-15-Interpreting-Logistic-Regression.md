@@ -74,12 +74,12 @@ from sklearn.svm import SVC
 Import the csv file with Pandas:
 
 Import the necessary Python libraries and peek into the first 8 rows of data:
-{% highlight python %}
+```python
 
 train = pd.read_csv('titanic_train.csv')
 train.head(8)
 
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/train_head_1" >
 
@@ -109,27 +109,27 @@ Here are preliminary thoughts for each feature:
 
 Drop PassengerID, Name, Cabin, and Ticket, as these features will not contribute to our model.
 
-{% highlight python %}
+```python
 # default is axis = 0 for rows index; axis = 1 to drop columns
 train_id = train['PassengerId']
 train = train.drop(['PassengerId','Name', 'Cabin', 'Ticket'], axis = 1)
-{% endhighlight %}
+```
 
 ### Missing data
 
 Next, check for missing data values in each column:
 
-{% highlight python %}
+```python
 train.apply(lambda x: x.isnull().any())
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/train_apply.png" >
 
 Calculate the percentage of records that are null for features that have null values:
 
-{% highlight python %}
+```python
 pd.DataFrame({'Percent Missing': train.isnull().sum() * 100 / len(train)})
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/train_percent_missing.png" >
 
@@ -140,24 +140,24 @@ Now let's resolve the missing data issue with Age and Embarked features.
 
 Calculate the overall average age of all Titanic passengers:
 
-{% highlight python %}
+```python
 avg_age = train['Age'].mean()
 print(avg_age)
 
 # 29.69911764705882
-{% endhighlight %}
+```
 
 We could use this average for imputation of all missing values, however, we can logically surmise that age is not evenly distributed across the three Titanic social classes. Let's confirm this thinking: 
 
-{% highlight python %}
+```python
 sns.boxplot(x = 'Pclass', y = 'Age', data = train, hue = 'Survived')
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/age_group_class.png" >
 
 Observing the above boxplot, the age of each passenger is not evenly distributed across the three social classes. We can investigate further by calculating the average age by Pclass grouping: 
 
-{% highlight python %}
+```python
 print(train.groupby(['Pclass']).get_group(1).Age.mean())
 # Upper class: 38.233440860215055
 
@@ -167,20 +167,19 @@ print(train.groupby(['Pclass']).get_group(2).Age.mean())
 print(train.groupby(['Pclass']).get_group(3).Age.mean())
 # Lower class: 25.14061971830986
 
-{% endhighlight %}
+```
 
 Since age distribution is uneven, it would not be appropriate to input the overall average of 29.70 into each null value without considering the Pclass value:
 
-{% highlight python %}
+```python
 train['Age'] = train.groupby(['Pclass','Survived'])['Age'].transform(lambda x:x.fillna(x.mean()))
-
-{% endhighlight %}
+```
 
 Check again for percentage of missing values: 
 
-{% highlight python %}
+```python
 pd.DataFrame({'Percent Missing': train.isnull().sum() * 100 / len(train)})
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/missing_value_age.png" >
 
@@ -188,25 +187,25 @@ pd.DataFrame({'Percent Missing': train.isnull().sum() * 100 / len(train)})
 
 The percentage of records that are null is very small, only 0.22%. Let's find the characteristics of these records to see if there are traits in common. C = Cherbourg, Q = Queenstown, S = Southampton.
 
-{% highlight python %}
+```python
 train[train.Embarked.isnull()]
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/embarked_null.png" >
 
 Two passengers of very similar characteristics and circumstances: Same Pclass, Sex and Fare.
 
-{% highlight python %}
+```python
 train.groupby(['Pclass', 'Sex']).get_group((1,'female')).Embarked.value_counts()
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/embarked_group.png" >
 
 The most likely departure location is Southampton, so this value in imputed for the two null value records: 
 
-{% highlight python %}
+```python
 train.Embarked.fillna('S', inplace = True)
-{% endhighlight %}
+```
 
 Confirm no remaining features have missing data:
 
@@ -217,9 +216,9 @@ Confirm no remaining features have missing data:
 
 For investigative purposes, check to determine the difference in fare price by social class and survival category: 
 
-{% highlight python %}
+```python
 train.groupby(['Pclass', 'Survived'])['Fare'].mean()
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/fare_social_survival.png" >
 
@@ -227,55 +226,55 @@ train.groupby(['Pclass', 'Survived'])['Fare'].mean()
 
 Check for percent uniqueness of each feature:
 
-{% highlight python %}
+```python
 # unique().size counts the distinct values in each column; .size counts all records in each column
 pd.DataFrame({'percent_unique': train.apply(lambda x: x.unique().size / x.size*100)})
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/percent_uniqueness.png" >
 
 ### Categorical to Dummy
 
-{% highlight python %}
+```python
 train = pd.get_dummies(train)
 train.head(10)
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/train_dummy.png" >
 
 Store the survived predictor feature in a series variable and drop the feature in the main dataset to prepare for train_test_split compartmentalization:
 
-{% highlight python %}
+```python
 train_label = train['Survived']
 train = train.drop(['Survived'], axis = 1)
 
 from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(train, train_label, test_size = 0.25, random_state = 3)
-{% endhighlight %}
+```
 
 The data must be scaled in order to compensate for unequal distributions and intervals of each feature:
-{% highlight python %}
+```python
 from sklearn.preprocessing import StandardScaler
 
 scaled_trn = StandardScaler().fit_transform(X_train)
 train_scaled = pd.DataFrame(scaled_trn, index = X_train.index, columns = X_train.columns)
 train_scaled.head()
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/train_scaled.png" >
 
 Now we can train the logistic regression model:
 
-{% highlight python %}
+```python
 
 logreg = LogisticRegression()
 logreg.fit(train_scaled, Y_train)
 
-{% endhighlight %}
+```
 
 <img src="/assets/titanic_regression/logistic_regression_output.png" >
 
-{% highlight python %}
+```python
 
 predictions = logreg.predict_proba(X_test)[:,1]
 
@@ -283,24 +282,9 @@ from sklearn.metrics import roc_auc_score
 auc = roc_auc_score(Y_test, predictions)
 
 # auc = 0.6945764725852995
+```
 
-{% endhighlight %}
-
-This logistic regression model can successfully predict the survival outcome of a passenger of approximately 70% accuracy. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This logistic regression model can successfully predict the survival outcome of a Titanic passenger with approximately 70% accuracy. 
 
 
 
