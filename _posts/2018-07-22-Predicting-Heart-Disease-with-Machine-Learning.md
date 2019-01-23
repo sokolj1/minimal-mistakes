@@ -178,39 +178,32 @@ Although this case study has shed light on how machine learning can greatly bene
 
 When deciding which machine learning algorithm to use, there is a wide variety to choose from, but a "magic bullet" doesn't exist. There is no one machine learning algorithm best for all problems, but familiarity and understanding the pros and cons of each algorithm can guide the data scientist to the best decision for the problem at hand. 
 
-1. Understand the problem
+1. **Understand the problem**
 It is important to know what type of problem we are dealing with and what kind of algorithm works best for each type of problem. Once the problem and end goal is identified, the data scientist can break down algorithm selection by three categories: 
 * Supervised learning
 * Unsupervised learning
 * Reinforcement learning
 
-2. Size of dataset (training and test)
+2. **Size of dataset (training and test)**
 Some machine learning algorithms work optimally with small or large datasets. For example, 
 Small datasets demand algorithms that have high bias to avoid overfitting.
 
-3. Exploratory data analysis
+3. **Exploratory data analysis**
 * Compute summary statistics and visualizations (boxplots, density plots, etc) of your dataset. 
 * Percentiles help identify the range for most or all of the data.
 * Measure correlation and central tendency of the data.
 
-3. Required accuracy: bias-variance tradeoff
+3. **Required accuracy: bias-variance tradeoff**
+* Bias: error from assumptions in the learning algorithm. Models with low bias are usually more complex with more accurate fitting to the train dataset, but inadvertently creates large amounts of noise, making predictions less accurate. Models with high bias tend to be simple, but may not generalize well to unseen data. 
+* Variance: error from sensitivity to small fluctuations in the training dataset. High variance models represent the training dataset well, however, they may not generalize well to unseen data due to overfitting. Low variance produces simpler models that are not prone to overfitting but may fail to capture important irregularities present in the training dataset. 
 
-Bias: error from assumptions in the learning algorithm
-* Models with low bias are usually more complex with more accurate fitting to the train dataset, but inadvertently creates large amounts of noise, making predictions less accurate. Models with high bias tend to be simple, but may not generalize well to unseen data. 
-
-Variance: error from sensitivity to small fluctuations in the training dataset
-* High variance models represent the training dataset well, however, they may not generalize well to unseen data due to overfitting. Low variance produces simpler models that are not prone to overfitting but may fail to capture important irregularities present in the training dataset. 
-
-4. Timeframe
-
+4. **Timeframe**
 Machine learning models can take hours or even more than a day to train, depending on the size, target accuracy, and algorithm of choice.
 
-5. Linear assumptions
-
+5. **Linear assumptions**
 Common machine learning models such as linear regression , logistic regression and support vector machines are linear models, as linear models are algorithmically simple, fast to train, and relatively easy to interpret. But beware of data that does not conform to linear assumptions, as this can decrease model accuracy.
 
-
-6. Features
+6. **Features**
 A large number of features can substantially improve model accuracy without overfitting, but can bog down some learning algorithms, making training time unfeasibly long.
 
 Despite knowing this information, even the most experienced data scientists can't tell which algorithm will perform best without trying them. Devoting time to go through the workflow above with each viable machine learning algorithm would greatly improve the credibility of the study.
