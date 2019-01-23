@@ -172,7 +172,27 @@ TabPy is painfully slow with transmitting the updated parameters across the loca
 The positive aspects of the dashboard are groundbreaking from a predictive analytics perspective. Performance issues aside, this application has the potential to become a huge contribution to healthcare professional’s decision regarding patient health. Machine learning is a powerful data science technology that can be utilized in the healthcare industry, but there must be a graphical user interface for the end user to interact and manipulate the function inputs, which would be the patient data.
 
 ## Future Work
-Although this case study has shed light on how machine learning can greatly benefit the healthcare industry, there is room for study improvement. More data/patient observations must be obtained to fit a better model and validate model performance measures. Once this task is complete, this data can be run through TPOT for up to 24 hours to find the best model for the data. These two actions would greatly improve the viability of the study.
+Although this case study has shed light on how machine learning can greatly benefit the healthcare industry, there is room for study improvement. More data/patient observations should be obtained to fit a possibly more generalized and accurate model. Although this post focuses on employing logistic regression, there are other models that may yield even better results. 
+
+### Choosing the right machine learning algorithm
+
+When deciding which machine learning algorithm to use, there is a wide variety to choose from, but a "magic bullet" doesn't exist. There is no one machine learning algorithm best for all problems, but familiarity and understanding the pros and cons of each algorithm can guide the data scientist to the best decision for the problem at hand. 
+
+1. Understand the problem
+
+2. Size of dataset (training and test)
+
+3. Required accuracy
+
+4. Timeframe
+
+5. Linear assumptions
+
+6. Features
+
+
+
+Devoting time to go through the workflow above would greatly improve the viability of the study.
 
 ## Changing the Healthcare Landscape
 In summary, machine learning has proven to be a viable data science assistant for healthcare professionals. The logistic regression model was instantiated in a Python function, then deployed to a Tableau Dashboard with Tableau extension TabPy to build a plausible graphical user interface; the healthcare professional can modify model parameters for each patient to obtain a risk assessment based on the aforementioned measured health metrics. This predictive analytics application serves as proof of viability for implementation in the healthcare industry. As far as long term implications, this study enables healthcare professionals to consider putting into practice machine learning predictive analytics for future state aid in risk assessment.
