@@ -180,7 +180,15 @@ When deciding which machine learning algorithm to use, there is a wide variety t
 
 1. Understand the problem
 
+
+
 2. Size of dataset (training and test)
+Some machine learning algorithms work optimally with small or large datasets. For example, 
+Small datasets demand algorithms that have high bias to avoid overfitting.
+
+3. Exploratory data analysis
+Look at summary statistics and visualizations (boxplots, density plots, etc) of your dataset. 
+* Percentiles help identify the range for most or all of the data.
 
 3. Required accuracy
 
