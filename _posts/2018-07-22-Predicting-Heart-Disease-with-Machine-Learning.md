@@ -193,9 +193,8 @@ Small datasets demand algorithms that have high bias to avoid overfitting.
 * Percentiles help identify the range for most or all of the data.
 * Measure correlation and central tendency of the data.
 
-3. Required accuracy
+3. Required accuracy: bias-variance tradeoff
 
-Bias-variance tradeoff
 Bias: error from assumptions in the learning algorithm
 * Models with low bias are usually more complex with more accurate fitting to the train dataset, but inadvertently creates large amounts of noise, making predictions less accurate. Models with high bias tend to be simple, but may not generalize well to unseen data. 
 
@@ -208,11 +207,17 @@ Machine learning models can take hours or even more than a day to train, dependi
 
 5. Linear assumptions
 
+Common machine learning models such as linear regression , logistic regression and support vector machines are linear models, as linear models are algorithmically simple, fast to train, and relatively easy to interpret. But beware of data that does not conform to linear assumptions, as this can decrease model accuracy.
+
 
 6. Features
-
+A large number of features can substantially improve model accuracy without overfitting, but can bog down some learning algorithms, making training time unfeasibly long.
 
 Despite knowing this information, even the most experienced data scientists can't tell which algorithm will perform best without trying them. Devoting time to go through the workflow above with each viable machine learning algorithm would greatly improve the credibility of the study.
+
+Here is a model selection reference provided by the sci-kit learn library:
+
+<img src="/assets/predicting-heart-disease/sci_kit_learn_cheat_sheet.png" >
 
 ## Changing the Healthcare Landscape
 In summary, machine learning has proven to be a viable data science assistant for healthcare professionals. The logistic regression model was instantiated in a Python function, then deployed to a Tableau Dashboard with Tableau extension TabPy to build a plausible graphical user interface; the healthcare professional can modify model parameters for each patient to obtain a risk assessment based on the aforementioned measured health metrics. This predictive analytics application serves as proof of viability for implementation in the healthcare industry. As far as long term implications, this study enables healthcare professionals to consider putting into practice machine learning predictive analytics for future state aid in risk assessment.
