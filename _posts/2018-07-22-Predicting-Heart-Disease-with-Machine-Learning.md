@@ -204,9 +204,9 @@ Machine learning models can take hours or even more than a day to train, dependi
 Common machine learning models such as linear regression , logistic regression and support vector machines are linear models, as linear models are algorithmically simple, fast to train, and relatively easy to interpret. But beware of data that does not conform to linear assumptions, as this can decrease model accuracy.
 
 7. **Features**
-A large number of features can substantially improve model accuracy without overfitting, but can bog down some learning algorithms, making training time unfeasibly long.
+A large number of features can provide accurate model predictions in conjunction with a large number of observations. But too many features may result in unfeasibly long training times for some algorithms.
 
-Despite knowing this information, even the most experienced data scientists can't tell which algorithm will perform best without trying them. Devoting time to go through the workflow above with each viable machine learning algorithm would greatly improve the credibility of the study.
+Despite knowing this all of this information, even the most experienced data scientists can't tell which algorithm will perform best without trying them. Devoting time to go through the workflow above with each viable machine learning algorithm would greatly improve the credibility of the study.
 
 Here is a model selection reference provided by the sci-kit learn library:
 
