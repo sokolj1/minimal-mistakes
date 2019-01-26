@@ -1,6 +1,8 @@
 ---
 header:
   image: /assets/single-layer-perceptron/perceptron_neuron.jpg
+  
+date:   2018-12-13
 
 author_profile: false
 
