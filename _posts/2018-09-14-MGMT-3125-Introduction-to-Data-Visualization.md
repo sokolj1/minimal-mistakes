@@ -19,9 +19,11 @@ Introduction to Data Visualization provides an overview of business analytics, i
 
 This the first course with a comprehensive overview of the fundamental concepts and tools of business analytics to improve decision making and performance. This is a hands-on course that is designed to introduce both the principles of data visualization and industry standard data visualization software. Students will learn visual representation methods and techniques that increase the understanding of complex data models. Emphasis is placed on the identification of patterns, trends and notable differences in various datasets. Excel, Tableau and R are used to apply the abovementioned data visualization principles.
 
-### Textbook
+### Textbooks
 
-* Storytelling with Data: A Data Visualization Guide for Business Professionals, by Cole Nussbaumer Knaflic, 1st edition, WILEY. ISBN-13: 978- 1119002253.
+* Storytelling with Data: A Data Visualization Guide for Business Professionals, by Cole Nussbaumer Knaflic, 1st edition, Wiley. ISBN-13: 978- 1119002253.
+
+* Data Visualization: A Practical Introduction, by Kieran Healy. Princeton. ISBN-13: 978-0691181622. [Available online](http://socviz.co)
 
 ### Syllabus
 
