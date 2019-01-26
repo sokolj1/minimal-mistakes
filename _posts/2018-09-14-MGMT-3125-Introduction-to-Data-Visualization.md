@@ -23,7 +23,7 @@ This the first course with a comprehensive overview of the fundamental concepts 
 
 * Storytelling with Data: A Data Visualization Guide for Business Professionals, by Cole Nussbaumer Knaflic, 1st edition, Wiley. ISBN-13: 978- 1119002253.
 
-* Data Visualization: A Practical Introduction, by Kieran Healy. Princeton. ISBN-13: 978-0691181622. [Available online](http://socviz.co)
+* Data Visualization: A Practical Introduction, by Kieran Healy. Princeton. ISBN-13: 978-0691181622. [Available online](http://socviz.co).
 
 ### Syllabus
 
@@ -38,6 +38,7 @@ Datasets applicable to each assignment are provided under the respective assignm
 * [Walmart retail sales](/assets/mgmt_3125/week7/Walmart Retail Sales 2012-2015.csv)
 * [RMS Titanic](/assets/mgmt_3125/week7/titanic_clean_.csv)
 * [Super Bowl 44 - 52 win probability](/assets/mgmt_3125/super_bowl44_52.csv)
+* [Denver crime rates](/assets/mgmt_3125/week1/denver_crime.csv)
 
 ## Week 1 - 1/20
 
