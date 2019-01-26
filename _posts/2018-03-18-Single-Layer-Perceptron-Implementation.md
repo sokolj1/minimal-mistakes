@@ -2,7 +2,7 @@
 header:
   image: /assets/single-layer-perceptron/perceptron_neuron.jpg
 
-author_profile: true
+author_profile: false
 
 classes: wide
 
