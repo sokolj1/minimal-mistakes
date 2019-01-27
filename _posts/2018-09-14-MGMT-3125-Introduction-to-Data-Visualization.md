@@ -413,21 +413,40 @@ Examining each model visual will help reinforce the concepts of chapters 1 - 5.
 
 <img src="/assets/mgmt_3125/week6/c06f001.png" >
 
+Words are used appropriately. Everything, including graph title, vertical and horizontal axis titles are present. The two lines are directly labeled so there is no need for a legend. The viewers eye's are drawn to the "Progress to date" trend due to the following pre-attentive attributes:
+
+* Notable line size contrast
+* Dark blue color
+* Presence of data marker on final point
+* Size of text
+
+Notice how the author establishes a visual hierarchy of most significant to least significant with color: dark blue, light blue, dark gray, light gray. 
+
+The author thought thinking about numbers in the thousands isn't intuitive, so the zeros in the y-axis label are preserved. 
+
 #### Model visual #2: Annotated line graph with forecast
 
 <img src="/assets/mgmt_3125/week6/c06f002.png" >
+
+The difference between solid and dotted line distinguishes between actual data and forecast data. Clear labeling of actual and forecast helps clarify this distinction. 
+
+Everything has been pushed to the background with the exception of the graph title, dates in the text annotation, data, data markers, and numeric data labels. Historical data points are not labeled, only the forecast data to give the viewer a clear understanding of forward-looking expectations.
 
 #### Model visual #3: 100% stacked bars
 
 <img src="/assets/mgmt_3125/week6/c06f003.png" >
 
-#### Model visual #4: Leveraging positive and negative stacked bars
+The graph title, legend, and vertical y-axis title are all aligned in the upper-left-most position, creating a clean sense of organization on the left side of the graph. On the right side, the text at the top and the final red bars of data are aligned together. 
 
-<img src="/assets/mgmt_3125/week6/c06f004.png" >
+Red is used as the single attention grabbing color, while dark to light shades of gray push all other data to the background. The change over time in the percentage of projects that meet their goals is more difficult to compare considering there is no consistent baseline at either the top or bottom of the graph, but given this is lower priority comparison, that is ok. 
+
+The graph uses supercategories (years to quarters) for organization and reference. The words at the top right reinforce what we should be paying attention to (from Q3 onward a significant amount of missed goals). 
 
 #### Model visual #5: Horizontal stacked bars
 
 <img src="/assets/mgmt_3125/week6/c06f005.png" >
+
+A stacked bar graph makes sense due to the 3 categories of survey priorities (most important, 2nd most important, 3rd most important). The author uses a horizontal bar graph so the category names are easy to read. The categories are organized vertically in descending order by total % of development priorities. Words are used well, as all graph elements are titled and labeled. The x-axis is eliminated altogether. 
 
 #### In closing
 
