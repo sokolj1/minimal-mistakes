@@ -396,9 +396,9 @@ White Space
 ### Chapter 6: Dissecting model visuals
 
 This chapter provides several examples of implementing the data visualization concepts explained
-above by discussing the thought process behind why the visualizations are effective.
+above by discussing the thought process behind why each visualization is effective.
 
-It is strongly encouraged to consider your audience. How will they process the information? What attributes of the visualization should be emphasized and de-emphasized? The following are very important to think about:
+As emphasized throughout this book, it is strongly encouraged to consider your audience. How will they process the information? What attributes of the visualization should be emphasized and de-emphasized? The following are very important to think about:
 
 * Choice of visual
 * Color
@@ -411,15 +411,36 @@ Examining each model visual will help reinforce the concepts of chapters 1 - 5.
 
 #### Model visual #1: Line graph
 
+<img src="/assets/mgmt3125/week6/c06f001.png" >
+
 #### Model visual #2: Annotated line graph with forecast
+
+<img src="/assets/mgmt3125/week6/c06f002.png" >
 
 #### Model visual #3: 100% stacked bars
 
+<img src="/assets/mgmt3125/week6/c06f003.png" >
+
 #### Model visual #4: Leveraging positive and negative stacked bars
+
+<img src="/assets/mgmt3125/week6/c06f004.png" >
 
 #### Model visual #5: Horizontal stacked bars
 
+<img src="/assets/mgmt3125/week6/c06f005.png" >
+
 #### In closing
+
+To create a habit of employing sound data visualization concepts into everyday workflow, we can learn from 
+effective graphs and consider the design choices made to create them. This chapter reviewed the following concepts:
+
+* Choice of graph
+* Ordering of data
+* Emphasize and de-emphasize graph components through color, thickness and size
+* Alignment and positioning of elements
+* Appropriate use of text
+
+It is important to critically analyze the visualizations that you encounter to consider if each element/attribute in the visualization has purpose and is intentionally implemented. 
 
 ### Assignment 6: Text tables
 * [Assignment 6]()
