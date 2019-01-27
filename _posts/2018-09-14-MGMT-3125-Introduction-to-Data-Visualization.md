@@ -27,7 +27,7 @@ This the first course with a comprehensive overview of the fundamental concepts 
 
 ### Syllabus
 
-* [Download here](/assets/mgmt_3125/MGMT3125_Spring2019.pdf)
+* [Download here](/assets/mgmt_3125/MGMT3125_Spring2019_.pdf)
 
 ### Datasets
 
@@ -151,7 +151,7 @@ Secondary y-axis: generally not a good idea
 
 There isn't a single correct visual display. Rather, there are different types of visuals that could meet a given need. The most important aspect of visual build/design is _What do you need your audience to know?_ Choose a visual display to make this abundantly clear.
 
-#### Tableau basics
+#### Tableau fundamentals
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/4VzmdekIw00"
@@ -165,9 +165,7 @@ There isn't a single correct visual display. Rather, there are different types o
 
 ### Assignment 2 - Introduction to Tableau
 
-* [Assignment 2](/assets/mgmt_3125/Assignment 1 - Excel Graphs_.pdf)
-
-
+* [Assignment 2](/assets/mgmt_3125/week2/Assignment 2 - Intro Tableau s19.pdf)
 
 
 
