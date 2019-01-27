@@ -168,7 +168,6 @@ There isn't a single correct visual display. Rather, there are different types o
 * [Assignment 2](/assets/mgmt_3125/week2/Assignment 2 - Intro Tableau s19.pdf)
 
 
-
 ## Week 3 - 2/3
 
 ### Chapter 3: Clutter is your enemy!
@@ -212,7 +211,7 @@ Anytime you put information in front of an audience, you are creating cognitive 
 
 ### Assignment 3 - Tableau Line and bar graphs
 
-* [assignment 2]()
+* [Not available]()
 
 ### Week 3 Videos
 
@@ -226,7 +225,6 @@ Anytime you put information in front of an audience, you are creating cognitive 
   src="https://www.youtube.com/embed/ThTu-47Qd68"
   frameborder="0" allowfullscreen></iframe>
   
-
 
 ## Week 4 - 2/10
 
@@ -286,8 +284,7 @@ Position:
 
 ### Assignment 4 - Calculated fields and parameters
 
-* [Assignment 3 directions](/assets/mgmt_3125/week4/Assignment 3 - Line Graphs.pdf)
-* [Life expectancy dataset](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
+* [Not available]()
 
 ### Week 4 Videos
 
@@ -302,8 +299,6 @@ Position:
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/lmkA_pzcQ6Q"
   frameborder="0" allowfullscreen></iframe>
-
-
 
 ## Week 5 - 2/17
 
@@ -381,7 +376,7 @@ White Space
 
 ### Assignment 5: Dashboard design and Tableau stories
 
-* [Assignment 4 directions](/assets/mgmt_3125/week5/Assignment 4 - Bar Graphs.pdf)
+* [Not available]()
 * [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
 
 ### Week 5 Videos
@@ -395,7 +390,6 @@ White Space
 #### Upload dashboard to Tableau Public
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
-
 
 ## Week 6 - 2/24
 
@@ -441,11 +435,6 @@ Examining each model visual will help reinforce the concepts of chapters 1 - 5.
 ### Mid-Term exam review
 
 
-  
-  
-
-  
-  
 
 ## Week 9 - 3/17
 
@@ -533,13 +522,13 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 ### Assignment 7: ggplot line, bar graphs, Tidyverse (part 1)
 
-[Assignment 7]()
+[Not available]()
 
 ## Week 12 - 4/7
 
 ### Assignment 8: ggplot line, bar graphs, Tidyverse (part 2)
 
-[Assignment 8]()
+[Not available]()
 
 ## Week 13 - 4/14
 
