@@ -411,23 +411,23 @@ Examining each model visual will help reinforce the concepts of chapters 1 - 5.
 
 #### Model visual #1: Line graph
 
-<img src="/assets/mgmt3125/week6/c06f001.png" >
+<img src="/assets/mgmt_3125/week6/c06f001.png" >
 
 #### Model visual #2: Annotated line graph with forecast
 
-<img src="/assets/mgmt3125/week6/c06f002.png" >
+<img src="/assets/mgmt_3125/week6/c06f002.png" >
 
 #### Model visual #3: 100% stacked bars
 
-<img src="/assets/mgmt3125/week6/c06f003.png" >
+<img src="/assets/mgmt_3125/week6/c06f003.png" >
 
 #### Model visual #4: Leveraging positive and negative stacked bars
 
-<img src="/assets/mgmt3125/week6/c06f004.png" >
+<img src="/assets/mgmt_3125/week6/c06f004.png" >
 
 #### Model visual #5: Horizontal stacked bars
 
-<img src="/assets/mgmt3125/week6/c06f005.png" >
+<img src="/assets/mgmt_3125/week6/c06f005.png" >
 
 #### In closing
 
