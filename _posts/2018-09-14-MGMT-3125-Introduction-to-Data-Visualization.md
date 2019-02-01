@@ -40,6 +40,7 @@ Datasets applicable to each assignment are provided under the respective assignm
 * [RMS Titanic](/assets/mgmt_3125/week7/titanic_clean_.csv)
 * [Super Bowl 44 - 52 win probability](/assets/mgmt_3125/super_bowl44_52.csv)
 * [Denver crime rates](/assets/mgmt_3125/week1/denver_crime.csv)
+* [Sokol heart rate](/assets/mgmt_3125/week2/Sokol Heart Rate Data.csv)
 
 ## Week 1 - 1/20
 
