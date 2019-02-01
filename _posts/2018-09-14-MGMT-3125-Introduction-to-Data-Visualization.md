@@ -93,6 +93,10 @@ Very powerful way of organizing ideas by creating a visual outline for the conte
 * [Assignment 1](/assets/mgmt_3125/week1/Assignment 1 - Excel Graphs_s19.pdf)
 * [IT tickets](/assets/mgmt_3125/week1/IT tickets by location, month (2017).xlsx)
 
+### Week 1 lecture slides
+
+* [Week 1](/assets/mgmt_3125/week1/Week1_1_23_lecture.pdf)
+
 ## Week 2 - 1/27
 
 ### Chapter 2: Choosing an effective visualization
@@ -166,6 +170,10 @@ There isn't a single correct visual display. Rather, there are different types o
 ### Assignment 2 - Introduction to Tableau
 
 * [Assignment 2](/assets/mgmt_3125/week2/Assignment 2 - Intro Tableau s19.pdf)
+
+### Week 2 lecture slides
+
+* [Week 2](/assets/mgmt_3125/week2/Week2_1_30_lecture.pdf)
 
 
 ## Week 3 - 2/3
