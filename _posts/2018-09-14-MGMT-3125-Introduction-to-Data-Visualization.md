@@ -233,6 +233,8 @@ Anytime you put information in front of an audience, you are creating cognitive 
   src="https://www.youtube.com/embed/ThTu-47Qd68"
   frameborder="0" allowfullscreen></iframe>
   
+### Week 3 lecture slides
+  
 
 ## Week 4 - 2/10
 
@@ -293,6 +295,9 @@ Position:
 ### Assignment 4 - Calculated fields and parameters
 
 * [Not available]()
+
+### Week 4 lecture slides
+
 
 ### Week 4 Videos
 
@@ -387,6 +392,8 @@ White Space
 * [Not available]()
 * [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
 
+### Week 5 lecture slides
+
 ### Week 5 Videos
 
 #### Building Tableau dashboards
@@ -472,7 +479,9 @@ It is important to critically analyze the visualizations that you encounter to c
 ### Assignment 6: Text tables
 * [Assignment 6]()
 
-#### Week 6 videos
+### Week 6 lecture slides
+
+### Week 6 videos
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/HNRdr_RvDWY"
