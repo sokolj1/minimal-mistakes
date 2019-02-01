@@ -90,8 +90,8 @@ Very powerful way of organizing ideas by creating a visual outline for the conte
 
 ### Assignment 1 - Excel graphs
 
-* [Assignment 1](/assets/mgmt_3125/Assignment 1 - Excel Graphs_s19.pdf)
-* [IT tickets](/assets/mgmt_3125/IT tickets by location, month (2017).xlsx)
+* [Assignment 1](/assets/mgmt_3125/week1/Assignment 1 - Excel Graphs_s19.pdf)
+* [IT tickets](/assets/mgmt_3125/week1/IT tickets by location, month (2017).xlsx)
 
 ## Week 2 - 1/27
 
