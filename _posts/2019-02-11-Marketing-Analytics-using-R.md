@@ -11,3 +11,17 @@ mathjax: true
 published: true
 ---
 
+Marketing analytics has become a popular subset of data science 
+
+## Modeling Customer Lifetime Value with Linear Regression
+
+
+
+
+## Logistic Regression for Churn Prevention
+
+
+
+
+## Modeling Time to Reorder with Survival Analysis
+
