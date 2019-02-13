@@ -5,7 +5,7 @@ tags:
   - marketing
   - R
 author_profile: false
-excerpt: 
+excerpt: Customer lifetime value, churn prevention, survival analysis
 toc: true
 mathjax: true
 published: true
