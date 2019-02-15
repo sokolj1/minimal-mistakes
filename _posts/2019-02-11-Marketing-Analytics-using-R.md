@@ -8,7 +8,7 @@ author_profile: false
 excerpt: Customer lifetime value, churn prevention, survival analysis
 toc: true
 mathjax: true
-published: true
+published: false
 ---
 
 Marketing analytics has become a popular subset of data science 
