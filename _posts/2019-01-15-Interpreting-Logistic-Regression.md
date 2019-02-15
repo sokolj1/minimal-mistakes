@@ -1,5 +1,5 @@
 ---
-title: Application of Logistic Regression
+title: Titanic Kaggle Competition
 date:   2019-01-15
 tags:
   - python
