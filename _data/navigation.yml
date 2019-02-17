@@ -6,8 +6,8 @@ main:
     url: /about
   - title: "Tags"
     url: /tags/index
-  # - title: "Predict Heart Disease"
-  #  url: /Predicting-Heart-Disease-with-Machine-Learning/
+  - title: "Photography"
+    url: /photography/
   #- title: "Super Bowl Dashboard"
   #  url: /Interactive-Super-Bowl-Tableau-Dashboard/
   #- title: "Assess Fitness Level"
