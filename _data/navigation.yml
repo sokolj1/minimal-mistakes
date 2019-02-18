@@ -7,7 +7,7 @@ main:
   - title: "Tags"
     url: /tags/index
   - title: "Photography"
-    url: sokolj.com/photography
+    url: /photography
   #- title: "Super Bowl Dashboard"
   #  url: /Interactive-Super-Bowl-Tableau-Dashboard/
   #- title: "Assess Fitness Level"
