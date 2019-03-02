@@ -53,10 +53,10 @@ To consider context is strongly encouraged before building any visualization. Th
 * How will you communicate? What is the medium of choice?
 
 #### Exploratory vs. explanatory analysis
-*	Ex_plor_atory: understand the data to determine what is noteworthy to show the audience
-* Ex_plan_atory: the specific story about the data to tell the audience
+*	Exploratory: understanding the data to determine what is noteworthy to show the audience
+* Explanatory: the specific story about the data to tell the audience
 
-Too often the visualization author shows the exploratory analysis instead of the important explanatory analysis the audience will care about.
+Too often the visualization author shows the exploratory analysis instead of the important explanatory analysis the audience needs to know.
 
 #### The who, what and how of context
 
@@ -86,10 +86,10 @@ A single sentence summary of the study background information, issue the study i
 
 #### Storyboarding
 
-Very powerful way of organizing ideas by creating a visual outline for the content of the visualization.
+Method of organizing ideas by creating a visual outline for the content of the visualization.
 
-* Our minds do not think linearly; our minds scatter our thoughts. Time and effort must be put forth to organize them properly.
-* A few pieces of paper and pen just fine for this task. Alternatively, if you have a Mac or iOS software, I recommend [MindNode](https://mindnode.com)
+* Our minds do not think linearly, rather our thoughts are scattered. Time and effort must be put forth to organize them properly.
+* Pen and paper work great for this task. Alternatively, if you have a Mac or iOS software, I recommend [MindNode](https://mindnode.com)
 
 ### Assignment 1 - Excel graphs
 
