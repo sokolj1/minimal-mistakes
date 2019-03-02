@@ -98,7 +98,7 @@ Method of organizing ideas by creating a visual outline for the content of the v
 
 ### Week 1 lecture slides
 
-* [Week 1](/assets/mgmt_3125/week1/Week1_1_23_lecture.pdf)
+* [Week 1 lecture slides](/assets/mgmt_3125/week1/Week1_1_23_lecture.pdf)
 
 ## Week 2 - 1/30
 
@@ -176,7 +176,7 @@ There isn't a single correct visual display. Rather, there are different types o
 
 ### Week 2 lecture slides
 
-* [Week 2](/assets/mgmt_3125/week2/Week2_1_30_lecture.pdf)
+* [Week 2 lecture slides](/assets/mgmt_3125/week2/Week2_1_30_lecture.pdf)
 
 
 ## Week 3 - 2/6
@@ -238,7 +238,7 @@ Anytime you put information in front of an audience, you are creating cognitive 
   
 ### Week 3 lecture slides
 
-* [Week 3](/assets/mgmt_3125/week3/Week3_2_6_lecture.pdf)
+* [Week 3 lecture slides](/assets/mgmt_3125/week3/Week3_2_6_lecture.pdf)
   
 
 ## Week 4 - 2/13
@@ -303,7 +303,7 @@ Position:
 
 ### Week 4 lecture slides
 
-* [Week 4](/assets/mgmt_3125/week4/Week4_2_13_lecture.pdf)
+* [Week 4 lecture slides](/assets/mgmt_3125/week4/Week4_2_13_lecture.pdf)
 
 
 ### Week 4 Videos
