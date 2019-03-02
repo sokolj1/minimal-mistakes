@@ -41,6 +41,7 @@ Datasets applicable to each assignment are provided under the respective assignm
 * [Super Bowl 44 - 52 win probability](/assets/mgmt_3125/super_bowl44_52.csv)
 * [Denver crime rates](/assets/mgmt_3125/week1/denver_crime.csv)
 * [Sokol heart rate](/assets/mgmt_3125/week2/Sokol Heart Rate Data.csv)
+* [Marriage by age](/assets/mgmt_3125/week3/marriage_by_age.zip)
 
 ## Week 1 - 1/20
 
@@ -221,7 +222,7 @@ Anytime you put information in front of an audience, you are creating cognitive 
 
 ### Assignment 3 - Tableau Line and bar graphs
 
-* [Not available]()
+* [Assignment 3](/assets/mgmt_3125/week3/Assignment 3 - Line, bar graphs s19.pdf)
 
 ### Week 3 Videos
 
@@ -236,6 +237,8 @@ Anytime you put information in front of an audience, you are creating cognitive 
   frameborder="0" allowfullscreen></iframe>
   
 ### Week 3 lecture slides
+
+* [Week 3](/assets/mgmt_3125/week3/Week3_2_6_lecture.pdf)
   
 
 ## Week 4 - 2/10
@@ -296,9 +299,11 @@ Position:
 
 ### Assignment 4 - Calculated fields and parameters
 
-* [Not available]()
+* [Assignment 4](/assets/mgmt_3125/week4/Assignment 4 - Calculated Fields s19.docx .pdf)
 
 ### Week 4 lecture slides
+
+* [Week 4](/assets/mgmt_3125/week4/Week4_2_13_lecture.pdf)
 
 
 ### Week 4 Videos
@@ -389,10 +394,9 @@ Alignment
 White Space
 * Preserve margins and don't add unnecessary elements just to fill in extra space.
 
-### Assignment 5: Dashboard design and Tableau stories
+### Assignment 5: Dashboard design and Tableau parameters
 
-* [Not available]()
-* [IT tickets by location dataset](/assets/mgmt_3125/week5/IT Tickets by Location.xlsx)
+* [Assignment 5](/assets/mgmt_3125/week5/Assignment 5 - Dashboard, parameters s19_final_.pdf)
 
 ### Week 5 lecture slides
 
