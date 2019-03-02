@@ -286,12 +286,10 @@ Size:
 Color:
 * Don't make an attribute colorful just to make it colorful. Leverage color selectively as a strategic tool to highlight the important parts of the visualization. Use of color should always be intentional.
 * Start out by creating a visualization with all shades of gray, then pick a single bold color to draw attention to where you want it. 
-* Don't use black as a base color. Color stands out more against gray than black. 
-* Use color sparingly
-* Use it consistently
-* Design with the colorblind in mind
-* Be thoughtful of the tone color conveys
-* Consider to leverage brand colors
+* Don't use black as a base color, as color stands out more against gray than black. 
+* Use color sparingly and consistently
+* Design with the colorblind in mind (blue and orange instead of green and red)
+* Consider leveraging brand colors
 
 Position:
 * Without other visual cues, most members of an audience will start at the top-left and scan with their eyes in a zig-zag motion across the screen. 
@@ -321,6 +319,10 @@ Position:
   frameborder="0" allowfullscreen></iframe>
 
 ## Week 5 - 2/20
+
+### Class canceled
+
+## Week 6 - 2/27
 
 ### Chapter 5: Think like a designer
 
@@ -396,11 +398,13 @@ White Space
 
 ### Assignment 5: Dashboard design and Tableau parameters
 
-* [Assignment 5](/assets/mgmt_3125/week5/Assignment 5 - Dashboard, parameters s19_final_.pdf)
+* [Assignment 5](/assets/mgmt_3125/week6/Assignment 5 - Dashboard, parameters s19_final_.pdf)
 
-### Week 5 lecture slides
+### Week 6 lecture slides
 
-### Week 5 Videos
+* [Week 6 lecture slides](/assets/mgmt_3125/week6/Week6_2_27_lecture.pdf)
+
+### Week 6 Videos
 
 #### Building Tableau dashboards
 
@@ -412,7 +416,11 @@ White Space
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
 
-## Week 6 - 2/27
+## Week 7 - 3/6
+
+### Mid-term exam
+
+## Week 9 - 3/20
 
 ### Chapter 6: Dissecting model visuals
 
@@ -482,25 +490,6 @@ effective graphs and consider the design choices made to create them. This chapt
 
 It is important to critically analyze the visualizations that you encounter to consider if each element/attribute in the visualization has purpose and is intentionally implemented. 
 
-### Assignment 6: Text tables
-* [Assignment 6]()
-
-### Week 6 lecture slides
-
-### Week 6 videos
-
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/HNRdr_RvDWY"
-  frameborder="0" allowfullscreen></iframe>
-  
-## Week 7 - 3/6
-
-### Mid-Term exam review
-
-
-
-## Week 9 - 3/20
-
 ### Chapter 7: Lessons in storytelling
 
 Great storytelling is an incredibly underrated and powerful and skill. The author can devote a great amount of time creating the perfect visualization, but if the author fails to communciate a compelling story, the message won't be as impactful, or worse, obfuscated.
@@ -515,7 +504,16 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 #### Tactics to help ensure the story is clear
 
+### Assignment 6: Text tables
+* [Assignment 6]()
 
+### Week 9 lecture slides
+
+### Week 9 videos
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/HNRdr_RvDWY"
+  frameborder="0" allowfullscreen></iframe>
 
 ## Week 10 - 3/27
 
