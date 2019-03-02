@@ -1,19 +1,17 @@
 ---
-header:
-  image: /assets/Super-Bowl-Dashboard/foles.jpg
 
 tags:
   - sports
   - tableau
   - r
-author_profile: true
-toc: true
+author_profile: false
+toc: false
 
 excerpt: "Dashboard visualization of Super Bowl XLIV - LII win probabilities and play descriptions"
 
-
-
 ---
+
+<img src="/assets/Super-Bowl-Dashboard/foles.jpg" >
 
 As a Giants fan, it was painful to watch the Philadelphia Eagles win their first championship 
 since 1960, and their first Super Bowl victory in the history of the franchise. Gone are the days
