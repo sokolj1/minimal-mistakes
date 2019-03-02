@@ -420,6 +420,8 @@ White Space
 
 ### Mid-term exam
 
+* [Mid-term study guide](/assets/mgmt_3125/mid_term/Mid-term study guide_.pdf
+
 ## Week 9 - 3/20
 
 ### Chapter 6: Dissecting model visuals
