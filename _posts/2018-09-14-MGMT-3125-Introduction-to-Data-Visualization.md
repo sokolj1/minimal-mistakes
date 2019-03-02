@@ -43,7 +43,7 @@ Datasets applicable to each assignment are provided under the respective assignm
 * [Sokol heart rate](/assets/mgmt_3125/week2/Sokol Heart Rate Data.csv)
 * [Marriage by age](/assets/mgmt_3125/week3/marriage_by_age.zip)
 
-## Week 1 - 1/20
+## Week 1 - 1/23
 
 ### Chapter 1: The importance of context
 
@@ -100,7 +100,7 @@ Very powerful way of organizing ideas by creating a visual outline for the conte
 
 * [Week 1](/assets/mgmt_3125/week1/Week1_1_23_lecture.pdf)
 
-## Week 2 - 1/27
+## Week 2 - 1/30
 
 ### Chapter 2: Choosing an effective visualization
 
@@ -179,7 +179,7 @@ There isn't a single correct visual display. Rather, there are different types o
 * [Week 2](/assets/mgmt_3125/week2/Week2_1_30_lecture.pdf)
 
 
-## Week 3 - 2/3
+## Week 3 - 2/6
 
 ### Chapter 3: Clutter is your enemy!
 
@@ -241,7 +241,7 @@ Anytime you put information in front of an audience, you are creating cognitive 
 * [Week 3](/assets/mgmt_3125/week3/Week3_2_6_lecture.pdf)
   
 
-## Week 4 - 2/10
+## Week 4 - 2/13
 
 ### Chapter 4: Focus your audience's attention
 
@@ -320,7 +320,7 @@ Position:
   src="https://www.youtube.com/embed/lmkA_pzcQ6Q"
   frameborder="0" allowfullscreen></iframe>
 
-## Week 5 - 2/17
+## Week 5 - 2/20
 
 ### Chapter 5: Think like a designer
 
@@ -412,7 +412,7 @@ White Space
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
 
-## Week 6 - 2/24
+## Week 6 - 2/27
 
 ### Chapter 6: Dissecting model visuals
 
@@ -493,13 +493,13 @@ It is important to critically analyze the visualizations that you encounter to c
   src="https://www.youtube.com/embed/HNRdr_RvDWY"
   frameborder="0" allowfullscreen></iframe>
   
-## Week 7 - 3/3
+## Week 7 - 3/6
 
 ### Mid-Term exam review
 
 
 
-## Week 9 - 3/17
+## Week 9 - 3/20
 
 ### Chapter 7: Lessons in storytelling
 
@@ -517,7 +517,7 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 
 
-## Week 10 - 3/24
+## Week 10 - 3/27
 
 ### Chapter 8: Putting it all together
 
@@ -545,7 +545,7 @@ This chapter involves applying the storytelling concepts of chapter 7 to the dat
 #### Lesson 6: Tell a story
 
 
-## Week 11 - 3/31
+## Week 11 - 4/3
 
 ### Chapter 9: Case studies
 
@@ -587,21 +587,23 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 [Not available]()
 
-## Week 12 - 4/7
+## Week 12 - 4/10
 
 ### Assignment 8: ggplot line, bar graphs, Tidyverse (part 2)
 
 [Not available]()
 
-## Week 13 - 4/14
+## Week 13 - 4/17
 
 
 
-## Week 14 - 4/21
+## Week 14 - 4/24
 
 
 
-## Week 15 - 4/28
+## Week 15 - 5/1
+
+### Final Project rubric
 
 
 
