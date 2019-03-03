@@ -25,7 +25,7 @@ John also teaches MGMT 3125 - Introduction to Data Visualization, where undergra
 
 <figure>
   <img src="/assets/about/sokol_baldwin_4_24_18.jpg" caption = "Machine Learning | April 24, 2018" class = "center">
-  <figcaption> Machine Learning core class, Hammonton NJ | April 24, 2018
+  <figcaption> Machine Learning, Hammonton NJ | April 24, 2018
   </figcaption>
 </figure>
 
