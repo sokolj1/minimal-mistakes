@@ -11,8 +11,9 @@ excerpt: "Dashboard visualization of Super Bowl XLIV - LII win probabilities and
 
 ---
 
-<img src="/assets/Super-Bowl-Dashboard/foles.jpg" >
+<iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="805"></iframe>
 
+<!-- <img src="/assets/Super-Bowl-Dashboard/foles.jpg" > -->
 
 ## Introduction 
 
@@ -158,8 +159,6 @@ This is just for one team for Super Bowl LII. Unfortunately, not all the data wa
 
 ## Tableau Dashboard
 The end product is the dashboard embeded using Tableau Public. The workbook can be downloaded by clicking on the 'download' icon on the bottom right corner of the dashboard.
-
-<iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="805"></iframe>
 
 Since I created this dashboard for a data visualization course, I incorporated the three major concepts learned during the course: Tufte's Principles, Kosslyn's Principles, and Cairo's Wheel. A few examples these ideas implemented are described below:
 
