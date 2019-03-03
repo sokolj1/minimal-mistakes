@@ -13,6 +13,9 @@ excerpt: "Dashboard visualization of Super Bowl XLIV - LII win probabilities and
 
 <img src="/assets/Super-Bowl-Dashboard/foles.jpg" >
 
+
+## Introduction 
+
 As a Giants fan, it was painful to watch the Philadelphia Eagles win their first Super Bowl victory. Gone are the days
 of using the end all arguments question “How many Super Bowl rings do the Eagles have?” 
 The idea is anathema to football fan that has a disdain for the birdgang (Giants, Cowboys, Redskins, Patriots, etc). 
@@ -57,7 +60,7 @@ Discovering the data goes back to 2009 made me reassess the scope of my project:
 | Super Bowl LII (52)          | Philadelphia Eagles (41) vs. New England Patriots (33)  |  4 February 2018  |
 
 
-### Data Cleaning & Preprocessing
+## Data cleaning in R
 This step is extremely important in the project workflow. Knowledgeable manipulation skills can save hours of work that can be devoted to data interpretation and implementing good data visualization practices.
 
 Download the nflscrapR package directly from Github in RStudio:
@@ -152,7 +155,7 @@ colnames(sb52_phi_scores) = c("TimeRemaining", "Away")
 
 This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super Bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the result of rigourous data cleaning was another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/Super-Bowl-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now this data is ready for visualization. 
 
-### Final Deliverable: Tableau Dashboard
+## Tableau Dashboard
 The end product is the dashboard embeded using Tableau Public. The workbook can be downloaded by clicking on the 'download' icon on the bottom right corner of the dashboard.
 
 <iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="805"></iframe>
