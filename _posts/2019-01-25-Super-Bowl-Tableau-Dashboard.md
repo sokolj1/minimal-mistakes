@@ -64,18 +64,19 @@ Discovering the data goes back to 2009 made me reassess the scope of my project:
 This step is extremely important in the project workflow. Knowledgeable manipulation skills can save hours of work that can be devoted to data interpretation and implementing good data visualization practices.
 
 Download the nflscrapR package directly from Github in RStudio:
-{% highlight r %}
+
+```r
 # need 'devtools' to download packages from Github
 install.packages('devtools')
 devtools::install_github(repo = "maksimhorowitz/nflscrapR")
 
 # load the package
 library(nflscrapR)
-{% endhighlight %}
+```
 
 The following is R code for retrieving the win probability statistics for Super Bowl LII, and a quick ggplot line graph for exploratory data analysis. The complete R script is available [here](https://github.com/sokolj1/Super-Bowl-Data-Visualization/blob/master/data_visualization_nflscrapR.R).
 
-{% highlight r %}
+```r
 # import additional libraries for data viz and manipulation
 library(ggplot2)
 library(dplyr)
@@ -107,7 +108,7 @@ scale_x_reverse(breaks = c(3600, 3300, 3000, 2700, 2400, 2100,
 + xlab("") + ggtitle("Super Bowl LII Win Probability Chart") + 
 scale_color_manual(values=c("#004953", "#c60c30"), labels = c("PHI", "NE")) + 
 labs(color = "", caption = "Source: nflscrapR") 
-{% endhighlight %}
+```
 
 <img src="../assets/Super-Bowl-Dashboard/PHI_NE_PLOT.jpeg" align="center" > 
 
@@ -117,7 +118,7 @@ One nflscrapR attribute for game_play_by_play data is play description after eac
 
 Perhaps the biggest challenge was extracting and tabluating the team scores data. nflscrapR only provides the possession team and defensive team scores. So the scores had to be organized by possession and defense for each team, then joined together by the common fields of TimeRemaining and Super Bowl.
 
-{% highlight r %}
+```r
 # PHI Score
 # filters by possession team 
 sb52_phi_pos <- super_bowl52 %>% filter(super_bowl52$posteam == "PHI")
@@ -140,18 +141,18 @@ colnames(sb52_phi_def) = c("TimeRemaining", "Score")
 # join both possession and defensive dataframes by common field TimeRemaining
 sb52_phi_merge <- merge(sb52_phi_pos, sb52_phi_def, by = "TimeRemaining", all = TRUE)
 
-{% endhighlight %}
+```
 
 The dataframe needs to be reversed to show beginning of the game counting down to the end; NA values also need to be removed.
 
-{% highlight r %}
+```r
 # reverses the dataframe so TimeRemaining is organized in decreasing order, also removes na values 
 sb52_phi_scores  <- cbind(sb52_phi_merge[1], mycol = apply(sb52_phi_merge[-1], 1, max, na.rm = TRUE))
 sb52_phi_scores <- sb52_phi_scores[dim(sb52_phi_scores)[1]:1,]
 
 # rename columns
 colnames(sb52_phi_scores) = c("TimeRemaining", "Away")
-{% endhighlight %}
+```
 
 This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super Bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the result of rigourous data cleaning was another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/Super-Bowl-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now this data is ready for visualization. 
 
