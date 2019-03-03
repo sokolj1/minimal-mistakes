@@ -11,8 +11,6 @@ excerpt: "Dashboard visualization of Super Bowl XLIV - LII win probabilities and
 
 ---
 
-<iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="805"></iframe>
-
 <!-- <img src="/assets/Super-Bowl-Dashboard/foles.jpg" > -->
 
 ## Introduction 
@@ -37,6 +35,8 @@ As with any data science project, the workflow begins with a good question.
 I created a Tableau dashboard to visually answer this question. The time remaining in the game (independent variable) is plotted against win probability (dependent variable) to show the two team's likelihood of winning after each play. 
 
 <!--The true value of Tableau is the ability to swap between Super Bowls in one view, and accessing each play description using tooltips. -->
+
+<iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl46-52?:showVizHome=no&:embed=true" width="1100" height="805"></iframe>
 
 ## Data Source
 Determining the right data source wasn't easy. American Football does not have the luxury of a statistically mature infastructure like Baseball. But I eventually found the open-source R package [nflscrapR](https://github.com/maksimhorowitz/nflscrapR), written by Makism Horowitz and Ron Yurko that scrapes data from the official NFL API.
