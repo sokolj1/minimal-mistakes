@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: Tags
+title: Posts by tag
 comments: false
 ---
 
