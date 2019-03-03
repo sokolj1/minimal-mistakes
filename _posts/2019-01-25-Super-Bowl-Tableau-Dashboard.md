@@ -6,6 +6,7 @@ tags:
   - r
 author_profile: false
 toc: true
+classes: wide
 
 excerpt: "Dashboard visualization of Super Bowl XLIV - LII win probabilities and play descriptions"
 
