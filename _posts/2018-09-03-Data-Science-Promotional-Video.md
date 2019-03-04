@@ -3,8 +3,8 @@ title: Stockton University Data Science Promotional Video
 date:   2018-09-03
 tags:
   - stockton university
-author_profile: true
-excerpt: Short video for those interested in the self-standing MS degree
+author_profile: false
+excerpt: Short video for those interested in the MS Data Science & Strategic Analytics degree
 mathjax: true
 published: true
 ---
