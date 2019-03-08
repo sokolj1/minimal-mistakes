@@ -49,18 +49,18 @@ The nflscrapR Github page provides several examples of querying the official NFL
 
 Discovering the data goes back to 2009 made me reassess the scope of my project: why not visualize key plays and win probabilities from _every_ Super Bowl between 2009 and present day?
 
-|                 Super Bowl   | Away team             | Away team score | Home team            | Home team score  | Date  |
-|                    ---       |        ---            |  ---            |   ---                |    ---      | ---        |
-| Super Bowl LIII (53)         | New England Patriots  | 13             | Los Angeles Rams     |  3          |3 February 2019|
-| Super Bowl LII (52)          | Philadelphia Eagles   | 41             | New England Patriots | 33          |4 February 2018|
-| Super Bowl LI (51)           | New England Patriots  | 34             | Atlanta Falcons      | 28          |5 February 2017|
-| Super Bowl 50                | Carolina Panthers     | 10             | Denver Broncos       | 24          |7 February 2016|  
-| Super Bowl XLIX (49)         | New England Patriots  | 28             | Seattle Seahawks     | 24         |1 February 2015|
-| Super Bowl XLVIII (48)       | Seattle Seahawks      | 43             | Denver Broncos       | 8          |2 February 2014 |
-| Super Bowl XLVII (47)        | Baltimore Ravens      | 34             | San Francisco 49ers  | 31        |3 February 2013  |
-| Super Bowl XLVI (46)         | New York Giants       | 21             | New England Patriots | 17        |5 February 2012  |
-| Super Bowl XLV (45)          | Pittsburgh Steelers   | 25             | Green Bay Packers    | 31        |6 February 2011  |
-| Super Bowl XLIV (44)         | New Orleans Saints    | 31             | Indianapolis Colts   | 17        |7 February 2010  |
+|                 Super Bowl   | Date          | Away team             | Away team score| Home team            | Home team score|
+|                    ---       | ---           |       ---             |  ---           |   ---                |    ---         | 
+| Super Bowl LIII (53)         |3 February 2019| New England Patriots  | 13             | Los Angeles Rams     |  3             |
+| Super Bowl LII (52)          |4 February 2018| Philadelphia Eagles   | 41             | New England Patriots | 33             |
+| Super Bowl LI (51)           |5 February 2017|New England Patriots   | 34             | Atlanta Falcons      | 28             |
+| Super Bowl 50                |7 February 2016|  Carolina Panthers    | 10             | Denver Broncos       | 24             |
+| Super Bowl XLIX (49)         |1 February 2015| New England Patriots  | 28             | Seattle Seahawks     | 24             |
+| Super Bowl XLVIII (48)       |2 February 2014| Seattle Seahawks      | 43             | Denver Broncos       | 8              |
+| Super Bowl XLVII (47)        |3 February 2013| Baltimore Ravens      | 34             | San Francisco 49ers  | 31             |
+| Super Bowl XLVI (46)         |5 February 2012| New York Giants       | 21             | New England Patriots | 17             |
+| Super Bowl XLV (45)          |6 February 2011| Pittsburgh Steelers   | 25             | Green Bay Packers    | 31             |
+| Super Bowl XLIV (44)         |7 February 2010| New Orleans Saints    | 31             | Indianapolis Colts   | 17             |
 
 
 ## Data cleaning in R
