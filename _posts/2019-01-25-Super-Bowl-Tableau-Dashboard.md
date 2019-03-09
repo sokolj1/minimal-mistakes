@@ -157,7 +157,14 @@ sb52_phi_scores <- sb52_phi_scores[dim(sb52_phi_scores)[1]:1,]
 colnames(sb52_phi_scores) = c("TimeRemaining", "Away")
 ```
 
-This is just for one team for Super Bowl LII. Unfortunately, not all the data was clean and valid. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super Bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the result of rigourous data cleaning was another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/Super-Bowl-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now this data is ready for visualization. 
+```r
+# merge both PHI and NE Scores in one dataframe
+sb52_scores <- merge(sb52_phi_scores, sb52_ne_scores, by = "TimeRemaining")
+sb52_scores <- data.frame(sb52_scores[dim(sb52_scores)[1]:1,], rep("Super Bowl 52", nrow(sb52_scores)))
+colnames(sb52_scores) = c("TimeRemaining", "Home", "Away","Super Bowl")
+```
+
+This code is just for tabluating the scores for the Philadelphia Eagles. Unfortunately, not all the data was clean. I cross validated the scores after each significant play with ESPN, and for a few games the scores were incorrect. A notable example was Super Bowl 50, so I had to manually correct the scores of the dataframe with the appropriate timeRemaining value. Albeit a tedious process, the result of rigourous data cleaning was another separate [csv file](https://github.com/sokolj1/sokolj1.github.io/blob/master/assets/Super-Bowl-Dashboard/super_bowl_scores.csv) that contains the time remaining, home and away scores, and corresponding Super Bowl. Now this data is ready for visualization. 
 
 ## Tableau Dashboard
 The end product is the dashboard embeded using Tableau Public. The workbook can be downloaded by clicking on the 'download' icon on the bottom right corner of the dashboard.
