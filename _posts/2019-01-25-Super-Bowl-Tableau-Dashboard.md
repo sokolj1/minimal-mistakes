@@ -18,6 +18,9 @@ excerpt: "Dashboard visualization of Super Bowl XLIV - LII win probabilities and
 
 <!-- https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl44-53?:embed=y&:display_count=yes&publish=yes -->
 
+Dashboard was updated on 3/10/2019 with the addition of Super Bowl 53 data. The original post revolved around the Philadelphia Eagles winning Super Bowl 52. 
+{: .notice--info}
+
 ## Introduction 
 
 As a Giants fan, it was painful to watch the Philadelphia Eagles win their first Super Bowl victory. Gone are the days
