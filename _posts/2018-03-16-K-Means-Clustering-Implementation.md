@@ -10,12 +10,12 @@ published: true
 
 K-means Clustering is a type of unsupervised (no labeled data necessary) machine learning algorithm that determines optimal grouping, or clustering, amongst a dataset. This method is a great way to find patterns in your data. For instance, let's say you're working with the [Pokemon dataset](https://www.kaggle.com/abcsds/pokemon/data) by Alberto Barradas derived from the original Pokemon games (Gold, Silver, Ruby, Sapphire, etc):
 
-{% highlight r %}
+```r
 
 pokemon <- read.csv("pokemon.csv", sep = ",")
 head(pokemon)
 
-{% endhighlight %}
+```
 
 <img src="../assets/K-Means-Clustering/k_means_1.png" align="center" > 
 
@@ -23,19 +23,19 @@ This dataset contains 12 features consisting of the number, name, first and seco
 
 We begin by plotting the relationship between Pokemon Speed and Defense using ggplot: 
 
-{% highlight r %}
+```r
 
 ggplot(pokemon, aes(x = Speed, y = Defense)) + geom_point() + 
 ggtitle("Pokemon Species, Speed vs. Defense") +
 xlab("Speed") + ylab("Defense")
 
-{% endhighlight %}
+```
 
 <img src="../assets/K-Means-Clustering/pokemon_init_ggplot.jpeg" align="center" > 
 
 How would the K-means Clustering algorithm be applicable to this relationship of two pokemon features? If we are doing an analysis of pokemon to classify, or group, the pokemon that have optimal speed _and_ defense, K-means Clustering can determine the grouping of these pokemon. We will choose an arbitrary k value of 4. Once the K-means Clustering algorithm is rendered to the plot, we obtain the following result: 
 
-{% highlight r %}
+```r
 
 k <- 4
 pokemon_speed_defense <- pokemon[,c(11,8)]
@@ -44,7 +44,7 @@ km.out <- kmeans(pokemon_speed_defense, centers = k, nstart = 20, iter.max = 50)
 ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, color = factor(km.out$cluster))) 
 + geom_point() + labs(color = "Cluster") + ggtitle("Pokemon Species, Speed vs. Defense")
 
-{% endhighlight %}
+```
 
 <img src="../assets/K-Means-Clustering/pokemon_after_kmeans.jpeg" align="center" > 
 
@@ -58,7 +58,7 @@ You must be thinking "isn't there a quantitative way to measure the efficacy of 
 
 A K-means function with a k value of 1 would only have 1 centroid, so the twss value of this function would be extremely high considering the sum of the distances of each point on the edge of the plot to the centroid would significantly increase the twss value. But if the k value is 2, the sum of the distances of these points to their respective centroids decreases markedly, thus decreasing the twss value. This trend continues as k increases until twss ceases to decrease substantially. The plot of the relationship between the k value and twss is called an elbow plot. 
 
-{% highlight r %}
+```r
 
 twss <- 0
 for (i in 1:15) {
@@ -70,7 +70,7 @@ elbow <- data.frame(c(1:15), wss)
 ggplot(elbow, aes(x = c.1.15., y = wss)) + geom_point() + geom_line() + 
 ggtitle("Pokemon Species TWSS Elbow Plot") + xlab("K value") + ylab("TWSS")
 
-{% endhighlight %}
+```
 
 <img src="../assets/K-Means-Clustering/pokemon_elbow_plot.jpeg" align="center" > 
 
@@ -93,7 +93,7 @@ The steps of the K-means Clustering algorithm is the following:
 
 Lets define a function that calculates euclidean distance, which is the distance formula from high school algebra:
 
-{% highlight r %}
+```r
 
 euclid_dist <- function(x, y) {
   
@@ -112,11 +112,11 @@ euclid_dist <- function(x, y) {
     return (distance)
 }
 
-{% endhighlight %}
+```
 
 Since the euclidean distance function is defined, we can dive into the actual K-means Clustering function that completes the heavylifting. 
 
-{% highlight r %}
+```r
 
 # function that calculates k nearest clusters of a dataset
 # km_data = input dataset defined as km_data[1] = x, km_data[2] = y, k = number of clusters
@@ -138,11 +138,11 @@ km_function <- function(km_data, k) {
     # algorithm reaches convergence when clusters no longer change (error = 0)
     error <- sum(euclid_dist(cluster_loc, cluster_loc_old))
 
-{% endhighlight %}
+```
 
 The first line of code inside the function randomly determines the initial starting point for the k clusters. The sample.int() function takes k random data values and assigns them as the initial clusters in cluster_loc. 
 
-{% highlight r %}
+```r
 
     # while loop will continue until error is not greater than 0 
     while (error > 0) {
@@ -241,18 +241,18 @@ The first line of code inside the function randomly determines the initial start
     return(list(twss = totalss, cluster_id = cluster_id))
 }
 
-{% endhighlight %}
+```
 
 The km_function() returns a list of two values: twss and the cluster_id for each datapoint. The function is instantiated, called and cluster_id is subsetted with R's dollar sign syntax for cluster plotting. 
 
-{% highlight r %}
+```r
 
 implemented_kmeans <- km_function(pokemon_speed_defense, 4)
 ggplot(pokemon_speed_defense, aes(x = Speed, y = Defense, 
 color = factor(implemented_kmeans$cluster_id))) + geom_point() 
 + labs(color = "Cluster") + ggtitle("Pokemon Species, Speed vs. Defense")
 
-{% endhighlight %}
+```
 
 <img src="../assets/K-Means-Clustering/implemented_kmeans.jpeg" align="center" > 
 
