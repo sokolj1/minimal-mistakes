@@ -520,7 +520,7 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 * [Week 10 lecture slides](/assets/mgmt_3125/week9/Week9_3_20_lecture.pdf)
 
 ### Assignment 6: R line graphs
-* [Assignment 6](/assets/mgmt_3125/week9/Assignment 6 - R line graphs.pdf)
+* [Assignment 6](/assets/mgmt_3125/week10/Assignment 6 - R line graphs.pdf)
 
 ## Week 11 - 4/3
 
@@ -530,14 +530,13 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ### Assignment 7: Rstudio bar graphs and scatter plots
 
-[Assignment 7](/assets/mgmt_3125/week12/Assignment 6 - R line graphs.pdf)
+* [Assignment 7](/assets/mgmt_3125/week12/Assignment 7 - R bar graphs scatter.pdf)
 
 ## Week 13 - 4/17
 
 ### Upload dashboard to Tableau Public
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
-
 
 ## Week 14 - 4/24
 
