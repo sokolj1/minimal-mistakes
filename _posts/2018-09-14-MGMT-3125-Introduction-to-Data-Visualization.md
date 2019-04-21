@@ -413,10 +413,6 @@ White Space
   src="https://www.youtube.com/embed/5Em1ZTzfnPE"
   frameborder="0" allowfullscreen></iframe>
   
-#### Upload dashboard to Tableau Public
-
-* [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
-
 ## Week 7 - 3/6
 
 ### Mid-term exam
@@ -521,7 +517,7 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ### Week 10 lecture slides
 
-* [[Week 10 lecture slides](/assets/mgmt_3125/week9/Week9_3_20_lecture.pdf)
+* [Week 10 lecture slides](/assets/mgmt_3125/week9/Week9_3_20_lecture.pdf)
 
 ### Assignment 6: R line graphs
 * [Assignment 6](/assets/mgmt_3125/week9/Assignment 6 - R line graphs.pdf)
@@ -534,10 +530,13 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ### Assignment 7: Rstudio bar graphs and scatter plots
 
-[Not available]()
+[Assignment 7](/assets/mgmt_3125/week12/Assignment 6 - R line graphs.pdf)
 
 ## Week 13 - 4/17
 
+### Upload dashboard to Tableau Public
+
+* [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
 
 
 ## Week 14 - 4/24
