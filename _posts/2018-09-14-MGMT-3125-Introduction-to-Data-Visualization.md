@@ -505,7 +505,7 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ### Week 9 lecture slides
 
-* [[Week 9 lecture slides](/assets/mgmt_3125/week9/Week9_3_20_lecture.pdf)
+* [Week 9 lecture slides](/assets/mgmt_3125/week9/Week9_3_20_lecture.pdf)
 
 ### Week 9 videos
 
