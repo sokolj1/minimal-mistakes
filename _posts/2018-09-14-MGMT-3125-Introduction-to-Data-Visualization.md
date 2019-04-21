@@ -145,7 +145,6 @@ Choosing the right visualization is typically selected from 8 traditional method
 
 <!-- 8. Horizontal bar graph -->
 
-
 #### Graphs to be avoided
 
 Area Graphs
@@ -495,14 +494,6 @@ Great storytelling is an incredibly underrated and powerful and skill. The autho
 
 This chapter is all about leveraging the power of storytelling to communicate effectively with data. 
 
-#### The magic of story
-
-#### Constructing the story
-
-#### The narrative structure
-
-#### Tactics to help ensure the story is clear
-
 ### Week 9 lecture slides
 
 * [Week 9 lecture slides](/assets/mgmt_3125/week9/Week9_3_20_lecture.pdf)
@@ -541,7 +532,6 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 ## Week 14 - 4/24
 
 ### Final project presentations
-
 
 ## Week 15 - 5/1
 
