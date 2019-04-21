@@ -16,7 +16,7 @@ published: true
 
 ### Description
 
-Introduction to Data Visualization provides an overview of business analytics, including the process of business intelligence and dashboard design, principles of data visualization, and effectively communicating data stories. The course uses Excel, Tableau and R software.
+Introduction to Data Visualization provides an overview of business analytics, including the process of business intelligence and dashboard design, principles of data visualization, and effectively communicating data stories. The course uses Excel, Tableau and Rstudio.
 
 This the first course with a comprehensive overview of the fundamental concepts and tools of business analytics to improve decision making and performance. This is a hands-on course that is designed to introduce both the principles of data visualization and industry standard data visualization software. Students will learn visual representation methods and techniques that increase the understanding of complex data models. Emphasis is placed on the identification of patterns, trends and notable differences in various datasets. Excel, Tableau and R are used to apply the abovementioned data visualization principles.
 
@@ -32,7 +32,7 @@ This the first course with a comprehensive overview of the fundamental concepts 
 
 ### Datasets
 
-Datasets applicable to each assignment are provided under the respective assignment header, but all datasets are available here for easy reference.
+Datasets applicable to each assignment are provided under the respective assignment header, and all datasets are indexed here for reference.
 
 * [IT tickets by month, location](/assets/mgmt_3125/week1/IT tickets by location, month (2017).xlsx)
 * [World life expectancies](/assets/mgmt_3125/week3/Life Expectancy Final.xlsx)
@@ -47,7 +47,7 @@ Datasets applicable to each assignment are provided under the respective assignm
 
 ### Chapter 1: The importance of context
 
-To consider context is strongly encouraged before building any visualization. The underlying situations to take into consideration:
+To consider context is strongly encouraged before building any visualization. The following are underlying situations to take into consideration:
 * Who is your audience?
 * What do you need them to know or do?
 * How will you communicate? What is the medium of choice?
