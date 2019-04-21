@@ -42,6 +42,7 @@ Datasets applicable to each assignment are provided under the respective assignm
 * [Denver crime rates](/assets/mgmt_3125/week1/denver_crime.csv)
 * [Sokol heart rate](/assets/mgmt_3125/week2/Sokol Heart Rate Data.csv)
 * [Marriage by age](/assets/mgmt_3125/week3/marriage_by_age.zip)
+* [American university data](/assets/mgmt_3125/week5/American University data.csv)
 
 ## Week 1 - 1/23
 
