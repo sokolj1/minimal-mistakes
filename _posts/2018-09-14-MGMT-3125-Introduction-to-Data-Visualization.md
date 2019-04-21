@@ -507,10 +507,9 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 #### Tactics to help ensure the story is clear
 
-### Assignment 6: Text tables
-* [Assignment 6]()
-
 ### Week 9 lecture slides
+
+* [[Week 9 lecture slides](/assets/mgmt_3125/week9/Week9_3_20_lecture.pdf)
 
 ### Week 9 videos
 
@@ -520,77 +519,20 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ## Week 10 - 3/27
 
-### Chapter 8: Putting it all together
+### Week 10 lecture slides
 
-We have learned six lessons. When used together, they form a sound and robust approach to data visualization: 
+* [[Week 10 lecture slides](/assets/mgmt_3125/week9/Week9_3_20_lecture.pdf)
 
-* Understand the context (chapter 1)
-* Choose an appropriate display (chapter 2)
-* Eliminate clutter (chapter 3)
-* Draw attention where you want it (chapter 4)
-* Think like a designer (chapter 5)
-* Tell a story (chapter 7)
-
-This chapter involves applying the storytelling concepts of chapter 7 to the data visualization process.
-
-#### Lesson 1: Understand the context
-
-#### Lesson 2: Choose an appropriate display
-
-#### Lesson 3: Eliminate clutter
-
-#### Lesson 4: Draw attention wher you want your audience to focus
-
-#### Lesson 5: Think like a designer
-
-#### Lesson 6: Tell a story
-
+### Assignment 6: R line graphs
+* [Assignment 6](/assets/mgmt_3125/week9/Assignment 6 - R line graphs.pdf)
 
 ## Week 11 - 4/3
 
-### Chapter 9: Case studies
-
-This chapter consists of strategies to overcome common pitfalls and struggles of communicating with data: 
-
-* Color considerations with a dark background
-* Leveraging animation in visuals
-* Establishing logic in order
-* Strategies for avoiding the spaghetti graph
-* Alteratives to pie charts
-
-#### Color considerations with a dark background
-
-#### Leveraging animation in visuals
-
-#### Establishing logic in order
-
-#### Strategies for avoiding the spaghetti graph
-
-#### Alteratives to pie charts
-
-### Chapter 10: Final thoughts
-
-#### Where to go from here
-
-#### Tip 1: Learn your tools well
-
-#### Tip 2: Iterate and seek feedback
-
-#### Tip 3: Devote time to storytelling with data
-
-#### Tip 4: Seek inspiration through good examples
-
-#### Tip 5: Have fun and find your style
-
-#### Recap: A quick look at all we've learned
-
-### Assignment 7: ggplot line, bar graphs, Tidyverse (part 1)
-
-[Not available]()
+### Preceptor day: no class
 
 ## Week 12 - 4/10
 
-### Assignment 8: ggplot line, bar graphs, Tidyverse (part 2)
+### Assignment 7: Rstudio bar graphs and scatter plots
 
 [Not available]()
 
@@ -600,12 +542,10 @@ This chapter consists of strategies to overcome common pitfalls and struggles of
 
 ## Week 14 - 4/24
 
+### Final project presentations
 
 
 ## Week 15 - 5/1
 
-### Final Project rubric
-
-
-
+### Final project presentations
 
