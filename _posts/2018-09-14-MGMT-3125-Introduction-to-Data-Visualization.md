@@ -317,11 +317,7 @@ Position:
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/lmkA_pzcQ6Q"
   frameborder="0" allowfullscreen></iframe>
-
-## Week 5 - 2/20
-
-### Class canceled
-
+ 
 ## Week 6 - 2/27
 
 ### Chapter 5: Think like a designer
@@ -500,6 +496,7 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ### Week 9 videos
 
+
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/HNRdr_RvDWY"
   frameborder="0" allowfullscreen></iframe>
@@ -513,10 +510,6 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 ### Assignment 6: R line graphs
 * [Assignment 6](/assets/mgmt_3125/week10/Assignment 6 - R line graphs.pdf)
 
-## Week 11 - 4/3
-
-### Preceptor day: no class
-
 ## Week 12 - 4/10
 
 ### Assignment 7: Rstudio bar graphs and scatter plots
@@ -525,13 +518,9 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ## Week 13 - 4/17
 
-### Upload dashboard to Tableau Public
+### Uploading dashboards to Tableau Public
 
 * [Publish to Tableau Public directions](/assets/mgmt_3125/week11/How to Publish to Tableau Public.pdf)
-
-## Week 14 - 4/24
-
-### Final project presentations
 
 ## Week 15 - 5/1
 
