@@ -118,7 +118,7 @@ scale_color_manual(values=c("#004953", "#c60c30"), labels = c("PHI", "NE")) +
 labs(color = "", caption = "Source: nflscrapR") 
 ```
 
-<img src="../assets/Super-Bowl-Dashboard/PHI_NE_PLOT.jpeg" align="center" > 
+<img src="../assets/Super-Bowl-Dashboard/sb_52_5_19_2019_ai.jpg" align="center" > 
 
 A few noticeable observations is the Eagles commanded the greater win probability for a majority of the game, suggesting the Eagles were in the drivers seat with the exception of a few minutes in the first quarter and the final minutes of the game. Although this is a great visualization tool, the graphic doesn't provide context for the data itself, such as what play occurred that changed the win probability. This involves another layer of data complexity, preferably with plot interactivity. Tableau was my choice to incorporate an interactive data visualization solution. 
 
