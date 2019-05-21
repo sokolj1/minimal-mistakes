@@ -105,17 +105,17 @@ colnames(eagles_pats_final) = c("time_remaining", "Home",
 "Away", "Play Description")
 
 # ggplot of Super Bowl LII for EDA
-ggplot(eagles_pats_final, aes(x = time_remaining, 
+ggplot(eagles_pats_final, aes(x = time_remaining,
 y = Home)) + geom_line(aes(x = time_remaining, 
-y = Home,color = "#c60c30")) + 
-geom_line(aes(x = time_remaining, 
-y = Away, color = "#004953")) + 
-scale_x_reverse(breaks = c(3600, 3300, 3000, 2700, 2400, 2100, 
-1800, 1500, 1200, 900, 600, 300, 0), labels = c("Kickoff", "", "","End of Q1","","", 
-"Halftime", "","","End of Q3","","","End of Regulation")) + ylab("Win Probability") 
-+ xlab("") + ggtitle("Super Bowl LII Win Probability Chart") + 
+y = Home,color = "#c60c30"), size = 0.7) + 
+geom_line(aes(x = time_remaining, y = Away, color = "#004953"), size = 0.7) + 
+scale_x_reverse(breaks = c(3600, 3300, 3000, 2700, 2400, 2100, 1800, 1500, 1200, 900, 600, 300, 0), 
+labels = c("Kickoff", "", "","End of Q1","","", "Halftime", "","","End of Q3","","","End of Regulation")) + scale_y_continuous(labels = scales::percent, limits = c(0.10,1)) + ylab("Win Probability") + xlab("") + 
+ggtitle("Super Bowl LII Win Probability Chart") + 
 scale_color_manual(values=c("#004953", "#c60c30"), labels = c("PHI", "NE")) + 
-labs(color = "", caption = "Source: nflscrapR") 
+labs(color = "", caption = "Source: nflscrapR") + theme(panel.background = element_blank(), 
+axis.line.x = element_line(colour = "#DCDCDC"), 
+panel.grid.major.y = element_line(size=.1, color="#DCDCDC"), axis.ticks = element_blank())
 ```
 
 <img src="../assets/Super-Bowl-Dashboard/sb_52_5_19_2019_ai.jpg" align="center" > 
