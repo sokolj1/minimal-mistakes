@@ -8,7 +8,7 @@ author_profile: false
 toc: false
 classes: wide
 
-excerpt: "Dashboard visualization of Super Bowl XLIV - LII win probabilities and play descriptions"
+excerpt: "Dashboard visualization of Super Bowl XLIV - LIII win probabilities and play descriptions"
 
 ---
 
