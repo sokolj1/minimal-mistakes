@@ -158,6 +158,16 @@ Secondary y-axis: generally not a good idea
 
 There isn't a single correct visual display. Rather, there are different types of visuals that could meet a given need. The most important aspect of visual build/design is _What do you need your audience to know?_ Choose a visual display to make this abundantly clear.
 
+### Assignment 2 - Introduction to Tableau
+
+* [Assignment 2](/assets/mgmt_3125/week2/Assignment 2 - Intro Tableau s19.pdf)
+
+### Week 2 lecture slides
+
+* [Week 2 lecture slides](/assets/mgmt_3125/week2/Week2_1_30_lecture.pdf)
+
+### Week 2 Videos
+
 #### Tableau fundamentals
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
@@ -169,15 +179,6 @@ There isn't a single correct visual display. Rather, there are different types o
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/yXqC_cGpIMg"
   frameborder="0" allowfullscreen></iframe>
-
-### Assignment 2 - Introduction to Tableau
-
-* [Assignment 2](/assets/mgmt_3125/week2/Assignment 2 - Intro Tableau s19.pdf)
-
-### Week 2 lecture slides
-
-* [Week 2 lecture slides](/assets/mgmt_3125/week2/Week2_1_30_lecture.pdf)
-
 
 ## Week 3 - 2/6
 
@@ -224,6 +225,10 @@ Anytime you put information in front of an audience, you are creating cognitive 
 
 * [Assignment 3](/assets/mgmt_3125/week3/Assignment 3 - Line, bar graphs s19.pdf)
 
+### Week 3 lecture slides
+
+* [Week 3 lecture slides](/assets/mgmt_3125/week3/Week3_2_6_lecture.pdf)
+
 ### Week 3 Videos
 
 #### Tableau bar graphs
@@ -236,11 +241,6 @@ Anytime you put information in front of an audience, you are creating cognitive 
   src="https://www.youtube.com/embed/ThTu-47Qd68"
   frameborder="0" allowfullscreen></iframe>
   
-### Week 3 lecture slides
-
-* [Week 3 lecture slides](/assets/mgmt_3125/week3/Week3_2_6_lecture.pdf)
-  
-
 ## Week 4 - 2/13
 
 ### Chapter 4: Focus your audience's attention
@@ -302,7 +302,6 @@ Position:
 ### Week 4 lecture slides
 
 * [Week 4 lecture slides](/assets/mgmt_3125/week4/Week4_2_13_lecture.pdf)
-
 
 ### Week 4 Videos
 
@@ -412,7 +411,7 @@ White Space
 
 ### Mid-term exam
 
-* [Mid-term study guide](/assets/mgmt_3125/mid_term/Mid-term study guide_.pdf
+* [Mid-term study guide](/assets/mgmt_3125/mid_term/Mid-term study guide_.pdf)
 
 ## Week 9 - 3/20
 
@@ -496,6 +495,7 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ### Week 9 videos
 
+#### Tableau Text Tables
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/HNRdr_RvDWY"
@@ -503,20 +503,32 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ## Week 10 - 3/27
 
+### R line graphs
+
 ### Week 10 lecture slides
 
-* [Week 10 lecture slides](/assets/mgmt_3125/week9/Week9_3_20_lecture.pdf)
+* [Week 10 lecture slides](/assets/mgmt_3125/week10/Week10_3_27_lecture.pdf)
 
 ### Assignment 6: R line graphs
 * [Assignment 6](/assets/mgmt_3125/week10/Assignment 6 - R line graphs.pdf)
 
 ## Week 12 - 4/10
 
+### R bar graphs and scatter plots
+
+### Week 12 lecture slides
+
+* [Week 12 lecture slides](/assets/mgmt_3125/week12/Week12_4_10_lecture.pdf)
+
 ### Assignment 7: Rstudio bar graphs and scatter plots
 
 * [Assignment 7](/assets/mgmt_3125/week12/Assignment 7 - R bar graphs scatter.pdf)
 
 ## Week 13 - 4/17
+
+### Week 13 lecture slides
+
+* [Week 12 lecture slides](/assets/mgmt_3125/week13/Week13_4_17.pdf)
 
 ### Uploading dashboards to Tableau Public
 
