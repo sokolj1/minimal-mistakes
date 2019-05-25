@@ -528,7 +528,7 @@ This chapter is all about leveraging the power of storytelling to communicate ef
 
 ### Week 13 lecture slides
 
-* [Week 12 lecture slides](/assets/mgmt_3125/week13/Week13_4_17.pdf)
+* [Week 13 lecture slides](/assets/mgmt_3125/week13/Week13_4_17.pdf)
 
 ### Uploading dashboards to Tableau Public
 
