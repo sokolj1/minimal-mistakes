@@ -91,8 +91,8 @@ analytics:
 # Site Author
 author:
   name             : "John Sokol, MS"
-  avatar           :  sunny_isles_1.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              :  <i> Data Scientist <br> Photographer <br> Educator <br> <br> Always learning</i>
+  avatar           :  headshot_7_3_19.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              :  <i> Data Scientist <br> Educator <br> Runner <br> Photographer <br><br> Always learning</i>
   location         : 
   email            : johnsokol11@gmail.com
   uri              :
