@@ -1,5 +1,4 @@
 ---
-date: 02-15-2020
 tags:
   - sports
   - tableau
