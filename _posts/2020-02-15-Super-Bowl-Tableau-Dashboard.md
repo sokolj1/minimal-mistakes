@@ -8,7 +8,7 @@ author_profile: false
 toc: false
 classes: wide
 
-excerpt: "Dashboard visualization of Super Bowl XLIV - LIII win probabilities and play descriptions"
+excerpt: "Dashboard visualization of Super Bowl XLIV - LIV win probabilities and play descriptions"
 
 ---
 
@@ -18,7 +18,7 @@ excerpt: "Dashboard visualization of Super Bowl XLIV - LIII win probabilities an
 
 <!-- https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl44-53?:embed=y&:display_count=yes&publish=yes -->
 
-Dashboard was updated on 3/10/2019 with the addition of Super Bowl 53 data. The original post revolved around the Philadelphia Eagles winning Super Bowl 52. 
+The Dashboard was updated on 2/15/2020 with the addition of Super Bowl 54 data. The original post revolved around the Philadelphia Eagles winning Super Bowl 52. 
 {: .notice--info}
 
 ## Introduction 
