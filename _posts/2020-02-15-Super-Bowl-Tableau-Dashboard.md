@@ -14,7 +14,7 @@ excerpt: "Dashboard visualization of Super Bowl XXXIV - LV win probabilities and
 
 <!-- <img src="/assets/Super-Bowl-Dashboard/foles.jpg" > -->
 
-<iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl44-53?:showVizHome=no&:embed=true" width="1000" height="805"></iframe>
+<iframe src = "https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl44-53?:showVizHome=no&:embed=true" width="1050" height="850"></iframe>
 
 <!-- https://public.tableau.com/views/SuperBowlWinProbabilities/SuperBowl44-53?:embed=y&:display_count=yes&publish=yes -->
 
