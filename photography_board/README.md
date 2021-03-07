@@ -1,1 +1,1 @@
-# michelledavis24.github.io
+# John Sokol Updated Photography page
